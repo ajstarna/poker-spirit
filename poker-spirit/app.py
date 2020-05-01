@@ -9,10 +9,12 @@ import analyze_hands
 
 class App:
     def __init__(self):
-        self.filename = FILE_NAME
+        self.filename = None
         self.player_windows = {}
 
     def get_truncated_name(self, filename):
+        if filename is None:
+            return None
         print(filename)
         if len(filename) > 75:
             truncated = '....' + filename[-75:]
@@ -21,7 +23,7 @@ class App:
         return truncated
     
     def select_file(self):
-        filename =  askopenfilename(initialdir = PATH_TO_FILES,
+        filename =  askopenfilename(initialdir = ".",
                                     title = "Select file"
         )
 
