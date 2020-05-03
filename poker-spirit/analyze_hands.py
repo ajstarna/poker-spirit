@@ -328,17 +328,18 @@ def assign_stats_from_hand(game_stats, players):
 def print_stats(game_stats):
     for player in sorted(game_stats['current_players'], key=lambda x: x.lower() ):
         stats = game_stats[player]
+        hands = stats['hands_played']
         
         print(f'Player: {player}')
-        print(f'Hands played = {stats["hands_played"]}')
-        
-        print(f'VPIP = {round(100*stats["vpip"]/stats["hands_played"], 1)}')
-        print(f'PFR = {round(100*stats["pfr"]/stats["hands_played"], 1)}')
+        print(f'Hands played = {hands}')
+
+        print(f'VPIP = {stats["vpip"]}/{hands} = {round(100*stats["vpip"]/hands, 1)}')
+        print(f'PFR = {stats["pfr"]}/{hands} = {round(100*stats["pfr"]/hands, 1)}')
 
         if stats['3_bet_opp'] > 0:        
-            print(f'3-Bet = {round(100*stats["3_bet"]/stats["3_bet_opp"], 1)}')
+            print(f'3-Bet = {stats["3_bet"]}/{stats["3_bet_opp"]} = {round(100*stats["3_bet"]/stats["3_bet_opp"], 1)}\n')
             
-        print(f'4-Bet = {round(100*stats["4_bet"]/stats["hands_played"], 1)}')
+        print(f'4-Bet = {round(100*stats["4_bet"]/hands, 1)}')
         
         if stats['seen_3_bet'] > 0:
             print(f'Folds to 3-Bet = {round(100*stats["folds_to_3_bet"]/stats["seen_3_bet"], 1)}')

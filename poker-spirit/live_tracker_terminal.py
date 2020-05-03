@@ -69,8 +69,8 @@ def pre_hand(game_stats):
 
 def input_player_action(player_name):
     while True:
-        action = input(f"What does {player_name} do (ca=call, f=fold, r=raise, ch=check, or D): ")
-        if action not in {'ca', 'f', 'r', 'ch', 'D'}:
+        action = input(f"What does {player_name} do (ca=call, f=fold, r=raise, cc=check, or D): ")
+        if action not in {'ca', 'f', 'r', 'cc', 'D'}:
             print("Not a valid action!")
         else:
             break
@@ -121,7 +121,7 @@ def flop(game_stats, players):
         if action == 'D':
             break
 
-        elif action == 'ch':
+        elif action == 'cc':
             player.checks_flop()
 
         elif action == 'ca':
