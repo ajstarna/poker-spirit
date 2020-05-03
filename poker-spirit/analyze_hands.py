@@ -29,7 +29,8 @@ TURN_PATTERN = re.compile(f"\*\*\* TURN \*\*\* \[(\w+) (\w+) (\w+)\] \[(\w+)\]")
 
 
 class PlayerHand:
-    __slots__ = 'name', 'sb', 'bb', 'vpip', 'pfr', 'first_to_raise_pre_flop', \
+    __slots__ = 'name', 'sb', 'bb', 'folded', \
+        'vpip', 'pfr', 'first_to_raise_pre_flop', \
         '_3_bet', 'calls_3_bet_opp', 'folds_3_bet_opp', \
         '_4_bet', '_5_bet', \
         'folds_to_3_bet', 'calls_3_bet', \
@@ -40,6 +41,7 @@ class PlayerHand:
         self.name = name
         self.sb = None
         self.bb = None
+        self.folded = False
         self.vpip = False
         self.pfr = False
         self.first_to_raise_pre_flop = False
@@ -55,8 +57,56 @@ class PlayerHand:
         self.folds_to_c_bet = False
         self.calls_c_bet = False
         self.raises_c_bet = False
+
+    def calls_pre_flop(self, num_raises):
+        if num_raises == 1:
+            self.calls_3_bet_opp = True            
+        elif num_raises == 2:
+            self.calls_3_bet = True
+        self.vpip = True
         
+    def raises_pre_flop(self, num_raises):
+        self.vpip = True
+        self.pfr = True            
+        if num_raises == 0:
+            self.first_to_raise_pre_flop = True
+        elif num_raises == 1:
+            # if already a raise, and we raising again, it's a 3 bet
+            self._3_bet = True
+        elif num_raises == 2:
+            self._4_bet = True                
+        elif num_raises == 3:
+            self._5_bet = True
+        elif num_raises == 4:
+            self._5_bet = True
+
+    def folds_pre_flop(self, num_raises):
+        self.folded = True
+        if num_raises == 1:
+            self.folds_3_bet_opp = True                                
+        elif num_raises == 2:
+            self.folds_to_3_bet = True                                
+            
+    def checks_flop(self):
+        if self.pfr:
+            self.checks_c_bet_opp = True
+
+    def calls_flop(self, active_c_bet:bool):
+        if active_c_bet:
+            self.calls_c_bet = True
         
+    def raises_flop(self, num_raises, active_c_bet:bool):
+        if active_c_bet:
+            self.raises_c_bet = True
+        if num_raises == 0 and self.pfr:               
+            self.c_bet = True
+
+    def folds_flop(self, active_c_bet:bool):
+        self.folded = True            
+        if active_c_bet:
+            self.folds_to_c_bet = True
+        
+    
 def set_up_hand(hand_lines, players):
     # print('in set up hand')
     for i, line in enumerate(hand_lines):
@@ -129,7 +179,8 @@ def analyze_pre_flop(hand_lines, pre_flop_index, players):
         if fold_match:
             player_name = fold_match.group(1)                        
             # print(f'player {player_name} folds!')
-            player = players[player_name]            
+            player = players[player_name]
+            player.folded = True            
             if num_raises == 1:
                 player.folds_3_bet_opp = True                                
             elif num_raises == 2:
@@ -188,6 +239,7 @@ def analyze_flop(hand_lines, flop_index, players):
             player_name = fold_match.group(1)                        
             # print(f'player {player_name} folds!')
             player = players[player_name]
+            player.folded = True            
             if active_c_bet:
                 player.folds_to_c_bet = True
                 # player.seen_c_bet = True
@@ -201,7 +253,6 @@ def process_single_hand(hand_lines, game_stats):
     if hand_lines is None:
         return
 
-    hand_stats = {}
     players = {}
     last_set_up_index = set_up_hand(hand_lines, players)
     
@@ -212,11 +263,15 @@ def process_single_hand(hand_lines, game_stats):
     flop_index = analyze_pre_flop(hand_lines, pre_flop_index, players)
 
     analyze_flop(hand_lines, flop_index, players)
-    assign_stats_from_hand(players, game_stats)
+    assign_stats_from_hand(game_stats, players)
     
 
-def assign_stats_from_hand(players, game_stats):
-    game_stats['current_players']  = set(players.keys()) # for knowing who is still at the table
+def assign_stats_from_hand(game_stats, players):
+    '''
+    Looks through current hand information from players, and adds to the stats for each
+    corresponding player in game_stats
+    '''
+    game_stats['current_players']  = list(players.keys()) # for knowing who is still at the table
     
     for player_name, player in players.items():
         if player_name not in game_stats:
