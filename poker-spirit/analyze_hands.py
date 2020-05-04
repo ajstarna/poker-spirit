@@ -6,6 +6,9 @@ This script reads and processes hands written by PokerStars to their text file
 import re
 from collections import defaultdict
 
+
+PATH_TO_FILE = "/Users/Adam//Desktop/HH20200430 T2887657974 No Limit Hold'em 17K + 3,000.txt"
+
 CASH_GAME = True
 HAND_START_PATTERN = re.compile("PokerStars.*Hand #(\d+)")
 if CASH_GAME:
@@ -108,9 +111,7 @@ class PlayerHand:
         
     
 def set_up_hand(hand_lines, players):
-    # print('in set up hand')
     for i, line in enumerate(hand_lines):
-        # print(f'line = {line}')
         seat_match = SEAT_PATTERN.match(line)
         if seat_match:
             player_name = seat_match.group(2)
@@ -121,7 +122,6 @@ def set_up_hand(hand_lines, players):
         if small_match:
             player_name = small_match.group(1)
             sb = small_match.group(2)
-            # print(f'small blind player is {player_name} in for {sb}')
             players[player_name].sb = sb
             continue
         
@@ -129,10 +129,10 @@ def set_up_hand(hand_lines, players):
         if big_match:
             player_name = big_match.group(1)
             bb = big_match.group(2)            
-            # print(f'big blind player is {player_name} in for {bb}')
             players[player_name].bb = bb
             # once we found the big blind we break
             break
+        
     return i
 
     
@@ -146,46 +146,25 @@ def analyze_pre_flop(hand_lines, pre_flop_index, players):
         call_match = CALL_PATTERN.match(line)
         if call_match:
             player_name = call_match.group(1)                        
-            # print(f'player {player_name} called!')
             player = players[player_name]
-            if num_raises == 1:
-                player.calls_3_bet_opp = True            
-            elif num_raises == 2:
-                player.calls_3_bet = True
-            player.vpip = True
-
+            player.calls_pre_flop(num_raises=num_raises)
+            continue
+        
         raise_match = RAISE_PATTERN.match(line)
         if raise_match:
             player_name = raise_match.group(1)                        
-            # print(f'player {player_name} raised!')
             player = players[player_name]
-            player.vpip = True
-            player.pfr = True
-            
-            if num_raises == 0:
-                player.first_to_raise_pre_flop = player
-            elif num_raises == 1:
-                # if already a raise, and we raising again, it's a 3 bet
-                player._3_bet = True
-            elif num_raises == 2:
-                player._4_bet = True                
-            elif num_raises == 3:
-                player._5_bet = True
-            elif num_raises == 4:
-                player._5_bet = True
+            player.raises_pre_flop(num_raises=num_raises)            
             num_raises += 1
-
+            continue
+        
         fold_match = FOLD_PATTERN.match(line)
         if fold_match:
             player_name = fold_match.group(1)                        
-            # print(f'player {player_name} folds!')
             player = players[player_name]
-            player.folded = True            
-            if num_raises == 1:
-                player.folds_3_bet_opp = True                                
-            elif num_raises == 2:
-                player.folds_to_3_bet = True                                
-
+            player.folds_pre_flop(num_raises=num_raises)
+            continue
+        
     return j
         
 def analyze_flop(hand_lines, flop_index, players):
@@ -200,56 +179,40 @@ def analyze_flop(hand_lines, flop_index, players):
         check_match = CHECK_PATTERN.match(line)
         if check_match:
             player_name = check_match.group(1)                        
-            # print(f'player {player_name} checks!')
-            player = players[player_name]            
-            if player.pfr:
-                player.checks_c_bet_opp = True
+            player = players[player_name]
+            player.checks_flop()
+            continue
         
         call_match = CALL_PATTERN.match(line)
         if call_match:
             player_name = call_match.group(1)                        
-            # print(f'player {player_name} called!')
-            player = players[player_name]            
-            if active_c_bet:
-                player.calls_c_bet = True
-                # player.seen_c_bet += 1
-            
-
+            player = players[player_name]
+            player.calls_flop(active_c_bet=active_c_bet)
+            continue
+        
         raise_match = RAISE_PATTERN.match(line)
         if raise_match:
             player_name = raise_match.group(1)
             player = players[player_name]
-            if active_c_bet:
-                player.raises_c_bet = True
-                # player['seen_c_bet'] += 1
-            
-            # print(f'player {player} raised!')
-
-            if num_raises == 0 and player.pfr:               
-                # print('ACTIVE C BET')
+            player.raises_flop(num_raises=num_raises, active_c_bet=active_c_bet)
+            num_raises += 1
+            if player.c_bet:
                 active_c_bet = True
-                player.c_bet = True
             else:
                 active_c_bet = False
-                
-            num_raises += 1
-
+            continue
+        
         fold_match = FOLD_PATTERN.match(line)
         if fold_match:
             player_name = fold_match.group(1)                        
-            # print(f'player {player_name} folds!')
             player = players[player_name]
-            player.folded = True            
-            if active_c_bet:
-                player.folds_to_c_bet = True
-                # player.seen_c_bet = True
+            player.folds_flop(active_c_bet=active_c_bet)
+            continue            
 
 def process_single_hand(hand_lines, game_stats):
     ''' given all the lines of the text file that correspond to a given hand,
     analyze what happens
     '''
-    # print('in process_hand_lines')
-    # print(hand_lines)
     if hand_lines is None:
         return
 
@@ -337,7 +300,7 @@ def print_stats(game_stats):
         print(f'PFR = {stats["pfr"]}/{hands} = {round(100*stats["pfr"]/hands, 1)}')
 
         if stats['3_bet_opp'] > 0:        
-            print(f'3-Bet = {stats["3_bet"]}/{stats["3_bet_opp"]} = {round(100*stats["3_bet"]/stats["3_bet_opp"], 1)}\n')
+            print(f'3-Bet = {stats["3_bet"]}/{stats["3_bet_opp"]} = {round(100*stats["3_bet"]/stats["3_bet_opp"], 1)}')
             
         print(f'4-Bet = {round(100*stats["4_bet"]/hands, 1)}')
         
@@ -361,14 +324,11 @@ def run_file(path_to_file):
     game_stats = {}
     with open(path_to_file, 'r') as file:
         lines = file.read().split('\n')
-        print(len(lines))
         hand_lines = None
 
         for line in lines:
             hand_match = HAND_START_PATTERN.match(line)
             if hand_match:
-                # print(f'match on line: {line}')
-                # print(f'group: {hand_match.group(0)}')
                 process_single_hand(hand_lines, game_stats)
                 hand_lines = []
                 

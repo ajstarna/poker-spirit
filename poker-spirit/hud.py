@@ -7,6 +7,11 @@ from tkinter import ttk
 
 import analyze_hands
 
+
+from dotenv import load_dotenv
+
+STARTING_DIR = "."
+
 class App:
     def __init__(self):
         self.filename = None
@@ -23,7 +28,7 @@ class App:
         return truncated
     
     def select_file(self):
-        filename =  askopenfilename(initialdir = ".",
+        filename =  askopenfilename(initialdir = STARTING_DIR,
                                     title = "Select file"
         )
 
