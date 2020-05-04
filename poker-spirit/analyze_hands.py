@@ -7,7 +7,7 @@ import re
 from collections import defaultdict
 
 
-PATH_TO_FILE = "/Users/Adam//Desktop/HH20200430 T2887657974 No Limit Hold'em 17K + 3,000.txt"
+PATH_TO_FILE = ""
 
 CASH_GAME = True
 HAND_START_PATTERN = re.compile("PokerStars.*Hand #(\d+)")
