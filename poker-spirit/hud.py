@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from functools import partial
+import os
 
 import tkinter as tk
 from tkinter.filedialog import askopenfilename
@@ -10,13 +10,14 @@ import analyze_hands
 
 from dotenv import load_dotenv
 
-STARTING_DIR = "."
-
 class App:
     def __init__(self):
         self.filename = None
         self.player_windows = {}
-
+        load_dotenv()
+        # get env vars from .env file
+        self.path_to_hands = os.getenv("PATH_TO_HANDS", ".")
+                                       
     def get_truncated_name(self, filename):
         if filename is None:
             return None
@@ -28,7 +29,7 @@ class App:
         return truncated
     
     def select_file(self):
-        filename =  askopenfilename(initialdir = STARTING_DIR,
+        filename =  askopenfilename(initialdir = self.path_to_hands,
                                     title = "Select file"
         )
 
