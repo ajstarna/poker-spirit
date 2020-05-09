@@ -16,21 +16,23 @@ from analyze_hands import PlayerHand, assign_stats_from_hand, print_stats
 
 class App:
 
-    '''
-    def input_small_blind(game_stats):
-        while True:
-            sb = input ("Who is the small blind? ")
-            if sb not in game_stats['current_players']:
-                print(f'{sb} not in players list!')
-            else:
-                game_stats['current_sb'] = sb
-                break
-    '''
+    def __init__(self):
+        self.game_stats = {}
+        self.current_players = []
+        self.phase = "Pre Game"
+        
+        self.window = tk.Tk()
+        self.window.geometry("400x75")        
+        self.window.title( "Poker Spirit - Live Tracker")
+        
+        self.players_var = tk.StringVar()
+        self.players_var.set(f"Players = {self.current_players}")
 
+        
     def destroy(self, window):
         window.destroy()
         
-    def add_player(self, player_entry, var):
+    def add_player(self, player_entry):
         player_name = player_entry.get()
         if player_name in self.current_players:
             print("No duplicate player names!")
@@ -39,25 +41,18 @@ class App:
             print("empty player name")
         else:
             self.current_players.append(player_name)
-        var.set(f"Begin by entering all players (in order that they are sitting)\nPlayers = {self.current_players}")            
+        self.players_var.set(f"Players = {self.current_players}")            
         
     def init_game(self):
         '''
         The user is prompted to enter all player names (in order that they are sitting)
         and the current small blind player to start the game.
         '''
-        self.game_stats = {}
-        self.current_players = []
-
-        init_window = tk.Toplevel(self.window)
-        #init_window.geometry("165x60")
-        #init_window.title("Game Setup")
-
-        var = tk.StringVar()
-        var.set(f"Begin by entering all players (in order that they are sitting)\nPlayers = {self.current_players}")
         
+        game_window = tk.Toplevel(self.window)
+
         tk.Label(init_window, 
-                 textvariable=var).grid(row=0)
+                 textvariable=self.phase).grid(row=1)
         
         
         tk.Label(init_window, 
@@ -67,7 +62,7 @@ class App:
 
         button_select = ttk.Button(init_window,
                                    text="Enter",
-                                   command= partial(self.add_player, e1, var)
+                                   command= partial(self.add_player, e1)
         ).grid(row=4, column=0)
 
         button_quit = ttk.Button(init_window,
@@ -75,10 +70,8 @@ class App:
                                  command=partial(self.destroy,init_window)
         ).grid(row=4, column=1)
         
-        print('blah4')                
         #init_window.mainloop()
 
-        print('blah5')
         ''' 
         game_stats['current_players'] = current_players
         input_small_blind(game_stats)
@@ -101,26 +94,65 @@ class App:
         return game_stats
     '''
 
+
+
+    def play_game(self):
+        '''
+        '''
+        game_window = tk.Toplevel(self.window)
+
+        tk.Label(init_window,
+                 text="Begin by entering all players (in order that they are sitting)").grid(row=0)
+
+        tk.Label(init_window, 
+                 textvariable=self.players_var).grid(row=1)
+        
+        
+        tk.Label(init_window, 
+                 text="Player Name").grid(row=2)
+        e1 = ttk.Entry(init_window)   
+        e1.grid(row=2, column=1)
+
+        button_select = ttk.Button(init_window,
+                                   text="Enter",
+                                   command= partial(self.add_player, e1)
+        ).grid(row=4, column=0)
+
+        button_quit = ttk.Button(init_window,
+                                 text="Done",
+                                 command=partial(self.destroy,init_window)
+        ).grid(row=4, column=1)
+        
+        #init_window.mainloop()
+
+        ''' 
+        game_stats['current_players'] = current_players
+        input_small_blind(game_stats)
+        '''
+        
+        return
+    
     def quit(self):
         self.window.destroy()
-        #for window in self.player_windows.values():
-        #    window.destroy()
             
     def main(self):
-        self.window = tk.Tk()
-        self.window.geometry("575x100")
-        
-        self.window.title( "Poker Spirit - Live Tracker")
+        button_select = ttk.Button(self.window,
+                                   text="Enter Players",
+                                   command=self.init_game,
+        ).grid(row=0)
 
         button_select = ttk.Button(self.window,
-                                   text="Start",
-                                   command=self.init_game,
-        ).pack()
-
+                                   text="Start Game",
+                                   command=self.play_game,
+        ).grid(row=0)
+        
+        tk.Label(self.window, 
+                 textvariable=self.players_var).grid(row=1)
+        
         button_quit = ttk.Button(self.window,
                                  text="Quit",
                                  command=self.quit
-        ).pack()
+        ).grid(row=2)
 
         self.window.mainloop()
 

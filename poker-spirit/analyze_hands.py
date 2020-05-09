@@ -7,8 +7,6 @@ import re
 from collections import defaultdict
 
 
-PATH_TO_FILE = ""
-
 CASH_GAME = True
 HAND_START_PATTERN = re.compile("PokerStars.*Hand #(\d+)")
 if CASH_GAME:
@@ -108,236 +106,295 @@ class PlayerHand:
         self.folded = True            
         if active_c_bet:
             self.folds_to_c_bet = True
-        
-    
-def set_up_hand(hand_lines, players):
-    for i, line in enumerate(hand_lines):
-        seat_match = SEAT_PATTERN.match(line)
-        if seat_match:
-            player_name = seat_match.group(2)
-            players[player_name] = PlayerHand(name=player_name)
-            continue
-        
-        small_match = SMALL_PATTERN.match(line)
-        if small_match:
-            player_name = small_match.group(1)
-            sb = small_match.group(2)
-            players[player_name].sb = sb
-            continue
-        
-        big_match = BIG_PATTERN.match(line)
-        if big_match:
-            player_name = big_match.group(1)
-            bb = big_match.group(2)            
-            players[player_name].bb = bb
-            # once we found the big blind we break
-            break
-        
-    return i
 
-    
-def analyze_pre_flop(hand_lines, pre_flop_index, players):
-    num_raises = 0 
-    for j, line in enumerate(hand_lines[pre_flop_index:]):
-        flop_match = FLOP_PATTERN.match(line)
-        if flop_match:
-            break
 
-        call_match = CALL_PATTERN.match(line)
-        if call_match:
-            player_name = call_match.group(1)                        
-            player = players[player_name]
-            player.calls_pre_flop(num_raises=num_raises)
-            continue
+
+class Hand:            
+
+    def __init__(self):
+        self.players = {}
+
+        # pre flop stats
+        self.num_pre_flop_raises = 0
+
+        # flop stats
+        self.num_flop_raises = 0
+        self.active_flop_c_bet = False
+
+
+    def player_calls_pre_flop(self, player_name):
+        player = self.players[player_name]
+        player.calls_pre_flop(num_raises=self.num_pre_flop_raises)
+
+    def player_raises_pre_flop(self, player_name):
+        player = self.players[player_name]
+        player.raises_pre_flop(num_raises=self.num_pre_flop_raises)
+        self.num_pre_flop_raises += 1
+
+    def player_folds_pre_flop(self, player_name):
+        player = self.players[player_name]
+        player.folds_pre_flop(num_raises=self.num_pre_flop_raises)
         
-        raise_match = RAISE_PATTERN.match(line)
-        if raise_match:
-            player_name = raise_match.group(1)                        
-            player = players[player_name]
-            player.raises_pre_flop(num_raises=num_raises)            
-            num_raises += 1
-            continue
-        
-        fold_match = FOLD_PATTERN.match(line)
-        if fold_match:
-            player_name = fold_match.group(1)                        
-            player = players[player_name]
-            player.folds_pre_flop(num_raises=num_raises)
-            continue
-        
-    return j
-        
-def analyze_flop(hand_lines, flop_index, players):
-    active_c_bet = False
-    num_raises = 0
-    
-    for i, line in enumerate(hand_lines[flop_index:]):
-        turn_match = TURN_PATTERN.match(line)
-        if turn_match:
-            return i
+    def player_checks_flop(self, player_name):
+        player = self.players[player_name]
+        player.checks_flop()
 
-        check_match = CHECK_PATTERN.match(line)
-        if check_match:
-            player_name = check_match.group(1)                        
-            player = players[player_name]
-            player.checks_flop()
-            continue
-        
-        call_match = CALL_PATTERN.match(line)
-        if call_match:
-            player_name = call_match.group(1)                        
-            player = players[player_name]
-            player.calls_flop(active_c_bet=active_c_bet)
-            continue
-        
-        raise_match = RAISE_PATTERN.match(line)
-        if raise_match:
-            player_name = raise_match.group(1)
-            player = players[player_name]
-            player.raises_flop(num_raises=num_raises, active_c_bet=active_c_bet)
-            num_raises += 1
-            if player.c_bet:
-                active_c_bet = True
-            else:
-                active_c_bet = False
-            continue
-        
-        fold_match = FOLD_PATTERN.match(line)
-        if fold_match:
-            player_name = fold_match.group(1)                        
-            player = players[player_name]
-            player.folds_flop(active_c_bet=active_c_bet)
-            continue            
+    def player_calls_flop(self, player_name):
+        player = self.players[player_name]
+        player.calls_flop(active_c_bet=self.active_flop_c_bet)
 
-def process_single_hand(hand_lines, game_stats):
-    ''' given all the lines of the text file that correspond to a given hand,
-    analyze what happens
-    '''
-    if hand_lines is None:
-        return
-
-    players = {}
-    last_set_up_index = set_up_hand(hand_lines, players)
-    
-    # after the big blind is the line "*** HOLE CARDS ***",
-    # so we skip past that
-    pre_flop_index = last_set_up_index + 2
-
-    flop_index = analyze_pre_flop(hand_lines, pre_flop_index, players)
-
-    analyze_flop(hand_lines, flop_index, players)
-    assign_stats_from_hand(game_stats, players)
-    
-
-def assign_stats_from_hand(game_stats, players):
-    '''
-    Looks through current hand information from players, and adds to the stats for each
-    corresponding player in game_stats
-    '''
-    game_stats['current_players']  = list(players.keys()) # for knowing who is still at the table
-    
-    for player_name, player in players.items():
-        if player_name not in game_stats:
-            game_stats[player_name] = defaultdict(int)
-        player_stats = game_stats[player_name]
-        player_stats['hands_played'] += 1
-        if player.vpip:
-            player_stats['vpip'] += 1
-        if player.pfr:
-            player_stats['pfr'] += 1
-            
-        if player._3_bet:
-            player_stats['3_bet'] += 1
-            player_stats['3_bet_opp'] += 1            
-        if player.folds_3_bet_opp:
-            player_stats['folds_3_bet_opp'] += 1            
-            player_stats['3_bet_opp'] += 1
-        if player.calls_3_bet_opp:
-            player_stats['calls_3_bet_opp'] += 1            
-            player_stats['3_bet_opp'] += 1
-            
-        if player._5_bet:
-            player_stats['5_bet'] += 1
-
-        if player.folds_to_3_bet:
-            player_stats['folds_to_3_bet'] += 1
-            player_stats['seen_3_bet'] += 1            
-        elif player.calls_3_bet:
-            player_stats['calls_3_bet'] += 1
-            player_stats['seen_3_bet'] += 1            
-        elif player._4_bet:
-            player_stats['4_bet'] += 1
-            player_stats['seen_3_bet'] += 1            
-
+    def player_raises_flop(self, player_name):
+        player = self.players[player_name]
+        player.raises_flop(num_raises=self.num_flop_raises, active_c_bet=self.active_flop_c_bet)
+        self.num_flop_raises += 1
         if player.c_bet:
-            player_stats['c_bet'] += 1
-            player_stats['c_bet_opp'] += 1            
-        elif player.checks_c_bet_opp:
-            player_stats['checks_c_bet_opp'] += 1
-            player_stats['c_bet_opp'] += 1
+            self.active_flop_c_bet = True
+        else:
+            self.active_flop_c_bet = False
 
-        if player.folds_to_c_bet:
-            player_stats['folds_to_c_bet'] += 1
-            player_stats['seen_c_bet'] += 1            
-        elif player.calls_c_bet:
-            player_stats['calls_c_bet'] += 1
-            player_stats['seen_c_bet'] += 1            
-        elif player.raises_c_bet:
-            player_stats['raises_c_bet'] += 1
-            player_stats['seen_c_bet'] += 1            
-
-            
-            
-def print_stats(game_stats):
-    for player in sorted(game_stats['current_players'], key=lambda x: x.lower() ):
-        stats = game_stats[player]
-        hands = stats['hands_played']
+    def player_folds_flop(self, player_name):
+        player = self.players[player_name]
+        player.folds_flop(active_c_bet=self.active_flop_c_bet)
         
-        print(f'Player: {player}')
-        print(f'Hands played = {hands}')
 
-        print(f'VPIP = {stats["vpip"]}/{hands} = {round(100*stats["vpip"]/hands, 1)}')
-        print(f'PFR = {stats["pfr"]}/{hands} = {round(100*stats["pfr"]/hands, 1)}')
+class FileHand(Hand):
 
-        if stats['3_bet_opp'] > 0:        
-            print(f'3-Bet = {stats["3_bet"]}/{stats["3_bet_opp"]} = {round(100*stats["3_bet"]/stats["3_bet_opp"], 1)}')
-            
-        print(f'4-Bet = {round(100*stats["4_bet"]/hands, 1)}')
+    def run_hand(self, hand_lines):
+        self.set_up_hand(hand_lines)
+        self.analyze_pre_flop(hand_lines)
+        self.analyze_flop(hand_lines)
+
+    
+    def set_up_hand(self, hand_lines):
+        for i, line in enumerate(hand_lines):
+            seat_match = SEAT_PATTERN.match(line)
+            if seat_match:
+                player_name = seat_match.group(2)
+                self.players[player_name] = PlayerHand(name=player_name)
+                continue
+
+            small_match = SMALL_PATTERN.match(line)
+            if small_match:
+                player_name = small_match.group(1)
+                sb = small_match.group(2)
+                self.players[player_name].sb = sb
+                continue
+
+            big_match = BIG_PATTERN.match(line)
+            if big_match:
+                player_name = big_match.group(1)
+                bb = big_match.group(2)            
+                self.players[player_name].bb = bb
+                # once we found the big blind we break
+                break
+        self.last_set_up_index = i
+        # after the big blind is the line "*** HOLE CARDS ***",
+        # so we skip past that
+        self.pre_flop_index = self.last_set_up_index + 2
+    
+    def analyze_pre_flop(self, hand_lines ):
+        for i, line in enumerate(hand_lines[self.pre_flop_index:]):
+            flop_match = FLOP_PATTERN.match(line)
+            if flop_match:
+                break
+
+            call_match = CALL_PATTERN.match(line)
+            if call_match:
+                player_name = call_match.group(1)
+                self.player_calls_pre_flop(player_name)
+                continue
+
+            raise_match = RAISE_PATTERN.match(line)
+            if raise_match:
+                player_name = raise_match.group(1)
+                self.player_raises_pre_flop(player_name)                
+                continue
+
+            fold_match = FOLD_PATTERN.match(line)
+            if fold_match:
+                player_name = fold_match.group(1)
+                self.player_folds_pre_flop(player_name)
+                continue
+
+        self.flop_index = self.pre_flop_index + i
+
         
-        if stats['seen_3_bet'] > 0:
-            print(f'Folds to 3-Bet = {round(100*stats["folds_to_3_bet"]/stats["seen_3_bet"], 1)}')
-            print(f'Calls 3-Bet = {round(100*stats["calls_3_bet"]/stats["seen_3_bet"], 1)}')
+    def analyze_flop(self, hand_lines):
+        for i, line in enumerate(hand_lines[self.flop_index:]):
+            turn_match = TURN_PATTERN.match(line)
+            if turn_match:
+                break
 
-        if stats['seen_c_bet'] > 0:
-            print(f'Folds to C-Bet = {round(100*stats["folds_to_c_bet"]/stats["seen_c_bet"], 1)}')
-            print(f'Calls C-Bet = {round(100*stats["calls_c_bet"]/stats["seen_c_bet"], 1)}')
-            print(f'Raises C-Bet = {round(100*stats["raises_c_bet"]/stats["seen_c_bet"], 1)}')                    
+            check_match = CHECK_PATTERN.match(line)
+            if check_match:
+                player_name = check_match.group(1)
+                self.player_checks_flop(player_name)
+                continue
 
-        if stats['c_bet_opp'] > 0:
-            print(f'C-Bets = {round(100*stats["c_bet"]/stats["c_bet_opp"], 1)}')
-            print(f'Checks C-Bet Opportunity = {round(100*stats["checks_c_bet_opp"]/stats["c_bet_opp"], 1)}')
+            call_match = CALL_PATTERN.match(line)
+            if call_match:
+                player_name = call_match.group(1)
+                self.player_calls_flop(player_name)
+                continue
             
-        print()
+            raise_match = RAISE_PATTERN.match(line)
+            if raise_match:
+                player_name = raise_match.group(1)
+                self.player_raises_flop(player_name)
+                continue
+
+            fold_match = FOLD_PATTERN.match(line)
+            if fold_match:
+                player_name = fold_match.group(1)
+                self.player_folds_flop(player_name)
+                continue
+            
+        self.turn_index = self.flop_index + i
+
+
+
+class Game:
+    def __init__(self):
+        self.game_stats = {}
+        self.hands = []
+
+    def add_hand(self, hand):
+        self.hands.append(hand)
+        self.assign_stats_from_hand(hand)
+
+    def assign_stats_from_hand(self, hand):
+        '''
+        Looks through current hand information, and adds to the stats for each
+        corresponding player in game_stats
+        '''
+        players = hand.players
+        self.game_stats['current_players']  = list(players.keys()) # for knowing who is still at the table
+
+        for player_name, player in players.items():
+            if player_name not in self.game_stats:
+                self.game_stats[player_name] = defaultdict(int)
+            player_stats = self.game_stats[player_name]
+            player_stats['hands_played'] += 1
+            if player.vpip:
+                player_stats['vpip'] += 1
+            if player.pfr:
+                player_stats['pfr'] += 1
+
+            if player._3_bet:
+                player_stats['3_bet'] += 1
+                player_stats['3_bet_opp'] += 1            
+            if player.folds_3_bet_opp:
+                player_stats['folds_3_bet_opp'] += 1            
+                player_stats['3_bet_opp'] += 1
+            if player.calls_3_bet_opp:
+                player_stats['calls_3_bet_opp'] += 1            
+                player_stats['3_bet_opp'] += 1
+
+            if player._5_bet:
+                player_stats['5_bet'] += 1
+
+            if player.folds_to_3_bet:
+                player_stats['folds_to_3_bet'] += 1
+                player_stats['seen_3_bet'] += 1            
+            elif player.calls_3_bet:
+                player_stats['calls_3_bet'] += 1
+                player_stats['seen_3_bet'] += 1            
+            elif player._4_bet:
+                player_stats['4_bet'] += 1
+                player_stats['seen_3_bet'] += 1            
+
+            if player.c_bet:
+                player_stats['c_bet'] += 1
+                player_stats['c_bet_opp'] += 1            
+            elif player.checks_c_bet_opp:
+                player_stats['checks_c_bet_opp'] += 1
+                player_stats['c_bet_opp'] += 1
+
+            if player.folds_to_c_bet:
+                player_stats['folds_to_c_bet'] += 1
+                player_stats['seen_c_bet'] += 1            
+            elif player.calls_c_bet:
+                player_stats['calls_c_bet'] += 1
+                player_stats['seen_c_bet'] += 1            
+            elif player.raises_c_bet:
+                player_stats['raises_c_bet'] += 1
+                player_stats['seen_c_bet'] += 1            
+
+
+
+    def print_stats(self):
+        for player in sorted(self.game_stats['current_players'], key=lambda x: x.lower() ):
+            stats = self.game_stats[player]
+            hands_played = stats['hands_played']
+
+            print(f'Player: {player}')
+            print(f'Hands played = {hands_played}')
+
+            print(f'VPIP = {stats["vpip"]}/{hands_played} = {round(100*stats["vpip"]/hands_played, 1)}')
+            print(f'PFR = {stats["pfr"]}/{hands_played} = {round(100*stats["pfr"]/hands_played, 1)}')
+
+            if stats['3_bet_opp'] > 0:        
+                print(f'3-Bet = {stats["3_bet"]}/{stats["3_bet_opp"]} = {round(100*stats["3_bet"]/stats["3_bet_opp"], 1)}')
+
+            print(f'4-Bet = {round(100*stats["4_bet"]/hands_played, 1)}')
+
+            if stats['seen_3_bet'] > 0:
+                print(f'Folds to 3-Bet = {round(100*stats["folds_to_3_bet"]/stats["seen_3_bet"], 1)}')
+                print(f'Calls 3-Bet = {round(100*stats["calls_3_bet"]/stats["seen_3_bet"], 1)}')
+
+            if stats['seen_c_bet'] > 0:
+                print(f'Folds to C-Bet = {round(100*stats["folds_to_c_bet"]/stats["seen_c_bet"], 1)}')
+                print(f'Calls C-Bet = {round(100*stats["calls_c_bet"]/stats["seen_c_bet"], 1)}')
+                print(f'Raises C-Bet = {round(100*stats["raises_c_bet"]/stats["seen_c_bet"], 1)}')                    
+
+            if stats['c_bet_opp'] > 0:
+                print(f'C-Bets = {round(100*stats["c_bet"]/stats["c_bet_opp"], 1)}')
+                print(f'Checks C-Bet Opportunity = {round(100*stats["checks_c_bet_opp"]/stats["c_bet_opp"], 1)}')
+
+            print()
+
         
-def run_file(path_to_file):
-    print(f"opening file = {path_to_file}")
-    game_stats = {}
-    with open(path_to_file, 'r') as file:
-        lines = file.read().split('\n')
-        hand_lines = None
+class FileGame(Game):
+    
+    def __init__(self, path_to_file):
+        super().__init__()
+        self.path_to_file = path_to_file
+        
+    def process_single_hand(self, hand_lines):
+        ''' given all the lines of the text file that correspond to a given hand,
+        analyze what happens
+        '''
+        if hand_lines == []:
+            return
 
-        for line in lines:
-            hand_match = HAND_START_PATTERN.match(line)
-            if hand_match:
-                process_single_hand(hand_lines, game_stats)
-                hand_lines = []
-                
-            if hand_lines is not None:
-                hand_lines.append(line)
+        hand = FileHand()
+        hand.run_hand(hand_lines)
+        self.add_hand(hand)
+        
 
-    print("DONE RUN FILE")
-    return game_stats
+    def run_file(self):
+        print(f"opening file = {self.path_to_file}")
+        with open(self.path_to_file, 'r') as file:
+            lines = file.read().split('\n')
+            start_index = 0
+            end_index = 0
+            for line in lines:
+                end_index += 1
+                hand_match = HAND_START_PATTERN.match(line)
+                if hand_match:
+                    hand_lines = lines[start_index: end_index]
+                    self.process_single_hand(hand_lines)
+                    start_index = end_index
+
+        self.print_stats()        
 
 if __name__ == "__main__":
-    game_stats = run_file(PATH_TO_FILE)
-    print_stats(game_stats)
+    import os
+    from dotenv import load_dotenv
+    load_dotenv()
+    # get env vars from .env file
+    path_to_file = os.getenv("PATH_TO_FILE", ".")
+    
+    game = FileGame(path_to_file)
+    game.run_file()
+
