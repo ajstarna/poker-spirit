@@ -41,28 +41,19 @@ class App:
         self.text_var.set(f"filename = {truncated}")
 
 
-    def insert_stats_into_text(self, text, stats):
+    def insert_stats_into_text(self, text, game, player_name):
         text.delete(0.0, tk.END) # clear what is there
-
-        hands = stats['hands_played']
-        
         text.insert(tk.END,
-                    f'VPIP = {stats["vpip"]}/{hands} = {round(100*stats["vpip"]/hands, 1)}\n'
+                    game.vpip_str(player_name) + "\n"
         )
         text.insert(tk.END,
-                    f'PFR = {stats["pfr"]}/{hands} = {round(100*stats["pfr"]/hands, 1)}\n'
+                    game.pfr_str(player_name) + "\n"
         )
-        if stats["3_bet_opp"] > 0:
-            text.insert(tk.END,
-                        f'3-Bet = {stats["3_bet"]}/{stats["3_bet_opp"]} = {round(100*stats["3_bet"]/stats["3_bet_opp"], 1)}\n'
-            )
-        else:
-            text.insert(tk.END,
-                        f'3-Bet = {stats["3_bet"]}/{stats["3_bet_opp"]} = 0\n'
-            )
-            
         text.insert(tk.END,
-                    f'4-Bet = {stats["4_bet"]}/{hands} = {round(100*stats["4_bet"]/hands, 1)}'
+                    game._3_bet_str(player_name) + "\n"
+        )
+        text.insert(tk.END,
+                    game._4_bet_str(player_name) + "\n"                
         )
 
         
@@ -73,11 +64,10 @@ class App:
             game = FileGame(self.filename)
             game.run_file()
             current_players = game.game_stats['current_players']
-            for player in sorted(current_players, key=lambda x: x.lower()):
-                stats = game.game_stats[player]
-                if player in self.player_windows:
+            for player_name in sorted(current_players, key=lambda x: x.lower()):
+                if player_name in self.player_windows:
                     print(f'player {player} already current!')
-                    window = self.player_windows[player]
+                    window = self.player_windows[player_name]
                     print(window.winfo_children())
                     text = window.winfo_children()[0]
                     print()
@@ -85,19 +75,18 @@ class App:
                     # a new player has entered the table
                     window = tk.Tk()
                     window.geometry("165x60")
-                    window.title(player)
+                    window.title(player_name)
                     text = tk.Text(window)
-
                     
-                self.insert_stats_into_text(text, stats)
+                self.insert_stats_into_text(text, game, player_name)
                 text.pack()
-                self.player_windows[player] = window
+                self.player_windows[player_name] = window
                     
             # don't want to have windows lingering around for players who
             # are no longer at the table
-            for player in self.player_windows:
-                if player not in current_players:
-                    del self.player_windows[player]
+            for player_name in self.player_windows:
+                if player_name not in current_players:
+                    del self.player_windows[player_name]
             
     def quit(self):
         self.window.destroy()
