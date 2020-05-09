@@ -5,8 +5,7 @@ import tkinter as tk
 from tkinter.filedialog import askopenfilename
 from tkinter import ttk
 
-import analyze_hands
-
+from analyze_hands import FileGame
 
 from dotenv import load_dotenv
 
@@ -71,10 +70,11 @@ class App:
         if self.filename is None:
             return
         else:
-            game_stats = analyze_hands.run_file(self.filename)
-            current_players = game_stats['current_players']
+            game = FileGame(self.filename)
+            game.run_file()
+            current_players = game.game_stats['current_players']
             for player in sorted(current_players, key=lambda x: x.lower()):
-                stats = game_stats[player]
+                stats = game.game_stats[player]
                 if player in self.player_windows:
                     print(f'player {player} already current!')
                     window = self.player_windows[player]
