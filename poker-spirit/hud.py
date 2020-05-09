@@ -63,10 +63,9 @@ class App:
         else:
             game = FileGame(self.filename)
             game.run_file()
-            current_players = game.game_stats['current_players']
-            for player_name in sorted(current_players, key=lambda x: x.lower()):
+            for player_name in sorted(game.current_players, key=lambda x: x.lower()):
                 if player_name in self.player_windows:
-                    print(f'player {player} already current!')
+                    print(f'player {player_name} already current!')
                     window = self.player_windows[player_name]
                     print(window.winfo_children())
                     text = window.winfo_children()[0]
@@ -85,7 +84,7 @@ class App:
             # don't want to have windows lingering around for players who
             # are no longer at the table
             for player_name in self.player_windows:
-                if player_name not in current_players:
+                if player_name not in game.current_players:
                     del self.player_windows[player_name]
             
     def quit(self):

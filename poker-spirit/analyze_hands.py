@@ -4,7 +4,7 @@ This script reads and processes hands written by PokerStars to their text file
 '''
 
 import re
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 
 
 CASH_GAME = True
@@ -112,7 +112,8 @@ class PlayerHand:
 class Hand:            
     def __init__(self):
         self.players = {}
-
+        self.player_order = []
+        
         # pre flop stats
         self.num_pre_flop_raises = 0
 
@@ -123,9 +124,32 @@ class Hand:
 
     def add_player(self, player_name):
         self.players[player_name] = PlayerHand(name=player_name)        
+        self.player_order.append(player_name)
+        
+    def get_player(self, player_name):
+        return self.players.get(player_name)
+    
+    def get_next_pre_flop_player(self):
+        for index in range(self.sb_index+2, 100000): # effectively infinite. add 2 since UTG starts pre_flop
+            true_index = index % len(self.player_order) # want to keep wrapping around the players in a circle
+            player_name = self.player_order[true_index]
+            player = self.get_player(player_name)
+            if player.folded:
+                continue
+            yield player_name
 
-    def set_sb(self, player_name, sb):
+    def get_next_default_player(self):
+        for index in range(self.sb_index, 100000): # effectively infinite
+            true_index = index % len(self.player_order) # want to keep wrapping around the players in a circle
+            player_name = self.player_order[true_index]
+            player = self.get_player(player_name)
+            if player.folded:
+                continue
+            yield player_name
+            
+    def set_sb(self, player_name, sb=1):
         self.players[player_name].sb = sb
+        self.sb_index = self.player_order.index(player_name)
         
     def set_bb(self, player_name, bb):
         self.players[player_name].bb = bb                
@@ -168,8 +192,23 @@ class Hand:
 class Game:
     def __init__(self):
         self.game_stats = {}
+        self.current_players = []
+        self.current_sb = None
+        self.current_bb = None        
         self.hands = []
 
+
+    def set_sb(self, player_name):
+        self.current_sb = player_name
+        self.current_sb_index = self.current_players.index(player_name)
+        
+    def finish_hand(self):
+        '''
+        Update the blind positions
+        '''
+        self.current_sb_index = (self.current_sb_index + 1) % len(self.current_players)
+        self.current_sb = self.current_players[self.current_sb_index]
+        
     def add_hand(self, hand):
         self.hands.append(hand)
         self.assign_stats_from_hand(hand)
@@ -179,10 +218,8 @@ class Game:
         Looks through current hand information, and adds to the stats for each
         corresponding player in game_stats
         '''
-        players = hand.players
-        self.game_stats['current_players']  = list(players.keys()) # for knowing who is still at the table
-
-        for player_name, player in players.items():
+        self.current_players = hand.player_order # for knowing who is still at the table
+        for player_name, player in hand.players.items():
             if player_name not in self.game_stats:
                 self.game_stats[player_name] = defaultdict(int)
             player_stats = self.game_stats[player_name]
@@ -317,7 +354,7 @@ class Game:
             return f'Checks C-Bet Opp. = NA'
         
     def print_stats(self):
-        for player_name in sorted(self.game_stats['current_players'], key=lambda x: x.lower() ):
+        for player_name in sorted(self.current_players, key=lambda x: x.lower() ):
             print(f'Player: {player_name}')
             print(self.hands_played_str(player_name))
             print(self.vpip_str(player_name))
@@ -357,13 +394,15 @@ class FileGame(Game):
                 player_name = small_match.group(1)
                 sb = small_match.group(2)
                 hand.set_sb(player_name, sb)
+                self.current_sb = player_name
                 continue
 
             big_match = BIG_PATTERN.match(line)
             if big_match:
                 player_name = big_match.group(1)
                 bb = big_match.group(2)
-                hand.set_bb(player_name, bb)                
+                hand.set_bb(player_name, bb)
+                self.current_bb = player_name
                 # once we found the big blind we break
                 break
         self.last_set_up_index = i
