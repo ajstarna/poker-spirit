@@ -110,7 +110,6 @@ class PlayerHand:
 
 
 class Hand:            
-
     def __init__(self):
         self.players = {}
 
@@ -122,6 +121,15 @@ class Hand:
         self.active_flop_c_bet = False
 
 
+    def add_player(self, player_name):
+        self.players[player_name] = PlayerHand(name=player_name)        
+
+    def set_sb(self, player_name, sb):
+        self.players[player_name].sb = sb
+        
+    def set_bb(self, player_name, bb):
+        self.players[player_name].bb = bb                
+        
     def player_calls_pre_flop(self, player_name):
         player = self.players[player_name]
         player.calls_pre_flop(num_raises=self.num_pre_flop_raises)
@@ -156,102 +164,6 @@ class Hand:
         player = self.players[player_name]
         player.folds_flop(active_c_bet=self.active_flop_c_bet)
         
-
-class FileHand(Hand):
-
-    def run_hand(self, hand_lines):
-        self.set_up_hand(hand_lines)
-        self.analyze_pre_flop(hand_lines)
-        self.analyze_flop(hand_lines)
-
-    
-    def set_up_hand(self, hand_lines):
-        for i, line in enumerate(hand_lines):
-            seat_match = SEAT_PATTERN.match(line)
-            if seat_match:
-                player_name = seat_match.group(2)
-                self.players[player_name] = PlayerHand(name=player_name)
-                continue
-
-            small_match = SMALL_PATTERN.match(line)
-            if small_match:
-                player_name = small_match.group(1)
-                sb = small_match.group(2)
-                self.players[player_name].sb = sb
-                continue
-
-            big_match = BIG_PATTERN.match(line)
-            if big_match:
-                player_name = big_match.group(1)
-                bb = big_match.group(2)            
-                self.players[player_name].bb = bb
-                # once we found the big blind we break
-                break
-        self.last_set_up_index = i
-        # after the big blind is the line "*** HOLE CARDS ***",
-        # so we skip past that
-        self.pre_flop_index = self.last_set_up_index + 2
-    
-    def analyze_pre_flop(self, hand_lines ):
-        for i, line in enumerate(hand_lines[self.pre_flop_index:]):
-            flop_match = FLOP_PATTERN.match(line)
-            if flop_match:
-                break
-
-            call_match = CALL_PATTERN.match(line)
-            if call_match:
-                player_name = call_match.group(1)
-                self.player_calls_pre_flop(player_name)
-                continue
-
-            raise_match = RAISE_PATTERN.match(line)
-            if raise_match:
-                player_name = raise_match.group(1)
-                self.player_raises_pre_flop(player_name)                
-                continue
-
-            fold_match = FOLD_PATTERN.match(line)
-            if fold_match:
-                player_name = fold_match.group(1)
-                self.player_folds_pre_flop(player_name)
-                continue
-
-        self.flop_index = self.pre_flop_index + i
-
-        
-    def analyze_flop(self, hand_lines):
-        for i, line in enumerate(hand_lines[self.flop_index:]):
-            turn_match = TURN_PATTERN.match(line)
-            if turn_match:
-                break
-
-            check_match = CHECK_PATTERN.match(line)
-            if check_match:
-                player_name = check_match.group(1)
-                self.player_checks_flop(player_name)
-                continue
-
-            call_match = CALL_PATTERN.match(line)
-            if call_match:
-                player_name = call_match.group(1)
-                self.player_calls_flop(player_name)
-                continue
-            
-            raise_match = RAISE_PATTERN.match(line)
-            if raise_match:
-                player_name = raise_match.group(1)
-                self.player_raises_flop(player_name)
-                continue
-
-            fold_match = FOLD_PATTERN.match(line)
-            if fold_match:
-                player_name = fold_match.group(1)
-                self.player_folds_flop(player_name)
-                continue
-            
-        self.turn_index = self.flop_index + i
-
-
 
 class Game:
     def __init__(self):
@@ -430,6 +342,93 @@ class FileGame(Game):
     def __init__(self, path_to_file):
         super().__init__()
         self.path_to_file = path_to_file
+
+    
+    def set_up_hand(self, hand_lines, hand):
+        for i, line in enumerate(hand_lines):
+            seat_match = SEAT_PATTERN.match(line)
+            if seat_match:
+                player_name = seat_match.group(2)
+                hand.add_player(player_name)
+                continue
+
+            small_match = SMALL_PATTERN.match(line)
+            if small_match:
+                player_name = small_match.group(1)
+                sb = small_match.group(2)
+                hand.set_sb(player_name, sb)
+                continue
+
+            big_match = BIG_PATTERN.match(line)
+            if big_match:
+                player_name = big_match.group(1)
+                bb = big_match.group(2)
+                hand.set_bb(player_name, bb)                
+                # once we found the big blind we break
+                break
+        self.last_set_up_index = i
+        # after the big blind is the line "*** HOLE CARDS ***",
+        # so we skip past that
+        self.pre_flop_index = self.last_set_up_index + 2
+    
+    def analyze_pre_flop(self, hand_lines, hand):
+        for i, line in enumerate(hand_lines[self.pre_flop_index:]):
+            flop_match = FLOP_PATTERN.match(line)
+            if flop_match:
+                break
+
+            call_match = CALL_PATTERN.match(line)
+            if call_match:
+                player_name = call_match.group(1)
+                hand.player_calls_pre_flop(player_name)
+                continue
+
+            raise_match = RAISE_PATTERN.match(line)
+            if raise_match:
+                player_name = raise_match.group(1)
+                hand.player_raises_pre_flop(player_name)                
+                continue
+
+            fold_match = FOLD_PATTERN.match(line)
+            if fold_match:
+                player_name = fold_match.group(1)
+                hand.player_folds_pre_flop(player_name)
+                continue
+
+        self.flop_index = self.pre_flop_index + i
+
+        
+    def analyze_flop(self, hand_lines, hand):
+        for i, line in enumerate(hand_lines[self.flop_index:]):
+            turn_match = TURN_PATTERN.match(line)
+            if turn_match:
+                break
+
+            check_match = CHECK_PATTERN.match(line)
+            if check_match:
+                player_name = check_match.group(1)
+                hand.player_checks_flop(player_name)
+                continue
+
+            call_match = CALL_PATTERN.match(line)
+            if call_match:
+                player_name = call_match.group(1)
+                hand.player_calls_flop(player_name)
+                continue
+            
+            raise_match = RAISE_PATTERN.match(line)
+            if raise_match:
+                player_name = raise_match.group(1)
+                hand.player_raises_flop(player_name)
+                continue
+
+            fold_match = FOLD_PATTERN.match(line)
+            if fold_match:
+                player_name = fold_match.group(1)
+                hand.player_folds_flop(player_name)
+                continue
+            
+        self.turn_index = self.flop_index + i
         
     def process_single_hand(self, hand_lines):
         ''' given all the lines of the text file that correspond to a given hand,
@@ -438,8 +437,10 @@ class FileGame(Game):
         if hand_lines == []:
             return
 
-        hand = FileHand()
-        hand.run_hand(hand_lines)
+        hand = Hand()
+        self.set_up_hand(hand_lines, hand)
+        self.analyze_pre_flop(hand_lines, hand)
+        self.analyze_flop(hand_lines, hand)
         self.add_hand(hand)
         
 
