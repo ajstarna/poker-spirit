@@ -109,10 +109,20 @@ class PlayerHand:
 
 
 
-class Hand:            
+class Hand:
+
+    STAGE_TO_NEXT = {
+        'pre-flop': 'flop',
+        'flop': 'turn',
+        'turn': 'river',
+        'river': 'finish-hand'
+    }
+    
+    
     def __init__(self):
         self.players = {}
         self.player_order = []
+        self.stage = 'pre-flop'
         
         # pre flop stats
         self.num_pre_flop_raises = 0
@@ -122,15 +132,25 @@ class Hand:
         self.active_flop_c_bet = False
 
 
+    def advance_stage(self):
+        self.stage = self.STAGE_TO_NEXT[self.stage]
+        
+        
     def add_player(self, player_name):
         self.players[player_name] = PlayerHand(name=player_name)        
         self.player_order.append(player_name)
         
     def get_player(self, player_name):
         return self.players.get(player_name)
-    
-    def get_next_pre_flop_player(self):
-        for index in range(self.sb_index+2, 100000): # effectively infinite. add 2 since UTG starts pre_flop
+
+            
+    def get_next_player(self):
+        if self.stage == 'pre-flop':
+            start_index = self.sb_index+2 # add 2 since UTG starts pre_flop
+        else:
+            start_index = self.sb_index
+            
+        for index in range(start_index, 1000000): # effectively infinite
             true_index = index % len(self.player_order) # want to keep wrapping around the players in a circle
             player_name = self.player_order[true_index]
             player = self.get_player(player_name)
@@ -138,6 +158,7 @@ class Hand:
                 continue
             yield player_name
 
+    '''
     def get_next_default_player(self):
         for index in range(self.sb_index, 100000): # effectively infinite
             true_index = index % len(self.player_order) # want to keep wrapping around the players in a circle
@@ -146,7 +167,8 @@ class Hand:
             if player.folded:
                 continue
             yield player_name
-            
+    '''
+    
     def set_sb(self, player_name, sb=1):
         self.players[player_name].sb = sb
         self.sb_index = self.player_order.index(player_name)
@@ -154,42 +176,44 @@ class Hand:
     def set_bb(self, player_name, bb):
         self.players[player_name].bb = bb                
         
-    def player_calls_pre_flop(self, player_name):
-        player = self.players[player_name]
-        player.calls_pre_flop(num_raises=self.num_pre_flop_raises)
 
-    def player_raises_pre_flop(self, player_name):
+    def player_checks(self, player_name):
         player = self.players[player_name]
-        player.raises_pre_flop(num_raises=self.num_pre_flop_raises)
-        self.num_pre_flop_raises += 1
+        if self.stage == 'pre-flop':
+            player.checks_flop()
 
-    def player_folds_pre_flop(self, player_name):
-        player = self.players[player_name]
-        player.folds_pre_flop(num_raises=self.num_pre_flop_raises)
-        
-    def player_checks_flop(self, player_name):
-        player = self.players[player_name]
-        player.checks_flop()
 
-    def player_calls_flop(self, player_name):
+    def player_raises(self, player_name):
         player = self.players[player_name]
-        player.calls_flop(active_c_bet=self.active_flop_c_bet)
+        if self.stage == 'pre-flop':
+            player.raises_pre_flop(num_raises=self.num_pre_flop_raises)
+            self.num_pre_flop_raises += 1
+        elif self.stage == 'flop':
+            player.raises_flop(num_raises=self.num_flop_raises, active_c_bet=self.active_flop_c_bet)
+            self.num_flop_raises += 1
+            if player.c_bet:
+                self.active_flop_c_bet = True
+            else:
+                self.active_flop_c_bet = False
 
-    def player_raises_flop(self, player_name):
+    
+    def player_folds(self, player_name):
         player = self.players[player_name]
-        player.raises_flop(num_raises=self.num_flop_raises, active_c_bet=self.active_flop_c_bet)
-        self.num_flop_raises += 1
-        if player.c_bet:
-            self.active_flop_c_bet = True
-        else:
-            self.active_flop_c_bet = False
-
-    def player_folds_flop(self, player_name):
-        player = self.players[player_name]
-        player.folds_flop(active_c_bet=self.active_flop_c_bet)
+        if self.stage == 'pre-flop':
+            player.folds_pre_flop(num_raises=self.num_pre_flop_raises)
+        elif self.stage == 'flop':
+            player.folds_flop(active_c_bet=self.active_flop_c_bet)            
+    
+    def player_calls(self, player_name):
+        player = self.players[player_name]        
+        if self.stage == 'pre-flop':
+            player.calls_pre_flop(num_raises=self.num_pre_flop_raises)
+        elif self.stage == 'flop':        
+            player.calls_flop(active_c_bet=self.active_flop_c_bet)
         
 
 class Game:
+
     def __init__(self):
         self.game_stats = {}
         self.current_players = []
@@ -419,21 +443,22 @@ class FileGame(Game):
             call_match = CALL_PATTERN.match(line)
             if call_match:
                 player_name = call_match.group(1)
-                hand.player_calls_pre_flop(player_name)
+                hand.player_calls(player_name)
                 continue
 
             raise_match = RAISE_PATTERN.match(line)
             if raise_match:
                 player_name = raise_match.group(1)
-                hand.player_raises_pre_flop(player_name)                
+                hand.player_raises(player_name)                
                 continue
 
             fold_match = FOLD_PATTERN.match(line)
             if fold_match:
                 player_name = fold_match.group(1)
-                hand.player_folds_pre_flop(player_name)
+                hand.player_folds(player_name)
                 continue
 
+        hand.advance_stage()            
         self.flop_index = self.pre_flop_index + i
 
         
@@ -446,27 +471,28 @@ class FileGame(Game):
             check_match = CHECK_PATTERN.match(line)
             if check_match:
                 player_name = check_match.group(1)
-                hand.player_checks_flop(player_name)
+                hand.player_checks(player_name)
                 continue
 
             call_match = CALL_PATTERN.match(line)
             if call_match:
                 player_name = call_match.group(1)
-                hand.player_calls_flop(player_name)
+                hand.player_calls(player_name)
                 continue
             
             raise_match = RAISE_PATTERN.match(line)
             if raise_match:
                 player_name = raise_match.group(1)
-                hand.player_raises_flop(player_name)
+                hand.player_raises(player_name)
                 continue
 
             fold_match = FOLD_PATTERN.match(line)
             if fold_match:
                 player_name = fold_match.group(1)
-                hand.player_folds_flop(player_name)
+                hand.player_folds(player_name)
                 continue
-            
+
+        hand.advance_stage()
         self.turn_index = self.flop_index + i
         
     def process_single_hand(self, hand_lines):

@@ -11,6 +11,12 @@ from analyze_hands import PlayerHand, Game, Hand
 
 class TerminalGame(Game):
 
+    def run(self):
+        self.init_game()
+        while True:
+            self..input_hand()
+            self..print_stats()
+        
     def input_small_blind(self):
         while True:
             sb = input ("Who is the small blind? ")
@@ -74,6 +80,27 @@ class TerminalGame(Game):
                 break
         return action
 
+
+    def run_stage(self, hand):
+        for player_name in hand.get_next_player():
+            action = self.input_player_action(player_name)
+            if action == 'D':
+                break
+            
+            elif action == 'cc':
+                hand.player_checks(player_name)
+                
+            elif action == 'ca':
+                hand.player_calls(player_name)
+
+            elif action == 'r':
+                hand.player_raises(player_name)
+
+            elif action == 'f':
+                hand.player_folds(player_name)
+        hand.advance_stage()
+
+        
     def pre_flop(self, hand):
 
         for player_name in hand.get_next_pre_flop_player():
@@ -95,7 +122,6 @@ class TerminalGame(Game):
             action = self.input_player_action(player_name)
             if action == 'D':
                 break
-
             elif action == 'cc':
                 hand.player_checks_flop(player_name)
             
@@ -113,19 +139,16 @@ class TerminalGame(Game):
         hand = self.pre_hand()
         print(f"\nPlayers in hand = {self.current_players}")
         print("Beginning Hand:")
-        self.pre_flop(hand)
+        self.run_stage(hand)
         print("\nBeginning Flop:")    
-        self.flop(hand)
+        self.run_stage(hand)
         print("\nEnding Hand:")            
         self.assign_stats_from_hand(hand)
         self.finish_hand()
 
 if __name__ == "__main__":
     game = TerminalGame()
-    game.init_game()
-    while True:
-        game.input_hand()
-        game.print_stats()
+    game_run()
 
 
 
