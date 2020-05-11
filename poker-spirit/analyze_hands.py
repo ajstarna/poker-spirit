@@ -343,9 +343,9 @@ class Game:
     def folds_to_3_bet_str(self, player_name):
         stats = self.game_stats[player_name]        
         if stats['seen_3_bet'] > 0:
-            return f'Folds to 3-Bet = {stats["folds_to_3_bet"]}/{stats["seen_3_bet"]} = {round(100*stats["folds_to_3_bet"]/stats["seen_3_bet"], 1)}'
+            return f'Folds 3-Bet = {stats["folds_to_3_bet"]}/{stats["seen_3_bet"]} = {round(100*stats["folds_to_3_bet"]/stats["seen_3_bet"], 1)}'
         else:
-            return f'Folds to 3-Bet = NA'
+            return f'Folds 3-Bet = NA'
 
     def calls_3_bet_str(self, player_name):
         stats = self.game_stats[player_name]        
@@ -357,30 +357,30 @@ class Game:
     def folds_to_c_bet_str(self, player_name):
         stats = self.game_stats[player_name]        
         if stats['seen_c_bet'] > 0:
-            return f'Folds to c-Bet = {stats["folds_to_c_bet"]}/{stats["seen_c_bet"]} = {round(100*stats["folds_to_c_bet"]/stats["seen_c_bet"], 1)}'
+            return f'Folds C-Bet = {stats["folds_to_c_bet"]}/{stats["seen_c_bet"]} = {round(100*stats["folds_to_c_bet"]/stats["seen_c_bet"], 1)}'
         else:
-            return f'Folds to c-Bet = NA'
+            return f'Folds C-Bet = NA'
 
     def calls_c_bet_str(self, player_name):
         stats = self.game_stats[player_name]        
         if stats['seen_c_bet'] > 0:
-            return f'Calls c-Bet = {stats["calls_c_bet"]}/{stats["seen_c_bet"]} = {round(100*stats["calls_c_bet"]/stats["seen_c_bet"], 1)}'
+            return f'Calls C-Bet = {stats["calls_c_bet"]}/{stats["seen_c_bet"]} = {round(100*stats["calls_c_bet"]/stats["seen_c_bet"], 1)}'
         else:
-            return f'Calls c-Bet = NA'
+            return f'Calls C-Bet = NA'
 
     def raises_c_bet_str(self, player_name):
         stats = self.game_stats[player_name]        
         if stats['seen_c_bet'] > 0:
-            return f'Raises c-Bet = {stats["raises_c_bet"]}/{stats["seen_c_bet"]} = {round(100*stats["raises_c_bet"]/stats["seen_c_bet"], 1)}'
+            return f'Raises C-Bet = {stats["raises_c_bet"]}/{stats["seen_c_bet"]} = {round(100*stats["raises_c_bet"]/stats["seen_c_bet"], 1)}'
         else:
-            return f'Raises c-Bet = NA'
+            return f'Raises C-Bet = NA'
 
     def c_bet_str(self, player_name):
         stats = self.game_stats[player_name]        
         if stats['c_bet_opp'] > 0:
-            return f'C-Bets = {stats["c_bet"]}/{stats["c_bet_opp"]} = {round(100*stats["c_bet"]/stats["c_bet_opp"], 1)}'
+            return f'C-Bet = {stats["c_bet"]}/{stats["c_bet_opp"]} = {round(100*stats["c_bet"]/stats["c_bet_opp"], 1)}'
         else:
-            return f'C-Bets = NA'
+            return f'C-Bet = NA'
 
     def checks_c_bet_str(self, player_name):
         stats = self.game_stats[player_name]        

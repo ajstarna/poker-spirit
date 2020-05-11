@@ -13,7 +13,7 @@ from tkinter import ttk
 from analyze_hands import Game, Hand
 
 
-
+from hud import PlayerWindowsManager
 
 class GuiGame(Game):
 
@@ -25,6 +25,9 @@ class GuiGame(Game):
         
         self.players_var = tk.StringVar()
         self.players_var.set(f"Players = {self.current_players}")
+
+
+        self.pwm = PlayerWindowsManager()
 
         self.small_blind_var = tk.StringVar()
         self.small_blind_var.set(f"Small blind = {self.current_sb}")
@@ -78,7 +81,7 @@ class GuiGame(Game):
 
         button_quit = ttk.Button(player_window,
                                  text="Done",
-                                 command=partial(self.destroy,player_window)
+                                 command=partial(self.destroy, player_window)
         ).grid(row=4, column=1)
 
     def enter_small_blind(self):
@@ -117,103 +120,112 @@ class GuiGame(Game):
         return hand
 
 
-    def end_hand(self, game_window):
+    def end_hand(self):
         self.finish_hand()
         self.print_stats()
-        game_window.destroy()
+        self.pwm.populate(self)
+        self.populate_game_window()
 
+        
     def player_calls(self, player_name_var):
-        print(f'{player_name_var.get()} calls')
         self.current_hand.player_calls(player_name_var.get())
-        self.update_current_player()
-        print(f'new player name = {self.current_player_name}')
+        self.next_player()
         
     def player_folds(self, player_name_var):
         self.current_hand.player_folds (player_name_var.get())
-        self.update_current_player()        
+        self.next_player()        
         
     def player_checks(self, player_name_var):
         self.current_hand.player_checks(player_name_var.get())
-        self.update_current_player()        
+        self.next_player()        
         
     def player_raises(self, player_name_var):
         self.current_hand.player_raises(player_name_var.get())
-        self.update_current_player()        
+        self.next_player()        
 
-    def update_current_player(self):
+    def next_player(self):
         '''
         we need to get the next player, and then make sure to update the string var,
         since that is passed into the button press commands
         '''
         self.current_player_name = next(self.player_name_iter)        
-        self.current_player_var.set(self.current_player_name)
+        self.current_player_var.set(f'{self.current_player_name}')
 
 
     def advance_stage(self):
         self.current_hand.advance_stage()
         self.phase_var.set(f"{self.current_hand.stage}")
+        if self.current_hand.stage == "finish-hand":
+            self.end_hand()
+        self.player_name_iter = iter(self.current_hand.get_next_player())                    
+        self.next_player()
         
-    def play_game(self):
-        '''
-        '''
-        game_window = tk.Toplevel(self.window)
+    def populate_game_window(self):
+        # called when we first init the game window, and when a hand finishes
         self.current_hand = self.init_hand()
-        self.phase_var = tk.StringVar()
         self.phase_var.set(f"{self.current_hand.stage}")
-        tk.Label(game_window,
-                 textvariable=self.phase_var).grid(row=0)
-        tk.Label(game_window,
-                 text=f'Hand Number = {len(self.hands) + 1}').grid(row=0, column=1)
+        self.hand_var.set(f'Hand Number = {len(self.hands) + 1}')
+        self.small_blind_var.set(f"Small blind = {self.current_sb}")        
+        self.player_name_iter = iter(self.current_hand.get_next_player())        
+        self.next_player()
 
-        self.player_name_iter = iter(self.current_hand.get_next_player())
+
+    def play_game(self):
+        self.init_game_window()
+        self.populate_game_window()
+        
+    def init_game_window(self):
+        '''
+        '''
+        self.game_window = tk.Toplevel(self.window)
+        self.phase_var = tk.StringVar()
+        self.hand_var = tk.StringVar()
+        
+        tk.Label(self.game_window,
+                 textvariable=self.hand_var).grid(row=0, column=0)
+        tk.Label(self.game_window, 
+                 textvariable=self.small_blind_var).grid(row=0, column=1)
+        tk.Label(self.game_window,
+                 textvariable=self.phase_var).grid(row=0, column=2)
+
+        
         self.current_player_var = tk.StringVar() # need the var to be mutable as we pass it around
-
-
-        self.update_current_player()
-        
-        tk.Label(game_window, 
+        tk.Label(self.game_window, 
                  textvariable=self.current_player_var).grid(row=1, column=0, columnspan=3)
-        
 
-        button_select = ttk.Button(game_window,
+        button_select = ttk.Button(self.game_window,
                                    text="Fold",
                                    command=partial(self.player_folds, self.current_player_var)
         ).grid(row=4, column=0)
-        button_select = ttk.Button(game_window,
+        button_select = ttk.Button(self.game_window,
                                    text="Check",
                                    command=partial(self.player_checks, self.current_player_var)                                   
         ).grid(row=4, column=1)
         
-        button_select = ttk.Button(game_window,
+        button_select = ttk.Button(self.game_window,
                                    text="Call",
                                    command=partial(self.player_calls, self.current_player_var)                                                                      
         ).grid(row=4, column=2)
-        button_select = ttk.Button(game_window,
+        button_select = ttk.Button(self.game_window,
                                    text="Raise",
                                    command=partial(self.player_raises, self.current_player_var)                                                                                                         
         ).grid(row=4, column=3)
 
-        button_quit = ttk.Button(game_window,
+        button_quit = ttk.Button(self.game_window,
                                  text="Advance Stage",
                                  command=self.advance_stage
         ).grid(row=4, column=4)
-        button_quit = ttk.Button(game_window,
+        button_quit = ttk.Button(self.game_window,
                                  text="Finish Hand",
-                                 command=partial(self.end_hand, game_window)
+                                 command=self.end_hand
         ).grid(row=4, column=5)
         
-        #init_window.mainloop()
-
-        ''' 
-        game_stats['current_players'] = current_players
-        input_small_blind(game_stats)
-        '''
-        
-        return
     
     def quit(self):
         self.window.destroy()
-            
+        self.pwm.destroy()
+
+
     def run(self):
         
         button_select = ttk.Button(self.window,

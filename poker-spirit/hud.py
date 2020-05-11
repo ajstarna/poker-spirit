@@ -9,10 +9,70 @@ from analyze_hands import FileGame
 
 from dotenv import load_dotenv
 
+
+
+class PlayerWindowsManager:
+    # making this its own class so that we can use this code in the live tracker gui as well
+    def __init__(self):
+        self.player_windows = {}
+
+    def destroy(self):
+        for window in self.player_windows.values():
+            window.destroy()
+        
+    def insert_stats_into_text(self, text, game, player_name):
+        text.delete(0.0, tk.END) # clear what is there
+        text.insert(tk.END,
+                    game.vpip_str(player_name) + "\n"
+        )
+        text.insert(tk.END,
+                    game.pfr_str(player_name) + "\n"
+        )
+        text.insert(tk.END,
+                    game._3_bet_str(player_name) + "\n"
+        )
+        text.insert(tk.END,
+                    game.folds_to_3_bet_str(player_name) + "\n"
+        )
+        text.insert(tk.END,
+                    game.c_bet_str(player_name) + "\n"
+        )
+        text.insert(tk.END,
+                    game.folds_to_c_bet_str(player_name) + "\n"                    
+        )
+        text.insert(tk.END,
+                    game._4_bet_str(player_name) + "\n"                
+        )
+
+        
+    def populate(self, game):
+        #for player_name in sorted(game.current_players, key=lambda x: x.lower()):
+        for player_name in sorted(game.current_players, key=lambda x: x.lower()):            
+            if player_name in self.player_windows:
+                print(f'player {player_name} already current!')
+                window = self.player_windows[player_name]
+                text = window.winfo_children()[0]
+            else:
+                # a new player has entered the table
+                window = tk.Tk()
+                self.player_windows[player_name] = window                
+                window.geometry("185x100")
+                window.title(player_name)
+                text = tk.Text(window)
+
+            self.insert_stats_into_text(text, game, player_name)
+            text.pack()
+
+        # don't want to have windows lingering around for players who
+        # are no longer at the table
+        for player_name in self.player_windows:
+            if player_name not in game.current_players:
+                del self.player_windows[player_name]
+        
 class App:
     def __init__(self):
         self.filename = None
-        self.player_windows = {}
+        self.pwm = PlayerWindowsManager()
         load_dotenv()
         # get env vars from .env file
         self.path_to_hands = os.getenv("PATH_TO_HANDS", ".")
@@ -39,23 +99,6 @@ class App:
 
         truncated = self.get_truncated_name(filename)
         self.text_var.set(f"filename = {truncated}")
-
-
-    def insert_stats_into_text(self, text, game, player_name):
-        text.delete(0.0, tk.END) # clear what is there
-        text.insert(tk.END,
-                    game.vpip_str(player_name) + "\n"
-        )
-        text.insert(tk.END,
-                    game.pfr_str(player_name) + "\n"
-        )
-        text.insert(tk.END,
-                    game._3_bet_str(player_name) + "\n"
-        )
-        text.insert(tk.END,
-                    game._4_bet_str(player_name) + "\n"                
-        )
-
         
     def read_file(self):
         if self.filename is None:
@@ -63,34 +106,11 @@ class App:
         else:
             game = FileGame(self.filename)
             game.run_file()
-            for player_name in sorted(game.current_players, key=lambda x: x.lower()):
-                if player_name in self.player_windows:
-                    print(f'player {player_name} already current!')
-                    window = self.player_windows[player_name]
-                    print(window.winfo_children())
-                    text = window.winfo_children()[0]
-                    print()
-                else:
-                    # a new player has entered the table
-                    window = tk.Tk()
-                    window.geometry("165x60")
-                    window.title(player_name)
-                    text = tk.Text(window)
-                    
-                self.insert_stats_into_text(text, game, player_name)
-                text.pack()
-                self.player_windows[player_name] = window
-                    
-            # don't want to have windows lingering around for players who
-            # are no longer at the table
-            for player_name in self.player_windows:
-                if player_name not in game.current_players:
-                    del self.player_windows[player_name]
+            self.pwm.populate(game)
             
     def quit(self):
         self.window.destroy()
-        for window in self.player_windows.values():
-            window.destroy()
+        self.pwm.destroy()
             
     def main(self):
         self.window = tk.Tk()
@@ -119,6 +139,6 @@ class App:
 
         self.window.mainloop()
 
-
-app = App()
-app.main()
+if __name__ == "__main__":
+    app = App()
+    app.main()
