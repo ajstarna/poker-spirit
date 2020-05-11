@@ -5,11 +5,11 @@ This script helps to track players by entering hand information on the fly
 '''
 
 
-from analyze_hands import PlayerHand, Game, Hand
+from analyze_hands import PlayerHand, LiveGame, Hand
 
 
 
-class TerminalGame(Game):
+class TerminalGame(LiveGame):
 
     def run(self):
         self.init_game()

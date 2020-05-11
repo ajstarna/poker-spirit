@@ -218,16 +218,24 @@ class Hand:
             player.calls_flop(active_c_bet=self.active_flop_c_bet)
         
 
+
+
 class Game:
 
     def __init__(self):
         self.game_stats = {}
         self.current_hand = None        
-        self.current_players = ['adam', 'dave', 'bren', 'kev']
-        self.current_sb = 'adam'
+        self.current_players = [] # ['adam', 'dave', 'bren', 'kev']
+        self.__current_sb = None # 'adam'
         self.current_bb = None
         self.hands = []
 
+
+    def add_player(self, player_name):
+        self.current_players.append(player_name)
+        if self.current_hand is not None:
+            self.current_hand.add_player(player_name)
+            
     @property
     def current_sb(self):
         return self.__current_sb
@@ -244,8 +252,6 @@ class Game:
         '''
         Update the blind positions
         '''
-        self.current_sb_index = (self.current_sb_index + 1) % len(self.current_players)
-        self.current_sb = self.current_players[self.current_sb_index]
         self.assign_stats_from_hand(self.current_hand)
         self.hands.append(self.current_hand)
         
@@ -409,6 +415,14 @@ class Game:
             print(self.checks_c_bet_str(player_name))
             print()
 
+class LiveGame(Game):
+
+    def finish_hand(self):
+        # in a live game, we need to manage who the blinds are
+        super().finish_hand()
+        self.current_sb_index = (self.current_sb_index + 1) % len(self.current_players)
+        self.current_sb = self.current_players[self.current_sb_index]
+
         
 class FileGame(Game):
     
@@ -422,14 +436,14 @@ class FileGame(Game):
             seat_match = SEAT_PATTERN.match(line)
             if seat_match:
                 player_name = seat_match.group(2)
-                hand.add_player(player_name)
+                self.add_player(player_name)
                 continue
 
             small_match = SMALL_PATTERN.match(line)
             if small_match:
                 player_name = small_match.group(1)
                 sb = small_match.group(2)
-                hand.set_sb(player_name, sb)
+                self.current_hand.set_sb(player_name, sb)
                 self.current_sb = player_name
                 continue
 
@@ -437,7 +451,7 @@ class FileGame(Game):
             if big_match:
                 player_name = big_match.group(1)
                 bb = big_match.group(2)
-                hand.set_bb(player_name, bb)
+                self.current_hand.set_bb(player_name, bb)
                 self.current_bb = player_name
                 # once we found the big blind we break
                 break
@@ -455,22 +469,22 @@ class FileGame(Game):
             call_match = CALL_PATTERN.match(line)
             if call_match:
                 player_name = call_match.group(1)
-                hand.player_calls(player_name)
+                self.current_hand.player_calls(player_name)
                 continue
 
             raise_match = RAISE_PATTERN.match(line)
             if raise_match:
                 player_name = raise_match.group(1)
-                hand.player_raises(player_name)                
+                self.current_hand.player_raises(player_name)                
                 continue
 
             fold_match = FOLD_PATTERN.match(line)
             if fold_match:
                 player_name = fold_match.group(1)
-                hand.player_folds(player_name)
+                self.current_hand.player_folds(player_name)
                 continue
 
-        hand.advance_stage()            
+        self.current_hand.advance_stage()            
         self.flop_index = self.pre_flop_index + i
 
         
@@ -483,28 +497,28 @@ class FileGame(Game):
             check_match = CHECK_PATTERN.match(line)
             if check_match:
                 player_name = check_match.group(1)
-                hand.player_checks(player_name)
+                self.current_hand.player_checks(player_name)
                 continue
 
             call_match = CALL_PATTERN.match(line)
             if call_match:
                 player_name = call_match.group(1)
-                hand.player_calls(player_name)
+                self.current_hand.player_calls(player_name)
                 continue
             
             raise_match = RAISE_PATTERN.match(line)
             if raise_match:
                 player_name = raise_match.group(1)
-                hand.player_raises(player_name)
+                self.current_hand.player_raises(player_name)
                 continue
 
             fold_match = FOLD_PATTERN.match(line)
             if fold_match:
                 player_name = fold_match.group(1)
-                hand.player_folds(player_name)
+                self.current_hand.player_folds(player_name)
                 continue
 
-        hand.advance_stage()
+        self.current_hand.advance_stage()
         self.turn_index = self.flop_index + i
         
     def process_single_hand(self, hand_lines):
@@ -518,7 +532,8 @@ class FileGame(Game):
         self.set_up_hand(hand_lines)
         self.analyze_pre_flop(hand_lines)
         self.analyze_flop(hand_lines)
-        self.add_hand(self.current_hand)
+        self.finish_hand()
+        #self.add_hand(self.current_hand)
         
 
     def run_file(self):

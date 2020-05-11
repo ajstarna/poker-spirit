@@ -10,12 +10,12 @@ import tkinter as tk
 from tkinter import ttk
 
 #from analyze_hands import PlayerHand, assign_stats_from_hand, print_stats
-from analyze_hands import Game, Hand
+from analyze_hands import LiveGame, Hand
 
 
 from hud import PlayerWindowsManager
 
-class GuiGame(Game):
+class GuiGame(LiveGame):
 
     def __init__(self):
         super().__init__()
@@ -54,7 +54,7 @@ class GuiGame(Game):
         if player_name not in self.current_players:
             print("Must be a name of a current player!")
         else:
-            self.set_sb(player_name)
+            self.current_sb = player_name
         self.small_blind_var.set(f"Small blind = {self.current_sb}")            
         
         
