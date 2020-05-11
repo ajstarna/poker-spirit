@@ -14,8 +14,8 @@ class TerminalGame(Game):
     def run(self):
         self.init_game()
         while True:
-            self..input_hand()
-            self..print_stats()
+            self.input_hand()
+            self.print_stats()
         
     def input_small_blind(self):
         while True:
@@ -81,8 +81,8 @@ class TerminalGame(Game):
         return action
 
 
-    def run_stage(self, hand):
-        for player_name in hand.get_next_player():
+    def run_stage(self):
+        for player_name in self.current_hand.get_next_player():
             action = self.input_player_action(player_name)
             if action == 'D':
                 break
@@ -100,7 +100,8 @@ class TerminalGame(Game):
                 hand.player_folds(player_name)
         hand.advance_stage()
 
-        
+
+    '''
     def pre_flop(self, hand):
 
         for player_name in hand.get_next_pre_flop_player():
@@ -133,22 +134,21 @@ class TerminalGame(Game):
 
             elif action == 'f':
                 hand.player_folds_flop(player_name)
-
+    '''
 
     def input_hand(self):
-        hand = self.pre_hand()
+        self.current_hand = self.pre_hand()
         print(f"\nPlayers in hand = {self.current_players}")
         print("Beginning Hand:")
-        self.run_stage(hand)
-        print("\nBeginning Flop:")    
-        self.run_stage(hand)
-        print("\nEnding Hand:")            
-        self.assign_stats_from_hand(hand)
+        self.run_stage()
+        print("\nBeginning Flop:")
+        self.run_stage()
+        print("\nEnding Hand:")
         self.finish_hand()
 
 if __name__ == "__main__":
     game = TerminalGame()
-    game_run()
+    game.run()
 
 
 

@@ -119,10 +119,11 @@ class Hand:
     }
     
     
-    def __init__(self):
+    def __init__(self, sb_index=None):
         self.players = {}
         self.player_order = []
         self.stage = 'pre-flop'
+        self.sb_index= sb_index
         
         # pre flop stats
         self.num_pre_flop_raises = 0
@@ -133,8 +134,12 @@ class Hand:
 
 
     def advance_stage(self):
+        if self.stage == 'finish-hand':
+            print('already over!')
+            return
+        print(f'advancing from {self.stage}')
         self.stage = self.STAGE_TO_NEXT[self.stage]
-        
+        print(f'new stage = {self.stage}')
         
     def add_player(self, player_name):
         self.players[player_name] = PlayerHand(name=player_name)        
@@ -207,6 +212,7 @@ class Hand:
     def player_calls(self, player_name):
         player = self.players[player_name]        
         if self.stage == 'pre-flop':
+            print('pre flop call baby!')
             player.calls_pre_flop(num_raises=self.num_pre_flop_raises)
         elif self.stage == 'flop':        
             player.calls_flop(active_c_bet=self.active_flop_c_bet)
@@ -216,14 +222,22 @@ class Game:
 
     def __init__(self):
         self.game_stats = {}
-        self.current_players = []
-        self.current_sb = None
-        self.current_bb = None        
+        self.current_hand = None        
+        self.current_players = ['adam', 'dave', 'bren', 'kev']
+        self.current_sb = 'adam'
+        self.current_bb = None
         self.hands = []
 
+    @property
+    def current_sb(self):
+        return self.__current_sb
 
-    def set_sb(self, player_name):
-        self.current_sb = player_name
+    @current_sb.setter
+    def current_sb(self, player_name):    
+        #def set_sb(self, player_name):
+        if self.current_hand is not None:
+            self.current_hand.set_sb(player_name)
+        self.__current_sb = player_name
         self.current_sb_index = self.current_players.index(player_name)
         
     def finish_hand(self):
@@ -232,11 +246,9 @@ class Game:
         '''
         self.current_sb_index = (self.current_sb_index + 1) % len(self.current_players)
         self.current_sb = self.current_players[self.current_sb_index]
+        self.assign_stats_from_hand(self.current_hand)
+        self.hands.append(self.current_hand)
         
-    def add_hand(self, hand):
-        self.hands.append(hand)
-        self.assign_stats_from_hand(hand)
-
     def assign_stats_from_hand(self, hand):
         '''
         Looks through current hand information, and adds to the stats for each
@@ -405,7 +417,7 @@ class FileGame(Game):
         self.path_to_file = path_to_file
 
     
-    def set_up_hand(self, hand_lines, hand):
+    def set_up_hand(self, hand_lines):
         for i, line in enumerate(hand_lines):
             seat_match = SEAT_PATTERN.match(line)
             if seat_match:
@@ -434,7 +446,7 @@ class FileGame(Game):
         # so we skip past that
         self.pre_flop_index = self.last_set_up_index + 2
     
-    def analyze_pre_flop(self, hand_lines, hand):
+    def analyze_pre_flop(self, hand_lines):
         for i, line in enumerate(hand_lines[self.pre_flop_index:]):
             flop_match = FLOP_PATTERN.match(line)
             if flop_match:
@@ -462,7 +474,7 @@ class FileGame(Game):
         self.flop_index = self.pre_flop_index + i
 
         
-    def analyze_flop(self, hand_lines, hand):
+    def analyze_flop(self, hand_lines):
         for i, line in enumerate(hand_lines[self.flop_index:]):
             turn_match = TURN_PATTERN.match(line)
             if turn_match:
@@ -502,11 +514,11 @@ class FileGame(Game):
         if hand_lines == []:
             return
 
-        hand = Hand()
-        self.set_up_hand(hand_lines, hand)
-        self.analyze_pre_flop(hand_lines, hand)
-        self.analyze_flop(hand_lines, hand)
-        self.add_hand(hand)
+        self.current_hand = Hand()
+        self.set_up_hand(hand_lines)
+        self.analyze_pre_flop(hand_lines)
+        self.analyze_flop(hand_lines)
+        self.add_hand(self.current_hand)
         
 
     def run_file(self):
