@@ -50,11 +50,11 @@ class GuiGame(LiveGame):
 
     def set_small_blind(self, player_entry):
         player_name = player_entry.get()
-        player_entry.delete(0, tk.END) # clear what is there        
         if player_name not in self.current_players:
             print("Must be a name of a current player!")
         else:
             self.current_sb = player_name
+            player_entry.delete(0, tk.END) # clear what is there
         self.small_blind_var.set(f"Small blind = {self.current_sb}")            
         
         
@@ -108,6 +108,44 @@ class GuiGame(LiveGame):
         button_quit = ttk.Button(small_blind_window,
                                  text="Done",
                                  command=partial(self.destroy, small_blind_window)
+        ).grid(row=4, column=1)
+
+
+    def remove_player(self, player_entry):
+        player_name = player_entry.get()
+        if player_name not in self.current_players:
+            print("Must be a name of a current player!")
+        elif player_name == self.current_sb:
+            print("Cant remove current Small Blind!")
+        else:
+            self.current_players.remove(player_name)
+            player_entry.delete(0, tk.END) # clear what is there                    
+        self.players_var.set(f"Players = {self.current_players}")                        
+    
+    def enter_remove_player(self):
+        '''
+        The user is prompted to enter a player to remove from the list
+        '''
+        
+        remove_window = tk.Toplevel(self.window)
+        remove_window.title( "Poker Spirit - Remove Player")
+        tk.Label(remove_window, 
+                 textvariable=self.players_var).grid(row=1)
+        
+        
+        tk.Label(remove_window, 
+                 text="To Remove").grid(row=2)
+        e1 = ttk.Entry(remove_window)   
+        e1.grid(row=2, column=1)
+
+        button_select = ttk.Button(remove_window,
+                                   text="Enter",
+                                   command= partial(self.remove_player, e1)
+        ).grid(row=4, column=0)
+
+        button_quit = ttk.Button(remove_window,
+                                 text="Done",
+                                 command=partial(self.destroy, remove_window)
         ).grid(row=4, column=1)
 
 
@@ -236,7 +274,12 @@ class GuiGame(LiveGame):
         button_select = ttk.Button(self.window,
                                    text="Enter Small Blind",
                                    command=self.enter_small_blind,
-        ).grid(row=0, column=1)
+        ).grid(row=1, column=0)
+
+        button_select = ttk.Button(self.window,
+                                   text="Remove Player",
+                                   command=self.enter_remove_player,
+        ).grid(row=2, column=0)
         
         button_select = ttk.Button(self.window,
                                    text="Play",
@@ -251,7 +294,7 @@ class GuiGame(LiveGame):
         tk.Label(self.window, 
                  textvariable=self.players_var).grid(row=1, column=1, columnspan=2)
         tk.Label(self.window, 
-                 textvariable=self.small_blind_var).grid(row=2, column=1)
+                 textvariable=self.small_blind_var).grid(row=2, column=1, columnspan=2)
         
 
         self.window.mainloop()
