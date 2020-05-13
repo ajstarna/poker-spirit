@@ -6,7 +6,7 @@ from tkinter.filedialog import askopenfilename
 from tkinter import ttk
 
 from analyze_hands import FileGame
-
+import db_management
 from dotenv import load_dotenv
 
 
@@ -76,6 +76,7 @@ class App:
         load_dotenv()
         # get env vars from .env file
         self.path_to_hands = os.getenv("PATH_TO_HANDS", ".")
+        self.path_to_stats_db = os.getenv("PATH_TO_STATS_DB", "player_stats.db")        
                                        
     def get_truncated_name(self, filename):
         if filename is None:
@@ -104,17 +105,21 @@ class App:
         if self.filename is None:
             return
         else:
-            game = FileGame(self.filename)
-            game.run_file()
-            self.pwm.populate(game)
+            self.game = FileGame(self.filename)
+            self.game.run_file()
+            self.pwm.populate(self.game)
+
+    def save_data(self):
+        db_management.insert_player_stats(self.path_to_stats_db, self.game)
             
     def quit(self):
         self.window.destroy()
         self.pwm.destroy()
             
     def main(self):
+        self.game = None
         self.window = tk.Tk()
-        self.window.geometry("575x100")
+        self.window.geometry("575x115")
         
         self.window.title( "Poker Spirit")
 
@@ -131,6 +136,10 @@ class App:
         button_run = ttk.Button(self.window,
                                 text="Read and Analyze File",
                                 command=self.read_file
+        ).pack()
+        button_run = ttk.Button(self.window,
+                                text="Save Game Data",
+                                command=self.save_data
         ).pack()
         button_quit = ttk.Button(self.window,
                                  text="Quit",

@@ -429,7 +429,8 @@ class FileGame(Game):
     def __init__(self, path_to_file):
         super().__init__()
         self.path_to_file = path_to_file
-
+        self.game_id = path_to_file.split("/")[-1].split()[0]
+        print(f'game id = {self.game_id}')
     
     def set_up_hand(self, hand_lines):
         for i, line in enumerate(hand_lines):
