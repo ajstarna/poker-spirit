@@ -2,9 +2,12 @@
 from tinydb import TinyDB, Query
 from collections import defaultdict
 
+DB_FILE_NAME = 'player_stats.db'
 GAME_STATS_TABLE = 'gamestats'
 
-def load_player_history(db_file_name, player_names):
+def load_player_history(player_names, db_file_name=None):
+    if db_file_name is None:
+        db_file_name = DB_FILE_NAME
     db = TinyDB(db_file_name)
     table = db.table(GAME_STATS_TABLE)
     Player = Query()
@@ -18,7 +21,10 @@ def load_player_history(db_file_name, player_names):
         career_stats_by_player[player_name] = career_stats
     return career_stats_by_player
 
-def insert_all_player_stats(db_file_name, game):
+def insert_all_player_stats(game, db_file_name):
+    if db_file_name is None:
+        db_file_name = DB_FILE_NAME
+    
     db = TinyDB(db_file_name)
     table = db.table(GAME_STATS_TABLE)
     GAME_STATS = Query()

@@ -316,85 +316,97 @@ class Game:
                 player_stats['raises_c_bet'] += 1
                 player_stats['seen_c_bet'] += 1            
 
-    def hands_played_str(self, player_name):
-        stats = self.game_stats[player_name]
+    @staticmethod
+    def hands_played_str(game_stats, player_name):
+        stats = game_stats[player_name]
         hands_played = stats['hands_played']
         return f'Hands played = {hands_played}'
 
-    def vpip_str(self, player_name):
-        stats = self.game_stats[player_name]
+    @staticmethod    
+    def vpip_str(game_stats, player_name):
+        stats = game_stats[player_name]
         hands_played = stats['hands_played']
         if hands_played > 0:
             return f'VPIP = {stats["vpip"]}/{hands_played} = {round(100*stats["vpip"]/hands_played, 1)}'
         else:
             return f'VPIP = {stats["vpip"]}/{hands_played} = NA'
 
-    def pfr_str(self, player_name):
-        stats = self.game_stats[player_name]
+    @staticmethod        
+    def pfr_str(game_stats, player_name):
+        stats = game_stats[player_name]
         hands_played = stats['hands_played']
         if hands_played > 0:
             return f'PFR = {stats["pfr"]}/{hands_played} = {round(100*stats["pfr"]/hands_played, 1)}'
         else:
             return f'PFR = {stats["pfr"]}/{hands_played} = NA'
 
-    def _3_bet_str(self, player_name):
-        stats = self.game_stats[player_name]
+    @staticmethod        
+    def _3_bet_str(game_stats, player_name):
+        stats = game_stats[player_name]
         if stats['3_bet_opp'] > 0:        
             return f'3-Bet = {stats["3_bet"]}/{stats["3_bet_opp"]} = {round(100*stats["3_bet"]/stats["3_bet_opp"], 1)}'
         else:
             return f'3-Bet = {stats["3_bet"]}/{stats["3_bet_opp"]} = NA'
-        
-    def _4_bet_str(self, player_name):
-        stats = self.game_stats[player_name]
+
+    @staticmethod
+    def _4_bet_str(game_stats, player_name):
+        stats = game_stats[player_name]
         if stats['4_bet_opp'] > 0:        
             return f'4-Bet = {stats["3_bet"]}/{stats["4_bet_opp"]} = {round(100*stats["4_bet"]/stats["4_bet_opp"], 1)}'
         else:
             return f'4-Bet = NA'
 
-    def folds_to_3_bet_str(self, player_name):
-        stats = self.game_stats[player_name]        
+    @staticmethod        
+    def folds_to_3_bet_str(game_stats, player_name):
+        stats = game_stats[player_name]        
         if stats['seen_3_bet'] > 0:
             return f'Folds 3-Bet = {stats["folds_to_3_bet"]}/{stats["seen_3_bet"]} = {round(100*stats["folds_to_3_bet"]/stats["seen_3_bet"], 1)}'
         else:
             return f'Folds 3-Bet = NA'
-
-    def calls_3_bet_str(self, player_name):
-        stats = self.game_stats[player_name]        
+        
+    @staticmethod
+    def calls_3_bet_str(game_stats, player_name):
+        stats = game_stats[player_name]        
         if stats['seen_3_bet'] > 0:
             return f'Calls 3-Bet = {stats["calls_3_bet"]}/{stats["seen_3_bet"]} = {round(100*stats["calls_3_bet"]/stats["seen_3_bet"], 1)}'
         else:
             return f'Calls 3-Bet = NA'
-
-    def folds_to_c_bet_str(self, player_name):
-        stats = self.game_stats[player_name]        
+        
+    @staticmethod
+    def folds_to_c_bet_str(game_stats, player_name):
+        stats = game_stats[player_name]        
         if stats['seen_c_bet'] > 0:
             return f'Folds C-Bet = {stats["folds_to_c_bet"]}/{stats["seen_c_bet"]} = {round(100*stats["folds_to_c_bet"]/stats["seen_c_bet"], 1)}'
         else:
             return f'Folds C-Bet = NA'
 
-    def calls_c_bet_str(self, player_name):
-        stats = self.game_stats[player_name]        
+    @staticmethod        
+    def calls_c_bet_str(game_stats, player_name):
+        stats = game_stats[player_name]        
         if stats['seen_c_bet'] > 0:
             return f'Calls C-Bet = {stats["calls_c_bet"]}/{stats["seen_c_bet"]} = {round(100*stats["calls_c_bet"]/stats["seen_c_bet"], 1)}'
         else:
             return f'Calls C-Bet = NA'
 
-    def raises_c_bet_str(self, player_name):
-        stats = self.game_stats[player_name]        
+    @staticmethod        
+    def raises_c_bet_str(game_stats, player_name):
+        stats = game_stats[player_name]        
         if stats['seen_c_bet'] > 0:
             return f'Raises C-Bet = {stats["raises_c_bet"]}/{stats["seen_c_bet"]} = {round(100*stats["raises_c_bet"]/stats["seen_c_bet"], 1)}'
         else:
             return f'Raises C-Bet = NA'
 
-    def c_bet_str(self, player_name):
-        stats = self.game_stats[player_name]        
+    @staticmethod        
+    def c_bet_str(game_stats, player_name):
+        stats = game_stats[player_name]        
         if stats['c_bet_opp'] > 0:
             return f'C-Bet = {stats["c_bet"]}/{stats["c_bet_opp"]} = {round(100*stats["c_bet"]/stats["c_bet_opp"], 1)}'
         else:
             return f'C-Bet = NA'
-
-    def checks_c_bet_str(self, player_name):
-        stats = self.game_stats[player_name]        
+        
+    @staticmethod
+    def checks_c_bet_str(game_stats, player_name):
+        stats = game_stats[player_name]        
         if stats['c_bet_opp'] > 0:
             return f'Checks C-Bet Opp. = {stats["checks_c_bet_opp"]}/{stats["c_bet_opp"]} = {round(100*stats["checks_c_bet_opp"]/stats["c_bet_opp"], 1)}'
         else:
@@ -403,21 +415,21 @@ class Game:
     def print_stats(self):
         for player_name in sorted(self.current_players, key=lambda x: x.lower() ):
             print(f'Player: {player_name}')
-            print(self.hands_played_str(player_name))
-            print(self.vpip_str(player_name))
-            print(self.pfr_str(player_name))
-            print(self._3_bet_str(player_name))
-            print(self._4_bet_str(player_name))            
+            print(Game.hands_played_str(self.game_stats, player_name))
+            print(Game.vpip_str(self.game_stats, player_name))
+            print(Game.pfr_str(self.game_stats, player_name))
+            print(Game._3_bet_str(self.game_stats, player_name))
+            print(Game._4_bet_str(self.game_stats, player_name))            
 
-            print(self.folds_to_3_bet_str(player_name))
-            print(self.calls_3_bet_str(player_name))
+            print(Game.folds_to_3_bet_str(self.game_stats, player_name))
+            print(Game.calls_3_bet_str(self.game_stats, player_name))
 
-            print(self.folds_to_c_bet_str(player_name))
-            print(self.calls_c_bet_str(player_name))
-            print(self.raises_c_bet_str(player_name))            
+            print(Game.folds_to_c_bet_str(self.game_stats, player_name))
+            print(Game.calls_c_bet_str(self.game_stats, player_name))
+            print(Game.raises_c_bet_str(self.game_stats, player_name))            
 
-            print(self.c_bet_str(player_name))
-            print(self.checks_c_bet_str(player_name))
+            print(Game.c_bet_str(self.game_stats, player_name))
+            print(Game.checks_c_bet_str(self.game_stats, player_name))
             print()
 
 class LiveGame(Game):

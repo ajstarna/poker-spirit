@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter.filedialog import askopenfilename
 from tkinter import ttk
 
-from analyze_hands import FileGame
+from analyze_hands import FileGame, Game
 import db_management
 from dotenv import load_dotenv
 
@@ -15,41 +15,44 @@ class PlayerWindowsManager:
     # making this its own class so that we can use this code in the live tracker gui as well
     def __init__(self):
         self.player_windows = {}
+        self.player_career_windows = {}        
 
+        
     def destroy(self):
         for window in self.player_windows.values():
             window.destroy()
+        for window in self.player_career_windows.values():
+            window.destroy()
         
-    def insert_stats_into_text(self, text, game, player_name):
+    def insert_stats_into_text(self, text, game_stats, player_name):
         text.delete(0.0, tk.END) # clear what is there
         text.insert(tk.END,
-                    game.vpip_str(player_name) + "\n"
+                    Game.vpip_str(game_stats, player_name) + "\n"
         )
         text.insert(tk.END,
-                    game.pfr_str(player_name) + "\n"
+                    Game.pfr_str(game_stats, player_name) + "\n"
         )
         text.insert(tk.END,
-                    game._3_bet_str(player_name) + "\n"
+                    Game._3_bet_str(game_stats, player_name) + "\n"
         )
         text.insert(tk.END,
-                    game.folds_to_3_bet_str(player_name) + "\n"
+                    Game.folds_to_3_bet_str(game_stats, player_name) + "\n"
         )
         text.insert(tk.END,
-                    game.c_bet_str(player_name) + "\n"
+                    Game.c_bet_str(game_stats, player_name) + "\n"
         )
         text.insert(tk.END,
-                    game.folds_to_c_bet_str(player_name) + "\n"                    
+                    Game.folds_to_c_bet_str(game_stats, player_name) + "\n"                    
         )
         text.insert(tk.END,
-                    game._4_bet_str(player_name) + "\n"                
+                    Game._4_bet_str(game_stats, player_name) + "\n"                
         )
 
         
-    def populate(self, game):
+    def populate(self, game, career_stats_by_player):
         #for player_name in sorted(game.current_players, key=lambda x: x.lower()):
         for player_name in sorted(game.current_players, key=lambda x: x.lower()):            
             if player_name in self.player_windows:
-                print(f'player {player_name} already current!')
                 window = self.player_windows[player_name]
                 text = window.winfo_children()[0]
             else:
@@ -60,18 +63,36 @@ class PlayerWindowsManager:
                 window.title(player_name)
                 text = tk.Text(window)
 
-            self.insert_stats_into_text(text, game, player_name)
+            self.insert_stats_into_text(text, game.game_stats, player_name)
             text.pack()
 
+            #####
+            #####
+            if player_name in self.player_career_windows:
+                window = self.player_career_windows[player_name]
+                text = window.winfo_children()[0]
+            else:
+                # a new player has entered the table
+                window = tk.Tk()
+                self.player_career_windows[player_name] = window                
+                window.geometry("185x100")
+                window.title(player_name)
+                text = tk.Text(window)
+
+            self.insert_stats_into_text(text, career_stats_by_player, player_name)
+            text.pack()
+            
         # don't want to have windows lingering around for players who
         # are no longer at the table
         for player_name in list(self.player_windows.keys()):
             if player_name not in game.current_players:
                 del self.player_windows[player_name]
+                del self.player_career_windows[player_name]                
         
 class App:
     def __init__(self):
         self.filename = None
+        self.career_stats_by_player = {}
         self.pwm = PlayerWindowsManager()
         load_dotenv()
         # get env vars from .env file
@@ -107,10 +128,17 @@ class App:
         else:
             self.game = FileGame(self.filename)
             self.game.run_file()
-            self.pwm.populate(self.game)
+            players_to_load = []
+            for player_name in self.game.current_players:
+                if player_name not in self.career_stats_by_player:
+                    players_to_load.append(player_name)
+            if len(players_to_load) > 0:
+                new_career_stats_by_player = db_management.load_player_history(players_to_load, self.path_to_stats_db)
+                self.career_stats_by_player.update(new_career_stats_by_player)
+            self.pwm.populate(self.game, self.career_stats_by_player)
 
     def save_data(self):
-        db_management.insert_all_player_stats(self.path_to_stats_db, self.game)
+        db_management.insert_all_player_stats(self.game, self.path_to_stats_db)
             
     def quit(self):
         self.window.destroy()
