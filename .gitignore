@@ -2,3 +2,8 @@
 __pycache__/
 *~
 *.db
+
+# pyinstaller build folders
+*.spec
+build/
+dist/
