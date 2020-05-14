@@ -12,7 +12,7 @@ def load_player_history(db_file_name, player_names):
     for player_name in player_names:
         career_stats = defaultdict(int)
         for stats in table.search(Player.player_name == player_name):
-            for field, val in stats:
+            for field, val in stats.items():
                 if type(val) is int:
                     career_stats[field] += val
         career_stats_by_player[player_name] = career_stats
@@ -30,7 +30,6 @@ def insert_all_player_stats(db_file_name, game):
 
 if __name__ == "__main__":
     db_file_name = 'player_stats.db'
-    conn = sqlite3.connect(db_file_name)    
-    cursor = conn.execute("SELECT player_name, game_id, hands_played, vpip from GAME_STATS")
-    for row in cursor:
-        print(row)
+    career_stats_by_player = load_player_history(db_file_name, {'sleep evil'})
+    print(career_stats_by_player)
+                                                 
