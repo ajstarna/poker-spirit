@@ -65,7 +65,7 @@ class PlayerWindowsManager:
 
         # don't want to have windows lingering around for players who
         # are no longer at the table
-        for player_name in self.player_windows:
+        for player_name in list(self.player_windows.keys()):
             if player_name not in game.current_players:
                 del self.player_windows[player_name]
         
@@ -110,7 +110,7 @@ class App:
             self.pwm.populate(self.game)
 
     def save_data(self):
-        db_management.insert_player_stats(self.path_to_stats_db, self.game)
+        db_management.insert_all_player_stats(self.path_to_stats_db, self.game)
             
     def quit(self):
         self.window.destroy()

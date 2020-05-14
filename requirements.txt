@@ -1,1 +1,2 @@
 python-dotenv == 0.13.0
+tinydb == 4.1.1

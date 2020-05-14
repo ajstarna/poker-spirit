@@ -224,9 +224,10 @@ class Game:
 
     def __init__(self):
         self.game_stats = {}
+        self.game_id = None
         self.current_hand = None        
-        self.current_players = [] # ['adam', 'dave', 'bren', 'kev']
-        self.__current_sb = None # 'adam'
+        self.current_players = []
+        self.__current_sb = None 
         self.current_bb = None
         self.hands = []
 
@@ -264,6 +265,10 @@ class Game:
         for player_name, player in hand.players.items():
             if player_name not in self.game_stats:
                 self.game_stats[player_name] = defaultdict(int)
+                # for storage, we want the stats dictionary to know the player/game info
+                self.game_stats[player_name]['player_name'] = player_name
+                self.game_stats[player_name]['game_id'] = self.game_id
+                    
             player_stats = self.game_stats[player_name]
             player_stats['hands_played'] += 1
             if player.vpip:
