@@ -4,12 +4,9 @@
 This script helps to track players by entering hand information on the fly
 '''
 
+from analyze_hands import PlayerHand, LiveGameIO, Hand
 
-from analyze_hands import PlayerHand, LiveGame, Hand
-
-
-
-class TerminalGame(LiveGame):
+class TerminalGameIO(LiveGameIO):
 
     def run(self):
         self.init_game()
@@ -147,7 +144,7 @@ class TerminalGame(LiveGame):
         self.finish_hand()
 
 if __name__ == "__main__":
-    game = TerminalGame()
+    game = TerminalGameIO()
     game.run()
 
 

@@ -10,12 +10,12 @@ import tkinter as tk
 from tkinter import ttk
 
 #from analyze_hands import PlayerHand, assign_stats_from_hand, print_stats
-from analyze_hands import LiveGame, Hand
+from analyze_hands import LiveGameIO, Hand
 
-
+from db_management import LiveDBManager
 from hud import PlayerWindowsManager
 
-class GuiGame(LiveGame):
+class GuiGameIO(LiveGameIO):
 
     def __init__(self):
         super().__init__()
@@ -26,7 +26,8 @@ class GuiGame(LiveGame):
         self.players_var = tk.StringVar()
         self.players_var.set(f"Players = {self.current_players}")
 
-
+        self.db_manager = LiveDBManager()
+        self.career_stats_by_player = {}
         self.pwm = PlayerWindowsManager()
 
         self.small_blind_var = tk.StringVar()
@@ -161,7 +162,12 @@ class GuiGame(LiveGame):
     def end_hand(self):
         self.finish_hand()
         self.print_stats()
-        self.pwm.populate(self)
+        players_to_load = []
+        for player_name in self.current_players:
+            #if player_name not in self.career_stats_by_player:
+            players_to_load.append(player_name)
+        self.career_stats_by_player = self.db_manager.load_player_history(players_to_load, self.career_stats_by_player)
+        self.pwm.populate(self, self.career_stats_by_player)
         self.populate_game_window()
 
         
@@ -249,7 +255,7 @@ class GuiGame(LiveGame):
                                    command=partial(self.player_raises, self.current_player_var)                                                                                                         
         ).grid(row=4, column=3)
 
-        button_quit = ttk.Button(self.game_window,
+        button_advance = ttk.Button(self.game_window,
                                  text="Advance Stage",
                                  command=self.advance_stage
         ).grid(row=4, column=4)
@@ -261,6 +267,7 @@ class GuiGame(LiveGame):
     
     def quit(self):
         self.window.destroy()
+        self.db_manager.insert_player_stats(self)        
         self.pwm.destroy()
 
 
@@ -300,7 +307,7 @@ class GuiGame(LiveGame):
         self.window.mainloop()
 
 
-game = GuiGame()
+game = GuiGameIO()
 game.run()
 
 

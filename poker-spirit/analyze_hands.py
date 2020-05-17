@@ -220,7 +220,7 @@ class Hand:
 
 
 
-class Game:
+class GameIO:
 
     def __init__(self):
         self.game_stats = {}
@@ -415,24 +415,24 @@ class Game:
     def print_stats(self):
         for player_name in sorted(self.current_players, key=lambda x: x.lower() ):
             print(f'Player: {player_name}')
-            print(Game.hands_played_str(self.game_stats, player_name))
-            print(Game.vpip_str(self.game_stats, player_name))
-            print(Game.pfr_str(self.game_stats, player_name))
-            print(Game._3_bet_str(self.game_stats, player_name))
-            print(Game._4_bet_str(self.game_stats, player_name))            
+            print(GameIO.hands_played_str(self.game_stats, player_name))
+            print(GameIO.vpip_str(self.game_stats, player_name))
+            print(GameIO.pfr_str(self.game_stats, player_name))
+            print(GameIO._3_bet_str(self.game_stats, player_name))
+            print(GameIO._4_bet_str(self.game_stats, player_name))            
 
-            print(Game.folds_to_3_bet_str(self.game_stats, player_name))
-            print(Game.calls_3_bet_str(self.game_stats, player_name))
+            print(GameIO.folds_to_3_bet_str(self.game_stats, player_name))
+            print(GameIO.calls_3_bet_str(self.game_stats, player_name))
 
-            print(Game.folds_to_c_bet_str(self.game_stats, player_name))
-            print(Game.calls_c_bet_str(self.game_stats, player_name))
-            print(Game.raises_c_bet_str(self.game_stats, player_name))            
+            print(GameIO.folds_to_c_bet_str(self.game_stats, player_name))
+            print(GameIO.calls_c_bet_str(self.game_stats, player_name))
+            print(GameIO.raises_c_bet_str(self.game_stats, player_name))            
 
-            print(Game.c_bet_str(self.game_stats, player_name))
-            print(Game.checks_c_bet_str(self.game_stats, player_name))
+            print(GameIO.c_bet_str(self.game_stats, player_name))
+            print(GameIO.checks_c_bet_str(self.game_stats, player_name))
             print()
 
-class LiveGame(Game):
+class LiveGameIO(GameIO):
 
     def finish_hand(self):
         # in a live game, we need to manage who the blinds are
@@ -441,7 +441,7 @@ class LiveGame(Game):
         self.current_sb = self.current_players[self.current_sb_index]
 
         
-class FileGame(Game):
+class PokerStarsGameIO(GameIO):
     
     def __init__(self, path_to_file):
         super().__init__()
@@ -577,6 +577,6 @@ if __name__ == "__main__":
     # get env vars from .env file
     path_to_file = os.getenv("PATH_TO_FILE", ".")
     
-    game = FileGame(path_to_file)
+    game = PokerStarsGameIO(path_to_file)
     game.run_file()
 

@@ -5,8 +5,8 @@ import tkinter as tk
 from tkinter.filedialog import askopenfilename
 from tkinter import ttk
 
-from analyze_hands import FileGame, Game
-import db_management
+from analyze_hands import PokerStarsGameIO, GameIO
+from db_management import PokerStarsDBManager
 from dotenv import load_dotenv
 
 
@@ -27,25 +27,25 @@ class PlayerWindowsManager:
     def insert_stats_into_text(self, text, game_stats, player_name):
         text.delete(0.0, tk.END) # clear what is there
         text.insert(tk.END,
-                    Game.vpip_str(game_stats, player_name) + "\n"
+                    GameIO.vpip_str(game_stats, player_name) + "\n"
         )
         text.insert(tk.END,
-                    Game.pfr_str(game_stats, player_name) + "\n"
+                    GameIO.pfr_str(game_stats, player_name) + "\n"
         )
         text.insert(tk.END,
-                    Game._3_bet_str(game_stats, player_name) + "\n"
+                    GameIO._3_bet_str(game_stats, player_name) + "\n"
         )
         text.insert(tk.END,
-                    Game.folds_to_3_bet_str(game_stats, player_name) + "\n"
+                    GameIO.folds_to_3_bet_str(game_stats, player_name) + "\n"
         )
         text.insert(tk.END,
-                    Game.c_bet_str(game_stats, player_name) + "\n"
+                    GameIO.c_bet_str(game_stats, player_name) + "\n"
         )
         text.insert(tk.END,
-                    Game.folds_to_c_bet_str(game_stats, player_name) + "\n"                    
+                    GameIO.folds_to_c_bet_str(game_stats, player_name) + "\n"                    
         )
         text.insert(tk.END,
-                    Game._4_bet_str(game_stats, player_name) + "\n"                
+                    GameIO._4_bet_str(game_stats, player_name) + "\n"                
         )
 
         
@@ -92,6 +92,7 @@ class PlayerWindowsManager:
 class App:
     def __init__(self):
         self.filename = None
+        self.db_manager = PokerStarsDBManager()
         self.career_stats_by_player = {}
         self.pwm = PlayerWindowsManager()
         load_dotenv()
@@ -126,19 +127,18 @@ class App:
         if self.filename is None:
             return
         else:
-            self.game = FileGame(self.filename)
+            self.game = PokerStarsGameIO(self.filename)
             self.game.run_file()
             players_to_load = []
             for player_name in self.game.current_players:
-                if player_name not in self.career_stats_by_player:
-                    players_to_load.append(player_name)
+                #if player_name not in self.career_stats_by_player:
+                players_to_load.append(player_name)
             if len(players_to_load) > 0:
-                new_career_stats_by_player = db_management.load_player_history(players_to_load, self.path_to_stats_db)
-                self.career_stats_by_player.update(new_career_stats_by_player)
+                self.career_stats_by_player = self.db_manager.load_player_history(players_to_load, self.career_stats_by_player)
             self.pwm.populate(self.game, self.career_stats_by_player)
 
     def save_data(self):
-        db_management.insert_all_player_stats(self.game, self.path_to_stats_db)
+        self.db_manager.insert_player_stats(self.game)
             
     def quit(self):
         self.window.destroy()
