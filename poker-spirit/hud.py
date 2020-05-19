@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 import os
 
+from collections import defaultdict
+
 import tkinter as tk
 from tkinter.filedialog import askopenfilename
 from tkinter import ttk
 
-from analyze_hands import PokerStarsGameIO, GameIO
+from analyze_hands import PokerStarsGameIO, GameIO, assign_stats_from_hand
 from db_management import PokerStarsDBManager
 from dotenv import load_dotenv
 
@@ -48,9 +50,24 @@ class PlayerWindowsManager:
                     GameIO._4_bet_str(game_stats, player_name) + "\n"                
         )
 
-        
+
+    def merge_current_and_career_stats(self, game_stats, career_stats):
+        '''
+        If we have the career stats and the current game stats for a given player,
+        we want to display the career stats INCLUDING the current game, so return a new
+        dict with the summed values.
+        '''
+        new_stats = {}
+        for player, stats in game_stats.items():
+            new_stats[player] = defaultdict(int)
+            for stat, game_val in stats.items():
+                new_stats[player][stat] = game_val + career_stats[player][stat]
+        return new_stats
+    
     def populate(self, game, career_stats_by_player):
-        #for player_name in sorted(game.current_players, key=lambda x: x.lower()):
+
+        new_stats = self.merge_current_and_career_stats(game.game_stats, career_stats_by_player)
+        
         for player_name in sorted(game.current_players, key=lambda x: x.lower()):            
             if player_name in self.player_windows:
                 window = self.player_windows[player_name]
@@ -79,7 +96,7 @@ class PlayerWindowsManager:
                 window.title(player_name)
                 text = tk.Text(window)
 
-            self.insert_stats_into_text(text, career_stats_by_player, player_name)
+            self.insert_stats_into_text(text, new_stats, player_name)
             text.pack()
             
         # don't want to have windows lingering around for players who
@@ -129,12 +146,7 @@ class App:
         else:
             self.game = PokerStarsGameIO(self.filename)
             self.game.run_file()
-            players_to_load = []
-            for player_name in self.game.current_players:
-                #if player_name not in self.career_stats_by_player:
-                players_to_load.append(player_name)
-            if len(players_to_load) > 0:
-                self.career_stats_by_player = self.db_manager.load_player_history(players_to_load, self.career_stats_by_player)
+            self.career_stats_by_player = self.db_manager.load_player_history(self.game, self.career_stats_by_player)
             self.pwm.populate(self.game, self.career_stats_by_player)
 
     def save_data(self):

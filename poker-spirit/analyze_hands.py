@@ -218,6 +218,70 @@ class Hand:
             player.calls_flop(active_c_bet=self.active_flop_c_bet)
         
 
+def assign_stats_from_hand(game_stats, hand):
+    '''
+    Looks through hand information, and adds to the stats for each
+    corresponding player in game_stats.
+    If a player in the hand is not in game_stats, then add them.
+    '''
+
+    for player_name, player in hand.players.items():
+        if player_name not in game_stats:
+            player_stats = defaultdict(int)
+            game_stats[player_name] = player_stats
+            # for storage, we want the stats dictionary to know the player/game info
+            #game_stats[player_name]['player_name'] = player_name
+            #game_stats[player_name]['game_id'] = self.game_id
+        else:
+            player_stats = game_stats[player_name]
+            
+        player_stats['hands_played'] += 1
+        if player.vpip:
+            player_stats['vpip'] += 1
+        if player.pfr:
+            player_stats['pfr'] += 1
+
+        if player._3_bet:
+            player_stats['3_bet'] += 1
+            player_stats['3_bet_opp'] += 1            
+        if player.folds_3_bet_opp:
+            player_stats['folds_3_bet_opp'] += 1            
+            player_stats['3_bet_opp'] += 1
+        if player.calls_3_bet_opp:
+            player_stats['calls_3_bet_opp'] += 1            
+            player_stats['3_bet_opp'] += 1
+
+        if player._5_bet:
+            player_stats['5_bet'] += 1
+
+        if player.folds_to_3_bet:
+            player_stats['folds_to_3_bet'] += 1
+            player_stats['seen_3_bet'] += 1            
+        elif player.calls_3_bet:
+            player_stats['calls_3_bet'] += 1
+            player_stats['seen_3_bet'] += 1            
+        elif player._4_bet:
+            player_stats['4_bet'] += 1
+            player_stats['seen_3_bet'] += 1            
+
+        if player.c_bet:
+            player_stats['c_bet'] += 1
+            player_stats['c_bet_opp'] += 1            
+        elif player.checks_c_bet_opp:
+            player_stats['checks_c_bet_opp'] += 1
+            player_stats['c_bet_opp'] += 1
+
+        if player.folds_to_c_bet:
+            player_stats['folds_to_c_bet'] += 1
+            player_stats['seen_c_bet'] += 1            
+        elif player.calls_c_bet:
+            player_stats['calls_c_bet'] += 1
+            player_stats['seen_c_bet'] += 1            
+        elif player.raises_c_bet:
+            player_stats['raises_c_bet'] += 1
+            player_stats['seen_c_bet'] += 1            
+
+            
 
 
 class GameIO:
@@ -253,69 +317,10 @@ class GameIO:
         '''
         Update the blind positions
         '''
-        self.assign_stats_from_hand(self.current_hand)
+        self.current_players = self.current_hand.player_order # for knowing who is still at the table        
+        assign_stats_from_hand(self.game_stats, self.current_hand)
         self.hands.append(self.current_hand)
         
-    def assign_stats_from_hand(self, hand):
-        '''
-        Looks through current hand information, and adds to the stats for each
-        corresponding player in game_stats
-        '''
-        self.current_players = hand.player_order # for knowing who is still at the table
-        for player_name, player in hand.players.items():
-            if player_name not in self.game_stats:
-                self.game_stats[player_name] = defaultdict(int)
-                # for storage, we want the stats dictionary to know the player/game info
-                self.game_stats[player_name]['player_name'] = player_name
-                self.game_stats[player_name]['game_id'] = self.game_id
-                    
-            player_stats = self.game_stats[player_name]
-            player_stats['hands_played'] += 1
-            if player.vpip:
-                player_stats['vpip'] += 1
-            if player.pfr:
-                player_stats['pfr'] += 1
-
-            if player._3_bet:
-                player_stats['3_bet'] += 1
-                player_stats['3_bet_opp'] += 1            
-            if player.folds_3_bet_opp:
-                player_stats['folds_3_bet_opp'] += 1            
-                player_stats['3_bet_opp'] += 1
-            if player.calls_3_bet_opp:
-                player_stats['calls_3_bet_opp'] += 1            
-                player_stats['3_bet_opp'] += 1
-
-            if player._5_bet:
-                player_stats['5_bet'] += 1
-
-            if player.folds_to_3_bet:
-                player_stats['folds_to_3_bet'] += 1
-                player_stats['seen_3_bet'] += 1            
-            elif player.calls_3_bet:
-                player_stats['calls_3_bet'] += 1
-                player_stats['seen_3_bet'] += 1            
-            elif player._4_bet:
-                player_stats['4_bet'] += 1
-                player_stats['seen_3_bet'] += 1            
-
-            if player.c_bet:
-                player_stats['c_bet'] += 1
-                player_stats['c_bet_opp'] += 1            
-            elif player.checks_c_bet_opp:
-                player_stats['checks_c_bet_opp'] += 1
-                player_stats['c_bet_opp'] += 1
-
-            if player.folds_to_c_bet:
-                player_stats['folds_to_c_bet'] += 1
-                player_stats['seen_c_bet'] += 1            
-            elif player.calls_c_bet:
-                player_stats['calls_c_bet'] += 1
-                player_stats['seen_c_bet'] += 1            
-            elif player.raises_c_bet:
-                player_stats['raises_c_bet'] += 1
-                player_stats['seen_c_bet'] += 1            
-
     @staticmethod
     def hands_played_str(game_stats, player_name):
         stats = game_stats[player_name]
