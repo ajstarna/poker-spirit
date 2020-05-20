@@ -51,22 +51,22 @@ class PlayerWindowsManager:
         )
 
 
-    def merge_current_and_career_stats(self, game_stats, career_stats):
+    def merge_current_and_career_stats(self, game, career_stats):
         '''
         If we have the career stats and the current game stats for a given player,
         we want to display the career stats INCLUDING the current game, so return a new
         dict with the summed values.
         '''
         new_stats = {}
-        for player, stats in game_stats.items():
+        for player in game.current_players:
+            stats = game.game_stats[player]
             new_stats[player] = defaultdict(int)
             for stat, game_val in stats.items():
                 new_stats[player][stat] = game_val + career_stats[player][stat]
         return new_stats
     
     def populate(self, game, career_stats_by_player):
-
-        new_stats = self.merge_current_and_career_stats(game.game_stats, career_stats_by_player)
+        new_stats = self.merge_current_and_career_stats(game, career_stats_by_player)
         
         for player_name in sorted(game.current_players, key=lambda x: x.lower()):            
             if player_name in self.player_windows:
