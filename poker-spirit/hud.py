@@ -123,9 +123,7 @@ class AllPlayerWindow:
     def destroy(self):
         self.window.destroy()
         
-    def insert_stats_into_text(self, game):
-        game_stats = game.game_stats
-
+    def insert_stats_into_text(self, game, game_stats):
         # clear treeview
         self.tree.delete(*self.tree.get_children())
         for player_name in game.current_players:
@@ -133,7 +131,7 @@ class AllPlayerWindow:
             hands_played = stats['hands_played']
             vpip = 0.0
             pfr = 0.0
-            
+
             if hands_played > 0:
                 vpip = round(100*stats["vpip"]/hands_played, 1)
                 pfr = round(100*stats["pfr"]/hands_played, 1)
@@ -144,7 +142,7 @@ class AllPlayerWindow:
     def populate(self, game, career_stats_by_player):
         new_stats = merge_current_and_career_stats(game, career_stats_by_player)
 
-        self.insert_stats_into_text(game)
+        self.insert_stats_into_text(game, new_stats)
         self.tree.pack(side=tk.TOP,fill=tk.X)
    
         
