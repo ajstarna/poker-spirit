@@ -11,9 +11,7 @@ from analyze_hands import PokerStarsGameIO, GameIO, assign_stats_from_hand
 from db_management import PokerStarsDBManager
 from dotenv import load_dotenv
 
-
-class PlayerStatsWindow:
-    def merge_current_and_career_stats(self, game, career_stats):
+def merge_current_and_career_stats(game, career_stats):
         '''
         If we have the career stats and the current game stats for a given player,
         we want to display the career stats INCLUDING the current game, so return a new
@@ -27,13 +25,7 @@ class PlayerStatsWindow:
                 new_stats[player][stat] = game_val + career_stats[player][stat]
         return new_stats
 
-    def populate(self, game, career_stats_by_player):
-        pass
-
-    def destroy(self):
-        pass
-
-class PlayerWindowsManager(PlayerStatsWindow):
+class PlayerWindowsManager:
     # making this its own class so that we can use this code in the live tracker gui as well
     def __init__(self):
         self.player_windows = {}
@@ -70,7 +62,7 @@ class PlayerWindowsManager(PlayerStatsWindow):
         )
     
     def populate(self, game, career_stats_by_player):
-        new_stats = self.merge_current_and_career_stats(game, career_stats_by_player)
+        new_stats = merge_current_and_career_stats(game, career_stats_by_player)
         
         for player_name in sorted(game.current_players, key=lambda x: x.lower()):            
             if player_name in self.player_windows:
@@ -110,17 +102,23 @@ class PlayerWindowsManager(PlayerStatsWindow):
                 del self.player_windows[player_name]
                 del self.player_career_windows[player_name]    
 
-class AllPlayerWindowManager(PlayerStatsWindow):
+class AllPlayerWindow:
     # making this its own class so that we can use this code in the live tracker gui as well
     def __init__(self):
         self.window = tk.Tk()
         self.window.geometry("640x512")
         self.window.title("Stats")
         self.tree = ttk.Treeview(self.window, columns=('player', 'hands', 'vpip', 'pfr'), show='headings')   
+        
         self.tree.heading('player', text="Player")
         self.tree.heading('hands', text="Hands Played")
-        self.tree.heading('vpip', text="VPIP")
-        self.tree.heading('pfr', text="PFR")
+        self.tree.heading('vpip', text="VP")
+        self.tree.heading('pfr', text="PR")
+
+        self.tree.column("player", minwidth=5, width=30)
+        self.tree.column("hands", minwidth=2, width=4) 
+        self.tree.column("vpip", minwidth=2, width=4) 
+        self.tree.column("pfr", minwidth=2, width=4) 
         
     def destroy(self):
         self.window.destroy()
@@ -135,7 +133,7 @@ class AllPlayerWindowManager(PlayerStatsWindow):
             hands_played = stats['hands_played']
             vpip = 0.0
             pfr = 0.0
-
+            
             if hands_played > 0:
                 vpip = round(100*stats["vpip"]/hands_played, 1)
                 pfr = round(100*stats["pfr"]/hands_played, 1)
@@ -144,7 +142,7 @@ class AllPlayerWindowManager(PlayerStatsWindow):
 
 
     def populate(self, game, career_stats_by_player):
-        new_stats = self.merge_current_and_career_stats(game, career_stats_by_player)
+        new_stats = merge_current_and_career_stats(game, career_stats_by_player)
 
         self.insert_stats_into_text(game)
         self.tree.pack(side=tk.TOP,fill=tk.X)
@@ -155,8 +153,10 @@ class App:
         self.filename = None
         self.db_manager = PokerStarsDBManager()
         self.career_stats_by_player = {}
-        self.pwm = None
+        self.pwm = PlayerWindowsManager()
         self.one_window = None
+        self.stats_window = None
+        self.show_player_stats = None
         load_dotenv()
         # get env vars from .env file
         self.path_to_hands = os.getenv("PATH_TO_HANDS", ".")
@@ -189,16 +189,17 @@ class App:
         if self.filename is None:
             return
         else:
-            if self.pwm is None:
-                if self.one_window.get():
-                    self.pwm = AllPlayerWindowManager()
-                else:
-                    self.pwm = PlayerWindowsManager()
-
             self.game = PokerStarsGameIO(self.filename)
             self.game.run_file()
             self.career_stats_by_player = self.db_manager.load_player_history(self.game, self.career_stats_by_player)
-            self.pwm.populate(self.game, self.career_stats_by_player)
+
+            if self.show_player_stats.get():
+                self.pwm.populate(self.game, self.career_stats_by_player)
+
+            if self.one_window.get():
+                if self.stats_window is None:
+                    self.stats_window = AllPlayerWindow()
+                self.stats_window.populate(self.game, self.career_stats_by_player)
 
     def save_data(self):
         self.db_manager.insert_player_stats(self.game)
@@ -210,7 +211,7 @@ class App:
     def main(self):
         self.game = None
         self.window = tk.Tk()
-        self.window.geometry("575x115")
+        self.window.geometry("575x240")
         
         self.window.title( "Poker Spirit")
 
@@ -226,6 +227,10 @@ class App:
 
         self.one_window = tk.IntVar()
         ttk.Checkbutton(self.window, text="All in One Window", variable=self.one_window).pack()
+
+        self.show_player_stats = tk.IntVar()
+        self.show_player_stats.set(1)
+        ttk.Checkbutton(self.window, text="Show Player Stats", variable=self.show_player_stats).pack()
 
         button_run = ttk.Button(self.window,
                                 text="Read and Analyze File",
