@@ -30,8 +30,8 @@ class PlayerStatsWindow:
     def populate(self, game, career_stats_by_player):
         pass
 
-    def destroy():
-        PokerStarsGameIO
+    def destroy(self):
+        pass
 
 class PlayerWindowsManager(PlayerStatsWindow):
     # making this its own class so that we can use this code in the live tracker gui as well
