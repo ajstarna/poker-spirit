@@ -357,7 +357,7 @@ class GameIO:
     def _4_bet_str(game_stats, player_name):
         stats = game_stats[player_name]
         if stats['4_bet_opp'] > 0:        
-            return f'4-Bet = {stats["3_bet"]}/{stats["4_bet_opp"]} = {round(100*stats["4_bet"]/stats["4_bet_opp"], 1)}'
+            return f'4-Bet = {stats["4_bet"]}/{stats["4_bet_opp"]} = {round(100*stats["4_bet"]/stats["4_bet_opp"], 1)}'
         else:
             return f'4-Bet = NA'
 
