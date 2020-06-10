@@ -1,3 +1,6 @@
+# Player 1 folds pre-flop
+# So only Players 2 and 3 see the flop
+
 PokerStars Hand #1: Tournament #1 Test Game
 Table '1' 9-max Seat #1 is the button
 Seat 1: Player1 (1000 in chips) 

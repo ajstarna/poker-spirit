@@ -1,3 +1,5 @@
+# Players 1, 2, and 3 should have a VPiP for this hand
+
 PokerStars Hand #1: Tournament #1 Test Game
 Table '1' 9-max Seat #1 is the button
 Seat 1: Player1 (1000 in chips) 
@@ -15,6 +17,8 @@ Player3: raises 270 to 350
 Player1: folds
 Player2: folds
 *** SUMMARY ***
+
+# Everyone checks or folds so no VPiP for this hand
 
 PokerStars Hand #2: Tournament #1 Test Game
 Table '1' 9-max Seat #1 is the button
