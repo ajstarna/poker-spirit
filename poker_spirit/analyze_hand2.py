@@ -21,7 +21,7 @@ Using https://regex101.com/ for testing.
 # Returns two groups currancy format and value
 MONEY_PATTERN = '([$]?)(\\d*.?\\d+)'
 # New Hand
-HAND_START_PATTERN = re.compile(f'PokerStars.*Hand #(\\d+)')
+HAND_START_PATTERN = re.compile(f'PokerStars Hand #(\\d+): (.+)')
 # Table Info
 TABLE_PATTERN = re.compile(f'Table \\\'(.+)\\\' (\\d)-max Seat #(\\d) is the button')
 # Seat pattern
@@ -160,7 +160,7 @@ class Card:
         return self.__str__()
 
 class Fraction:
-    def __init__(self, n, d):
+    def __init__(self, n = 0, d = 0):
         self._n = n
         self._d = d
 
@@ -454,6 +454,9 @@ class Hand:
         
         return player
 
+    def getAllPlayers(self):
+        return self._players.values()
+
     @property
     def table_name(self):
         return self._table_name
@@ -721,14 +724,126 @@ class Hand:
         return output
 
 
+class PlayerStats:
+    def __init__(self, name):
+        self._name = name
+        self._hands_played = 0
+        # Flops seen
+        self._fs = 0
+        self._vpip = 0
+        self._pfr = 0
+        self._cpfr = Fraction()
+        self._uopfr = Fraction()
+
+    @property
+    def name(self):
+        return self._name
+
+    @property
+    def hands_played(self):
+        return self._hands_played
+
+    def increaseHandsPlayed(self):
+        self._hands_played += 1
+
+    @property
+    def fs(self):
+        return self._fs
+
+    def increaseFS(self):
+        self._fs += 1
+
+    @property
+    def vpip(self):
+        return self._vpip
+
+    def increaseVPiP(self):
+        self._vpip += 1
+
+    @property
+    def pfr(self):
+        return self._pfr
+
+    def increasePFR(self):
+        self._pfr += 1
+
+    @property
+    def cpfr(self):
+        return self._cpfr
+
+    def increaseCPFR(self):
+        self._cpfr.numerator += 1
+
+    def increaseOptCPFR(self):
+        self._cpfr.denominator += 1
+
+    @property
+    def uopfr(self):
+        return self._uopfr
+
+    def increaseUOPFR(self):
+        self._uopfr.numerator += 1
+
+    def increaseOptUOPFR(self):
+        self._uopfr.denominator += 1
+
 class Game:
     def __init__(self):
         self._hands = []
+        self._player_stats = {}
 
     def addHand(self, hand):
         # Add hand to array list for testing and history
         self._hands.append(hand)
 
+        # Update stats
+        # Get players in hand
+        players = hand.getAllPlayers()
+        for player_hand in players:
+            # Get player
+            player_name = player_hand.name
+            player_stats = self.getPlayerStats(player_name)
+
+            # Update stats
+            # Increase the number of hands played by 1
+            player_stats.increaseHandsPlayed()
+
+            # Has seen flop?
+            if player_hand.hasSeenFlop():
+                player_stats.increaseFS()
+
+            # VPiP
+            if player_hand.hasVPiP():
+                player_stats.increaseVPiP()
+
+            # PFR
+            if player_hand.hasPFR():
+                player_stats.increasePFR()
+
+            # CPFR
+            if player_hand.hasCPFR():
+                player_stats.increaseCPFR()
+
+            if player_hand.hasOptCPFR():
+                player_stats.increaseOptCPFR()
+
+            # UOPFR
+            if player_hand.hasUOPFR():
+                player_stats.increaseUOPFR()
+
+            if player_hand.hasOptUOPFR():
+                player_stats.increaseOptUOPFR()
+
+    def getPlayerStats(self, player_name):
+        # Return player stats if already exists
+        if player_name in self._player_stats:
+            return self._player_stats[player_name]
+        
+        # Create new player and add them to player stats dict
+        player_stats = PlayerStats(player_name)
+        self._player_stats[player_name] = player_stats
+        
+        return player_stats
 
 def string_to_number(string):
     string = string.strip()
@@ -786,7 +901,7 @@ def parse_file(path_to_file, debug = False):
     game = Game()
 
     # Open file for parsing
-    with open(path_to_file, 'r') as file:
+    with open(path_to_file, 'r', encoding='utf-8-sig') as file:
         # Read file
         lines = file.readlines()
 
