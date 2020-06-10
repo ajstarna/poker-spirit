@@ -679,7 +679,7 @@ def create_card_from_string(card_string, suit_string):
     return Card(card_val, suit)
     
 def parse_file(path_to_file, debug = False):
-    print(f"opening file = {path_to_file}")
+    print(f'Parsing file: {path_to_file}')
 
     game = Game()
 
