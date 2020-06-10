@@ -181,7 +181,13 @@ class Fraction:
         self._d = val
 
     def getPercent(self, precision=1):
+        if self._d == 0:
+            return 0.0
+        
         return round(100*self._n/self._d, precision)
+
+    def __str__(self):
+        return f'{self._n}/{self._d}'
 
 # Player info for hand
 # Used for parsing file
@@ -748,21 +754,21 @@ class PlayerStats:
 
     @property
     def fs(self):
-        return self._fs
+        return Fraction(self._fs, self._hands_played)
 
     def increaseFS(self):
         self._fs += 1
 
     @property
     def vpip(self):
-        return self._vpip
+        return Fraction(self._vpip, self._hands_played)
 
     def increaseVPiP(self):
         self._vpip += 1
 
     @property
     def pfr(self):
-        return self._pfr
+        return Fraction(self._pfr, self._hands_played)
 
     def increasePFR(self):
         self._pfr += 1
@@ -786,6 +792,11 @@ class PlayerStats:
 
     def increaseOptUOPFR(self):
         self._uopfr.denominator += 1
+
+    def __str__(self):
+        output = f'{self.name} / #h {self.hands_played} / fs {self.fs} / VPiP {self.vpip}\n'
+        output += f'pfr {self.pfr} / cpfr {self.cpfr} / uopfr {self.uopfr}'
+        return output
 
 class Game:
     def __init__(self):
@@ -844,6 +855,13 @@ class Game:
         self._player_stats[player_name] = player_stats
         
         return player_stats
+
+    def __str__(self):
+        output = f'Game Stats:\n\n'
+        for player in self._player_stats.values():
+            output += f'{player}\n\n'
+
+        return output
 
 def string_to_number(string):
     string = string.strip()
@@ -1241,6 +1259,8 @@ if __name__ == "__main__":
     # get env vars from .env file
     path_to_file = os.getenv("PATH_TO_FILE", ".")
 
-    parse_file(path_to_file, True)
+    game = parse_file(path_to_file, True)
+
+    print(game)
 
     input('Press any key to continue ...\n')
