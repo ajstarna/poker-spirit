@@ -216,15 +216,17 @@ class PlayerHand:
         self._uopfr = False
         self._opt_uopfr = False
         # Three-bet Pre-flop (3B)
-        # Folded to Three-Bet Preflop (F3B)
         self._3b = False
-        self._f3b = False
         self._opt_3b = False
+        # Folded to Three-Bet Preflop (F3B)
+        self._f3b = False
+        self._opt_f3b = False
         # Four-bet Pre-flop (4B)
-        # Folded to Four-Bet Preflop (F4B)
         self._4b = False
-        self._f4b = False
         self._opt_4b = False
+        # Folded to Four-Bet Preflop (F4B)
+        self._f4b = False
+        self._opt_f4b = False
 
     @property
     def name(self):
@@ -327,6 +329,13 @@ class PlayerHand:
 
     def p3b(self):
         self._3b = True
+
+    # Opt for 3B
+    def hasOpt3B(self):
+        return self._opt_3b
+
+    def opt3B(self):
+        self._opt_3b = True
     
     # Folded to Three-Bet Preflop (F3B)
     def hasF3B(self):
@@ -335,12 +344,12 @@ class PlayerHand:
     def f3b(self):
         self._f3b = True
 
-    # Opt for 3B
-    def hasOpt3B(self):
-        return self._opt_3b
+    # Opt to fold 3B
+    def hasOptF3B(self):
+        return self._opt_f3b
 
-    def opt3B(self):
-        self._opt_3b = True
+    def optF3B(self):
+        self._opt_f3b = True
 
     # Four-bet Pre-flop (4B)
     def has4B(self):
@@ -349,6 +358,13 @@ class PlayerHand:
     def p4b(self):
         self._4b = True
 
+    # Opt for 4B
+    def hasOpt4B(self):
+        return self._opt_4b
+
+    def opt4B(self):
+        self._opt_4b = True
+
     # Folded to Four-Bet Preflop (F4B)
     def hasF4B(self):
         return self._f4b
@@ -356,12 +372,12 @@ class PlayerHand:
     def f4b(self):
         self._f4b = True
 
-    # Opt for 4B
-    def hasOpt4B(self):
-        return self._opt_4b
+    # Opt to fold 4B
+    def hasOptF4B(self):
+        return self._opt_f4b
 
-    def opt4B(self):
-        self._opt_4b = True
+    def optF4B(self):
+        self._opt_f4b = True
 
     def __str__(self):
         # Info
@@ -584,6 +600,16 @@ class Hand:
                 and not self._pre_flop_first_action:
                 player.optUOPFR()
 
+            # Check if someone already raised and opportunity for 3B
+            if self._number_of_raises_pre_flop == 1:
+                player.opt3B()
+                player.optF3B()
+
+            # Check if two people already raised and opportunity for 4B
+            if self._number_of_raises_pre_flop == 2:
+                player.opt4B()
+                player.optF4B()
+
             # Should be called last
             self._pre_flop_first_action = False
 
@@ -595,6 +621,7 @@ class Hand:
         player.vpip()
 
         # Is this before the flop?
+        # This might be immposible code
         if self._hand_state == HAND_STATE.PRE_FLOP:
             # Check if opportunity for Unopened Preflop Raise (UOPFR)
             # No one before has bet or raised, everyone has called or folded
@@ -644,6 +671,18 @@ class Hand:
                 player.uopfr()
                 player.optUOPFR()
 
+            # Check if someone already raised (3B)
+            if self._number_of_raises_pre_flop == 1:
+                player.p3b()
+                player.opt3B()
+                player.optF3B()
+
+            # Check if two people already raised (4B)
+            if self._number_of_raises_pre_flop == 2:
+                player.p4b()
+                player.opt4B()
+                player.optF4B()
+
             # Increase number of raises in pre-flop
             self._number_of_raises_pre_flop += 1
 
@@ -666,6 +705,18 @@ class Hand:
                 and not self._pre_flop_bet \
                 and not self._pre_flop_first_action:
                 player.optUOPFR()
+
+            # Check if someone already raised and opportunity for 3B
+            if self._number_of_raises_pre_flop == 1:
+                player.f3b()
+                player.opt3B()
+                player.optF3B()
+
+            # Check if two people already raised and opportunity for 4B
+            if self._number_of_raises_pre_flop == 2:
+                player.f4b()
+                player.opt4B()
+                player.optF4B()
 
             # Should be called last
             self._pre_flop_first_action = False
@@ -740,6 +791,10 @@ class PlayerStats:
         self._pfr = 0
         self._cpfr = Fraction()
         self._uopfr = Fraction()
+        self._3b = Fraction()
+        self._f3b = Fraction()
+        self._4b = Fraction()
+        self._f4b = Fraction()
 
     @property
     def name(self):
@@ -793,9 +848,50 @@ class PlayerStats:
     def increaseOptUOPFR(self):
         self._uopfr.denominator += 1
 
+    @property
+    def p3b(self):
+        return self._3b
+
+    def increase3B(self):
+        self._3b.numerator += 1
+
+    def increaseOpt3B(self):
+        self._3b.denominator += 1
+
+    @property
+    def f3b(self):
+        return self._f3b
+
+    def increaseF3B(self):
+        self._f3b.numerator += 1
+
+    def increaseOptF3B(self):
+        self._f3b.denominator += 1
+
+    @property
+    def p4b(self):
+        return self._4b
+
+    def increase4B(self):
+        self._4b.numerator += 1
+
+    def increaseOpt4B(self):
+        self._4b.denominator += 1
+
+    @property
+    def f4b(self):
+        return self._f4b
+
+    def increaseF4B(self):
+        self._f4b.numerator += 1
+
+    def increaseOptF4B(self):
+        self._f4b.denominator += 1
+
     def __str__(self):
         output = f'{self.name} / #h {self.hands_played} / fs {self.fs} / VPiP {self.vpip}\n'
-        output += f'pfr {self.pfr} / cpfr {self.cpfr} / uopfr {self.uopfr}'
+        output += f'PFR {self.pfr} / CPFR {self.cpfr} / UOPFR {self.uopfr}\n'
+        output += f'3B {self.p3b} / F3B {self.f3b} / 4B {self.p4b} / F4B {self.f4b}'
         return output
 
 class Game:
@@ -844,6 +940,34 @@ class Game:
 
             if player_hand.hasOptUOPFR():
                 player_stats.increaseOptUOPFR()
+
+            # 3B
+            if player_hand.has3B():
+                player_stats.increase3B()
+
+            if player_hand.hasOpt3B():
+                player_stats.increaseOpt3B()
+
+            # F3B
+            if player_hand.hasF3B():
+                player_stats.increaseF3B()
+
+            if player_hand.hasOptF3B():
+                player_stats.increaseOptF3B()
+
+            # 4B
+            if player_hand.has4B():
+                player_stats.increase4B()
+
+            if player_hand.hasOpt4B():
+                player_stats.increaseOpt4B()
+
+            # F4B
+            if player_hand.hasF4B():
+                player_stats.increaseF4B()
+
+            if player_hand.hasOptF4B():
+                player_stats.increaseOptF4B()
 
     def getPlayerStats(self, player_name):
         # Return player stats if already exists
