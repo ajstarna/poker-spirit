@@ -29,5 +29,5 @@ Dealt to Player1 [Jd 6s]
 Player4: folds
 Player1: folds
 Player2: folds
-Player3: check
+Player3: checks
 *** SUMMARY ***
