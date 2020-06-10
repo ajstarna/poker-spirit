@@ -9,16 +9,16 @@ Seat 4: Player4 (1000 in chips)
 Player2: posts small blind 10
 Player3: posts big blind 20
 *** HOLE CARDS ***
-Dealt to Player1 [Jd 6s]
-Player4: folds
-Player1: bets 80
+Dealt to Player1 [Ah 2c]
+Player4: raises 20 to 80
+Player1: folds
 Player2: calls 80
 Player3: raises 270 to 350
-Player1: folds
+Player4: folds
 Player2: folds
 *** SUMMARY ***
 
-# Everyone checks or folds so no VPiP for this hand
+# Everyone folds so no VPiP for this hand
 
 PokerStars Hand #2: Tournament #1 Test Game
 Table '1' 9-max Seat #1 is the button
@@ -33,5 +33,28 @@ Dealt to Player1 [Jd 6s]
 Player4: folds
 Player1: folds
 Player2: folds
+*** SUMMARY ***
+
+# Player 2 calls in the pre-flop
+# Player 3 checks the pre-flop but bets in the flop
+# So Player 2 and 3 should have a VPiP
+
+PokerStars Hand #2: Tournament #1 Test Game
+Table '1' 9-max Seat #1 is the button
+Seat 1: Player1 (1000 in chips) 
+Seat 2: Player2 (1000 in chips)
+Seat 3: Player3 (1000 in chips) 
+Seat 4: Player4 (1000 in chips) 
+Player2: posts small blind 10
+Player3: posts big blind 20
+*** HOLE CARDS ***
+Dealt to Player1 [Jd 6s]
+Player4: folds
+Player1: folds
+Player2: calls 10
 Player3: checks
+*** FLOP *** [Jh 6h Th]
+Player2: checks
+Player3: bets 20
+Player2: folds
 *** SUMMARY ***

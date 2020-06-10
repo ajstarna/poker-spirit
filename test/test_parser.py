@@ -51,10 +51,10 @@ class TestParser(unittest.TestCase):
         player4 = hand1.getPlayer('Player4')
 
         # In first hand all players but Player4 has a vpip
-        self.assertTrue(player1.hasVPiP(), 'VPiP - Hand 1 - Player 1')
+        self.assertFalse(player1.hasVPiP(), 'VPiP - Hand 1 - Player 1')
         self.assertTrue(player2.hasVPiP(), 'VPiP - Hand 1 - Player 2')
         self.assertTrue(player3.hasVPiP(), 'VPiP - Hand 1 - Player 3')
-        self.assertFalse(player4.hasVPiP(), 'VPiP - Hand 1 - Player 4')
+        self.assertTrue(player4.hasVPiP(), 'VPiP - Hand 1 - Player 4')
 
         # Get second hand
         hand2 = game._hands[1]
@@ -64,12 +64,27 @@ class TestParser(unittest.TestCase):
         player3 = hand2.getPlayer('Player3')
         player4 = hand2.getPlayer('Player4')
 
-        # In second hand everyone folds and the big button checks
+        # In second hand everyone folds and the big blind checks
         # No one should have a vpip
         self.assertFalse(player1.hasVPiP(), 'VPiP - Hand 2 - Player 1')
         self.assertFalse(player2.hasVPiP(), 'VPiP - Hand 2 - Player 2')
         self.assertFalse(player3.hasVPiP(), 'VPiP - Hand 2 - Player 3')
         self.assertFalse(player4.hasVPiP(), 'VPiP - Hand 2 - Player 4')
+
+        # Get third hand
+        hand3 = game._hands[2]
+
+        player1 = hand3.getPlayer('Player1')
+        player2 = hand3.getPlayer('Player2')
+        player3 = hand3.getPlayer('Player3')
+        player4 = hand3.getPlayer('Player4')
+
+        # In third hand the small blind calls big blind
+        # The big blind checks and then bets in the flop
+        self.assertFalse(player1.hasVPiP(), 'VPiP - Hand 3 - Player 1')
+        self.assertTrue(player2.hasVPiP(), 'VPiP - Hand 3 - Player 2')
+        self.assertTrue(player3.hasVPiP(), 'VPiP - Hand 3 - Player 3')
+        self.assertFalse(player4.hasVPiP(), 'VPiP - Hand 3 - Player 4')
 
     # Test Preflop Raise (PFR)
     def test_pfr(self):
