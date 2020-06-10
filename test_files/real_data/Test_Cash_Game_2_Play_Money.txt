@@ -1,0 +1,4130 @@
+﻿PokerStars Hand #214597033434:  Hold'em No Limit (50/100) - 2020/05/28 19:59:09 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 1: camshaft_97 (14581 in chips) 
+Seat 2: Kippe940 (16985 in chips) 
+Seat 3: bibo.bibino (20452 in chips) 
+Seat 4: ComplexInteger (10000 in chips) 
+Seat 5: simmer_10968 (7658 in chips) 
+Seat 6: OverallScoob (8900 in chips) 
+Seat 7: mmartins525 (20827 in chips) 
+Seat 8: doeschka (2586 in chips) 
+Seat 9: madame1958 (12919 in chips) 
+bibo.bibino: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Js 5s]
+simmer_10968: calls 100
+OverallScoob: calls 100
+mmartins525: folds 
+doeschka: calls 100
+madame1958: folds 
+madame1958 leaves the table
+camshaft_97: folds 
+Kippe940: folds 
+bibo.bibino: calls 50
+ComplexInteger: checks 
+*** FLOP *** [Jh 7h 8d]
+bibo.bibino: checks 
+ComplexInteger: bets 200
+simmer_10968: calls 200
+OverallScoob: folds 
+doeschka: calls 200
+bibo.bibino: calls 200
+*** TURN *** [Jh 7h 8d] [3d]
+bibo.bibino: checks 
+ComplexInteger: bets 200
+simmer_10968: calls 200
+doeschka: folds 
+bibo.bibino: folds 
+*** RIVER *** [Jh 7h 8d 3d] [2h]
+ComplexInteger: bets 200
+Jackson_5_O joins the table at seat #9 
+simmer_10968: calls 200
+*** SHOW DOWN ***
+ComplexInteger: shows [Js 5s] (a pair of Jacks)
+simmer_10968: mucks hand 
+ComplexInteger collected 1984 from pot
+*** SUMMARY ***
+Total pot 2100 | Rake 116 
+Board [Jh 7h 8d 3d 2h]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 (button) folded before Flop (didn't bet)
+Seat 3: bibo.bibino (small blind) folded on the Turn
+Seat 4: ComplexInteger (big blind) showed [Js 5s] and won (1984) with a pair of Jacks
+Seat 5: simmer_10968 mucked [8s Ah]
+Seat 6: OverallScoob folded on the Flop
+Seat 7: mmartins525 folded before Flop (didn't bet)
+Seat 8: doeschka folded on the Turn
+Seat 9: madame1958 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597080294:  Hold'em No Limit (50/100) - 2020/05/28 20:00:48 ET
+Table 'Hubei V' 9-max (Play Money) Seat #3 is the button
+Seat 1: camshaft_97 (14581 in chips) 
+Seat 2: Kippe940 (16985 in chips) 
+Seat 3: bibo.bibino (20152 in chips) 
+Seat 4: ComplexInteger (11284 in chips) 
+Seat 5: simmer_10968 (6958 in chips) 
+Seat 6: OverallScoob (10000 in chips) 
+Seat 7: mmartins525 (20827 in chips) 
+Seat 8: doeschka (2286 in chips) 
+Seat 9: Jackson_5_O (7060 in chips) 
+ComplexInteger: posts small blind 50
+simmer_10968: posts big blind 100
+Jackson_5_O: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2s Jd]
+OverallScoob: raises 350 to 450
+mmartins525: folds 
+doeschka: folds 
+Jackson_5_O: raises 6610 to 7060 and is all-in
+camshaft_97: folds 
+Kippe940: calls 7060
+bibo.bibino: folds 
+ComplexInteger: folds 
+simmer_10968: calls 6858 and is all-in
+OverallScoob: calls 6610
+*** FLOP *** [Jh 6h Th]
+OverallScoob: checks 
+Kippe940: checks 
+*** TURN *** [Jh 6h Th] [3s]
+OverallScoob: checks 
+Kippe940: checks 
+*** RIVER *** [Jh 6h Th 3s] [7c]
+OverallScoob: checks 
+Kippe940: bets 9925 and is all-in
+OverallScoob: folds 
+Uncalled bet (9925) returned to Kippe940
+*** SHOW DOWN ***
+Kippe940: shows [2c Ac] (high card Ace)
+Jackson_5_O: shows [9d 9c] (a pair of Nines)
+Jackson_5_O collected 290 from side pot
+simmer_10968: shows [Ad 4c] (high card Ace)
+Jackson_5_O collected 26348 from main pot
+*** SUMMARY ***
+Total pot 28188 Main pot 26348. Side pot 290. | Rake 1550 
+Board [Jh 6h Th 3s 7c]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 showed [2c Ac] and lost with high card Ace
+Seat 3: bibo.bibino (button) folded before Flop (didn't bet)
+Seat 4: ComplexInteger (small blind) folded before Flop
+Seat 5: simmer_10968 (big blind) showed [Ad 4c] and lost with high card Ace
+Seat 6: OverallScoob folded on the River
+Seat 7: mmartins525 folded before Flop (didn't bet)
+Seat 8: doeschka folded before Flop (didn't bet)
+Seat 9: Jackson_5_O showed [9d 9c] and won (26638) with a pair of Nines
+
+
+
+PokerStars Hand #214597103757:  Hold'em No Limit (50/100) - 2020/05/28 20:01:34 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 1: camshaft_97 (14581 in chips) 
+Seat 2: Kippe940 (9925 in chips) 
+Seat 3: bibo.bibino (20152 in chips) 
+Seat 4: ComplexInteger (11234 in chips) 
+Seat 6: OverallScoob (2940 in chips) 
+Seat 7: mmartins525 (20827 in chips) 
+Seat 8: doeschka (2286 in chips) 
+Seat 9: Jackson_5_O (26638 in chips) 
+OverallScoob: posts small blind 50
+mmartins525: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qc Ts]
+doeschka: calls 100
+Jackson_5_O: raises 26538 to 26638 and is all-in
+camshaft_97: folds 
+Kippe940: folds 
+bibo.bibino: calls 20152 and is all-in
+ComplexInteger: folds 
+OverallScoob: folds 
+mmartins525: folds 
+doeschka: folds 
+Uncalled bet (6486) returned to Jackson_5_O
+*** FLOP *** [Ks Ac Td]
+*** TURN *** [Ks Ac Td] [7h]
+*** RIVER *** [Ks Ac Td 7h] [3s]
+*** SHOW DOWN ***
+Jackson_5_O: shows [6d 5h] (high card Ace)
+bibo.bibino: shows [As Qd] (a pair of Aces)
+bibo.bibino collected 38324 from pot
+*** SUMMARY ***
+Total pot 40554 | Rake 2230 
+Board [Ks Ac Td 7h 3s]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 3: bibo.bibino showed [As Qd] and won (38324) with a pair of Aces
+Seat 4: ComplexInteger (button) folded before Flop (didn't bet)
+Seat 6: OverallScoob (small blind) folded before Flop
+Seat 7: mmartins525 (big blind) folded before Flop
+Seat 8: doeschka folded before Flop
+Seat 9: Jackson_5_O showed [6d 5h] and lost with high card Ace
+
+
+
+PokerStars Hand #214597122727:  Hold'em No Limit (50/100) - 2020/05/28 20:02:09 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 1: camshaft_97 (14581 in chips) 
+Seat 2: Kippe940 (9925 in chips) 
+Seat 3: bibo.bibino (38324 in chips) 
+Seat 4: ComplexInteger (11234 in chips) 
+Seat 5: simmer_10968 (10000 in chips) 
+Seat 6: OverallScoob (2890 in chips) 
+Seat 7: mmartins525 (20727 in chips) 
+Seat 8: doeschka (2186 in chips) 
+Seat 9: Jackson_5_O (6486 in chips) 
+mmartins525: posts small blind 50
+doeschka: posts big blind 100
+simmer_10968: posts small blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8s Jc]
+Jackson_5_O: raises 6386 to 6486 and is all-in
+camshaft_97: folds 
+Kippe940: calls 6486
+bibo.bibino: folds 
+ComplexInteger: folds 
+simmer_10968: folds 
+OverallScoob: folds 
+mmartins525: folds 
+doeschka: folds 
+*** FLOP *** [8h Jd 4c]
+*** TURN *** [8h Jd 4c] [Td]
+*** RIVER *** [8h Jd 4c Td] [Kc]
+*** SHOW DOWN ***
+Jackson_5_O: shows [Th 6s] (a pair of Tens)
+Kippe940: shows [Ad Ts] (a pair of Tens - Ace kicker)
+Kippe940 collected 12448 from pot
+*** SUMMARY ***
+Total pot 13172 | Rake 724 
+Board [8h Jd 4c Td Kc]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 showed [Ad Ts] and won (12448) with a pair of Tens
+Seat 3: bibo.bibino folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 folded before Flop (didn't bet)
+Seat 6: OverallScoob (button) folded before Flop (didn't bet)
+Seat 7: mmartins525 (small blind) folded before Flop
+Seat 8: doeschka (big blind) folded before Flop
+Seat 9: Jackson_5_O showed [Th 6s] and lost with a pair of Tens
+
+
+
+PokerStars Hand #214597136087:  Hold'em No Limit (50/100) - 2020/05/28 20:02:34 ET
+Table 'Hubei V' 9-max (Play Money) Seat #7 is the button
+Seat 1: camshaft_97 (14581 in chips) 
+Seat 2: Kippe940 (15887 in chips) 
+Seat 3: bibo.bibino (38324 in chips) 
+Seat 4: ComplexInteger (11234 in chips) 
+Seat 5: simmer_10968 (9950 in chips) 
+Seat 6: OverallScoob (10000 in chips) 
+Seat 7: mmartins525 (20677 in chips) 
+Seat 8: doeschka (2086 in chips) 
+doeschka: posts small blind 50
+camshaft_97: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kd Ks]
+Jackson_5_O leaves the table
+Kippe940: calls 100
+bibo.bibino: folds 
+ComplexInteger: raises 100 to 200
+simmer_10968: calls 200
+OverallScoob: calls 200
+MFHorn64 joins the table at seat #9 
+mmartins525: raises 20477 to 20677 and is all-in
+doeschka: calls 2036 and is all-in
+camshaft_97: folds 
+Kippe940: folds 
+ComplexInteger: calls 11034 and is all-in
+simmer_10968: folds 
+OverallScoob: folds 
+Uncalled bet (9443) returned to mmartins525
+*** FLOP *** [6h Kc Th]
+*** TURN *** [6h Kc Th] [8s]
+*** RIVER *** [6h Kc Th 8s] [4s]
+*** SHOW DOWN ***
+ComplexInteger: shows [Kd Ks] (three of a kind, Kings)
+mmartins525: shows [Ad Ac] (a pair of Aces)
+ComplexInteger collected 17290 from side pot
+doeschka: shows [Qs As] (high card Ace)
+ComplexInteger collected 6481 from main pot
+*** SUMMARY ***
+Total pot 25154 Main pot 6481. Side pot 17290. | Rake 1383 
+Board [6h Kc Th 8s 4s]
+Seat 1: camshaft_97 (big blind) folded before Flop
+Seat 2: Kippe940 folded before Flop
+Seat 3: bibo.bibino folded before Flop (didn't bet)
+Seat 4: ComplexInteger showed [Kd Ks] and won (23771) with three of a kind, Kings
+Seat 5: simmer_10968 folded before Flop
+Seat 6: OverallScoob folded before Flop
+Seat 7: mmartins525 (button) showed [Ad Ac] and lost with a pair of Aces
+Seat 8: doeschka (small blind) showed [Qs As] and lost with high card Ace
+
+
+
+PokerStars Hand #214597162919:  Hold'em No Limit (50/100) - 2020/05/28 20:03:19 ET
+Table 'Hubei V' 9-max (Play Money) Seat #1 is the button
+Seat 1: camshaft_97 (14481 in chips) 
+Seat 2: Kippe940 (15787 in chips) 
+Seat 3: bibo.bibino (38324 in chips) 
+Seat 4: ComplexInteger (23771 in chips) 
+Seat 5: simmer_10968 (9750 in chips) 
+Seat 6: OverallScoob (9800 in chips) 
+Seat 7: mmartins525 (9443 in chips) 
+Seat 9: MFHorn64 (10000 in chips) 
+Kippe940: posts small blind 50
+bibo.bibino: posts big blind 100
+MFHorn64: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jh 4c]
+ComplexInteger: folds 
+simmer_10968: calls 100
+OverallScoob: folds 
+mmartins525: calls 100
+MFHorn64: checks 
+camshaft_97: folds 
+Kippe940: calls 50
+bibo.bibino: raises 6700 to 6800
+simmer_10968: raises 2950 to 9750 and is all-in
+mmartins525: folds 
+MFHorn64: folds 
+Kippe940: calls 9650
+bibo.bibino: calls 2950
+*** FLOP *** [Qc 6d 2h]
+Kippe940: checks 
+bibo.bibino: bets 27830
+Kippe940: folds 
+Uncalled bet (27830) returned to bibo.bibino
+*** TURN *** [Qc 6d 2h] [Kc]
+*** RIVER *** [Qc 6d 2h Kc] [3d]
+*** SHOW DOWN ***
+bibo.bibino: shows [Kd Kh] (three of a kind, Kings)
+simmer_10968: shows [Ah 7c] (high card Ace)
+bibo.bibino collected 27830 from pot
+*** SUMMARY ***
+Total pot 29450 | Rake 1620 
+Board [Qc 6d 2h Kc 3d]
+Seat 1: camshaft_97 (button) folded before Flop (didn't bet)
+Seat 2: Kippe940 (small blind) folded on the Flop
+Seat 3: bibo.bibino (big blind) showed [Kd Kh] and won (27830) with three of a kind, Kings
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 showed [Ah 7c] and lost with high card Ace
+Seat 6: OverallScoob folded before Flop (didn't bet)
+Seat 7: mmartins525 folded before Flop
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597195044:  Hold'em No Limit (50/100) - 2020/05/28 20:04:12 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 1: camshaft_97 (14481 in chips) 
+Seat 2: Kippe940 (10000 in chips) 
+Seat 4: ComplexInteger (23771 in chips) 
+Seat 6: OverallScoob (9800 in chips) 
+Seat 7: mmartins525 (9343 in chips) 
+Seat 9: MFHorn64 (9900 in chips) 
+ComplexInteger: posts small blind 50
+OverallScoob: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ac 5h]
+mmartins525: calls 100
+MFHorn64: folds 
+bibo.bibino leaves the table
+camshaft_97: calls 100
+Kippe940: calls 100
+ComplexInteger: calls 50
+OverallScoob: raises 9700 to 9800 and is all-in
+mmartins525: folds 
+camshaft_97: folds 
+Kippe940: raises 200 to 10000 and is all-in
+ComplexInteger: folds 
+Uncalled bet (200) returned to Kippe940
+*** FLOP *** [Ah 2s 2h]
+*** TURN *** [Ah 2s 2h] [Qc]
+*** RIVER *** [Ah 2s 2h Qc] [9c]
+*** SHOW DOWN ***
+OverallScoob: shows [9d 9h] (a full house, Nines full of Deuces)
+Kippe940: shows [Ad Kd] (two pair, Aces and Deuces)
+OverallScoob collected 18805 from pot
+*** SUMMARY ***
+Total pot 19900 | Rake 1095 
+Board [Ah 2s 2h Qc 9c]
+Seat 1: camshaft_97 folded before Flop
+Seat 2: Kippe940 (button) showed [Ad Kd] and lost with two pair, Aces and Deuces
+Seat 4: ComplexInteger (small blind) folded before Flop
+Seat 6: OverallScoob (big blind) showed [9d 9h] and won (18805) with a full house, Nines full of Deuces
+Seat 7: mmartins525 folded before Flop
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597220779:  Hold'em No Limit (50/100) - 2020/05/28 20:05:00 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 1: camshaft_97 (14381 in chips) 
+Seat 2: Kippe940 (200 in chips) 
+Seat 4: ComplexInteger (23671 in chips) 
+Seat 6: OverallScoob (18805 in chips) 
+Seat 7: mmartins525 (9243 in chips) 
+Seat 9: MFHorn64 (9900 in chips) 
+OverallScoob: posts small blind 50
+mmartins525: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Tc Th]
+MFHorn64: folds 
+camshaft_97: folds 
+Kippe940: folds 
+ComplexInteger: calls 100
+OverallScoob: folds 
+doeschka leaves the table
+mmartins525: checks 
+*** FLOP *** [Ad Js 2s]
+mmartins525: checks 
+double tt11 joins the table at seat #3 
+ComplexInteger: bets 100
+mmartins525: folds 
+Uncalled bet (100) returned to ComplexInteger
+ComplexInteger collected 236 from pot
+ComplexInteger: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 14 
+Board [Ad Js 2s]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 4: ComplexInteger (button) collected (236)
+Seat 6: OverallScoob (small blind) folded before Flop
+Seat 7: mmartins525 (big blind) folded on the Flop
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597236999:  Hold'em No Limit (50/100) - 2020/05/28 20:05:30 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 1: camshaft_97 (14381 in chips) 
+Seat 2: Kippe940 (10000 in chips) 
+Seat 3: double tt11 (10000 in chips) 
+Seat 4: ComplexInteger (23807 in chips) 
+Seat 5: simmer_10968 (10000 in chips) 
+Seat 6: OverallScoob (18755 in chips) 
+Seat 7: mmartins525 (9143 in chips) 
+Seat 9: MFHorn64 (9900 in chips) 
+mmartins525: posts small blind 50
+MFHorn64: posts big blind 100
+double tt11: posts big blind 100
+simmer_10968: posts small & big blinds 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2c 2s]
+camshaft_97: calls 100
+Kippe940: calls 100
+double tt11: checks 
+ComplexInteger: calls 100
+simmer_10968: checks 
+OverallScoob: folds 
+mmartins525: raises 100 to 200
+MFHorn64: calls 100
+camshaft_97: calls 100
+Kippe940: calls 100
+double tt11: calls 100
+Ander2180 joins the table at seat #8 
+ComplexInteger: calls 100
+simmer_10968: calls 100
+*** FLOP *** [4d 5h Ah]
+mmartins525: bets 100
+MFHorn64: calls 100
+camshaft_97: calls 100
+Kippe940: calls 100
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: folds 
+*** TURN *** [4d 5h Ah] [Jh]
+mmartins525: bets 100
+MFHorn64: raises 1948 to 2048
+camshaft_97: folds 
+Kippe940: folds 
+mmartins525: calls 1948
+*** RIVER *** [4d 5h Ah Jh] [7s]
+mmartins525: checks 
+MFHorn64: checks 
+*** SHOW DOWN ***
+mmartins525: shows [Qh Qd] (a pair of Queens)
+MFHorn64: mucks hand 
+mmartins525 collected 5619 from pot
+*** SUMMARY ***
+Total pot 5946 | Rake 327 
+Board [4d 5h Ah Jh 7s]
+Seat 1: camshaft_97 folded on the Turn
+Seat 2: Kippe940 folded on the Turn
+Seat 3: double tt11 folded on the Flop
+Seat 4: ComplexInteger folded on the Flop
+Seat 5: simmer_10968 folded on the Flop
+Seat 6: OverallScoob (button) folded before Flop (didn't bet)
+Seat 7: mmartins525 (small blind) showed [Qh Qd] and won (5619) with a pair of Queens
+Seat 9: MFHorn64 (big blind) mucked [6s 9h]
+
+
+
+PokerStars Hand #214597288632:  Hold'em No Limit (50/100) - 2020/05/28 20:06:47 ET
+Table 'Hubei V' 9-max (Play Money) Seat #7 is the button
+Seat 1: camshaft_97 (14081 in chips) 
+Seat 2: Kippe940 (9700 in chips) 
+Seat 3: double tt11 (9800 in chips) 
+Seat 4: ComplexInteger (23607 in chips) 
+Seat 5: simmer_10968 (9750 in chips) 
+Seat 6: OverallScoob (18755 in chips) 
+Seat 7: mmartins525 (12414 in chips) 
+Seat 9: MFHorn64 (7552 in chips) 
+MFHorn64: posts small blind 50
+camshaft_97: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2c 4h]
+Kippe940: folds 
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: folds 
+OverallScoob: folds 
+mmartins525: folds 
+MFHorn64: calls 50
+camshaft_97: checks 
+*** FLOP *** [Kd 9h 2s]
+MFHorn64: checks 
+camshaft_97: checks 
+*** TURN *** [Kd 9h 2s] [8s]
+MFHorn64: checks 
+camshaft_97: checks 
+*** RIVER *** [Kd 9h 2s 8s] [Td]
+MFHorn64: checks 
+camshaft_97: checks 
+*** SHOW DOWN ***
+MFHorn64: shows [6s Tc] (a pair of Tens)
+camshaft_97: mucks hand 
+MFHorn64 collected 189 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 11 
+Board [Kd 9h 2s 8s Td]
+Seat 1: camshaft_97 (big blind) mucked [9s As]
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 folded before Flop (didn't bet)
+Seat 6: OverallScoob folded before Flop (didn't bet)
+Seat 7: mmartins525 (button) folded before Flop (didn't bet)
+Seat 9: MFHorn64 (small blind) showed [6s Tc] and won (189) with a pair of Tens
+
+
+
+PokerStars Hand #214597305707:  Hold'em No Limit (50/100) - 2020/05/28 20:07:19 ET
+Table 'Hubei V' 9-max (Play Money) Seat #9 is the button
+Seat 1: camshaft_97 (13981 in chips) 
+Seat 2: Kippe940 (9700 in chips) 
+Seat 3: double tt11 (9800 in chips) 
+Seat 4: ComplexInteger (23607 in chips) 
+Seat 5: simmer_10968 (9750 in chips) 
+Seat 6: OverallScoob (18755 in chips) 
+Seat 7: mmartins525 (12414 in chips) 
+Seat 8: Ander2180 (4000 in chips) 
+Seat 9: MFHorn64 (7641 in chips) 
+camshaft_97: posts small blind 50
+Kippe940: posts big blind 100
+Ander2180: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8h 7h]
+double tt11: folds 
+ComplexInteger: raises 200 to 300
+simmer_10968: calls 300
+OverallScoob: folds 
+mmartins525: folds 
+Ander2180: calls 200
+MFHorn64: folds 
+camshaft_97: folds 
+Kippe940: calls 200
+*** FLOP *** [6c Th 3c]
+Kippe940: checks 
+ComplexInteger: bets 100
+simmer_10968: calls 100
+Ander2180: calls 100
+Kippe940: calls 100
+*** TURN *** [6c Th 3c] [As]
+Kippe940: checks 
+ComplexInteger: bets 100
+simmer_10968: calls 100
+Ander2180: folds 
+Kippe940: calls 100
+*** RIVER *** [6c Th 3c As] [5h]
+Kippe940: checks 
+ComplexInteger: checks 
+simmer_10968: checks 
+*** SHOW DOWN ***
+Kippe940: shows [Js Ah] (a pair of Aces)
+ComplexInteger: mucks hand 
+simmer_10968: mucks hand 
+Kippe940 collected 1843 from pot
+*** SUMMARY ***
+Total pot 1950 | Rake 107 
+Board [6c Th 3c As 5h]
+Seat 1: camshaft_97 (small blind) folded before Flop
+Seat 2: Kippe940 (big blind) showed [Js Ah] and won (1843) with a pair of Aces
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger mucked [8h 7h]
+Seat 5: simmer_10968 mucked [7d 9h]
+Seat 6: OverallScoob folded before Flop (didn't bet)
+Seat 7: mmartins525 folded before Flop (didn't bet)
+Seat 8: Ander2180 folded on the Turn
+Seat 9: MFHorn64 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597346240:  Hold'em No Limit (50/100) - 2020/05/28 20:08:34 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 2: Kippe940 (11043 in chips) 
+Seat 3: double tt11 (9800 in chips) 
+Seat 4: ComplexInteger (23107 in chips) 
+Seat 5: simmer_10968 (9250 in chips) 
+Seat 6: OverallScoob (18755 in chips) 
+Seat 7: mmartins525 (12414 in chips) 
+Seat 8: Ander2180 (3600 in chips) 
+Seat 9: MFHorn64 (7641 in chips) 
+double tt11: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [7d As]
+simmer_10968: calls 100
+OverallScoob: folds 
+mmartins525: calls 100
+Ander2180: raises 1000 to 1100
+MFHorn64: folds 
+Kippe940: calls 1100
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: calls 1000
+mmartins525: folds 
+*** FLOP *** [9d Qd 5h]
+simmer_10968: bets 8150 and is all-in
+Ander2180: calls 2500 and is all-in
+Kippe940: folds 
+Uncalled bet (5650) returned to simmer_10968
+*** TURN *** [9d Qd 5h] [Ac]
+*** RIVER *** [9d Qd 5h Ac] [8s]
+*** SHOW DOWN ***
+simmer_10968: shows [Qh 9h] (two pair, Queens and Nines)
+Ander2180: shows [Jd 5s] (a pair of Fives)
+simmer_10968 collected 8080 from pot
+*** SUMMARY ***
+Total pot 8550 | Rake 470 
+Board [9d Qd 5h Ac 8s]
+Seat 2: Kippe940 (button) folded on the Flop
+Seat 3: double tt11 (small blind) folded before Flop
+Seat 4: ComplexInteger (big blind) folded before Flop
+Seat 5: simmer_10968 showed [Qh 9h] and won (8080) with two pair, Queens and Nines
+Seat 6: OverallScoob folded before Flop (didn't bet)
+Seat 7: mmartins525 folded before Flop
+Seat 8: Ander2180 showed [Jd 5s] and lost with a pair of Fives
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597373327:  Hold'em No Limit (50/100) - 2020/05/28 20:09:25 ET
+Table 'Hubei V' 9-max (Play Money) Seat #3 is the button
+Seat 2: Kippe940 (9943 in chips) 
+Seat 3: double tt11 (9750 in chips) 
+Seat 4: ComplexInteger (23007 in chips) 
+Seat 5: simmer_10968 (13730 in chips) 
+Seat 6: OverallScoob (18755 in chips) 
+Seat 7: mmartins525 (12314 in chips) 
+Seat 9: MFHorn64 (7641 in chips) 
+ComplexInteger: posts small blind 50
+simmer_10968: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6d 6h]
+OverallScoob: folds 
+mmartins525: folds 
+MFHorn64: folds 
+Kippe940: folds 
+double tt11: raises 100 to 200
+ComplexInteger: calls 150
+simmer_10968: calls 100
+*** FLOP *** [Th Qc 7h]
+ComplexInteger: bets 100
+simmer_10968: calls 100
+double tt11: calls 100
+*** TURN *** [Th Qc 7h] [Jd]
+ComplexInteger: bets 100
+simmer_10968: calls 100
+double tt11: raises 500 to 600
+mmartins525 leaves the table
+ComplexInteger: folds 
+simmer_10968: calls 500
+*** RIVER *** [Th Qc 7h Jd] [5h]
+simmer_10968: checks 
+double tt11: bets 2079
+simmer_10968: folds 
+Uncalled bet (2079) returned to double tt11
+double tt11 collected 2079 from pot
+double tt11: doesn't show hand 
+*** SUMMARY ***
+Total pot 2200 | Rake 121 
+Board [Th Qc 7h Jd 5h]
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 3: double tt11 (button) collected (2079)
+Seat 4: ComplexInteger (small blind) folded on the Turn
+Seat 5: simmer_10968 (big blind) folded on the River
+Seat 6: OverallScoob folded before Flop (didn't bet)
+Seat 7: mmartins525 folded before Flop (didn't bet)
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597419057:  Hold'em No Limit (50/100) - 2020/05/28 20:10:51 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 2: Kippe940 (9943 in chips) 
+Seat 3: double tt11 (10929 in chips) 
+Seat 4: ComplexInteger (22607 in chips) 
+Seat 5: simmer_10968 (12830 in chips) 
+Seat 6: OverallScoob (18755 in chips) 
+Seat 8: Ander2180 (4000 in chips) 
+Seat 9: MFHorn64 (7641 in chips) 
+simmer_10968: posts small blind 50
+OverallScoob: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6h 8d]
+Ander2180: raises 700 to 800
+MFHorn64: folds 
+SUBIMUR joins the table at seat #7 
+Kippe940: folds 
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: folds 
+OverallScoob: calls 700
+*** FLOP *** [Js 8s 5d]
+OverallScoob: checks 
+Ander2180: checks 
+*** TURN *** [Js 8s 5d] [6c]
+OverallScoob: bets 1559
+Ander2180: calls 1559
+*** RIVER *** [Js 8s 5d 6c] [8c]
+OverallScoob: bets 4506
+Ander2180: calls 1641 and is all-in
+Uncalled bet (2865) returned to OverallScoob
+*** SHOW DOWN ***
+OverallScoob: shows [5c 5s] (a full house, Fives full of Eights)
+Ander2180: shows [7d Jd] (two pair, Jacks and Eights)
+OverallScoob collected 7607 from pot
+*** SUMMARY ***
+Total pot 8050 | Rake 443 
+Board [Js 8s 5d 6c 8c]
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger (button) folded before Flop (didn't bet)
+Seat 5: simmer_10968 (small blind) folded before Flop
+Seat 6: OverallScoob (big blind) showed [5c 5s] and won (7607) with a full house, Fives full of Eights
+Seat 8: Ander2180 showed [7d Jd] and lost with two pair, Jacks and Eights
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597455427:  Hold'em No Limit (50/100) - 2020/05/28 20:11:46 ET
+Table 'Hubei V' 9-max (Play Money) Seat #5 is the button
+Seat 2: Kippe940 (9943 in chips) 
+Seat 3: double tt11 (10929 in chips) 
+Seat 4: ComplexInteger (22607 in chips) 
+Seat 5: simmer_10968 (12780 in chips) 
+Seat 6: OverallScoob (22362 in chips) 
+Seat 7: SUBIMUR (10000 in chips) 
+Seat 9: MFHorn64 (7641 in chips) 
+OverallScoob: posts small blind 50
+SUBIMUR: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4s Ah]
+MFHorn64 has timed out
+MFHorn64: folds 
+Kippe940: calls 100
+double tt11: folds 
+ComplexInteger: calls 100
+simmer_10968: calls 100
+OverallScoob: raises 1200 to 1300
+SUBIMUR: folds 
+Kippe940: calls 1200
+ComplexInteger: folds 
+simmer_10968: folds 
+*** FLOP *** [4h 8s 6s]
+OverallScoob: bets 800
+Kippe940: calls 800
+*** TURN *** [4h 8s 6s] [9c]
+OverallScoob: checks 
+Kippe940: bets 4252
+OverallScoob: folds 
+Uncalled bet (4252) returned to Kippe940
+Kippe940 collected 4252 from pot
+Kippe940: doesn't show hand 
+*** SUMMARY ***
+Total pot 4500 | Rake 248 
+Board [4h 8s 6s 9c]
+Seat 2: Kippe940 collected (4252)
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded before Flop
+Seat 5: simmer_10968 (button) folded before Flop
+Seat 6: OverallScoob (small blind) folded on the Turn
+Seat 7: SUBIMUR (big blind) folded before Flop
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597493266:  Hold'em No Limit (50/100) - 2020/05/28 20:12:57 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 2: Kippe940 (12095 in chips) 
+Seat 3: double tt11 (10929 in chips) 
+Seat 4: ComplexInteger (22507 in chips) 
+Seat 5: simmer_10968 (12680 in chips) 
+Seat 6: OverallScoob (20262 in chips) 
+Seat 7: SUBIMUR (9900 in chips) 
+Seat 8: Ander2180 (10000 in chips) 
+Seat 9: MFHorn64 (7641 in chips) 
+SUBIMUR: posts small blind 50
+Ander2180: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9s Kc]
+MFHorn64 has timed out
+MFHorn64: folds 
+Kippe940: calls 100
+double tt11: calls 100
+ComplexInteger: calls 100
+simmer_10968: calls 100
+OverallScoob: folds 
+SUBIMUR: calls 50
+Ander2180: raises 9900 to 10000 and is all-in
+Kippe940: folds 
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: folds 
+SUBIMUR: folds 
+Uncalled bet (9900) returned to Ander2180
+Ander2180 collected 600 from pot
+Ander2180: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 2: Kippe940 folded before Flop
+Seat 3: double tt11 folded before Flop
+Seat 4: ComplexInteger folded before Flop
+Seat 5: simmer_10968 folded before Flop
+Seat 6: OverallScoob (button) folded before Flop (didn't bet)
+Seat 7: SUBIMUR (small blind) folded before Flop
+Seat 8: Ander2180 (big blind) collected (600)
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597519285:  Hold'em No Limit (50/100) - 2020/05/28 20:13:46 ET
+Table 'Hubei V' 9-max (Play Money) Seat #7 is the button
+Seat 2: Kippe940 (11995 in chips) 
+Seat 3: double tt11 (10829 in chips) 
+Seat 4: ComplexInteger (22407 in chips) 
+Seat 5: simmer_10968 (12580 in chips) 
+Seat 6: OverallScoob (20262 in chips) 
+Seat 7: SUBIMUR (9800 in chips) 
+Seat 8: Ander2180 (10500 in chips) 
+Ander2180: posts small blind 50
+Kippe940: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Js 7s]
+double tt11: folds 
+ComplexInteger: calls 100
+simmer_10968: folds 
+OverallScoob: folds 
+SUBIMUR: calls 100
+Ander2180: raises 1000 to 1100
+Kippe940: folds 
+ComplexInteger: calls 1000
+SUBIMUR: folds 
+*** FLOP *** [8h 2h 4d]
+Ander2180: bets 100
+ComplexInteger: folds 
+Uncalled bet (100) returned to Ander2180
+Ander2180 collected 2268 from pot
+Ander2180: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 132 
+Board [8h 2h 4d]
+Seat 2: Kippe940 (big blind) folded before Flop
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded on the Flop
+Seat 5: simmer_10968 folded before Flop (didn't bet)
+Seat 6: OverallScoob folded before Flop (didn't bet)
+Seat 7: SUBIMUR (button) folded before Flop
+Seat 8: Ander2180 (small blind) collected (2268)
+
+
+
+PokerStars Hand #214597542419:  Hold'em No Limit (50/100) - 2020/05/28 20:14:29 ET
+Table 'Hubei V' 9-max (Play Money) Seat #8 is the button
+Seat 2: Kippe940 (11895 in chips) 
+Seat 3: double tt11 (10829 in chips) 
+Seat 4: ComplexInteger (21307 in chips) 
+Seat 5: simmer_10968 (12580 in chips) 
+Seat 6: OverallScoob (20262 in chips) 
+Seat 7: SUBIMUR (9700 in chips) 
+Seat 8: Ander2180 (11668 in chips) 
+Kippe940: posts small blind 50
+double tt11: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [3d 7d]
+ComplexInteger: folds 
+simmer_10968: calls 100
+OverallScoob: calls 100
+SUBIMUR: calls 100
+Ander2180: folds 
+Kippe940: calls 50
+double tt11: checks 
+*** FLOP *** [2s 5h Qd]
+Kippe940: checks 
+double tt11: checks 
+simmer_10968: checks 
+OverallScoob: checks 
+SUBIMUR: checks 
+*** TURN *** [2s 5h Qd] [9s]
+Kippe940: checks 
+double tt11: checks 
+simmer_10968: checks 
+OverallScoob: checks 
+SUBIMUR: checks 
+*** RIVER *** [2s 5h Qd 9s] [Qc]
+Kippe940: bets 100
+double tt11: folds 
+simmer_10968: folds 
+OverallScoob: folds 
+SUBIMUR: folds 
+Uncalled bet (100) returned to Kippe940
+Kippe940 collected 472 from pot
+Kippe940: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 28 
+Board [2s 5h Qd 9s Qc]
+Seat 2: Kippe940 (small blind) collected (472)
+Seat 3: double tt11 (big blind) folded on the River
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 folded on the River
+Seat 6: OverallScoob folded on the River
+Seat 7: SUBIMUR folded on the River
+Seat 8: Ander2180 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597567947:  Hold'em No Limit (50/100) - 2020/05/28 20:15:17 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 2: Kippe940 (12267 in chips) 
+Seat 3: double tt11 (10729 in chips) 
+Seat 4: ComplexInteger (21307 in chips) 
+Seat 5: simmer_10968 (12480 in chips) 
+Seat 6: OverallScoob (20162 in chips) 
+Seat 7: SUBIMUR (9600 in chips) 
+Seat 8: Ander2180 (11668 in chips) 
+Seat 9: MFHorn64 (7641 in chips) 
+double tt11: posts small blind 50
+ComplexInteger: posts big blind 100
+MFHorn64: posts small & big blinds 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9h 8d]
+simmer_10968: calls 100
+OverallScoob: folds 
+SUBIMUR: calls 100
+Ander2180: raises 100 to 200
+MFHorn64: calls 100
+Kippe940: folds 
+double tt11: calls 150
+ComplexInteger: calls 100
+simmer_10968: calls 100
+SUBIMUR: calls 100
+*** FLOP *** [Kd Qd 6s]
+double tt11: checks 
+ComplexInteger: checks 
+simmer_10968: checks 
+SUBIMUR: checks 
+Ander2180: checks 
+MFHorn64: checks 
+*** TURN *** [Kd Qd 6s] [2d]
+double tt11: checks 
+ComplexInteger: checks 
+simmer_10968: checks 
+SUBIMUR: checks 
+Ander2180: checks 
+MFHorn64: bets 100
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: folds 
+SUBIMUR: folds 
+Ander2180: calls 100
+*** RIVER *** [Kd Qd 6s 2d] [4d]
+Ander2180: checks 
+MFHorn64: checks 
+*** SHOW DOWN ***
+Ander2180: shows [8h 2h] (a pair of Deuces)
+MFHorn64: shows [6c 3c] (a pair of Sixes)
+MFHorn64 collected 1370 from pot
+*** SUMMARY ***
+Total pot 1450 | Rake 80 
+Board [Kd Qd 6s 2d 4d]
+Seat 2: Kippe940 (button) folded before Flop (didn't bet)
+Seat 3: double tt11 (small blind) folded on the Turn
+Seat 4: ComplexInteger (big blind) folded on the Turn
+Seat 5: simmer_10968 folded on the Turn
+Seat 6: OverallScoob folded before Flop (didn't bet)
+Seat 7: SUBIMUR folded on the Turn
+Seat 8: Ander2180 showed [8h 2h] and lost with a pair of Deuces
+Seat 9: MFHorn64 showed [6c 3c] and won (1370) with a pair of Sixes
+
+
+
+PokerStars Hand #214597610738:  Hold'em No Limit (50/100) - 2020/05/28 20:16:37 ET
+Table 'Hubei V' 9-max (Play Money) Seat #3 is the button
+Seat 1: camshaft_97 (13931 in chips) 
+Seat 2: Kippe940 (12267 in chips) 
+Seat 3: double tt11 (10529 in chips) 
+Seat 4: ComplexInteger (21107 in chips) 
+Seat 5: simmer_10968 (12280 in chips) 
+Seat 6: OverallScoob (20162 in chips) 
+Seat 7: SUBIMUR (9400 in chips) 
+Seat 8: Ander2180 (11368 in chips) 
+Seat 9: MFHorn64 (8661 in chips) 
+ComplexInteger: posts small blind 50
+simmer_10968: posts big blind 100
+camshaft_97: posts small & big blinds 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [7c 8c]
+OverallScoob: folds 
+SUBIMUR: calls 100
+Ander2180: folds 
+MFHorn64: folds 
+camshaft_97: checks 
+Kippe940: calls 100
+double tt11: folds 
+ComplexInteger: raises 100 to 200
+Ander2180 leaves the table
+simmer_10968: folds 
+SUBIMUR: calls 100
+camshaft_97: folds 
+Kippe940: calls 100
+*** FLOP *** [Kc 8h 5d]
+ComplexInteger: bets 300
+SUBIMUR: calls 300
+Kippe940: folds 
+*** TURN *** [Kc 8h 5d] [Ks]
+ComplexInteger: bets 300
+SUBIMUR: calls 300
+*** RIVER *** [Kc 8h 5d Ks] [4h]
+ComplexInteger: checks 
+SUBIMUR: checks 
+*** SHOW DOWN ***
+ComplexInteger: shows [7c 8c] (two pair, Kings and Eights)
+SUBIMUR: shows [9c 9h] (two pair, Kings and Nines)
+SUBIMUR collected 1937 from pot
+*** SUMMARY ***
+Total pot 2050 | Rake 113 
+Board [Kc 8h 5d Ks 4h]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 folded on the Flop
+Seat 3: double tt11 (button) folded before Flop (didn't bet)
+Seat 4: ComplexInteger (small blind) showed [7c 8c] and lost with two pair, Kings and Eights
+Seat 5: simmer_10968 (big blind) folded before Flop
+Seat 6: OverallScoob folded before Flop (didn't bet)
+Seat 7: SUBIMUR showed [9c 9h] and won (1937) with two pair, Kings and Nines
+Seat 8: Ander2180 folded before Flop (didn't bet)
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597661406:  Hold'em No Limit (50/100) - 2020/05/28 20:18:02 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 1: camshaft_97 (13781 in chips) 
+Seat 2: Kippe940 (12067 in chips) 
+Seat 3: double tt11 (10529 in chips) 
+Seat 4: ComplexInteger (20307 in chips) 
+Seat 5: simmer_10968 (12180 in chips) 
+Seat 6: OverallScoob (20162 in chips) 
+Seat 7: SUBIMUR (10537 in chips) 
+Seat 9: MFHorn64 (8661 in chips) 
+simmer_10968: posts small blind 50
+OverallScoob: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9c Ah]
+SUBIMUR: calls 100
+MFHorn64: calls 100
+camshaft_97: folds 
+Kippe940: calls 100
+double tt11: folds 
+ComplexInteger: raises 100 to 200
+simmer_10968: calls 150
+OverallScoob: raises 900 to 1100
+SUBIMUR: folds 
+MFHorn64: folds 
+Kippe940: calls 1000
+ComplexInteger: folds 
+simmer_10968: folds 
+*** FLOP *** [Td Js 7d]
+OverallScoob: bets 19062 and is all-in
+Liipe_7X joins the table at seat #8 
+Kippe940: folds 
+Uncalled bet (19062) returned to OverallScoob
+OverallScoob collected 2646 from pot
+OverallScoob: doesn't show hand 
+*** SUMMARY ***
+Total pot 2800 | Rake 154 
+Board [Td Js 7d]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 folded on the Flop
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger (button) folded before Flop
+Seat 5: simmer_10968 (small blind) folded before Flop
+Seat 6: OverallScoob (big blind) collected (2646)
+Seat 7: SUBIMUR folded before Flop
+Seat 9: MFHorn64 folded before Flop
+
+
+
+PokerStars Hand #214597688697:  Hold'em No Limit (50/100) - 2020/05/28 20:18:53 ET
+Table 'Hubei V' 9-max (Play Money) Seat #5 is the button
+Seat 1: camshaft_97 (13781 in chips) 
+Seat 2: Kippe940 (10967 in chips) 
+Seat 3: double tt11 (10529 in chips) 
+Seat 4: ComplexInteger (20107 in chips) 
+Seat 5: simmer_10968 (11980 in chips) 
+Seat 6: OverallScoob (21708 in chips) 
+Seat 7: SUBIMUR (10437 in chips) 
+Seat 8: Liipe_7X (4400 in chips) 
+Seat 9: MFHorn64 (8561 in chips) 
+OverallScoob: posts small blind 50
+SUBIMUR: posts big blind 100
+Liipe_7X: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5h Qc]
+Liipe_7X: checks 
+MFHorn64: raises 100 to 200
+camshaft_97: calls 200
+Kippe940: folds 
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: calls 200
+OverallScoob: folds 
+SUBIMUR: calls 100
+Liipe_7X: calls 100
+*** FLOP *** [3d Th 5c]
+SUBIMUR: checks 
+Liipe_7X: checks 
+MFHorn64: bets 496
+camshaft_97: folds 
+simmer_10968: folds 
+SUBIMUR: folds 
+Liipe_7X: folds 
+Uncalled bet (496) returned to MFHorn64
+MFHorn64 collected 992 from pot
+MFHorn64: doesn't show hand 
+*** SUMMARY ***
+Total pot 1050 | Rake 58 
+Board [3d Th 5c]
+Seat 1: camshaft_97 folded on the Flop
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 (button) folded on the Flop
+Seat 6: OverallScoob (small blind) folded before Flop
+Seat 7: SUBIMUR (big blind) folded on the Flop
+Seat 8: Liipe_7X folded on the Flop
+Seat 9: MFHorn64 collected (992)
+
+
+
+PokerStars Hand #214597716946:  Hold'em No Limit (50/100) - 2020/05/28 20:19:47 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 1: camshaft_97 (13581 in chips) 
+Seat 2: Kippe940 (10967 in chips) 
+Seat 3: double tt11 (10529 in chips) 
+Seat 4: ComplexInteger (20107 in chips) 
+Seat 5: simmer_10968 (11780 in chips) 
+Seat 6: OverallScoob (21658 in chips) 
+Seat 7: SUBIMUR (10237 in chips) 
+Seat 8: Liipe_7X (4200 in chips) 
+Seat 9: MFHorn64 (9353 in chips) 
+SUBIMUR: posts small blind 50
+Liipe_7X: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5h 3d]
+MFHorn64: folds 
+camshaft_97: folds 
+Kippe940: calls 100
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: calls 100
+OverallScoob: folds 
+SUBIMUR: calls 50
+Liipe_7X: checks 
+*** FLOP *** [9s Qd Ah]
+SUBIMUR: checks 
+Liipe_7X: checks 
+Kippe940: checks 
+simmer_10968: checks 
+*** TURN *** [9s Qd Ah] [6d]
+SUBIMUR: checks 
+Liipe_7X: checks 
+Kippe940: checks 
+simmer_10968: checks 
+*** RIVER *** [9s Qd Ah 6d] [4s]
+SUBIMUR: checks 
+Liipe_7X: checks 
+Kippe940: bets 378
+simmer_10968: calls 378
+SUBIMUR: folds 
+Liipe_7X: calls 378
+*** SHOW DOWN ***
+Kippe940: shows [4c 6c] (two pair, Sixes and Fours)
+simmer_10968: mucks hand 
+Liipe_7X: mucks hand 
+Kippe940 collected 1450 from pot
+*** SUMMARY ***
+Total pot 1534 | Rake 84 
+Board [9s Qd Ah 6d 4s]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 showed [4c 6c] and won (1450) with two pair, Sixes and Fours
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 mucked [Qc Ks]
+Seat 6: OverallScoob (button) folded before Flop (didn't bet)
+Seat 7: SUBIMUR (small blind) folded on the River
+Seat 8: Liipe_7X (big blind) mucked [7c 6s]
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597745720:  Hold'em No Limit (50/100) - 2020/05/28 20:20:41 ET
+Table 'Hubei V' 9-max (Play Money) Seat #7 is the button
+Seat 1: camshaft_97 (13581 in chips) 
+Seat 2: Kippe940 (11939 in chips) 
+Seat 3: double tt11 (10529 in chips) 
+Seat 4: ComplexInteger (20107 in chips) 
+Seat 5: simmer_10968 (11302 in chips) 
+Seat 6: OverallScoob (21658 in chips) 
+Seat 7: SUBIMUR (10137 in chips) 
+Seat 8: Liipe_7X (3722 in chips) 
+Seat 9: MFHorn64 (9353 in chips) 
+Liipe_7X: posts small blind 50
+MFHorn64: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ks 5s]
+camshaft_97: folds 
+Kippe940: calls 100
+double tt11: folds 
+ComplexInteger: calls 100
+simmer_10968: calls 100
+OverallScoob: calls 100
+SUBIMUR: calls 100
+Liipe_7X: calls 50
+MFHorn64: checks 
+*** FLOP *** [3c 9d Ah]
+Liipe_7X: checks 
+MFHorn64: bets 100
+Kippe940: calls 100
+ComplexInteger: folds 
+simmer_10968: calls 100
+OverallScoob: calls 100
+SUBIMUR: folds 
+Liipe_7X: folds 
+*** TURN *** [3c 9d Ah] [7h]
+MFHorn64: bets 200
+Kippe940: calls 200
+simmer_10968: folds 
+OverallScoob: raises 1639 to 1839
+MFHorn64: calls 1639
+Kippe940: folds 
+*** RIVER *** [3c 9d Ah 7h] [Jh]
+MFHorn64: bets 100
+OverallScoob: calls 100
+*** SHOW DOWN ***
+MFHorn64: shows [As 5c] (a pair of Aces)
+OverallScoob: shows [Ad 7d] (two pair, Aces and Sevens)
+OverallScoob collected 4893 from pot
+*** SUMMARY ***
+Total pot 5178 | Rake 285 
+Board [3c 9d Ah 7h Jh]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 folded on the Turn
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded on the Flop
+Seat 5: simmer_10968 folded on the Turn
+Seat 6: OverallScoob showed [Ad 7d] and won (4893) with two pair, Aces and Sevens
+Seat 7: SUBIMUR (button) folded on the Flop
+Seat 8: Liipe_7X (small blind) folded on the Flop
+Seat 9: MFHorn64 (big blind) showed [As 5c] and lost with a pair of Aces
+
+
+
+PokerStars Hand #214597786303:  Hold'em No Limit (50/100) - 2020/05/28 20:21:59 ET
+Table 'Hubei V' 9-max (Play Money) Seat #8 is the button
+Seat 1: camshaft_97 (13581 in chips) 
+Seat 2: Kippe940 (11539 in chips) 
+Seat 3: double tt11 (10529 in chips) 
+Seat 4: ComplexInteger (20007 in chips) 
+Seat 5: simmer_10968 (11102 in chips) 
+Seat 6: OverallScoob (24412 in chips) 
+Seat 7: SUBIMUR (10037 in chips) 
+Seat 8: Liipe_7X (3622 in chips) 
+Seat 9: MFHorn64 (7214 in chips) 
+MFHorn64: posts small blind 50
+camshaft_97: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kc 6h]
+Kippe940: folds 
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: folds 
+OverallScoob: folds 
+SUBIMUR: calls 100
+Liipe_7X: raises 500 to 600
+MFHorn64: calls 550
+camshaft_97: folds 
+SUBIMUR: folds 
+*** FLOP *** [6d 8s 8h]
+MFHorn64: bets 661
+Liipe_7X: folds 
+Uncalled bet (661) returned to MFHorn64
+MFHorn64 collected 1323 from pot
+MFHorn64: doesn't show hand 
+*** SUMMARY ***
+Total pot 1400 | Rake 77 
+Board [6d 8s 8h]
+Seat 1: camshaft_97 (big blind) folded before Flop
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 folded before Flop (didn't bet)
+Seat 6: OverallScoob folded before Flop (didn't bet)
+Seat 7: SUBIMUR folded before Flop
+Seat 8: Liipe_7X (button) folded on the Flop
+Seat 9: MFHorn64 (small blind) collected (1323)
+
+
+
+PokerStars Hand #214597812302:  Hold'em No Limit (50/100) - 2020/05/28 20:22:49 ET
+Table 'Hubei V' 9-max (Play Money) Seat #9 is the button
+Seat 1: camshaft_97 (13481 in chips) 
+Seat 2: Kippe940 (11539 in chips) 
+Seat 3: double tt11 (10529 in chips) 
+Seat 4: ComplexInteger (20007 in chips) 
+Seat 5: simmer_10968 (11102 in chips) 
+Seat 6: OverallScoob (24412 in chips) 
+Seat 7: SUBIMUR (9937 in chips) 
+Seat 8: Liipe_7X (3022 in chips) 
+Seat 9: MFHorn64 (7937 in chips) 
+camshaft_97: posts small blind 50
+Kippe940: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ks Qs]
+double tt11: folds 
+ComplexInteger: raises 200 to 300
+simmer_10968: folds 
+OverallScoob: folds 
+SUBIMUR: folds 
+Liipe_7X: folds 
+MFHorn64: folds 
+camshaft_97: folds 
+Kippe940: folds 
+Uncalled bet (200) returned to ComplexInteger
+ComplexInteger collected 250 from pot
+ComplexInteger: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: camshaft_97 (small blind) folded before Flop
+Seat 2: Kippe940 (big blind) folded before Flop
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger collected (250)
+Seat 5: simmer_10968 folded before Flop (didn't bet)
+Seat 6: OverallScoob folded before Flop (didn't bet)
+Seat 7: SUBIMUR folded before Flop (didn't bet)
+Seat 8: Liipe_7X folded before Flop (didn't bet)
+Seat 9: MFHorn64 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597821648:  Hold'em No Limit (50/100) - 2020/05/28 20:23:07 ET
+Table 'Hubei V' 9-max (Play Money) Seat #1 is the button
+Seat 1: camshaft_97 (13431 in chips) 
+Seat 2: Kippe940 (11439 in chips) 
+Seat 3: double tt11 (10529 in chips) 
+Seat 4: ComplexInteger (20157 in chips) 
+Seat 5: simmer_10968 (11102 in chips) 
+Seat 6: OverallScoob (24412 in chips) 
+Seat 7: SUBIMUR (9937 in chips) 
+Seat 8: Liipe_7X (3022 in chips) 
+Seat 9: MFHorn64 (7937 in chips) 
+Kippe940: posts small blind 50
+double tt11: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5d Js]
+ComplexInteger: folds 
+simmer_10968: calls 100
+OverallScoob: folds 
+SUBIMUR: calls 100
+Liipe_7X: folds 
+MFHorn64: calls 100
+camshaft_97: folds 
+Kippe940: folds 
+double tt11: checks 
+*** FLOP *** [2d Th Ah]
+double tt11: checks 
+simmer_10968: checks 
+SUBIMUR: checks 
+MFHorn64: checks 
+*** TURN *** [2d Th Ah] [6h]
+double tt11: checks 
+OverallScoob leaves the table
+simmer_10968: checks 
+SUBIMUR: checks 
+MFHorn64: checks 
+*** RIVER *** [2d Th Ah 6h] [6s]
+double tt11: checks 
+simmer_10968: checks 
+SUBIMUR: checks 
+MFHorn64: checks 
+*** SHOW DOWN ***
+double tt11: shows [9c 2c] (two pair, Sixes and Deuces)
+simmer_10968: mucks hand 
+SUBIMUR: mucks hand 
+MFHorn64: mucks hand 
+double tt11 collected 425 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 25 
+Board [2d Th Ah 6h 6s]
+Seat 1: camshaft_97 (button) folded before Flop (didn't bet)
+Seat 2: Kippe940 (small blind) folded before Flop
+Seat 3: double tt11 (big blind) showed [9c 2c] and won (425) with two pair, Sixes and Deuces
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 mucked [8d Qd]
+Seat 6: OverallScoob folded before Flop (didn't bet)
+Seat 7: SUBIMUR mucked [4c Jh]
+Seat 8: Liipe_7X folded before Flop (didn't bet)
+Seat 9: MFHorn64 mucked [Jc 7c]
+
+
+
+PokerStars Hand #214597857743:  Hold'em No Limit (50/100) - 2020/05/28 20:23:57 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 1: camshaft_97 (13431 in chips) 
+Seat 2: Kippe940 (11389 in chips) 
+Seat 3: double tt11 (10854 in chips) 
+Seat 4: ComplexInteger (20157 in chips) 
+Seat 5: simmer_10968 (11002 in chips) 
+Seat 7: SUBIMUR (9837 in chips) 
+Seat 8: Liipe_7X (3022 in chips) 
+Seat 9: MFHorn64 (7837 in chips) 
+double tt11: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5c 8s]
+simmer_10968: calls 100
+SUBIMUR: calls 100
+Liipe_7X: folds 
+MFHorn64: folds 
+camshaft_97: folds 
+Kippe940: calls 100
+double tt11: calls 50
+ComplexInteger: checks 
+*** FLOP *** [8d Th 6s]
+double tt11: checks 
+PATT2000 joins the table at seat #6 
+ComplexInteger: bets 200
+simmer_10968: calls 200
+SUBIMUR: folds 
+Kippe940: calls 200
+double tt11: folds 
+*** TURN *** [8d Th 6s] [Td]
+ComplexInteger: bets 100
+simmer_10968: folds 
+Kippe940: calls 100
+*** RIVER *** [8d Th 6s Td] [6d]
+ComplexInteger: bets 100
+Kippe940: calls 100
+*** SHOW DOWN ***
+ComplexInteger: shows [5c 8s] (two pair, Tens and Eights)
+Kippe940: mucks hand 
+ComplexInteger collected 1417 from pot
+*** SUMMARY ***
+Total pot 1500 | Rake 83 
+Board [8d Th 6s Td 6d]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 (button) mucked [7s Ac]
+Seat 3: double tt11 (small blind) folded on the Flop
+Seat 4: ComplexInteger (big blind) showed [5c 8s] and won (1417) with two pair, Tens and Eights
+Seat 5: simmer_10968 folded on the Turn
+Seat 7: SUBIMUR folded on the Flop
+Seat 8: Liipe_7X folded before Flop (didn't bet)
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214597894493:  Hold'em No Limit (50/100) - 2020/05/28 20:25:08 ET
+Table 'Hubei V' 9-max (Play Money) Seat #3 is the button
+Seat 1: camshaft_97 (13431 in chips) 
+Seat 2: Kippe940 (10889 in chips) 
+Seat 3: double tt11 (10754 in chips) 
+Seat 4: ComplexInteger (21074 in chips) 
+Seat 5: simmer_10968 (10702 in chips) 
+Seat 6: PATT2000 (8000 in chips) 
+Seat 8: Liipe_7X (3022 in chips) 
+Seat 9: MFHorn64 (7837 in chips) 
+ComplexInteger: posts small blind 50
+simmer_10968: posts big blind 100
+PATT2000: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kh 8s]
+PATT2000 has timed out
+PATT2000: checks 
+Liipe_7X: calls 100
+MFHorn64: calls 100
+camshaft_97: folds 
+Kippe940: calls 100
+double tt11: calls 100
+ComplexInteger: calls 50
+simmer_10968: checks 
+*** FLOP *** [7d Jd 4s]
+ComplexInteger: checks 
+simmer_10968: checks 
+PATT2000: checks 
+Liipe_7X: checks 
+MFHorn64: checks 
+Kippe940: checks 
+double tt11: bets 661
+ComplexInteger: folds 
+simmer_10968: calls 661
+PATT2000: folds 
+Liipe_7X: folds 
+MFHorn64: folds 
+Kippe940: folds 
+*** TURN *** [7d Jd 4s] [7s]
+simmer_10968: checks 
+double tt11: checks 
+*** RIVER *** [7d Jd 4s 7s] [5s]
+simmer_10968: checks 
+double tt11: checks 
+*** SHOW DOWN ***
+simmer_10968: shows [9h Th] (a pair of Sevens)
+double tt11: shows [Tc Js] (two pair, Jacks and Sevens)
+double tt11 collected 1911 from pot
+*** SUMMARY ***
+Total pot 2022 | Rake 111 
+Board [7d Jd 4s 7s 5s]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 folded on the Flop
+Seat 3: double tt11 (button) showed [Tc Js] and won (1911) with two pair, Jacks and Sevens
+Seat 4: ComplexInteger (small blind) folded on the Flop
+Seat 5: simmer_10968 (big blind) showed [9h Th] and lost with a pair of Sevens
+Seat 6: PATT2000 folded on the Flop (didn't bet)
+Seat 8: Liipe_7X folded on the Flop
+Seat 9: MFHorn64 folded on the Flop
+
+
+
+PokerStars Hand #214597944019:  Hold'em No Limit (50/100) - 2020/05/28 20:26:44 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 1: camshaft_97 (13431 in chips) 
+Seat 2: Kippe940 (10789 in chips) 
+Seat 3: double tt11 (11904 in chips) 
+Seat 4: ComplexInteger (20974 in chips) 
+Seat 5: simmer_10968 (9941 in chips) 
+Seat 6: PATT2000 (7900 in chips) 
+Seat 7: SUBIMUR (9737 in chips) 
+Seat 8: Liipe_7X (2922 in chips) 
+Seat 9: MFHorn64 (7737 in chips) 
+simmer_10968: posts small blind 50
+PATT2000: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ad 2c]
+SUBIMUR: calls 100
+Liipe_7X: folds 
+MFHorn64: raises 100 to 200
+camshaft_97: calls 200
+Liipe_7X leaves the table
+Kippe940: calls 200
+double tt11: calls 200
+ComplexInteger: folds 
+simmer_10968: calls 150
+PATT2000: calls 100
+SUBIMUR: calls 100
+*** FLOP *** [8d 5d Kc]
+Josejl78 joins the table at seat #8 
+simmer_10968: bets 1323
+PATT2000: folds 
+SUBIMUR: folds 
+MFHorn64: folds 
+camshaft_97: calls 1323
+Kippe940: calls 1323
+double tt11: folds 
+*** TURN *** [8d 5d Kc] [8s]
+simmer_10968: bets 5074
+camshaft_97: calls 5074
+Kippe940: folds 
+*** RIVER *** [8d 5d Kc 8s] [3c]
+simmer_10968: bets 3344 and is all-in
+camshaft_97: calls 3344
+*** SHOW DOWN ***
+simmer_10968: shows [Qc Kd] (two pair, Kings and Eights)
+camshaft_97: shows [Ks Jd] (two pair, Kings and Eights - lower kicker)
+simmer_10968 collected 20984 from pot
+*** SUMMARY ***
+Total pot 22205 | Rake 1221 
+Board [8d 5d Kc 8s 3c]
+Seat 1: camshaft_97 showed [Ks Jd] and lost with two pair, Kings and Eights
+Seat 2: Kippe940 folded on the Turn
+Seat 3: double tt11 folded on the Flop
+Seat 4: ComplexInteger (button) folded before Flop (didn't bet)
+Seat 5: simmer_10968 (small blind) showed [Qc Kd] and won (20984) with two pair, Kings and Eights
+Seat 6: PATT2000 (big blind) folded on the Flop
+Seat 7: SUBIMUR folded on the Flop
+Seat 8: Liipe_7X folded before Flop (didn't bet)
+Seat 9: MFHorn64 folded on the Flop
+
+
+
+PokerStars Hand #214597980965:  Hold'em No Limit (50/100) - 2020/05/28 20:27:45 ET
+Table 'Hubei V' 9-max (Play Money) Seat #5 is the button
+Seat 1: camshaft_97 (3490 in chips) 
+Seat 2: Kippe940 (9266 in chips) 
+Seat 3: double tt11 (11704 in chips) 
+Seat 4: ComplexInteger (20974 in chips) 
+Seat 5: simmer_10968 (20984 in chips) 
+Seat 6: PATT2000 (7700 in chips) 
+Seat 7: SUBIMUR (9537 in chips) 
+Seat 8: Josejl78 (5000 in chips) 
+Seat 9: MFHorn64 (7537 in chips) 
+PATT2000: posts small blind 50
+SUBIMUR: posts big blind 100
+Josejl78: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kc Tc]
+Josejl78: raises 100 to 200
+MFHorn64: calls 200
+camshaft_97: folds 
+Kippe940: calls 200
+double tt11: folds 
+camshaft_97 leaves the table
+ComplexInteger: raises 800 to 1000
+simmer_10968: folds 
+PATT2000: folds 
+SUBIMUR: folds 
+Josejl78: calls 800
+MFHorn64: raises 6537 to 7537 and is all-in
+Kippe940: folds 
+ComplexInteger: calls 6537
+Josejl78: calls 4000 and is all-in
+*** FLOP *** [6d Kd 7d]
+*** TURN *** [6d Kd 7d] [4d]
+*** RIVER *** [6d Kd 7d 4d] [9s]
+*** SHOW DOWN ***
+MFHorn64: shows [Js Ah] (high card Ace)
+ComplexInteger: shows [Kc Tc] (a pair of Kings)
+ComplexInteger collected 4795 from side pot
+Josejl78: shows [Jh Ac] (high card Ace)
+ComplexInteger collected 14506 from main pot
+*** SUMMARY ***
+Total pot 20424 Main pot 14506. Side pot 4795. | Rake 1123 
+Board [6d Kd 7d 4d 9s]
+Seat 1: camshaft_97 folded before Flop (didn't bet)
+Seat 2: Kippe940 folded before Flop
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger showed [Kc Tc] and won (19301) with a pair of Kings
+Seat 5: simmer_10968 (button) folded before Flop (didn't bet)
+Seat 6: PATT2000 (small blind) folded before Flop
+Seat 7: SUBIMUR (big blind) folded before Flop
+Seat 8: Josejl78 showed [Jh Ac] and lost with high card Ace
+Seat 9: MFHorn64 showed [Js Ah] and lost with high card Ace
+
+
+
+PokerStars Hand #214598007601:  Hold'em No Limit (50/100) - 2020/05/28 20:28:37 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 2: Kippe940 (9066 in chips) 
+Seat 4: ComplexInteger (32738 in chips) 
+Seat 5: simmer_10968 (20984 in chips) 
+Seat 6: PATT2000 (7650 in chips) 
+Seat 7: SUBIMUR (9437 in chips) 
+SUBIMUR: posts small blind 50
+Kippe940: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8s Kc]
+ComplexInteger: folds 
+simmer_10968: calls 100
+PATT2000: folds 
+SUBIMUR: calls 50
+Kippe940: checks 
+*** FLOP *** [4d Th 7c]
+SUBIMUR: checks 
+Kippe940: bets 283
+simmer_10968: calls 283
+SUBIMUR: folds 
+*** TURN *** [4d Th 7c] [7h]
+Kippe940: checks 
+CleomarClean joins the table at seat #1 
+simmer_10968: checks 
+*** RIVER *** [4d Th 7c 7h] [7s]
+Kippe940: bets 818
+simmer_10968: folds 
+Uncalled bet (818) returned to Kippe940
+Kippe940 collected 818 from pot
+Kippe940: doesn't show hand 
+*** SUMMARY ***
+Total pot 866 | Rake 48 
+Board [4d Th 7c 7h 7s]
+Seat 2: Kippe940 (big blind) collected (818)
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 folded on the River
+Seat 6: PATT2000 (button) folded before Flop (didn't bet)
+Seat 7: SUBIMUR (small blind) folded on the Flop
+
+
+
+PokerStars Hand #214598023747:  Hold'em No Limit (50/100) - 2020/05/28 20:29:09 ET
+Table 'Hubei V' 9-max (Play Money) Seat #7 is the button
+Seat 2: Kippe940 (9501 in chips) 
+Seat 4: ComplexInteger (32738 in chips) 
+Seat 5: simmer_10968 (20601 in chips) 
+Seat 6: PATT2000 (7650 in chips) 
+Seat 7: SUBIMUR (9337 in chips) 
+Kippe940: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8h Kc]
+simmer_10968: calls 100
+PATT2000: folds 
+SUBIMUR: calls 100
+Kippe940: calls 50
+ComplexInteger: checks 
+*** FLOP *** [5c Qc Qs]
+Kippe940: checks 
+ComplexInteger: bets 378
+simmer_10968: folds 
+SUBIMUR: folds 
+Kippe940: calls 378
+*** TURN *** [5c Qc Qs] [Kh]
+Kippe940: checks 
+ComplexInteger: bets 100
+Kippe940: calls 100
+*** RIVER *** [5c Qc Qs Kh] [Ac]
+Kippe940: checks 
+ComplexInteger: bets 100
+Kippe940: raises 100 to 200
+ComplexInteger: calls 100
+*** SHOW DOWN ***
+Kippe940: shows [9c 9h] (two pair, Queens and Nines)
+ComplexInteger: shows [8h Kc] (two pair, Kings and Queens)
+ComplexInteger collected 1659 from pot
+*** SUMMARY ***
+Total pot 1756 | Rake 97 
+Board [5c Qc Qs Kh Ac]
+Seat 2: Kippe940 (small blind) showed [9c 9h] and lost with two pair, Queens and Nines
+Seat 4: ComplexInteger (big blind) showed [8h Kc] and won (1659) with two pair, Kings and Queens
+Seat 5: simmer_10968 folded on the Flop
+Seat 6: PATT2000 folded before Flop (didn't bet)
+Seat 7: SUBIMUR (button) folded on the Flop
+
+
+
+PokerStars Hand #214598047779:  Hold'em No Limit (50/100) - 2020/05/28 20:29:55 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 1: CleomarClean (4000 in chips) 
+Seat 2: Kippe940 (8723 in chips) 
+Seat 4: ComplexInteger (33619 in chips) 
+Seat 5: simmer_10968 (20501 in chips) 
+Seat 6: PATT2000 (7650 in chips) 
+Seat 7: SUBIMUR (9237 in chips) 
+Seat 8: Josejl78 (10000 in chips) 
+ComplexInteger: posts small blind 50
+simmer_10968: posts big blind 100
+Josejl78: posts small & big blinds 150
+CleomarClean: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ks 6d]
+PATT2000: folds 
+SUBIMUR: calls 100
+Josejl78 has timed out
+Josejl78: checks 
+CleomarClean: checks 
+Kippe940: calls 100
+ComplexInteger: calls 50
+simmer_10968: checks 
+*** FLOP *** [3d Kh 2c]
+ComplexInteger: bets 100
+simmer_10968: folds 
+SUBIMUR: calls 100
+Josejl78 has timed out
+Josejl78: folds 
+CleomarClean: calls 100
+Kippe940: folds 
+*** TURN *** [3d Kh 2c] [2s]
+ComplexInteger: bets 100
+SUBIMUR: calls 100
+CleomarClean: folds 
+*** RIVER *** [3d Kh 2c 2s] [Ah]
+ComplexInteger: bets 100
+SUBIMUR: calls 100
+*** SHOW DOWN ***
+ComplexInteger: shows [Ks 6d] (two pair, Kings and Deuces)
+SUBIMUR: shows [2d 5h] (three of a kind, Deuces)
+SUBIMUR collected 1276 from pot
+*** SUMMARY ***
+Total pot 1350 | Rake 74 
+Board [3d Kh 2c 2s Ah]
+Seat 1: CleomarClean folded on the Turn
+Seat 2: Kippe940 (button) folded on the Flop
+Seat 4: ComplexInteger (small blind) showed [Ks 6d] and lost with two pair, Kings and Deuces
+Seat 5: simmer_10968 (big blind) folded on the Flop
+Seat 6: PATT2000 folded before Flop (didn't bet)
+Seat 7: SUBIMUR showed [2d 5h] and won (1276) with three of a kind, Deuces
+Seat 8: Josejl78 folded on the Flop (didn't bet)
+
+
+
+PokerStars Hand #214598091803:  Hold'em No Limit (50/100) - 2020/05/28 20:31:21 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 1: CleomarClean (3800 in chips) 
+Seat 2: Kippe940 (9860 in chips) 
+Seat 4: ComplexInteger (33219 in chips) 
+Seat 5: simmer_10968 (20401 in chips) 
+Seat 6: PATT2000 (7650 in chips) 
+Seat 7: SUBIMUR (10113 in chips) 
+simmer_10968: posts small blind 50
+PATT2000: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [7h Qd]
+SUBIMUR: calls 100
+CleomarClean: raises 350 to 450
+Kippe940: folds 
+ComplexInteger: folds 
+simmer_10968: calls 400
+PATT2000: folds 
+SUBIMUR: calls 350
+*** FLOP *** [4c 6h 4s]
+simmer_10968: checks 
+SUBIMUR: checks 
+CleomarClean: bets 700
+simmer_10968: folds 
+SUBIMUR: calls 700
+*** TURN *** [4c 6h 4s] [7d]
+SUBIMUR: checks 
+CleomarClean: bets 1300
+SUBIMUR: calls 1300
+*** RIVER *** [4c 6h 4s 7d] [Jc]
+SUBIMUR: checks 
+CleomarClean: checks 
+*** SHOW DOWN ***
+SUBIMUR: shows [6c Ah] (two pair, Sixes and Fours)
+CleomarClean: mucks hand 
+SUBIMUR collected 5150 from pot
+*** SUMMARY ***
+Total pot 5450 | Rake 300 
+Board [4c 6h 4s 7d Jc]
+Seat 1: CleomarClean mucked [Ad Kh]
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 4: ComplexInteger (button) folded before Flop (didn't bet)
+Seat 5: simmer_10968 (small blind) folded on the Flop
+Seat 6: PATT2000 (big blind) folded before Flop
+Seat 7: SUBIMUR showed [6c Ah] and won (5150) with two pair, Sixes and Fours
+
+
+
+PokerStars Hand #214598119288:  Hold'em No Limit (50/100) - 2020/05/28 20:32:14 ET
+Table 'Hubei V' 9-max (Play Money) Seat #5 is the button
+Seat 1: CleomarClean (1350 in chips) 
+Seat 2: Kippe940 (9860 in chips) 
+Seat 4: ComplexInteger (33219 in chips) 
+Seat 5: simmer_10968 (19951 in chips) 
+Seat 6: PATT2000 (7550 in chips) 
+Seat 7: SUBIMUR (12813 in chips) 
+PATT2000: posts small blind 50
+SUBIMUR: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6d 8c]
+CleomarClean: calls 100
+Kippe940: calls 100
+ComplexInteger: folds 
+simmer_10968: folds 
+PATT2000: calls 50
+SUBIMUR: checks 
+*** FLOP *** [As 5d 7c]
+PATT2000: checks 
+SUBIMUR: checks 
+CleomarClean: checks 
+Kippe940: checks 
+*** TURN *** [As 5d 7c] [Td]
+PATT2000: bets 7450 and is all-in
+SUBIMUR: folds 
+CleomarClean: calls 1250 and is all-in
+Kippe940: folds 
+Uncalled bet (6200) returned to PATT2000
+*** RIVER *** [As 5d 7c Td] [Ks]
+*** SHOW DOWN ***
+PATT2000: shows [Ah Qh] (a pair of Aces)
+CleomarClean: shows [3c 4s] (high card Ace)
+PATT2000 collected 2740 from pot
+*** SUMMARY ***
+Total pot 2900 | Rake 160 
+Board [As 5d 7c Td Ks]
+Seat 1: CleomarClean showed [3c 4s] and lost with high card Ace
+Seat 2: Kippe940 folded on the Turn
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 (button) folded before Flop (didn't bet)
+Seat 6: PATT2000 (small blind) showed [Ah Qh] and won (2740) with a pair of Aces
+Seat 7: SUBIMUR (big blind) folded on the Turn
+
+
+
+PokerStars Hand #214598137695:  Hold'em No Limit (50/100) - 2020/05/28 20:32:49 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 2: Kippe940 (9760 in chips) 
+Seat 4: ComplexInteger (33219 in chips) 
+Seat 5: simmer_10968 (19951 in chips) 
+Seat 6: PATT2000 (8940 in chips) 
+Seat 7: SUBIMUR (12713 in chips) 
+SUBIMUR: posts small blind 50
+Kippe940: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Th 6d]
+ComplexInteger: folds 
+simmer_10968: calls 100
+PATT2000: folds 
+SUBIMUR: calls 50
+Kippe940: checks 
+*** FLOP *** [Kc 7c 8s]
+SUBIMUR: checks 
+Kippe940: checks 
+simmer_10968: checks 
+*** TURN *** [Kc 7c 8s] [4s]
+SUBIMUR: checks 
+Kippe940: checks 
+simmer_10968: checks 
+*** RIVER *** [Kc 7c 8s 4s] [6c]
+SUBIMUR: checks 
+Kippe940: checks 
+simmer_10968: checks 
+*** SHOW DOWN ***
+SUBIMUR: shows [3c Kh] (a pair of Kings)
+Kippe940: mucks hand 
+simmer_10968: mucks hand 
+SUBIMUR collected 283 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 17 
+Board [Kc 7c 8s 4s 6c]
+Seat 2: Kippe940 (big blind) mucked [9s 4c]
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 mucked [Qc Jd]
+Seat 6: PATT2000 (button) folded before Flop (didn't bet)
+Seat 7: SUBIMUR (small blind) showed [3c Kh] and won (283) with a pair of Kings
+
+
+
+PokerStars Hand #214598156839:  Hold'em No Limit (50/100) - 2020/05/28 20:33:27 ET
+Table 'Hubei V' 9-max (Play Money) Seat #7 is the button
+Seat 2: Kippe940 (9660 in chips) 
+Seat 4: ComplexInteger (33219 in chips) 
+Seat 5: simmer_10968 (19851 in chips) 
+Seat 7: SUBIMUR (12896 in chips) 
+Kippe940: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ad Kd]
+simmer_10968: calls 100
+SUBIMUR: calls 100
+Kippe940: calls 50
+ComplexInteger: checks 
+*** FLOP *** [2d Kh 8s]
+Kippe940: checks 
+PATT2000 leaves the table
+ComplexInteger: bets 100
+simmer_10968: folds 
+SUBIMUR: calls 100
+Kippe940: calls 100
+*** TURN *** [2d Kh 8s] [9h]
+Kippe940: checks 
+ComplexInteger: bets 100
+SUBIMUR: calls 100
+Kippe940: calls 100
+*** RIVER *** [2d Kh 8s 9h] [Qh]
+Kippe940: checks 
+ComplexInteger: bets 100
+SUBIMUR: calls 100
+Kippe940: calls 100
+*** SHOW DOWN ***
+ComplexInteger: shows [Ad Kd] (a pair of Kings)
+SUBIMUR: shows [8h Ks] (two pair, Kings and Eights)
+Kippe940: mucks hand 
+SUBIMUR collected 1228 from pot
+*** SUMMARY ***
+Total pot 1300 | Rake 72 
+Board [2d Kh 8s 9h Qh]
+Seat 2: Kippe940 (small blind) mucked [Kc Tc]
+Seat 4: ComplexInteger (big blind) showed [Ad Kd] and lost with a pair of Kings
+Seat 5: simmer_10968 folded on the Flop
+Seat 7: SUBIMUR (button) showed [8h Ks] and won (1228) with two pair, Kings and Eights
+
+
+
+PokerStars Hand #214598179632:  Hold'em No Limit (50/100) - 2020/05/28 20:34:11 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 1: CleomarClean (4000 in chips) 
+Seat 2: Kippe940 (9260 in chips) 
+Seat 4: ComplexInteger (32819 in chips) 
+Seat 5: simmer_10968 (19751 in chips) 
+Seat 7: SUBIMUR (13724 in chips) 
+ComplexInteger: posts small blind 50
+simmer_10968: posts big blind 100
+CleomarClean: posts small & big blinds 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qs Td]
+BeefStu22 joins the table at seat #6 
+SUBIMUR: calls 100
+CleomarClean: checks 
+Kippe940: calls 100
+ComplexInteger: folds 
+simmer_10968: checks 
+*** FLOP *** [5c 7d Kh]
+simmer_10968: checks 
+SUBIMUR: checks 
+CleomarClean: bets 100
+Kippe940: folds 
+simmer_10968: calls 100
+SUBIMUR: folds 
+*** TURN *** [5c 7d Kh] [3s]
+simmer_10968: checks 
+CleomarClean: bets 300
+simmer_10968: calls 300
+*** RIVER *** [5c 7d Kh 3s] [9c]
+simmer_10968: checks 
+CleomarClean: checks 
+*** SHOW DOWN ***
+simmer_10968: shows [4d 7c] (a pair of Sevens)
+CleomarClean: mucks hand 
+simmer_10968 collected 1228 from pot
+*** SUMMARY ***
+Total pot 1300 | Rake 72 
+Board [5c 7d Kh 3s 9c]
+Seat 1: CleomarClean mucked [Qc 5s]
+Seat 2: Kippe940 (button) folded on the Flop
+Seat 4: ComplexInteger (small blind) folded before Flop
+Seat 5: simmer_10968 (big blind) showed [4d 7c] and won (1228) with a pair of Sevens
+Seat 7: SUBIMUR folded on the Flop
+
+
+
+PokerStars Hand #214598200731:  Hold'em No Limit (50/100) - 2020/05/28 20:34:51 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 1: CleomarClean (3450 in chips) 
+Seat 2: Kippe940 (9160 in chips) 
+Seat 4: ComplexInteger (32769 in chips) 
+Seat 5: simmer_10968 (20479 in chips) 
+Seat 6: BeefStu22 (10000 in chips) 
+Seat 7: SUBIMUR (13624 in chips) 
+simmer_10968: posts small blind 50
+BeefStu22: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9d 7d]
+SUBIMUR: calls 100
+CleomarClean: calls 100
+Kippe940: folds 
+ComplexInteger: calls 100
+simmer_10968: folds 
+BeefStu22: raises 200 to 300
+SUBIMUR: calls 200
+CleomarClean: calls 200
+ComplexInteger: calls 200
+*** FLOP *** [6d 8d Ks]
+BeefStu22: bets 500
+SUBIMUR: folds 
+CleomarClean: calls 500
+ComplexInteger: calls 500
+*** TURN *** [6d 8d Ks] [Ah]
+BeefStu22: bets 2600
+CleomarClean: folds 
+ComplexInteger: calls 2600
+*** RIVER *** [6d 8d Ks Ah] [6c]
+BeefStu22: bets 6600 and is all-in
+ComplexInteger: folds 
+Uncalled bet (6600) returned to BeefStu22
+BeefStu22 collected 7513 from pot
+BeefStu22: doesn't show hand 
+*** SUMMARY ***
+Total pot 7950 | Rake 437 
+Board [6d 8d Ks Ah 6c]
+Seat 1: CleomarClean folded on the Turn
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 4: ComplexInteger (button) folded on the River
+Seat 5: simmer_10968 (small blind) folded before Flop
+Seat 6: BeefStu22 (big blind) collected (7513)
+Seat 7: SUBIMUR folded on the Flop
+
+
+
+PokerStars Hand #214598244173:  Hold'em No Limit (50/100) - 2020/05/28 20:35:57 ET
+Table 'Hubei V' 9-max (Play Money) Seat #5 is the button
+Seat 1: CleomarClean (2650 in chips) 
+Seat 2: Kippe940 (9160 in chips) 
+Seat 4: ComplexInteger (29369 in chips) 
+Seat 5: simmer_10968 (20429 in chips) 
+Seat 6: BeefStu22 (14113 in chips) 
+Seat 8: Josejl78 (9850 in chips) 
+Seat 9: MFHorn64 (10000 in chips) 
+BeefStu22: posts small blind 50
+Josejl78: posts big blind 100
+MFHorn64: posts small & big blinds 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ts 9c]
+MFHorn64: checks 
+CleomarClean: raises 400 to 500
+Kippe940: folds 
+ComplexInteger: folds 
+simmer_10968: calls 500
+BeefStu22: folds 
+Josejl78: calls 400
+MFHorn64: calls 400
+*** FLOP *** [7s 2d Qd]
+Josejl78 has timed out
+Josejl78: checks 
+MFHorn64: checks 
+CleomarClean: bets 1000
+simmer_10968: calls 1000
+Josejl78 has timed out
+Josejl78: folds 
+MFHorn64: folds 
+*** TURN *** [7s 2d Qd] [3s]
+CleomarClean: bets 1150 and is all-in
+simmer_10968: calls 1150
+*** RIVER *** [7s 2d Qd 3s] [7d]
+*** SHOW DOWN ***
+CleomarClean: shows [Kd 8d] (a flush, King high)
+simmer_10968: shows [Qc As] (two pair, Queens and Sevens)
+CleomarClean collected 6048 from pot
+*** SUMMARY ***
+Total pot 6400 | Rake 352 
+Board [7s 2d Qd 3s 7d]
+Seat 1: CleomarClean showed [Kd 8d] and won (6048) with a flush, King high
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 (button) showed [Qc As] and lost with two pair, Queens and Sevens
+Seat 6: BeefStu22 (small blind) folded before Flop
+Seat 8: Josejl78 (big blind) folded on the Flop
+Seat 9: MFHorn64 folded on the Flop
+
+
+
+PokerStars Hand #214598285465:  Hold'em No Limit (50/100) - 2020/05/28 20:37:17 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 1: CleomarClean (6048 in chips) 
+Seat 2: Kippe940 (9160 in chips) 
+Seat 3: double tt11 (11704 in chips) 
+Seat 4: ComplexInteger (29369 in chips) 
+Seat 5: simmer_10968 (17779 in chips) 
+Seat 6: BeefStu22 (14063 in chips) 
+Seat 9: MFHorn64 (9450 in chips) 
+MFHorn64: posts small blind 50
+CleomarClean: posts big blind 100
+double tt11: posts small & big blinds 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9c 4s]
+Kippe940: folds 
+double tt11: raises 600 to 700
+ComplexInteger: folds 
+simmer_10968: folds 
+BeefStu22: folds 
+MFHorn64: calls 650
+CleomarClean: folds 
+*** FLOP *** [9s Jd 3c]
+MFHorn64: bets 1465
+double tt11: calls 1465
+*** TURN *** [9s Jd 3c] [5h]
+MFHorn64: bets 7285 and is all-in
+double tt11: folds 
+Uncalled bet (7285) returned to MFHorn64
+MFHorn64 collected 4234 from pot
+MFHorn64: doesn't show hand 
+*** SUMMARY ***
+Total pot 4480 | Rake 246 
+Board [9s Jd 3c 5h]
+Seat 1: CleomarClean (big blind) folded before Flop
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 3: double tt11 folded on the Turn
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 folded before Flop (didn't bet)
+Seat 6: BeefStu22 (button) folded before Flop (didn't bet)
+Seat 9: MFHorn64 (small blind) collected (4234)
+
+
+
+PokerStars Hand #214598305753:  Hold'em No Limit (50/100) - 2020/05/28 20:37:57 ET
+Table 'Hubei V' 9-max (Play Money) Seat #9 is the button
+Seat 1: CleomarClean (5948 in chips) 
+Seat 2: Kippe940 (9160 in chips) 
+Seat 3: double tt11 (9489 in chips) 
+Seat 4: ComplexInteger (29369 in chips) 
+Seat 5: simmer_10968 (17779 in chips) 
+Seat 6: BeefStu22 (14063 in chips) 
+Seat 9: MFHorn64 (11519 in chips) 
+CleomarClean: posts small blind 50
+Kippe940: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5s Kh]
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: folds 
+BeefStu22: folds 
+MFHorn64: calls 100
+CleomarClean: folds 
+Kippe940: checks 
+*** FLOP *** [Qs 4c 7c]
+Kippe940: checks 
+MFHorn64: checks 
+*** TURN *** [Qs 4c 7c] [Qh]
+Kippe940: checks 
+MFHorn64: checks 
+*** RIVER *** [Qs 4c 7c Qh] [Jc]
+Kippe940: checks 
+MFHorn64: bets 100
+Kippe940: calls 100
+*** SHOW DOWN ***
+MFHorn64: shows [Jh 9c] (two pair, Queens and Jacks)
+Kippe940: shows [Th Jd] (two pair, Queens and Jacks - Ten kicker)
+Kippe940 collected 425 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 25 
+Board [Qs 4c 7c Qh Jc]
+Seat 1: CleomarClean (small blind) folded before Flop
+Seat 2: Kippe940 (big blind) showed [Th Jd] and won (425) with two pair, Queens and Jacks
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 folded before Flop (didn't bet)
+Seat 6: BeefStu22 folded before Flop (didn't bet)
+Seat 9: MFHorn64 (button) showed [Jh 9c] and lost with two pair, Queens and Jacks
+
+
+
+PokerStars Hand #214598317306:  Hold'em No Limit (50/100) - 2020/05/28 20:38:19 ET
+Table 'Hubei V' 9-max (Play Money) Seat #1 is the button
+Seat 1: CleomarClean (5898 in chips) 
+Seat 2: Kippe940 (9385 in chips) 
+Seat 3: double tt11 (9489 in chips) 
+Seat 4: ComplexInteger (29369 in chips) 
+Seat 5: simmer_10968 (17779 in chips) 
+Seat 6: BeefStu22 (14063 in chips) 
+Seat 9: MFHorn64 (11319 in chips) 
+Kippe940: posts small blind 50
+double tt11: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jd 4d]
+ComplexInteger: folds 
+simmer_10968: calls 100
+BeefStu22: calls 100
+MFHorn64: folds 
+CleomarClean: calls 100
+Kippe940: calls 50
+double tt11: checks 
+*** FLOP *** [3s Jh 9h]
+Kippe940: checks 
+double tt11: checks 
+simmer_10968: checks 
+BeefStu22: checks 
+CleomarClean: checks 
+*** TURN *** [3s Jh 9h] [3c]
+Kippe940: checks 
+double tt11: bets 472
+simmer_10968: calls 472
+BeefStu22: folds 
+CleomarClean: folds 
+Kippe940: calls 472
+*** RIVER *** [3s Jh 9h 3c] [Ks]
+Kippe940: checks 
+double tt11: checks 
+simmer_10968: bets 1811
+Kippe940: folds 
+double tt11: folds 
+Uncalled bet (1811) returned to simmer_10968
+simmer_10968 collected 1811 from pot
+simmer_10968: doesn't show hand 
+*** SUMMARY ***
+Total pot 1916 | Rake 105 
+Board [3s Jh 9h 3c Ks]
+Seat 1: CleomarClean (button) folded on the Turn
+Seat 2: Kippe940 (small blind) folded on the River
+Seat 3: double tt11 (big blind) folded on the River
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 collected (1811)
+Seat 6: BeefStu22 folded on the Turn
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214598339888:  Hold'em No Limit (50/100) - 2020/05/28 20:39:04 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 1: CleomarClean (5798 in chips) 
+Seat 2: Kippe940 (8813 in chips) 
+Seat 3: double tt11 (8917 in chips) 
+Seat 4: ComplexInteger (29369 in chips) 
+Seat 5: simmer_10968 (19018 in chips) 
+Seat 6: BeefStu22 (13963 in chips) 
+Seat 8: Josejl78 (9350 in chips) 
+Seat 9: MFHorn64 (11319 in chips) 
+double tt11: posts small blind 50
+ComplexInteger: posts big blind 100
+Josejl78: posts small blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ts Qc]
+simmer_10968: calls 100
+BeefStu22: folds 
+Josejl78 has timed out
+Josejl78: folds 
+MFHorn64: calls 100
+CleomarClean: calls 100
+Kippe940: calls 100
+double tt11: calls 50
+ComplexInteger: checks 
+*** FLOP *** [7d Jc Kh]
+double tt11: checks 
+ComplexInteger: bets 100
+simmer_10968: folds 
+MFHorn64: calls 100
+CleomarClean: calls 100
+Kippe940: calls 100
+double tt11: calls 100
+*** TURN *** [7d Jc Kh] [5s]
+double tt11: checks 
+ComplexInteger: checks 
+MFHorn64: checks 
+CleomarClean: checks 
+Kippe940: checks 
+*** RIVER *** [7d Jc Kh 5s] [3s]
+double tt11: bets 543
+ComplexInteger: folds 
+MFHorn64: folds 
+CleomarClean: folds 
+Kippe940: calls 543
+*** SHOW DOWN ***
+double tt11: shows [9h 9s] (a pair of Nines)
+Kippe940: shows [9d Jd] (a pair of Jacks)
+Kippe940 collected 2113 from pot
+*** SUMMARY ***
+Total pot 2236 | Rake 123 
+Board [7d Jc Kh 5s 3s]
+Seat 1: CleomarClean folded on the River
+Seat 2: Kippe940 (button) showed [9d Jd] and won (2113) with a pair of Jacks
+Seat 3: double tt11 (small blind) showed [9h 9s] and lost with a pair of Nines
+Seat 4: ComplexInteger (big blind) folded on the River
+Seat 5: simmer_10968 folded on the Flop
+Seat 6: BeefStu22 folded before Flop (didn't bet)
+Seat 8: Josejl78 folded before Flop (didn't bet)
+Seat 9: MFHorn64 folded on the River
+
+
+
+PokerStars Hand #214598383509:  Hold'em No Limit (50/100) - 2020/05/28 20:40:24 ET
+Table 'Hubei V' 9-max (Play Money) Seat #3 is the button
+Seat 1: CleomarClean (5598 in chips) 
+Seat 2: Kippe940 (10183 in chips) 
+Seat 3: double tt11 (8174 in chips) 
+Seat 4: ComplexInteger (29169 in chips) 
+Seat 5: simmer_10968 (18918 in chips) 
+Seat 6: BeefStu22 (13963 in chips) 
+Seat 9: MFHorn64 (11119 in chips) 
+ComplexInteger: posts small blind 50
+simmer_10968: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Tc 2s]
+BeefStu22: folds 
+MFHorn64: folds 
+CleomarClean: calls 100
+Kippe940: calls 100
+double tt11: calls 100
+ComplexInteger: folds 
+simmer_10968: checks 
+*** FLOP *** [5s 9h Kc]
+simmer_10968: checks 
+CleomarClean: checks 
+Kippe940: checks 
+double tt11: checks 
+*** TURN *** [5s 9h Kc] [Ks]
+simmer_10968: checks 
+CleomarClean: bets 100
+Kippe940: calls 100
+double tt11: folds 
+simmer_10968: folds 
+*** RIVER *** [5s 9h Kc Ks] [Qh]
+CleomarClean: bets 300
+Kippe940: raises 1214 to 1514
+CleomarClean: calls 1214
+*** SHOW DOWN ***
+Kippe940: shows [Kh 9c] (a full house, Kings full of Nines)
+CleomarClean: mucks hand 
+Kippe940 collected 3476 from pot
+*** SUMMARY ***
+Total pot 3678 | Rake 202 
+Board [5s 9h Kc Ks Qh]
+Seat 1: CleomarClean mucked [8s Qs]
+Seat 2: Kippe940 showed [Kh 9c] and won (3476) with a full house, Kings full of Nines
+Seat 3: double tt11 (button) folded on the Turn
+Seat 4: ComplexInteger (small blind) folded before Flop
+Seat 5: simmer_10968 (big blind) folded on the Turn
+Seat 6: BeefStu22 folded before Flop (didn't bet)
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214598408221:  Hold'em No Limit (50/100) - 2020/05/28 20:41:12 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 1: CleomarClean (3884 in chips) 
+Seat 2: Kippe940 (11945 in chips) 
+Seat 3: double tt11 (8074 in chips) 
+Seat 4: ComplexInteger (29119 in chips) 
+Seat 5: simmer_10968 (18818 in chips) 
+Seat 6: BeefStu22 (13963 in chips) 
+Seat 8: Josejl78 (9300 in chips) 
+Seat 9: MFHorn64 (11119 in chips) 
+simmer_10968: posts small blind 50
+BeefStu22: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6s Tc]
+Josejl78 has timed out
+Josejl78: folds 
+MFHorn64: folds 
+CleomarClean: calls 100
+Kippe940: calls 100
+double tt11: calls 100
+ComplexInteger: folds 
+simmer_10968: calls 50
+BeefStu22: checks 
+*** FLOP *** [6d 8h 5s]
+simmer_10968: checks 
+BeefStu22: bets 200
+CleomarClean: folds 
+Kippe940: folds 
+double tt11: folds 
+simmer_10968: calls 200
+*** TURN *** [6d 8h 5s] [Jh]
+simmer_10968: checks 
+BeefStu22: bets 800
+simmer_10968: folds 
+Uncalled bet (800) returned to BeefStu22
+BeefStu22 collected 850 from pot
+BeefStu22: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 50 
+Board [6d 8h 5s Jh]
+Seat 1: CleomarClean folded on the Flop
+Seat 2: Kippe940 folded on the Flop
+Seat 3: double tt11 folded on the Flop
+Seat 4: ComplexInteger (button) folded before Flop (didn't bet)
+Seat 5: simmer_10968 (small blind) folded on the Turn
+Seat 6: BeefStu22 (big blind) collected (850)
+Seat 8: Josejl78 folded before Flop (didn't bet)
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214598435933:  Hold'em No Limit (50/100) - 2020/05/28 20:42:07 ET
+Table 'Hubei V' 9-max (Play Money) Seat #5 is the button
+Seat 1: CleomarClean (3784 in chips) 
+Seat 2: Kippe940 (11845 in chips) 
+Seat 3: double tt11 (7974 in chips) 
+Seat 4: ComplexInteger (29119 in chips) 
+Seat 5: simmer_10968 (18518 in chips) 
+Seat 6: BeefStu22 (14513 in chips) 
+Seat 9: MFHorn64 (11119 in chips) 
+BeefStu22: posts small blind 50
+MFHorn64: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2c 2s]
+CleomarClean: raises 250 to 350
+Kippe940: folds 
+double tt11: folds 
+ComplexInteger: calls 350
+simmer_10968: calls 350
+BeefStu22: folds 
+MFHorn64: folds 
+*** FLOP *** [Ac 4c Kh]
+CleomarClean: bets 600
+ComplexInteger: folds 
+simmer_10968: folds 
+Uncalled bet (600) returned to CleomarClean
+CleomarClean collected 1134 from pot
+CleomarClean: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 66 
+Board [Ac 4c Kh]
+Seat 1: CleomarClean collected (1134)
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded on the Flop
+Seat 5: simmer_10968 (button) folded on the Flop
+Seat 6: BeefStu22 (small blind) folded before Flop
+Seat 9: MFHorn64 (big blind) folded before Flop
+
+
+
+PokerStars Hand #214598452281:  Hold'em No Limit (50/100) - 2020/05/28 20:42:39 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 1: CleomarClean (4568 in chips) 
+Seat 2: Kippe940 (11845 in chips) 
+Seat 3: double tt11 (7974 in chips) 
+Seat 4: ComplexInteger (28769 in chips) 
+Seat 5: simmer_10968 (18168 in chips) 
+Seat 6: BeefStu22 (14463 in chips) 
+Seat 9: MFHorn64 (11019 in chips) 
+MFHorn64: posts small blind 50
+CleomarClean: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Tc Qs]
+Kippe940: folds 
+double tt11: folds 
+ComplexInteger: calls 100
+simmer_10968: calls 100
+BeefStu22: calls 100
+MFHorn64: folds 
+CleomarClean: checks 
+*** FLOP *** [Jh Ah 3c]
+CleomarClean: checks 
+ComplexInteger: checks 
+simmer_10968: checks 
+BeefStu22: checks 
+*** TURN *** [Jh Ah 3c] [As]
+CleomarClean: checks 
+ComplexInteger: bets 212
+simmer_10968: calls 212
+BeefStu22: folds 
+CleomarClean: folds 
+*** RIVER *** [Jh Ah 3c As] [2c]
+ComplexInteger: checks 
+simmer_10968: checks 
+*** SHOW DOWN ***
+ComplexInteger: shows [Tc Qs] (a pair of Aces)
+simmer_10968: shows [7h 3h] (two pair, Aces and Threes)
+simmer_10968 collected 826 from pot
+*** SUMMARY ***
+Total pot 874 | Rake 48 
+Board [Jh Ah 3c As 2c]
+Seat 1: CleomarClean (big blind) folded on the Turn
+Seat 2: Kippe940 folded before Flop (didn't bet)
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger showed [Tc Qs] and lost with a pair of Aces
+Seat 5: simmer_10968 showed [7h 3h] and won (826) with two pair, Aces and Threes
+Seat 6: BeefStu22 (button) folded on the Turn
+Seat 9: MFHorn64 (small blind) folded before Flop
+
+
+
+PokerStars Hand #214598484525:  Hold'em No Limit (50/100) - 2020/05/28 20:43:42 ET
+Table 'Hubei V' 9-max (Play Money) Seat #9 is the button
+Seat 1: CleomarClean (4468 in chips) 
+Seat 2: Kippe940 (11845 in chips) 
+Seat 3: double tt11 (7974 in chips) 
+Seat 4: ComplexInteger (28457 in chips) 
+Seat 5: simmer_10968 (18682 in chips) 
+Seat 6: BeefStu22 (14363 in chips) 
+Seat 8: Josejl78 (9300 in chips) 
+Seat 9: MFHorn64 (10969 in chips) 
+CleomarClean: posts small blind 50
+Kippe940: posts big blind 100
+Josejl78: posts small & big blinds 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ad Kc]
+double tt11: calls 100
+ComplexInteger: raises 200 to 300
+simmer_10968: calls 300
+BeefStu22: folds 
+Josejl78 has timed out
+Josejl78: folds 
+MFHorn64: folds 
+CleomarClean: calls 250
+Kippe940: folds 
+double tt11: calls 200
+*** FLOP *** [5h 7h 2c]
+CleomarClean: checks 
+double tt11: checks 
+ComplexInteger: checks 
+simmer_10968: checks 
+*** TURN *** [5h 7h 2c] [4s]
+CleomarClean: bets 700
+double tt11: folds 
+ComplexInteger: calls 700
+simmer_10968: folds 
+*** RIVER *** [5h 7h 2c 4s] [5d]
+CleomarClean: bets 1300
+ComplexInteger: folds 
+Uncalled bet (1300) returned to CleomarClean
+CleomarClean collected 2693 from pot
+CleomarClean: doesn't show hand 
+*** SUMMARY ***
+Total pot 2850 | Rake 157 
+Board [5h 7h 2c 4s 5d]
+Seat 1: CleomarClean (small blind) collected (2693)
+Seat 2: Kippe940 (big blind) folded before Flop
+Seat 3: double tt11 folded on the Turn
+Seat 4: ComplexInteger folded on the River
+Seat 5: simmer_10968 folded on the Turn
+Seat 6: BeefStu22 folded before Flop (didn't bet)
+Seat 8: Josejl78 folded before Flop (didn't bet)
+Seat 9: MFHorn64 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214598522248:  Hold'em No Limit (50/100) - 2020/05/28 20:44:56 ET
+Table 'Hubei V' 9-max (Play Money) Seat #1 is the button
+Seat 1: CleomarClean (6161 in chips) 
+Seat 2: Kippe940 (11745 in chips) 
+Seat 3: double tt11 (7674 in chips) 
+Seat 4: ComplexInteger (27457 in chips) 
+Seat 5: simmer_10968 (18382 in chips) 
+Seat 6: BeefStu22 (14363 in chips) 
+Seat 9: MFHorn64 (10969 in chips) 
+Kippe940: posts small blind 50
+double tt11: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9s Jh]
+ComplexInteger: folds 
+simmer_10968: calls 100
+BeefStu22: folds 
+MFHorn64: folds 
+CleomarClean: calls 100
+Kippe940: calls 50
+double tt11: checks 
+*** FLOP *** [8d Kh Ac]
+Kippe940: checks 
+double tt11: checks 
+simmer_10968: checks 
+CleomarClean: checks 
+*** TURN *** [8d Kh Ac] [3d]
+Kippe940: checks 
+double tt11: bets 189
+simmer_10968: calls 189
+CleomarClean: folds 
+Kippe940: folds 
+*** RIVER *** [8d Kh Ac 3d] [2h]
+double tt11: checks 
+simmer_10968: checks 
+*** SHOW DOWN ***
+double tt11: shows [5h 2c] (a pair of Deuces)
+simmer_10968: shows [4h Kd] (a pair of Kings)
+simmer_10968 collected 735 from pot
+*** SUMMARY ***
+Total pot 778 | Rake 43 
+Board [8d Kh Ac 3d 2h]
+Seat 1: CleomarClean (button) folded on the Turn
+Seat 2: Kippe940 (small blind) folded on the Turn
+Seat 3: double tt11 (big blind) showed [5h 2c] and lost with a pair of Deuces
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 showed [4h Kd] and won (735) with a pair of Kings
+Seat 6: BeefStu22 folded before Flop (didn't bet)
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214598557438:  Hold'em No Limit (50/100) - 2020/05/28 20:45:55 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 1: CleomarClean (6061 in chips) 
+Seat 2: Kippe940 (11645 in chips) 
+Seat 3: double tt11 (7385 in chips) 
+Seat 4: ComplexInteger (27457 in chips) 
+Seat 5: simmer_10968 (18828 in chips) 
+Seat 6: BeefStu22 (14363 in chips) 
+Seat 9: MFHorn64 (10969 in chips) 
+double tt11: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5c 6h]
+simmer_10968: folds 
+BeefStu22: calls 100
+MFHorn64: calls 100
+CleomarClean: calls 100
+Kippe940: calls 100
+double tt11: calls 50
+ComplexInteger: checks 
+*** FLOP *** [5h Jc 8c]
+double tt11: checks 
+ComplexInteger: checks 
+BeefStu22: bets 100
+MFHorn64: raises 100 to 200
+CleomarClean: calls 200
+Kippe940: folds 
+double tt11: folds 
+Kippe940 leaves the table
+ComplexInteger: calls 200
+BeefStu22: calls 100
+*** TURN *** [5h Jc 8c] [Js]
+ComplexInteger: checks 
+BeefStu22: bets 100
+MFHorn64: calls 100
+CleomarClean: calls 100
+ComplexInteger: calls 100
+*** RIVER *** [5h Jc 8c Js] [6c]
+boix62 joins the table at seat #2 
+ComplexInteger: checks 
+BeefStu22: bets 100
+MFHorn64: raises 1901 to 2001
+CleomarClean: folds 
+ComplexInteger: calls 2001
+BeefStu22: folds 
+*** SHOW DOWN ***
+MFHorn64: shows [8s 8d] (a full house, Eights full of Jacks)
+ComplexInteger: mucks hand 
+MFHorn64 collected 5577 from pot
+*** SUMMARY ***
+Total pot 5902 | Rake 325 
+Board [5h Jc 8c Js 6c]
+Seat 1: CleomarClean folded on the River
+Seat 2: Kippe940 (button) folded on the Flop
+Seat 3: double tt11 (small blind) folded on the Flop
+Seat 4: ComplexInteger (big blind) mucked [5c 6h]
+Seat 5: simmer_10968 folded before Flop (didn't bet)
+Seat 6: BeefStu22 folded on the River
+Seat 9: MFHorn64 showed [8s 8d] and won (5577) with a full house, Eights full of Jacks
+
+
+
+PokerStars Hand #214598596307:  Hold'em No Limit (50/100) - 2020/05/28 20:47:04 ET
+Table 'Hubei V' 9-max (Play Money) Seat #3 is the button
+Seat 1: CleomarClean (5661 in chips) 
+Seat 2: boix62 (4000 in chips) 
+Seat 3: double tt11 (7285 in chips) 
+Seat 4: ComplexInteger (25056 in chips) 
+Seat 5: simmer_10968 (18828 in chips) 
+Seat 6: BeefStu22 (13863 in chips) 
+Seat 9: MFHorn64 (14145 in chips) 
+ComplexInteger: posts small blind 50
+simmer_10968: posts big blind 100
+boix62: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Th Ac]
+BeefStu22: calls 100
+MFHorn64: folds 
+CleomarClean: folds 
+boix62: checks 
+double tt11: calls 100
+ComplexInteger: calls 50
+simmer_10968: checks 
+*** FLOP *** [9d Jh 7h]
+ComplexInteger: checks 
+simmer_10968: checks 
+BeefStu22: checks 
+boix62: checks 
+double tt11: bets 472
+ComplexInteger: folds 
+simmer_10968: folds 
+BeefStu22: folds 
+boix62: folds 
+Uncalled bet (472) returned to double tt11
+double tt11 collected 472 from pot
+double tt11: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 28 
+Board [9d Jh 7h]
+Seat 1: CleomarClean folded before Flop (didn't bet)
+Seat 2: boix62 folded on the Flop (didn't bet)
+Seat 3: double tt11 (button) collected (472)
+Seat 4: ComplexInteger (small blind) folded on the Flop
+Seat 5: simmer_10968 (big blind) folded on the Flop
+Seat 6: BeefStu22 folded on the Flop
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214598621994:  Hold'em No Limit (50/100) - 2020/05/28 20:47:54 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 1: CleomarClean (5661 in chips) 
+Seat 2: boix62 (3900 in chips) 
+Seat 3: double tt11 (7657 in chips) 
+Seat 4: ComplexInteger (24956 in chips) 
+Seat 5: simmer_10968 (18728 in chips) 
+Seat 6: BeefStu22 (13763 in chips) 
+Seat 9: MFHorn64 (14145 in chips) 
+simmer_10968: posts small blind 50
+BeefStu22: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5s 9h]
+MFHorn64: folds 
+CleomarClean: raises 200 to 300
+MFHorn64 leaves the table
+boix62: calls 300
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: calls 250
+BeefStu22: calls 200
+*** FLOP *** [Kc Kh Ad]
+simmer_10968: checks 
+BeefStu22: bets 600
+CleomarClean: folds 
+boix62: raises 600 to 1200
+simmer_10968: folds 
+BeefStu22: folds 
+Uncalled bet (600) returned to boix62
+boix62 collected 2268 from pot
+boix62: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 132 
+Board [Kc Kh Ad]
+Seat 1: CleomarClean folded on the Flop
+Seat 2: boix62 collected (2268)
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger (button) folded before Flop (didn't bet)
+Seat 5: simmer_10968 (small blind) folded on the Flop
+Seat 6: BeefStu22 (big blind) folded on the Flop
+Seat 9: MFHorn64 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214598645111:  Hold'em No Limit (50/100) - 2020/05/28 20:48:39 ET
+Table 'Hubei V' 9-max (Play Money) Seat #5 is the button
+Seat 1: CleomarClean (5361 in chips) 
+Seat 2: boix62 (5268 in chips) 
+Seat 3: double tt11 (7657 in chips) 
+Seat 4: ComplexInteger (24956 in chips) 
+Seat 5: simmer_10968 (18428 in chips) 
+Seat 6: BeefStu22 (12863 in chips) 
+BeefStu22: posts small blind 50
+CleomarClean: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5s 6s]
+TseJen1216 joins the table at seat #9 
+boix62: calls 100
+double tt11: folds 
+ComplexInteger: calls 100
+simmer_10968: calls 100
+BeefStu22: calls 50
+CleomarClean: checks 
+*** FLOP *** [8h 2s 7s]
+BeefStu22: checks 
+CleomarClean: checks 
+boix62: bets 500
+ComplexInteger: calls 500
+simmer_10968: folds 
+BeefStu22: folds 
+CleomarClean: calls 500
+*** TURN *** [8h 2s 7s] [5h]
+CleomarClean: checks 
+boix62: bets 900
+ComplexInteger: raises 900 to 1800
+CleomarClean: folds 
+boix62: calls 900
+*** RIVER *** [8h 2s 7s 5h] [Ah]
+boix62: checks 
+ComplexInteger: bets 2646
+boix62: folds 
+Uncalled bet (2646) returned to ComplexInteger
+ComplexInteger collected 5292 from pot
+SUBIMUR was removed from the table for failing to post
+SUBIMUR leaves the table
+ComplexInteger: doesn't show hand 
+*** SUMMARY ***
+Total pot 5600 | Rake 308 
+Board [8h 2s 7s 5h Ah]
+Seat 1: CleomarClean (big blind) folded on the Turn
+Seat 2: boix62 folded on the River
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger collected (5292)
+Seat 5: simmer_10968 (button) folded on the Flop
+Seat 6: BeefStu22 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #214598685889:  Hold'em No Limit (50/100) - 2020/05/28 20:50:00 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 1: CleomarClean (4761 in chips) 
+Seat 2: boix62 (2868 in chips) 
+Seat 3: double tt11 (7657 in chips) 
+Seat 4: ComplexInteger (27848 in chips) 
+Seat 5: simmer_10968 (18328 in chips) 
+Seat 6: BeefStu22 (12763 in chips) 
+CleomarClean: posts small blind 50
+boix62: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [7c 8d]
+double tt11: calls 100
+ComplexInteger: folds 
+simmer_10968: calls 100
+BeefStu22: raises 200 to 300
+CleomarClean: calls 250
+boix62: calls 200
+double tt11: calls 200
+simmer_10968: calls 200
+*** FLOP *** [5s Qh 3c]
+CleomarClean: checks 
+boix62: bets 1400
+double tt11: folds 
+humberto1915 joins the table at seat #7 
+simmer_10968: folds 
+BeefStu22: folds 
+CleomarClean: raises 1400 to 2800
+boix62: calls 1168 and is all-in
+Uncalled bet (232) returned to CleomarClean
+*** TURN *** [5s Qh 3c] [2s]
+*** RIVER *** [5s Qh 3c 2s] [2d]
+*** SHOW DOWN ***
+CleomarClean: shows [3d 3s] (a full house, Threes full of Deuces)
+boix62: shows [Td Ah] (a pair of Deuces)
+CleomarClean collected 6271 from pot
+*** SUMMARY ***
+Total pot 6636 | Rake 365 
+Board [5s Qh 3c 2s 2d]
+Seat 1: CleomarClean (small blind) showed [3d 3s] and won (6271) with a full house, Threes full of Deuces
+Seat 2: boix62 (big blind) showed [Td Ah] and lost with a pair of Deuces
+Seat 3: double tt11 folded on the Flop
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 folded on the Flop
+Seat 6: BeefStu22 (button) folded on the Flop
+
+
+
+PokerStars Hand #214598711071:  Hold'em No Limit (50/100) - 2020/05/28 20:50:42 ET
+Table 'Hubei V' 9-max (Play Money) Seat #1 is the button
+Seat 1: CleomarClean (8164 in chips) 
+Seat 3: double tt11 (7357 in chips) 
+Seat 4: ComplexInteger (27848 in chips) 
+Seat 5: simmer_10968 (18028 in chips) 
+Seat 6: BeefStu22 (12463 in chips) 
+Seat 7: humberto1915 (10000 in chips) 
+Seat 8: Josejl78 (9150 in chips) 
+Seat 9: TseJen1216 (10000 in chips) 
+double tt11: posts small blind 50
+ComplexInteger: posts big blind 100
+humberto1915: posts big blind 100
+Josejl78: posts small & big blinds 150
+TseJen1216: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2c Qs]
+simmer_10968: folds 
+BeefStu22: calls 100
+humberto1915: checks 
+boix62 said, "ok"
+Josejl78: raises 100 to 200
+TseJen1216: calls 100
+CleomarClean: raises 1000 to 1200
+double tt11: folds 
+ComplexInteger: folds 
+BeefStu22: folds 
+humberto1915: folds 
+Josejl78: calls 1000
+TseJen1216: folds 
+*** FLOP *** [8h 3s 9d]
+Josejl78 has timed out
+Josejl78: checks 
+CleomarClean: bets 2800
+Josejl78 has timed out
+Josejl78: folds 
+Uncalled bet (2800) returned to CleomarClean
+CleomarClean collected 2835 from pot
+CleomarClean: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 165 
+Board [8h 3s 9d]
+Seat 1: CleomarClean (button) collected (2835)
+Seat 3: double tt11 (small blind) folded before Flop
+Seat 4: ComplexInteger (big blind) folded before Flop
+Seat 5: simmer_10968 folded before Flop (didn't bet)
+Seat 6: BeefStu22 folded before Flop
+Seat 7: humberto1915 folded before Flop (didn't bet)
+Seat 8: Josejl78 folded on the Flop
+Seat 9: TseJen1216 folded before Flop
+
+
+
+PokerStars Hand #214598752628:  Hold'em No Limit (50/100) - 2020/05/28 20:52:05 ET
+Table 'Hubei V' 9-max (Play Money) Seat #3 is the button
+Seat 1: CleomarClean (9799 in chips) 
+Seat 2: boix62 (10000 in chips) 
+Seat 3: double tt11 (7307 in chips) 
+Seat 4: ComplexInteger (27748 in chips) 
+Seat 5: simmer_10968 (18028 in chips) 
+Seat 6: BeefStu22 (12363 in chips) 
+Seat 7: humberto1915 (9900 in chips) 
+Seat 9: TseJen1216 (9800 in chips) 
+ComplexInteger: posts small blind 50
+simmer_10968: posts big blind 100
+boix62: posts small blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8d 9c]
+BeefStu22: folds 
+humberto1915: folds 
+TseJen1216: folds 
+CleomarClean: calls 100
+boix62: calls 100
+double tt11: calls 100
+ComplexInteger: calls 50
+simmer_10968: checks 
+*** FLOP *** [Th Kd Qd]
+ComplexInteger: checks 
+simmer_10968: checks 
+CleomarClean: checks 
+boix62: checks 
+double tt11: checks 
+*** TURN *** [Th Kd Qd] [5h]
+ComplexInteger: checks 
+simmer_10968: checks 
+CleomarClean: checks 
+boix62: checks 
+double tt11: bets 520
+ComplexInteger: folds 
+simmer_10968: calls 520
+CleomarClean: folds 
+boix62: folds 
+*** RIVER *** [Th Kd Qd 5h] [8s]
+simmer_10968: checks 
+double tt11: checks 
+*** SHOW DOWN ***
+simmer_10968: shows [7h 2h] (high card King)
+double tt11: shows [Ah 5c] (a pair of Fives)
+double tt11 collected 1503 from pot
+*** SUMMARY ***
+Total pot 1590 | Rake 87 
+Board [Th Kd Qd 5h 8s]
+Seat 1: CleomarClean folded on the Turn
+Seat 2: boix62 folded on the Turn
+Seat 3: double tt11 (button) showed [Ah 5c] and won (1503) with a pair of Fives
+Seat 4: ComplexInteger (small blind) folded on the Turn
+Seat 5: simmer_10968 (big blind) showed [7h 2h] and lost with high card King
+Seat 6: BeefStu22 folded before Flop (didn't bet)
+Seat 7: humberto1915 folded before Flop (didn't bet)
+Seat 9: TseJen1216 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214598796657:  Hold'em No Limit (50/100) - 2020/05/28 20:53:32 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 1: CleomarClean (9699 in chips) 
+Seat 2: boix62 (9850 in chips) 
+Seat 3: double tt11 (8190 in chips) 
+Seat 4: ComplexInteger (27648 in chips) 
+Seat 5: simmer_10968 (17408 in chips) 
+Seat 6: BeefStu22 (12363 in chips) 
+Seat 7: humberto1915 (9900 in chips) 
+Seat 8: Josejl78 (7900 in chips) 
+Seat 9: TseJen1216 (9800 in chips) 
+simmer_10968: posts small blind 50
+BeefStu22: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [7h Qd]
+humberto1915: folds 
+Josejl78 has timed out
+Josejl78: folds 
+TseJen1216: folds 
+CleomarClean: raises 250 to 350
+boix62: calls 350
+double tt11: folds 
+ComplexInteger: folds 
+simmer_10968: calls 300
+BeefStu22: folds 
+*** FLOP *** [6d 4h As]
+simmer_10968: checks 
+CleomarClean: bets 500
+boix62: calls 500
+simmer_10968: folds 
+*** TURN *** [6d 4h As] [Qh]
+CleomarClean: checks 
+boix62: bets 500
+CleomarClean: calls 500
+*** RIVER *** [6d 4h As Qh] [2c]
+CleomarClean: checks 
+boix62: bets 3000
+CleomarClean: folds 
+Uncalled bet (3000) returned to boix62
+boix62 collected 2977 from pot
+boix62: doesn't show hand 
+*** SUMMARY ***
+Total pot 3150 | Rake 173 
+Board [6d 4h As Qh 2c]
+Seat 1: CleomarClean folded on the River
+Seat 2: boix62 collected (2977)
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger (button) folded before Flop (didn't bet)
+Seat 5: simmer_10968 (small blind) folded on the Flop
+Seat 6: BeefStu22 (big blind) folded before Flop
+Seat 7: humberto1915 folded before Flop (didn't bet)
+Seat 8: Josejl78 folded before Flop (didn't bet)
+Seat 9: TseJen1216 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214598848072:  Hold'em No Limit (50/100) - 2020/05/28 20:55:02 ET
+Table 'Hubei V' 9-max (Play Money) Seat #5 is the button
+Seat 1: CleomarClean (8349 in chips) 
+Seat 2: boix62 (11477 in chips) 
+Seat 3: double tt11 (8190 in chips) 
+Seat 4: ComplexInteger (27648 in chips) 
+Seat 5: simmer_10968 (17058 in chips) 
+Seat 6: BeefStu22 (12263 in chips) 
+Seat 7: humberto1915 (9900 in chips) 
+Seat 8: Josejl78 (7900 in chips) 
+Seat 9: TseJen1216 (9800 in chips) 
+BeefStu22: posts small blind 50
+humberto1915: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9h 5s]
+Josejl78: raises 100 to 200
+TseJen1216: folds 
+CleomarClean: folds 
+boix62: calls 200
+double tt11: calls 200
+ComplexInteger: folds 
+simmer_10968: folds 
+BeefStu22: calls 150
+humberto1915: calls 100
+*** FLOP *** [7d Kc 7h]
+BeefStu22: checks 
+humberto1915: checks 
+Josejl78: bets 100
+boix62: calls 100
+double tt11: folds 
+BeefStu22: folds 
+humberto1915: raises 300 to 400
+Josejl78: calls 300
+boix62: folds 
+*** TURN *** [7d Kc 7h] [7s]
+simmer_10968 leaves the table
+humberto1915: bets 400
+Josejl78: calls 400
+*** RIVER *** [7d Kc 7h 7s] [Qd]
+humberto1915: bets 8900 and is all-in
+Josejl78: calls 6900 and is all-in
+Uncalled bet (2000) returned to humberto1915
+*** SHOW DOWN ***
+humberto1915: shows [Js 7c] (four of a kind, Sevens)
+Josejl78: shows [Jd 6c] (three of a kind, Sevens)
+humberto1915 collected 15592 from pot
+*** SUMMARY ***
+Total pot 16500 | Rake 908 
+Board [7d Kc 7h 7s Qd]
+Seat 1: CleomarClean folded before Flop (didn't bet)
+Seat 2: boix62 folded on the Flop
+Seat 3: double tt11 folded on the Flop
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 5: simmer_10968 (button) folded before Flop (didn't bet)
+Seat 6: BeefStu22 (small blind) folded on the Flop
+Seat 7: humberto1915 (big blind) showed [Js 7c] and won (15592) with four of a kind, Sevens
+Seat 8: Josejl78 showed [Jd 6c] and lost with three of a kind, Sevens
+Seat 9: TseJen1216 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214598876516:  Hold'em No Limit (50/100) - 2020/05/28 20:56:15 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 1: CleomarClean (8349 in chips) 
+Seat 2: boix62 (11177 in chips) 
+Seat 3: double tt11 (7990 in chips) 
+Seat 4: ComplexInteger (27648 in chips) 
+Seat 6: BeefStu22 (12063 in chips) 
+Seat 7: humberto1915 (17592 in chips) 
+Seat 9: TseJen1216 (9800 in chips) 
+humberto1915: posts small blind 50
+TseJen1216: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8d 8h]
+CleomarClean has timed out
+CleomarClean: folds 
+boix62: calls 100
+double tt11: folds 
+ComplexInteger: raises 200 to 300
+BeefStu22: folds 
+humberto1915: calls 250
+TseJen1216: calls 200
+boix62: calls 200
+*** FLOP *** [3d 9c 7h]
+humberto1915: checks 
+TseJen1216: checks 
+boix62: checks 
+ComplexInteger: bets 300
+humberto1915: calls 300
+TseJen1216: folds 
+boix62: raises 2000 to 2300
+ComplexInteger: raises 2000 to 4300
+humberto1915: folds 
+boix62: calls 2000
+*** TURN *** [3d 9c 7h] [2d]
+boix62: bets 6577 and is all-in
+ComplexInteger: calls 6577
+*** RIVER *** [3d 9c 7h 2d] [2s]
+*** SHOW DOWN ***
+boix62: shows [5s 9h] (two pair, Nines and Deuces)
+ComplexInteger: shows [8d 8h] (two pair, Eights and Deuces)
+boix62 collected 21975 from pot
+*** SUMMARY ***
+Total pot 23254 | Rake 1279 
+Board [3d 9c 7h 2d 2s]
+Seat 1: CleomarClean folded before Flop (didn't bet)
+Seat 2: boix62 showed [5s 9h] and won (21975) with two pair, Nines and Deuces
+Seat 3: double tt11 folded before Flop (didn't bet)
+Seat 4: ComplexInteger showed [8d 8h] and lost with two pair, Eights and Deuces
+Seat 6: BeefStu22 (button) folded before Flop (didn't bet)
+Seat 7: humberto1915 (small blind) folded on the Flop
+Seat 9: TseJen1216 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #214598919570:  Hold'em No Limit (50/100) - 2020/05/28 20:58:06 ET
+Table 'Hubei V' 9-max (Play Money) Seat #7 is the button
+Seat 1: CleomarClean (8349 in chips) 
+Seat 2: boix62 (21975 in chips) 
+Seat 3: double tt11 (7990 in chips) 
+Seat 4: ComplexInteger (16471 in chips) 
+Seat 6: BeefStu22 (12063 in chips) 
+Seat 7: humberto1915 (16992 in chips) 
+Seat 9: TseJen1216 (9500 in chips) 
+TseJen1216: posts small blind 50
+CleomarClean: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qs 7c]
+boix62: calls 100
+double tt11: raises 350 to 450
+ComplexInteger: folds 
+BeefStu22: folds 
+humberto1915: calls 450
+TseJen1216: folds 
+CleomarClean: calls 350
+boix62: calls 350
+*** FLOP *** [Jc Th Kc]
+CleomarClean: checks 
+boix62: bets 200
+double tt11: calls 200
+humberto1915: calls 200
+CleomarClean: calls 200
+*** TURN *** [Jc Th Kc] [5c]
+CleomarClean: checks 
+boix62: bets 1300
+double tt11: calls 1300
+humberto1915: calls 1300
+DanielsFFC joins the table at seat #5 
+CleomarClean: folds 
+*** RIVER *** [Jc Th Kc 5c] [4h]
+boix62: checks 
+double tt11: checks 
+humberto1915: bets 9800
+boix62: folds 
+double tt11: calls 6040 and is all-in
+Uncalled bet (3760) returned to humberto1915
+*** SHOW DOWN ***
+humberto1915: shows [6c 9c] (a flush, King high)
+double tt11: shows [Jh Jd] (three of a kind, Jacks)
+humberto1915 collected 17605 from pot
+*** SUMMARY ***
+Total pot 18630 | Rake 1025 
+Board [Jc Th Kc 5c 4h]
+Seat 1: CleomarClean (big blind) folded on the Turn
+Seat 2: boix62 folded on the River
+Seat 3: double tt11 showed [Jh Jd] and lost with three of a kind, Jacks
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 6: BeefStu22 folded before Flop (didn't bet)
+Seat 7: humberto1915 (button) showed [6c 9c] and won (17605) with a flush, King high
+Seat 9: TseJen1216 (small blind) folded before Flop
+
+
+
+PokerStars Hand #214598963920:  Hold'em No Limit (50/100) - 2020/05/28 20:59:46 ET
+Table 'Hubei V' 9-max (Play Money) Seat #9 is the button
+Seat 1: CleomarClean (7699 in chips) 
+Seat 2: boix62 (20025 in chips) 
+Seat 4: ComplexInteger (16471 in chips) 
+Seat 5: DanielsFFC (4000 in chips) 
+Seat 6: BeefStu22 (12063 in chips) 
+Seat 7: humberto1915 (26607 in chips) 
+Seat 8: Josejl78 (10000 in chips) 
+Seat 9: TseJen1216 (9450 in chips) 
+CleomarClean: posts small blind 50
+boix62: posts big blind 100
+DanielsFFC: posts big blind 100
+Josejl78: posts small & big blinds 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jd Qh]
+ComplexInteger: calls 100
+double tt11 leaves the table
+DanielsFFC: checks 
+BeefStu22: folds 
+humberto1915: calls 100
+Josejl78: checks 
+TseJen1216: calls 100
+CleomarClean: raises 750 to 850
+boix62: calls 750
+ComplexInteger: calls 750
+DanielsFFC: calls 750
+humberto1915: folds 
+Josejl78: calls 750
+TseJen1216: calls 750
+*** FLOP *** [As 9h 4h]
+Dtr. Vidigal joins the table at seat #3 
+CleomarClean: bets 2500
+boix62: calls 2500
+ComplexInteger: folds 
+DanielsFFC: calls 2500
+Josejl78: calls 2500
+TseJen1216: folds 
+*** TURN *** [As 9h 4h] [Th]
+CleomarClean: bets 4349 and is all-in
+boix62: folds 
+DanielsFFC: calls 650 and is all-in
+Josejl78: folds 
+Uncalled bet (3699) returned to CleomarClean
+*** RIVER *** [As 9h 4h Th] [Qd]
+*** SHOW DOWN ***
+CleomarClean: shows [8d 6h] (high card Ace)
+DanielsFFC: shows [Ac 7d] (a pair of Aces)
+DanielsFFC collected 15640 from pot
+*** SUMMARY ***
+Total pot 16550 | Rake 910 
+Board [As 9h 4h Th Qd]
+Seat 1: CleomarClean (small blind) showed [8d 6h] and lost with high card Ace
+Seat 2: boix62 (big blind) folded on the Turn
+Seat 4: ComplexInteger folded on the Flop
+Seat 5: DanielsFFC showed [Ac 7d] and won (15640) with a pair of Aces
+Seat 6: BeefStu22 folded before Flop (didn't bet)
+Seat 7: humberto1915 folded before Flop
+Seat 8: Josejl78 folded on the Turn
+Seat 9: TseJen1216 (button) folded on the Flop
+
+
+
+PokerStars Hand #214598996505:  Hold'em No Limit (50/100) - 2020/05/28 21:00:58 ET
+Table 'Hubei V' 9-max (Play Money) Seat #1 is the button
+Seat 1: CleomarClean (3699 in chips) 
+Seat 2: boix62 (16675 in chips) 
+Seat 3: Dtr. Vidigal (10000 in chips) 
+Seat 4: ComplexInteger (15621 in chips) 
+Seat 6: BeefStu22 (12063 in chips) 
+Seat 7: humberto1915 (26507 in chips) 
+Seat 8: Josejl78 (6600 in chips) 
+Seat 9: TseJen1216 (8600 in chips) 
+boix62: posts small blind 50
+Dtr. Vidigal: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6c As]
+ComplexInteger: folds 
+BeefStu22: calls 100
+humberto1915: folds 
+Josejl78: calls 100
+TseJen1216: calls 100
+CleomarClean: raises 3599 to 3699 and is all-in
+boix62: folds 
+Dtr. Vidigal: folds 
+BeefStu22: folds 
+Josejl78: calls 3599
+humberto1915 leaves the table
+TseJen1216: folds 
+*** FLOP *** [2d 3h 6s]
+*** TURN *** [2d 3h 6s] [Qd]
+*** RIVER *** [2d 3h 6s Qd] [9d]
+*** SHOW DOWN ***
+Josejl78: shows [Jh 2c] (a pair of Deuces)
+CleomarClean: shows [7d Ks] (high card King)
+Josejl78 collected 7322 from pot
+*** SUMMARY ***
+Total pot 7748 | Rake 426 
+Board [2d 3h 6s Qd 9d]
+Seat 1: CleomarClean (button) showed [7d Ks] and lost with high card King
+Seat 2: boix62 (small blind) folded before Flop
+Seat 3: Dtr. Vidigal (big blind) folded before Flop
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 6: BeefStu22 folded before Flop
+Seat 7: humberto1915 folded before Flop (didn't bet)
+Seat 8: Josejl78 showed [Jh 2c] and won (7322) with a pair of Deuces
+Seat 9: TseJen1216 folded before Flop
+
+
+
+PokerStars Hand #214599015693:  Hold'em No Limit (50/100) - 2020/05/28 21:01:37 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 2: boix62 (16625 in chips) 
+Seat 3: Dtr. Vidigal (9900 in chips) 
+Seat 4: ComplexInteger (15621 in chips) 
+Seat 6: BeefStu22 (11963 in chips) 
+Seat 8: Josejl78 (10223 in chips) 
+Seat 9: TseJen1216 (8500 in chips) 
+Dtr. Vidigal: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kc 7h]
+BeefStu22: calls 100
+Josejl78: calls 100
+TseJen1216: folds 
+boix62: calls 100
+Dtr. Vidigal: calls 50
+ComplexInteger: checks 
+*** FLOP *** [3c 4c 3h]
+Dtr. Vidigal: checks 
+humberto1915 joins the table at seat #7 
+ComplexInteger: checks 
+BeefStu22: bets 200
+Josejl78: calls 200
+boix62: calls 200
+Dtr. Vidigal: folds 
+ComplexInteger: folds 
+*** TURN *** [3c 4c 3h] [2h]
+BeefStu22: checks 
+Josejl78: checks 
+boix62: bets 1000
+BeefStu22: folds 
+Josejl78: calls 1000
+*** RIVER *** [3c 4c 3h 2h] [5h]
+Josejl78 has timed out
+Josejl78: checks 
+boix62: bets 2900
+Josejl78: calls 2900
+*** SHOW DOWN ***
+boix62: shows [4s 3s] (a full house, Threes full of Fours)
+Josejl78: mucks hand 
+boix62 collected 8410 from pot
+*** SUMMARY ***
+Total pot 8900 | Rake 490 
+Board [3c 4c 3h 2h 5h]
+Seat 2: boix62 (button) showed [4s 3s] and won (8410) with a full house, Threes full of Fours
+Seat 3: Dtr. Vidigal (small blind) folded on the Flop
+Seat 4: ComplexInteger (big blind) folded on the Flop
+Seat 6: BeefStu22 folded on the Turn
+Seat 8: Josejl78 mucked [Kd Ac]
+Seat 9: TseJen1216 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214599057547:  Hold'em No Limit (50/100) - 2020/05/28 21:03:00 ET
+Table 'Hubei V' 9-max (Play Money) Seat #3 is the button
+Seat 1: CleomarClean (4000 in chips) 
+Seat 2: boix62 (20835 in chips) 
+Seat 3: Dtr. Vidigal (9800 in chips) 
+Seat 4: ComplexInteger (15521 in chips) 
+Seat 6: BeefStu22 (11663 in chips) 
+Seat 7: humberto1915 (10000 in chips) 
+Seat 8: Josejl78 (6023 in chips) 
+Seat 9: TseJen1216 (8500 in chips) 
+ComplexInteger: posts small blind 50
+BeefStu22: posts big blind 100
+humberto1915: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4c Td]
+humberto1915: checks 
+Josejl78: calls 100
+TseJen1216: folds 
+CleomarClean: folds 
+boix62: calls 100
+Dtr. Vidigal: calls 100
+ComplexInteger: folds 
+BeefStu22: checks 
+*** FLOP *** [9c 9d 2d]
+BeefStu22: checks 
+humberto1915: checks 
+Josejl78: bets 200
+boix62: calls 200
+Dtr. Vidigal: folds 
+BeefStu22: folds 
+humberto1915: folds 
+*** TURN *** [9c 9d 2d] [9s]
+humberto1915 leaves the table
+Josejl78: checks 
+boix62: bets 400
+Josejl78: folds 
+Uncalled bet (400) returned to boix62
+boix62 collected 898 from pot
+boix62: doesn't show hand 
+*** SUMMARY ***
+Total pot 950 | Rake 52 
+Board [9c 9d 2d 9s]
+Seat 1: CleomarClean folded before Flop (didn't bet)
+Seat 2: boix62 collected (898)
+Seat 3: Dtr. Vidigal (button) folded on the Flop
+Seat 4: ComplexInteger (small blind) folded before Flop
+Seat 6: BeefStu22 (big blind) folded on the Flop
+Seat 7: humberto1915 folded on the Flop (didn't bet)
+Seat 8: Josejl78 folded on the Turn
+Seat 9: TseJen1216 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214599087523:  Hold'em No Limit (50/100) - 2020/05/28 21:03:59 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 1: CleomarClean (4000 in chips) 
+Seat 2: boix62 (21433 in chips) 
+Seat 3: Dtr. Vidigal (9700 in chips) 
+Seat 4: ComplexInteger (15471 in chips) 
+Seat 6: BeefStu22 (11563 in chips) 
+Seat 8: Josejl78 (5723 in chips) 
+Seat 9: TseJen1216 (8500 in chips) 
+BeefStu22: posts small blind 50
+Josejl78: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ts 3d]
+TseJen1216: folds 
+CleomarClean: calls 100
+boix62: calls 100
+Dtr. Vidigal: calls 100
+ComplexInteger: folds 
+BeefStu22: calls 50
+Josejl78: raises 500 to 600
+CleomarClean: calls 500
+boix62: calls 500
+Dtr. Vidigal: calls 500
+BeefStu22: calls 500
+*** FLOP *** [3s 2c Qd]
+BeefStu22: checks 
+Josejl78: checks 
+Sr. Geovanni joins the table at seat #7 
+CleomarClean: checks 
+boix62: bets 300
+Dtr. Vidigal: folds 
+BeefStu22: folds 
+Josejl78: calls 300
+CleomarClean: calls 300
+*** TURN *** [3s 2c Qd] [5h]
+Josejl78: checks 
+CleomarClean: checks 
+boix62: bets 600
+Josejl78: calls 600
+CleomarClean: calls 600
+*** RIVER *** [3s 2c Qd 5h] [Ad]
+Josejl78: checks 
+CleomarClean: bets 2500 and is all-in
+boix62: calls 2500
+Josejl78: folds 
+*** SHOW DOWN ***
+CleomarClean: shows [4d Jc] (a straight, Ace to Five)
+boix62: shows [Ah 4c] (a straight, Ace to Five)
+CleomarClean collected 5056 from pot
+boix62 collected 5055 from pot
+*** SUMMARY ***
+Total pot 10700 | Rake 589 
+Board [3s 2c Qd 5h Ad]
+Seat 1: CleomarClean showed [4d Jc] and won (5056) with a straight, Ace to Five
+Seat 2: boix62 showed [Ah 4c] and won (5055) with a straight, Ace to Five
+Seat 3: Dtr. Vidigal folded on the Flop
+Seat 4: ComplexInteger (button) folded before Flop (didn't bet)
+Seat 6: BeefStu22 (small blind) folded on the Flop
+Seat 8: Josejl78 (big blind) folded on the River
+Seat 9: TseJen1216 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214599146806:  Hold'em No Limit (50/100) - 2020/05/28 21:05:45 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 1: CleomarClean (5056 in chips) 
+Seat 2: boix62 (22488 in chips) 
+Seat 3: Dtr. Vidigal (9100 in chips) 
+Seat 4: ComplexInteger (15471 in chips) 
+Seat 6: BeefStu22 (10963 in chips) 
+Seat 8: Josejl78 (4223 in chips) 
+Seat 9: TseJen1216 (8500 in chips) 
+Josejl78: posts small blind 50
+TseJen1216: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jh 2d]
+CleomarClean: calls 100
+boix62: calls 100
+Dtr. Vidigal: calls 100
+ComplexInteger: folds 
+BeefStu22: raises 400 to 500
+Josejl78: calls 450
+TseJen1216: folds 
+CleomarClean: calls 400
+boix62: calls 400
+Dtr. Vidigal: calls 400
+*** FLOP *** [7s 2h Ks]
+Josejl78: checks 
+CleomarClean: checks 
+boix62: bets 100
+Dtr. Vidigal: calls 100
+BeefStu22: calls 100
+Josejl78: calls 100
+CleomarClean: calls 100
+*** TURN *** [7s 2h Ks] [2c]
+Josejl78: checks 
+CleomarClean: bets 1500
+boix62: folds 
+Dtr. Vidigal: folds 
+BeefStu22: folds 
+Josejl78: calls 1500
+*** RIVER *** [7s 2h Ks 2c] [Ts]
+Josejl78: checks 
+CleomarClean: checks 
+*** SHOW DOWN ***
+Josejl78: shows [Kh 5h] (two pair, Kings and Deuces)
+CleomarClean: mucks hand 
+Josejl78 collected 5764 from pot
+*** SUMMARY ***
+Total pot 6100 | Rake 336 
+Board [7s 2h Ks 2c Ts]
+Seat 1: CleomarClean mucked [9c 7h]
+Seat 2: boix62 folded on the Turn
+Seat 3: Dtr. Vidigal folded on the Turn
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 6: BeefStu22 (button) folded on the Turn
+Seat 8: Josejl78 (small blind) showed [Kh 5h] and won (5764) with two pair, Kings and Deuces
+Seat 9: TseJen1216 (big blind) folded before Flop
+
+
+
+PokerStars Hand #214599178917:  Hold'em No Limit (50/100) - 2020/05/28 21:06:49 ET
+Table 'Hubei V' 9-max (Play Money) Seat #8 is the button
+Seat 1: CleomarClean (2956 in chips) 
+Seat 2: boix62 (21888 in chips) 
+Seat 3: Dtr. Vidigal (8500 in chips) 
+Seat 4: ComplexInteger (15471 in chips) 
+Seat 6: BeefStu22 (10363 in chips) 
+Seat 7: Sr. Geovanni (10000 in chips) 
+Seat 8: Josejl78 (7887 in chips) 
+Seat 9: TseJen1216 (8400 in chips) 
+TseJen1216: posts small blind 50
+CleomarClean: posts big blind 100
+Sr. Geovanni: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8d Ac]
+boix62: calls 100
+Dtr. Vidigal: calls 100
+ComplexInteger: folds 
+BeefStu22: folds 
+Sr. Geovanni: checks 
+Josejl78: calls 100
+TseJen1216: calls 50
+CleomarClean: raises 2856 to 2956 and is all-in
+boix62: folds 
+Dtr. Vidigal: folds 
+Sr. Geovanni: calls 2856
+Josejl78: calls 2856
+TseJen1216: folds 
+*** FLOP *** [Jd 9h 2h]
+Sr. Geovanni: checks 
+Josejl78: checks 
+*** TURN *** [Jd 9h 2h] [6s]
+Sr. Geovanni: checks 
+Josejl78: checks 
+*** RIVER *** [Jd 9h 2h 6s] [Js]
+Sr. Geovanni: checks 
+Josejl78: checks 
+*** SHOW DOWN ***
+CleomarClean: shows [Td Qs] (a pair of Jacks)
+Sr. Geovanni: shows [Ah 7s] (a pair of Jacks - Ace kicker)
+Josejl78: mucks hand 
+Sr. Geovanni collected 8664 from pot
+*** SUMMARY ***
+Total pot 9168 | Rake 504 
+Board [Jd 9h 2h 6s Js]
+Seat 1: CleomarClean (big blind) showed [Td Qs] and lost with a pair of Jacks
+Seat 2: boix62 folded before Flop
+Seat 3: Dtr. Vidigal folded before Flop
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 6: BeefStu22 folded before Flop (didn't bet)
+Seat 7: Sr. Geovanni showed [Ah 7s] and won (8664) with a pair of Jacks
+Seat 8: Josejl78 (button) mucked [Qd 5h]
+Seat 9: TseJen1216 (small blind) folded before Flop
+
+
+
+PokerStars Hand #214599211153:  Hold'em No Limit (50/100) - 2020/05/28 21:07:53 ET
+Table 'Hubei V' 9-max (Play Money) Seat #9 is the button
+Seat 2: boix62 (21788 in chips) 
+Seat 3: Dtr. Vidigal (8400 in chips) 
+Seat 4: ComplexInteger (15471 in chips) 
+Seat 6: BeefStu22 (10363 in chips) 
+Seat 7: Sr. Geovanni (15708 in chips) 
+Seat 8: Josejl78 (4931 in chips) 
+Seat 9: TseJen1216 (8300 in chips) 
+boix62: posts small blind 50
+Dtr. Vidigal: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5c 2d]
+ComplexInteger: folds 
+BeefStu22: raises 200 to 300
+Sr. Geovanni: calls 300
+Josejl78: calls 300
+TseJen1216: folds 
+boix62: calls 250
+Dtr. Vidigal: calls 200
+*** FLOP *** [Ad 7s 6h]
+CleomarClean said, "t"
+boix62: bets 100
+Dtr. Vidigal: calls 100
+BeefStu22: folds 
+Sr. Geovanni: calls 100
+Josejl78: calls 100
+*** TURN *** [Ad 7s 6h] [3h]
+boix62: bets 100
+Dtr. Vidigal: calls 100
+Sr. Geovanni: calls 100
+Josejl78: calls 100
+*** RIVER *** [Ad 7s 6h 3h] [8h]
+boix62: checks 
+Dtr. Vidigal: checks 
+Sr. Geovanni: checks 
+Josejl78: checks 
+*** SHOW DOWN ***
+boix62: shows [9s 6d] (a pair of Sixes)
+Dtr. Vidigal: shows [Qh 6c] (a pair of Sixes - Ace+Queen kicker)
+Sr. Geovanni: shows [5h 4d] (a straight, Four to Eight)
+Josejl78: shows [Jh Ah] (a flush, Ace high)
+Josejl78 collected 2173 from pot
+*** SUMMARY ***
+Total pot 2300 | Rake 127 
+Board [Ad 7s 6h 3h 8h]
+Seat 2: boix62 (small blind) showed [9s 6d] and lost with a pair of Sixes
+Seat 3: Dtr. Vidigal (big blind) showed [Qh 6c] and lost with a pair of Sixes
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 6: BeefStu22 folded on the Flop
+Seat 7: Sr. Geovanni showed [5h 4d] and lost with a straight, Four to Eight
+Seat 8: Josejl78 showed [Jh Ah] and won (2173) with a flush, Ace high
+Seat 9: TseJen1216 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214599236918:  Hold'em No Limit (50/100) - 2020/05/28 21:08:44 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 1: CleomarClean (4000 in chips) 
+Seat 2: boix62 (21288 in chips) 
+Seat 3: Dtr. Vidigal (7900 in chips) 
+Seat 4: ComplexInteger (15471 in chips) 
+Seat 6: BeefStu22 (10063 in chips) 
+Seat 7: Sr. Geovanni (15208 in chips) 
+Seat 8: Josejl78 (6604 in chips) 
+Seat 9: TseJen1216 (8300 in chips) 
+Dtr. Vidigal: posts small blind 50
+ComplexInteger: posts big blind 100
+CleomarClean: posts small blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2s 4s]
+BeefStu22: calls 100
+Sr. Geovanni: calls 100
+Josejl78: calls 100
+TseJen1216: raises 600 to 700
+CleomarClean: folds 
+boix62: folds 
+Dtr. Vidigal: calls 650
+ComplexInteger: folds 
+BeefStu22: calls 600
+boix62 leaves the table
+Sr. Geovanni: calls 600
+Josejl78: calls 600
+*** FLOP *** [8s 7c 2c]
+Dtr. Vidigal: checks 
+BeefStu22: checks 
+Sr. Geovanni: checks 
+Josejl78: bets 3449
+TseJen1216: folds 
+Dtr. Vidigal: folds 
+BeefStu22: folds 
+Sr. Geovanni: folds 
+Uncalled bet (3449) returned to Josejl78
+Josejl78 collected 3449 from pot
+Josejl78: doesn't show hand 
+*** SUMMARY ***
+Total pot 3650 | Rake 201 
+Board [8s 7c 2c]
+Seat 1: CleomarClean folded before Flop (didn't bet)
+Seat 2: boix62 (button) folded before Flop (didn't bet)
+Seat 3: Dtr. Vidigal (small blind) folded on the Flop
+Seat 4: ComplexInteger (big blind) folded before Flop
+Seat 6: BeefStu22 folded on the Flop
+Seat 7: Sr. Geovanni folded on the Flop
+Seat 8: Josejl78 collected (3449)
+Seat 9: TseJen1216 folded on the Flop
+
+
+
+PokerStars Hand #214599261568:  Hold'em No Limit (50/100) - 2020/05/28 21:09:33 ET
+Table 'Hubei V' 9-max (Play Money) Seat #3 is the button
+Seat 1: CleomarClean (3950 in chips) 
+Seat 3: Dtr. Vidigal (7200 in chips) 
+Seat 4: ComplexInteger (15371 in chips) 
+Seat 6: BeefStu22 (9363 in chips) 
+Seat 7: Sr. Geovanni (14508 in chips) 
+Seat 8: Josejl78 (9353 in chips) 
+Seat 9: TseJen1216 (7600 in chips) 
+ComplexInteger: posts small blind 50
+BeefStu22: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8d As]
+Sr. Geovanni: calls 100
+Josejl78: raises 350 to 450
+TseJen1216: folds 
+CleomarClean: calls 450
+Dtr. Vidigal: folds 
+ComplexInteger: raises 350 to 800
+redggy596 joins the table at seat #2 
+BeefStu22: folds 
+Sr. Geovanni: calls 700
+Josejl78: calls 350
+CleomarClean: raises 3150 to 3950 and is all-in
+ComplexInteger: folds 
+Sr. Geovanni: folds 
+Josejl78: calls 3150
+*** FLOP *** [9d 5d Kd]
+*** TURN *** [9d 5d Kd] [4c]
+*** RIVER *** [9d 5d Kd 4c] [4h]
+*** SHOW DOWN ***
+Josejl78: shows [4d Qs] (three of a kind, Fours)
+CleomarClean: shows [Ac Td] (a pair of Fours)
+Josejl78 collected 9072 from pot
+*** SUMMARY ***
+Total pot 9600 | Rake 528 
+Board [9d 5d Kd 4c 4h]
+Seat 1: CleomarClean showed [Ac Td] and lost with a pair of Fours
+Seat 3: Dtr. Vidigal (button) folded before Flop (didn't bet)
+Seat 4: ComplexInteger (small blind) folded before Flop
+Seat 6: BeefStu22 (big blind) folded before Flop
+Seat 7: Sr. Geovanni folded before Flop
+Seat 8: Josejl78 showed [4d Qs] and won (9072) with three of a kind, Fours
+Seat 9: TseJen1216 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214599305348:  Hold'em No Limit (50/100) - 2020/05/28 21:10:33 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 2: redggy596 (5000 in chips) 
+Seat 3: Dtr. Vidigal (7200 in chips) 
+Seat 4: ComplexInteger (14571 in chips) 
+Seat 6: BeefStu22 (9263 in chips) 
+Seat 7: Sr. Geovanni (13708 in chips) 
+Seat 8: Josejl78 (14475 in chips) 
+Seat 9: TseJen1216 (7600 in chips) 
+BeefStu22: posts small blind 50
+Sr. Geovanni: posts big blind 100
+redggy596: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9d 8d]
+Josejl78: calls 100
+TseJen1216: folds 
+CleomarClean leaves the table
+redggy596: checks 
+Dtr. Vidigal: calls 100
+ComplexInteger: raises 200 to 300
+BeefStu22: folds 
+Sr. Geovanni: calls 200
+Josejl78: calls 200
+redggy596: calls 200
+Dtr. Vidigal: calls 200
+*** FLOP *** [2s Jh Qc]
+Sr. Geovanni: checks 
+Josejl78: bets 1465
+redggy596: folds 
+Dtr. Vidigal: folds 
+ComplexInteger: folds 
+Sr. Geovanni: folds 
+Uncalled bet (1465) returned to Josejl78
+Josejl78 collected 1465 from pot
+Josejl78: doesn't show hand 
+*** SUMMARY ***
+Total pot 1550 | Rake 85 
+Board [2s Jh Qc]
+Seat 2: redggy596 folded on the Flop
+Seat 3: Dtr. Vidigal folded on the Flop
+Seat 4: ComplexInteger (button) folded on the Flop
+Seat 6: BeefStu22 (small blind) folded before Flop
+Seat 7: Sr. Geovanni (big blind) folded on the Flop
+Seat 8: Josejl78 collected (1465)
+Seat 9: TseJen1216 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214599328417:  Hold'em No Limit (50/100) - 2020/05/28 21:11:20 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 2: redggy596 (4700 in chips) 
+Seat 3: Dtr. Vidigal (6900 in chips) 
+Seat 4: ComplexInteger (14271 in chips) 
+Seat 6: BeefStu22 (9213 in chips) 
+Seat 7: Sr. Geovanni (13408 in chips) 
+Seat 8: Josejl78 (15640 in chips) 
+Seat 9: TseJen1216 (7600 in chips) 
+Sr. Geovanni: posts small blind 50
+Josejl78: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4h Js]
+TseJen1216: calls 100
+redggy596: folds 
+Dtr. Vidigal: calls 100
+ComplexInteger: folds 
+BeefStu22: raises 200 to 300
+Sr. Geovanni: calls 250
+Josejl78: calls 200
+TseJen1216: calls 200
+Dtr. Vidigal: calls 200
+*** FLOP *** [2s 3h 6d]
+Sr. Geovanni: checks 
+Josejl78: bets 500
+TseJen1216: folds 
+Dtr. Vidigal: folds 
+Dtr. Vidigal leaves the table
+BeefStu22: calls 500
+Sr. Geovanni: calls 500
+*** TURN *** [2s 3h 6d] [Tc]
+Sr. Geovanni: checks 
+Josejl78: bets 2835
+BeefStu22: folds 
+Sr. Geovanni: folds 
+Uncalled bet (2835) returned to Josejl78
+Josejl78 collected 2835 from pot
+Josejl78: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 165 
+Board [2s 3h 6d Tc]
+Seat 2: redggy596 folded before Flop (didn't bet)
+Seat 3: Dtr. Vidigal folded on the Flop
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 6: BeefStu22 (button) folded on the Turn
+Seat 7: Sr. Geovanni (small blind) folded on the Turn
+Seat 8: Josejl78 (big blind) collected (2835)
+Seat 9: TseJen1216 folded on the Flop
+
+
+
+PokerStars Hand #214599358629:  Hold'em No Limit (50/100) - 2020/05/28 21:12:19 ET
+Table 'Hubei V' 9-max (Play Money) Seat #7 is the button
+Seat 2: redggy596 (4700 in chips) 
+Seat 4: ComplexInteger (14271 in chips) 
+Seat 6: BeefStu22 (8413 in chips) 
+Seat 7: Sr. Geovanni (12608 in chips) 
+Seat 8: Josejl78 (17675 in chips) 
+Seat 9: TseJen1216 (7300 in chips) 
+Josejl78: posts small blind 50
+TseJen1216: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2h 9d]
+redggy596: folds 
+ComplexInteger: folds 
+BeefStu22: raises 200 to 300
+Sr. Geovanni: calls 300
+Josejl78: calls 250
+TseJen1216: calls 200
+*** FLOP *** [6s Qs Ks]
+Josejl78: checks 
+TseJen1216: checks 
+BeefStu22: bets 1100
+Sr. Geovanni: raises 1100 to 2200
+Josejl78: folds 
+TseJen1216: folds 
+BeefStu22: raises 5913 to 8113 and is all-in
+Sr. Geovanni: calls 5913
+*** TURN *** [6s Qs Ks] [6h]
+*** RIVER *** [6s Qs Ks 6h] [7c]
+*** SHOW DOWN ***
+BeefStu22: shows [9s Ts] (a flush, King high)
+Sr. Geovanni: shows [Kc 4c] (two pair, Kings and Sixes)
+BeefStu22 collected 16468 from pot
+*** SUMMARY ***
+Total pot 17426 | Rake 958 
+Board [6s Qs Ks 6h 7c]
+Seat 2: redggy596 folded before Flop (didn't bet)
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 6: BeefStu22 showed [9s Ts] and won (16468) with a flush, King high
+Seat 7: Sr. Geovanni (button) showed [Kc 4c] and lost with two pair, Kings and Sixes
+Seat 8: Josejl78 (small blind) folded on the Flop
+Seat 9: TseJen1216 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #214599382212:  Hold'em No Limit (50/100) - 2020/05/28 21:13:06 ET
+Table 'Hubei V' 9-max (Play Money) Seat #8 is the button
+Seat 2: redggy596 (4700 in chips) 
+Seat 4: ComplexInteger (14271 in chips) 
+Seat 6: BeefStu22 (16468 in chips) 
+Seat 7: Sr. Geovanni (4195 in chips) 
+Seat 8: Josejl78 (17375 in chips) 
+Seat 9: TseJen1216 (7000 in chips) 
+TseJen1216: posts small blind 50
+redggy596: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6s Ah]
+ComplexInteger: folds 
+BeefStu22: calls 100
+Sr. Geovanni: calls 100
+Josejl78: calls 100
+TseJen1216: calls 50
+redggy596: checks 
+*** FLOP *** [6d 7c Jd]
+TseJen1216: checks 
+redggy596: checks 
+BeefStu22: checks 
+Sr. Geovanni: checks 
+Josejl78: checks 
+*** TURN *** [6d 7c Jd] [4h]
+giovanni1171 joins the table at seat #1 
+TseJen1216: checks 
+redggy596: checks 
+BeefStu22: checks 
+Sr. Geovanni: bets 500
+Josejl78: raises 500 to 1000
+TseJen1216: folds 
+redggy596: folds 
+BeefStu22: folds 
+Sr. Geovanni: calls 500
+*** RIVER *** [6d 7c Jd 4h] [6c]
+Sr. Geovanni: checks 
+Josejl78: bets 2362
+Sr. Geovanni: raises 733 to 3095 and is all-in
+Josejl78: calls 733
+*** SHOW DOWN ***
+Sr. Geovanni: shows [8c Qd] (a pair of Sixes)
+Josejl78: shows [Ts 5d] (a pair of Sixes - lower kicker)
+Sr. Geovanni collected 8212 from pot
+*** SUMMARY ***
+Total pot 8690 | Rake 478 
+Board [6d 7c Jd 4h 6c]
+Seat 2: redggy596 (big blind) folded on the Turn
+Seat 4: ComplexInteger folded before Flop (didn't bet)
+Seat 6: BeefStu22 folded on the Turn
+Seat 7: Sr. Geovanni showed [8c Qd] and won (8212) with a pair of Sixes
+Seat 8: Josejl78 (button) showed [Ts 5d] and lost with a pair of Sixes
+Seat 9: TseJen1216 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #214599425367:  Hold'em No Limit (50/100) - 2020/05/28 21:14:33 ET
+Table 'Hubei V' 9-max (Play Money) Seat #9 is the button
+Seat 2: redggy596 (4600 in chips) 
+Seat 4: ComplexInteger (14271 in chips) 
+Seat 6: BeefStu22 (16368 in chips) 
+Seat 7: Sr. Geovanni (8212 in chips) 
+Seat 8: Josejl78 (13180 in chips) 
+Seat 9: TseJen1216 (6900 in chips) 
+redggy596: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5s 3h]
+BeefStu22: folds 
+Sr. Geovanni: calls 100
+Josejl78: raises 7400 to 7500
+TseJen1216: folds 
+redggy596: folds 
+ComplexInteger: folds 
+TseJen1216 leaves the table
+Sr. Geovanni: folds 
+Uncalled bet (7400) returned to Josejl78
+Josejl78 collected 350 from pot
+Josejl78: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 2: redggy596 (small blind) folded before Flop
+Seat 4: ComplexInteger (big blind) folded before Flop
+Seat 6: BeefStu22 folded before Flop (didn't bet)
+Seat 7: Sr. Geovanni folded before Flop
+Seat 8: Josejl78 collected (350)
+Seat 9: TseJen1216 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214599438174:  Hold'em No Limit (50/100) - 2020/05/28 21:14:58 ET
+Table 'Hubei V' 9-max (Play Money) Seat #2 is the button
+Seat 1: giovanni1171 (8200 in chips) 
+Seat 2: redggy596 (4550 in chips) 
+Seat 4: ComplexInteger (14171 in chips) 
+Seat 6: BeefStu22 (16368 in chips) 
+Seat 7: Sr. Geovanni (8112 in chips) 
+Seat 8: Josejl78 (13430 in chips) 
+ComplexInteger: posts small blind 50
+BeefStu22: posts big blind 100
+giovanni1171: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5s 4s]
+Sr. Geovanni: raises 100 to 200
+Josejl78: raises 13230 to 13430 and is all-in
+giovanni1171: calls 8100 and is all-in
+redggy596: folds 
+ComplexInteger: folds 
+BeefStu22: folds 
+Sr. Geovanni: calls 7912 and is all-in
+Uncalled bet (5230) returned to Josejl78
+*** FLOP *** [6h 5c Ts]
+*** TURN *** [6h 5c Ts] [9c]
+*** RIVER *** [6h 5c Ts 9c] [Qh]
+*** SHOW DOWN ***
+Josejl78: shows [Tc Ad] (a pair of Tens)
+giovanni1171: shows [8h 8s] (a pair of Eights)
+Josejl78 collected 167 from side pot
+Sr. Geovanni: shows [7s 7h] (a pair of Sevens)
+Josejl78 collected 23139 from main pot
+DanielsFFC was removed from the table for failing to post
+DanielsFFC leaves the table
+*** SUMMARY ***
+Total pot 24662 Main pot 23139. Side pot 167. | Rake 1356 
+Board [6h 5c Ts 9c Qh]
+Seat 1: giovanni1171 showed [8h 8s] and lost with a pair of Eights
+Seat 2: redggy596 (button) folded before Flop (didn't bet)
+Seat 4: ComplexInteger (small blind) folded before Flop
+Seat 6: BeefStu22 (big blind) folded before Flop
+Seat 7: Sr. Geovanni showed [7s 7h] and lost with a pair of Sevens
+Seat 8: Josejl78 showed [Tc Ad] and won (23306) with a pair of Tens
+
+
+
+PokerStars Hand #214599451279:  Hold'em No Limit (50/100) - 2020/05/28 21:15:24 ET
+Table 'Hubei V' 9-max (Play Money) Seat #4 is the button
+Seat 2: redggy596 (4550 in chips) 
+Seat 4: ComplexInteger (14121 in chips) 
+Seat 6: BeefStu22 (16268 in chips) 
+Seat 8: Josejl78 (28536 in chips) 
+BeefStu22: posts small blind 50
+Josejl78: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4d Th]
+redggy596: calls 100
+ComplexInteger: folds 
+BeefStu22: calls 50
+Josejl78: checks 
+*** FLOP *** [6h 7d Js]
+DanielsFFC joins the table at seat #5 
+BeefStu22: bets 100
+Josejl78: raises 100 to 200
+redggy596: calls 200
+BeefStu22: calls 100
+*** TURN *** [6h 7d Js] [9c]
+BeefStu22: checks 
+Josejl78: checks 
+redggy596: checks 
+*** RIVER *** [6h 7d Js 9c] [Qs]
+BeefStu22: checks 
+Josejl78: bets 850
+redggy596: folds 
+BeefStu22: calls 850
+*** SHOW DOWN ***
+Josejl78: shows [6c 2c] (a pair of Sixes)
+BeefStu22: shows [9h 7s] (two pair, Nines and Sevens)
+BeefStu22 collected 2457 from pot
+*** SUMMARY ***
+Total pot 2600 | Rake 143 
+Board [6h 7d Js 9c Qs]
+Seat 2: redggy596 folded on the River
+Seat 4: ComplexInteger (button) folded before Flop (didn't bet)
+Seat 6: BeefStu22 (small blind) showed [9h 7s] and won (2457) with two pair, Nines and Sevens
+Seat 8: Josejl78 (big blind) showed [6c 2c] and lost with a pair of Sixes
+
+
+
+PokerStars Hand #214599469196:  Hold'em No Limit (50/100) - 2020/05/28 21:16:00 ET
+Table 'Hubei V' 9-max (Play Money) Seat #6 is the button
+Seat 1: giovanni1171 (5300 in chips) 
+Seat 2: redggy596 (4250 in chips) 
+Seat 4: ComplexInteger (14121 in chips) 
+Seat 5: DanielsFFC (10000 in chips) 
+Seat 6: BeefStu22 (17575 in chips) 
+Seat 8: Josejl78 (27386 in chips) 
+Josejl78: posts small blind 50
+giovanni1171: posts big blind 100
+DanielsFFC: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kd Tc]
+redggy596: folds 
+ComplexInteger: calls 100
+DanielsFFC: checks 
+BeefStu22: raises 200 to 300
+Josejl78: raises 200 to 500
+giovanni1171: raises 4800 to 5300 and is all-in
+ComplexInteger: calls 5200
+DanielsFFC: folds 
+BeefStu22: raises 12275 to 17575 and is all-in
+Josejl78: calls 17075
+ComplexInteger: calls 8821 and is all-in
+*** FLOP *** [Jd 3h 3d]
+*** TURN *** [Jd 3h 3d] [2d]
+*** RIVER *** [Jd 3h 3d 2d] [3c]
+*** SHOW DOWN ***
+Josejl78: shows [Qh 8s] (three of a kind, Threes)
+BeefStu22: shows [Ad As] (a full house, Threes full of Aces)
+BeefStu22 collected 6528 from side pot-2 
+ComplexInteger: shows [Kd Tc] (three of a kind, Threes)
+BeefStu22 collected 25008 from side pot-1 
+giovanni1171: shows [Kh Ac] (three of a kind, Threes)
+BeefStu22 collected 20128 from main pot
+*** SUMMARY ***
+Total pot 54671 Main pot 20128. Side pot-1 25008. Side pot-2 6528. | Rake 3007 
+Board [Jd 3h 3d 2d 3c]
+Seat 1: giovanni1171 (big blind) showed [Kh Ac] and lost with three of a kind, Threes
+Seat 2: redggy596 folded before Flop (didn't bet)
+Seat 4: ComplexInteger showed [Kd Tc] and lost with three of a kind, Threes
+Seat 5: DanielsFFC folded before Flop (didn't bet)
+Seat 6: BeefStu22 (button) showed [Ad As] and won (51664) with a full house, Threes full of Aces
+Seat 8: Josejl78 (small blind) showed [Qh 8s] and lost with three of a kind, Threes
+
+
+

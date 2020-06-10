@@ -1,0 +1,3244 @@
+﻿PokerStars Hand #215067491282: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level I (10/20) - 2020/06/08 4:12:12 ET
+Table '2929776188 1' 9-max Seat #1 is the button
+Seat 1: Korys1939 (1000 in chips) 
+Seat 2: Jola007007 (1000 in chips) is sitting out
+Seat 3: polanpolan (1000 in chips) 
+Seat 4: $iobhan (1000 in chips) 
+Seat 5: Lium3124 (1000 in chips) 
+Seat 6: Kroshola (1000 in chips) 
+Seat 7: skinny 456B (1000 in chips) 
+Seat 8: skeghead (1000 in chips) is sitting out
+Seat 9: ComplexInteger (1000 in chips) 
+Jola007007: posts small blind 10
+polanpolan: posts big blind 20
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jd 6s]
+$iobhan: folds 
+Lium3124: folds 
+Kroshola: calls 20
+skinny 456B: calls 20
+skeghead: folds 
+ComplexInteger: folds 
+Korys1939: folds 
+Jola007007: calls 10
+polanpolan: checks 
+*** FLOP *** [2d As Qd]
+Jola007007: checks 
+polanpolan: checks 
+Kroshola: bets 80
+skinny 456B: folds 
+Jola007007: calls 80
+polanpolan: calls 80
+*** TURN *** [2d As Qd] [4h]
+Jola007007: checks 
+polanpolan: bets 320
+Kroshola: raises 580 to 900 and is all-in
+Jola007007: calls 900 and is all-in
+polanpolan: calls 580 and is all-in
+*** RIVER *** [2d As Qd 4h] [Kd]
+*** SHOW DOWN ***
+Jola007007: shows [Ad 5s] (a pair of Aces)
+polanpolan: shows [3s 5d] (a straight, Ace to Five)
+Kroshola: shows [2c Ah] (two pair, Aces and Deuces)
+polanpolan collected 3020 from pot
+Jola007007 finished the tournament in 8th place
+Kroshola finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 3020 | Rake 0 
+Board [2d As Qd 4h Kd]
+Seat 1: Korys1939 (button) folded before Flop (didn't bet)
+Seat 2: Jola007007 (small blind) showed [Ad 5s] and lost with a pair of Aces
+Seat 3: polanpolan (big blind) showed [3s 5d] and won (3020) with a straight, Ace to Five
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 folded before Flop (didn't bet)
+Seat 6: Kroshola showed [2c Ah] and lost with two pair, Aces and Deuces
+Seat 7: skinny 456B folded on the Flop
+Seat 8: skeghead folded before Flop (didn't bet)
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067505459: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level I (10/20) - 2020/06/08 4:13:09 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 1: Korys1939 (1000 in chips) 
+Seat 3: polanpolan (3020 in chips) 
+Seat 4: $iobhan (1000 in chips) 
+Seat 5: Lium3124 (1000 in chips) 
+Seat 7: skinny 456B (980 in chips) 
+Seat 8: skeghead (1000 in chips) 
+Seat 9: ComplexInteger (1000 in chips) 
+$iobhan: posts small blind 10
+Lium3124: posts big blind 20
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Js 9c]
+skinny 456B: calls 20
+skeghead: folds 
+ComplexInteger: raises 20 to 40
+Korys1939: folds 
+polanpolan: calls 40
+$iobhan: calls 30
+Lium3124: folds 
+skinny 456B: calls 20
+*** FLOP *** [Qs 4s 7h]
+$iobhan: checks 
+skinny 456B: checks 
+ComplexInteger: bets 40
+polanpolan: folds 
+$iobhan: folds 
+skinny 456B: calls 40
+*** TURN *** [Qs 4s 7h] [Jc]
+skinny 456B: checks 
+ComplexInteger: bets 20
+skinny 456B: calls 20
+*** RIVER *** [Qs 4s 7h Jc] [9d]
+skinny 456B: checks 
+ComplexInteger: bets 100
+skinny 456B: folds 
+Uncalled bet (100) returned to ComplexInteger
+ComplexInteger collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [Qs 4s 7h Jc 9d]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan (button) folded on the Flop
+Seat 4: $iobhan (small blind) folded on the Flop
+Seat 5: Lium3124 (big blind) folded before Flop
+Seat 7: skinny 456B folded on the River
+Seat 8: skeghead folded before Flop (didn't bet)
+Seat 9: ComplexInteger collected (300)
+
+
+
+PokerStars Hand #215067522652: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level I (10/20) - 2020/06/08 4:14:18 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 1: Korys1939 (1000 in chips) 
+Seat 3: polanpolan (2980 in chips) 
+Seat 4: $iobhan (960 in chips) 
+Seat 5: Lium3124 (980 in chips) 
+Seat 7: skinny 456B (880 in chips) 
+Seat 8: skeghead (1000 in chips) 
+Seat 9: ComplexInteger (1200 in chips) 
+Lium3124: posts small blind 10
+skinny 456B: posts big blind 20
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4s 6d]
+skeghead: folds 
+ComplexInteger: folds 
+Korys1939: folds 
+polanpolan: calls 20
+$iobhan: folds 
+Lium3124: raises 20 to 40
+skinny 456B: folds 
+polanpolan: calls 20
+*** FLOP *** [2s 5d 8h]
+Lium3124: bets 60
+polanpolan: calls 60
+*** TURN *** [2s 5d 8h] [Kh]
+Lium3124: bets 60
+polanpolan: folds 
+Uncalled bet (60) returned to Lium3124
+Lium3124 collected 220 from pot
+Lium3124: doesn't show hand 
+*** SUMMARY ***
+Total pot 220 | Rake 0 
+Board [2s 5d 8h Kh]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan folded on the Turn
+Seat 4: $iobhan (button) folded before Flop (didn't bet)
+Seat 5: Lium3124 (small blind) collected (220)
+Seat 7: skinny 456B (big blind) folded before Flop
+Seat 8: skeghead folded before Flop (didn't bet)
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067532766: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level I (10/20) - 2020/06/08 4:14:58 ET
+Table '2929776188 1' 9-max Seat #5 is the button
+Seat 1: Korys1939 (1000 in chips) 
+Seat 3: polanpolan (2880 in chips) 
+Seat 4: $iobhan (960 in chips) 
+Seat 5: Lium3124 (1100 in chips) 
+Seat 7: skinny 456B (860 in chips) 
+Seat 8: skeghead (1000 in chips) 
+Seat 9: ComplexInteger (1200 in chips) 
+skinny 456B: posts small blind 10
+skeghead: posts big blind 20
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6s 6c]
+ComplexInteger: raises 40 to 60
+Korys1939: folds 
+polanpolan: calls 60
+$iobhan: folds 
+Lium3124: calls 60
+skinny 456B: folds 
+skeghead: calls 40
+*** FLOP *** [5c 3d 9h]
+skeghead: checks 
+ComplexInteger: bets 40
+polanpolan: calls 40
+Lium3124: folds 
+skeghead: folds 
+*** TURN *** [5c 3d 9h] [6h]
+ComplexInteger: bets 60
+polanpolan: calls 60
+*** RIVER *** [5c 3d 9h 6h] [Td]
+ComplexInteger: bets 60
+polanpolan: folds 
+Uncalled bet (60) returned to ComplexInteger
+ComplexInteger collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [5c 3d 9h 6h Td]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan folded on the River
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 (button) folded on the Flop
+Seat 7: skinny 456B (small blind) folded before Flop
+Seat 8: skeghead (big blind) folded on the Flop
+Seat 9: ComplexInteger collected (450)
+
+
+
+PokerStars Hand #215067548263: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level I (10/20) - 2020/06/08 4:15:58 ET
+Table '2929776188 1' 9-max Seat #7 is the button
+Seat 1: Korys1939 (1000 in chips) 
+Seat 3: polanpolan (2720 in chips) 
+Seat 4: $iobhan (960 in chips) 
+Seat 5: Lium3124 (1040 in chips) 
+Seat 7: skinny 456B (850 in chips) 
+Seat 8: skeghead (940 in chips) 
+Seat 9: ComplexInteger (1490 in chips) 
+skeghead: posts small blind 10
+ComplexInteger: posts big blind 20
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2h 6s]
+Korys1939: folds 
+polanpolan: calls 20
+$iobhan: folds 
+Lium3124: raises 20 to 40
+skinny 456B: folds 
+skeghead: calls 30
+ComplexInteger: folds 
+polanpolan: calls 20
+*** FLOP *** [2d 5s Tc]
+skeghead: checks 
+polanpolan: checks 
+Lium3124: bets 40
+skeghead: calls 40
+polanpolan: calls 40
+*** TURN *** [2d 5s Tc] [8c]
+skeghead: checks 
+polanpolan: checks 
+Lium3124: bets 60
+skeghead: calls 60
+polanpolan: calls 60
+*** RIVER *** [2d 5s Tc 8c] [As]
+skeghead: checks 
+polanpolan: checks 
+Lium3124: bets 160
+skeghead: folds 
+polanpolan: folds 
+Uncalled bet (160) returned to Lium3124
+Lium3124 collected 440 from pot
+Lium3124: doesn't show hand 
+*** SUMMARY ***
+Total pot 440 | Rake 0 
+Board [2d 5s Tc 8c As]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan folded on the River
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 collected (440)
+Seat 7: skinny 456B (button) folded before Flop (didn't bet)
+Seat 8: skeghead (small blind) folded on the River
+Seat 9: ComplexInteger (big blind) folded before Flop
+
+
+
+PokerStars Hand #215067562768: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level I (10/20) - 2020/06/08 4:16:56 ET
+Table '2929776188 1' 9-max Seat #8 is the button
+Seat 1: Korys1939 (1000 in chips) 
+Seat 3: polanpolan (2580 in chips) 
+Seat 4: $iobhan (960 in chips) 
+Seat 5: Lium3124 (1340 in chips) 
+Seat 7: skinny 456B (850 in chips) 
+Seat 8: skeghead (800 in chips) 
+Seat 9: ComplexInteger (1470 in chips) 
+ComplexInteger: posts small blind 10
+Korys1939: posts big blind 20
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6d Ts]
+polanpolan: raises 20 to 40
+$iobhan: folds 
+Lium3124: calls 40
+skinny 456B: folds 
+skeghead: calls 40
+ComplexInteger: folds 
+Korys1939: folds 
+*** FLOP *** [Qh 7s 7c]
+polanpolan: checks 
+Lium3124: bets 80
+skeghead: folds 
+polanpolan: calls 80
+*** TURN *** [Qh 7s 7c] [Jd]
+polanpolan: checks 
+Lium3124: bets 140
+polanpolan: calls 140
+*** RIVER *** [Qh 7s 7c Jd] [8s]
+polanpolan: bets 580
+Lium3124: calls 580
+*** SHOW DOWN ***
+polanpolan: shows [7d 7h] (four of a kind, Sevens)
+Lium3124: mucks hand 
+polanpolan collected 1750 from pot
+*** SUMMARY ***
+Total pot 1750 | Rake 0 
+Board [Qh 7s 7c Jd 8s]
+Seat 1: Korys1939 (big blind) folded before Flop
+Seat 3: polanpolan showed [7d 7h] and won (1750) with four of a kind, Sevens
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 mucked [As Qc]
+Seat 7: skinny 456B folded before Flop (didn't bet)
+Seat 8: skeghead (button) folded on the Flop
+Seat 9: ComplexInteger (small blind) folded before Flop
+
+
+
+PokerStars Hand #215067576937: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level I (10/20) - 2020/06/08 4:17:51 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 1: Korys1939 (980 in chips) 
+Seat 3: polanpolan (3490 in chips) 
+Seat 4: $iobhan (960 in chips) 
+Seat 5: Lium3124 (500 in chips) 
+Seat 7: skinny 456B (850 in chips) 
+Seat 8: skeghead (760 in chips) 
+Seat 9: ComplexInteger (1460 in chips) 
+Korys1939: posts small blind 10
+polanpolan: posts big blind 20
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2c 3c]
+$iobhan: folds 
+Lium3124: folds 
+Lium3124 said, "nh"
+skinny 456B: folds 
+skeghead: calls 20
+ComplexInteger: raises 20 to 40
+Korys1939: calls 30
+polanpolan: calls 20
+skeghead: calls 20
+*** FLOP *** [Kc 2d 6c]
+Korys1939: bets 20
+polanpolan: folds 
+skeghead: folds 
+ComplexInteger: raises 20 to 40
+Korys1939: raises 900 to 940 and is all-in
+ComplexInteger: folds 
+Uncalled bet (900) returned to Korys1939
+Korys1939 collected 240 from pot
+Korys1939: shows [Ac Ks] (a pair of Kings)
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Board [Kc 2d 6c]
+Seat 1: Korys1939 (small blind) collected (240)
+Seat 3: polanpolan (big blind) folded on the Flop
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 folded before Flop (didn't bet)
+Seat 7: skinny 456B folded before Flop (didn't bet)
+Seat 8: skeghead folded on the Flop
+Seat 9: ComplexInteger (button) folded on the Flop
+
+
+
+PokerStars Hand #215067588066: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level I (10/20) - 2020/06/08 4:18:35 ET
+Table '2929776188 1' 9-max Seat #1 is the button
+Seat 1: Korys1939 (1140 in chips) 
+Seat 3: polanpolan (3450 in chips) 
+Seat 4: $iobhan (960 in chips) 
+Seat 5: Lium3124 (500 in chips) 
+Seat 7: skinny 456B (850 in chips) 
+Seat 8: skeghead (720 in chips) 
+Seat 9: ComplexInteger (1380 in chips) 
+polanpolan: posts small blind 10
+$iobhan: posts big blind 20
+*** HOLE CARDS ***
+Dealt to ComplexInteger [As 8c]
+Lium3124: folds 
+skinny 456B: folds 
+skeghead: calls 20
+ComplexInteger: raises 20 to 40
+Korys1939: folds 
+polanpolan: raises 120 to 160
+$iobhan: folds 
+skeghead: folds 
+ComplexInteger: calls 120
+*** FLOP *** [Qh Ks 6d]
+polanpolan: bets 3290 and is all-in
+ComplexInteger: folds 
+Uncalled bet (3290) returned to polanpolan
+polanpolan collected 360 from pot
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Board [Qh Ks 6d]
+Seat 1: Korys1939 (button) folded before Flop (didn't bet)
+Seat 3: polanpolan (small blind) collected (360)
+Seat 4: $iobhan (big blind) folded before Flop
+Seat 5: Lium3124 folded before Flop (didn't bet)
+Seat 7: skinny 456B folded before Flop (didn't bet)
+Seat 8: skeghead folded before Flop
+Seat 9: ComplexInteger folded on the Flop
+
+
+
+PokerStars Hand #215067597076: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level I (10/20) - 2020/06/08 4:19:10 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 1: Korys1939 (1140 in chips) 
+Seat 3: polanpolan (3650 in chips) 
+Seat 4: $iobhan (940 in chips) 
+Seat 5: Lium3124 (500 in chips) 
+Seat 7: skinny 456B (850 in chips) 
+Seat 8: skeghead (700 in chips) 
+Seat 9: ComplexInteger (1220 in chips) 
+$iobhan: posts small blind 10
+Lium3124: posts big blind 20
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4c Qd]
+skinny 456B: folds 
+skeghead: folds 
+ComplexInteger: folds 
+Korys1939: calls 20
+polanpolan: calls 20
+$iobhan: calls 10
+Lium3124: checks 
+*** FLOP *** [2h Qc Ad]
+$iobhan: checks 
+Lium3124: checks 
+Korys1939: checks 
+polanpolan: checks 
+*** TURN *** [2h Qc Ad] [Th]
+$iobhan: checks 
+Lium3124: checks 
+Korys1939: checks 
+polanpolan: checks 
+*** RIVER *** [2h Qc Ad Th] [Kc]
+$iobhan: checks 
+Lium3124: checks 
+Korys1939: checks 
+polanpolan: checks 
+*** SHOW DOWN ***
+$iobhan: shows [2s Kh] (two pair, Kings and Deuces)
+Lium3124: mucks hand 
+Korys1939: mucks hand 
+polanpolan: mucks hand 
+$iobhan collected 80 from pot
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Board [2h Qc Ad Th Kc]
+Seat 1: Korys1939 mucked [3s 3d]
+Seat 3: polanpolan (button) mucked [8d 4s]
+Seat 4: $iobhan (small blind) showed [2s Kh] and won (80) with two pair, Kings and Deuces
+Seat 5: Lium3124 (big blind) mucked [8s 5h]
+Seat 7: skinny 456B folded before Flop (didn't bet)
+Seat 8: skeghead folded before Flop (didn't bet)
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067613215: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level I (10/20) - 2020/06/08 4:20:12 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 1: Korys1939 (1120 in chips) 
+Seat 3: polanpolan (3630 in chips) 
+Seat 4: $iobhan (1000 in chips) 
+Seat 5: Lium3124 (480 in chips) 
+Seat 7: skinny 456B (850 in chips) 
+Seat 8: skeghead (700 in chips) 
+Seat 9: ComplexInteger (1220 in chips) 
+Lium3124: posts small blind 10
+skinny 456B: posts big blind 20
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2h 6d]
+skeghead: folds 
+ComplexInteger: folds 
+Korys1939: folds 
+polanpolan: calls 20
+$iobhan: folds 
+Lium3124: calls 10
+skinny 456B: checks 
+*** FLOP *** [5d Qd 2d]
+Lium3124: bets 60
+skinny 456B: calls 60
+polanpolan: folds 
+*** TURN *** [5d Qd 2d] [Ks]
+Lium3124: checks 
+skinny 456B: checks 
+*** RIVER *** [5d Qd 2d Ks] [6s]
+Lium3124: bets 60
+skinny 456B: folds 
+Uncalled bet (60) returned to Lium3124
+Lium3124 collected 180 from pot
+Lium3124: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [5d Qd 2d Ks 6s]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan folded on the Flop
+Seat 4: $iobhan (button) folded before Flop (didn't bet)
+Seat 5: Lium3124 (small blind) collected (180)
+Seat 7: skinny 456B (big blind) folded on the River
+Seat 8: skeghead folded before Flop (didn't bet)
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067625022: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level I (10/20) - 2020/06/08 4:20:58 ET
+Table '2929776188 1' 9-max Seat #5 is the button
+Seat 1: Korys1939 (1120 in chips) 
+Seat 3: polanpolan (3610 in chips) 
+Seat 4: $iobhan (1000 in chips) 
+Seat 5: Lium3124 (580 in chips) 
+Seat 7: skinny 456B (770 in chips) 
+Seat 8: skeghead (700 in chips) 
+Seat 9: ComplexInteger (1220 in chips) 
+skinny 456B: posts small blind 10
+skeghead: posts big blind 20
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8s Ah]
+ComplexInteger: raises 20 to 40
+Korys1939: folds 
+polanpolan: calls 40
+$iobhan: calls 40
+Lium3124: calls 40
+skinny 456B: raises 20 to 60
+skeghead: calls 40
+ComplexInteger: calls 20
+polanpolan: calls 20
+$iobhan: calls 20
+Lium3124: calls 20
+*** FLOP *** [5h 9d Ts]
+skinny 456B: checks 
+skeghead: checks 
+ComplexInteger: bets 40
+polanpolan: calls 40
+$iobhan: folds 
+Lium3124: calls 40
+skinny 456B: folds 
+skeghead: folds 
+*** TURN *** [5h 9d Ts] [3c]
+ComplexInteger: checks 
+polanpolan: checks 
+Lium3124: checks 
+*** RIVER *** [5h 9d Ts 3c] [Qd]
+ComplexInteger: checks 
+polanpolan: checks 
+Lium3124: bets 480 and is all-in
+ComplexInteger: folds 
+polanpolan: folds 
+Uncalled bet (480) returned to Lium3124
+Lium3124 collected 480 from pot
+Lium3124: doesn't show hand 
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Board [5h 9d Ts 3c Qd]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan folded on the River
+Seat 4: $iobhan folded on the Flop
+Seat 5: Lium3124 (button) collected (480)
+Seat 7: skinny 456B (small blind) folded on the Flop
+Seat 8: skeghead (big blind) folded on the Flop
+Seat 9: ComplexInteger folded on the River
+
+
+
+PokerStars Hand #215067647838: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:22:25 ET
+Table '2929776188 1' 9-max Seat #7 is the button
+Seat 1: Korys1939 (1120 in chips) 
+Seat 3: polanpolan (3510 in chips) 
+Seat 4: $iobhan (940 in chips) 
+Seat 5: Lium3124 (960 in chips) 
+Seat 7: skinny 456B (710 in chips) 
+Seat 8: skeghead (640 in chips) is sitting out
+Seat 9: ComplexInteger (1120 in chips) 
+skeghead: posts small blind 15
+ComplexInteger: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8s 6h]
+Korys1939: folds 
+polanpolan: calls 30
+$iobhan: folds 
+Lium3124: raises 30 to 60
+skinny 456B: folds 
+skeghead: folds 
+ComplexInteger: folds 
+polanpolan: calls 30
+*** FLOP *** [As Qd 5c]
+polanpolan: checks 
+Lium3124: bets 60
+polanpolan: folds 
+Uncalled bet (60) returned to Lium3124
+Lium3124 collected 165 from pot
+Lium3124: doesn't show hand 
+*** SUMMARY ***
+Total pot 165 | Rake 0 
+Board [As Qd 5c]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan folded on the Flop
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 collected (165)
+Seat 7: skinny 456B (button) folded before Flop (didn't bet)
+Seat 8: skeghead (small blind) folded before Flop
+Seat 9: ComplexInteger (big blind) folded before Flop
+
+
+
+PokerStars Hand #215067655153: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:22:53 ET
+Table '2929776188 1' 9-max Seat #8 is the button
+Seat 1: Korys1939 (1120 in chips) 
+Seat 3: polanpolan (3450 in chips) 
+Seat 4: $iobhan (940 in chips) 
+Seat 5: Lium3124 (1065 in chips) 
+Seat 7: skinny 456B (710 in chips) 
+Seat 8: skeghead (625 in chips) is sitting out
+Seat 9: ComplexInteger (1090 in chips) 
+ComplexInteger: posts small blind 15
+Korys1939: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qd 4h]
+polanpolan: calls 30
+$iobhan: folds 
+Lium3124: raises 30 to 60
+skinny 456B: folds 
+skeghead: folds 
+ComplexInteger: calls 45
+Korys1939: calls 30
+polanpolan: calls 30
+*** FLOP *** [9d 9h 2h]
+ComplexInteger: checks 
+Korys1939: bets 30
+polanpolan: calls 30
+Lium3124: calls 30
+ComplexInteger: calls 30
+*** TURN *** [9d 9h 2h] [5d]
+ComplexInteger: checks 
+Korys1939: checks 
+polanpolan: checks 
+Lium3124: bets 120
+ComplexInteger: folds 
+Korys1939: calls 120
+polanpolan: calls 120
+*** RIVER *** [9d 9h 2h 5d] [8s]
+Korys1939: checks 
+polanpolan: checks 
+Lium3124: bets 180
+Korys1939: folds 
+polanpolan: folds 
+Uncalled bet (180) returned to Lium3124
+Lium3124 collected 720 from pot
+Lium3124: doesn't show hand 
+*** SUMMARY ***
+Total pot 720 | Rake 0 
+Board [9d 9h 2h 5d 8s]
+Seat 1: Korys1939 (big blind) folded on the River
+Seat 3: polanpolan folded on the River
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 collected (720)
+Seat 7: skinny 456B folded before Flop (didn't bet)
+Seat 8: skeghead (button) folded before Flop (didn't bet)
+Seat 9: ComplexInteger (small blind) folded on the Turn
+
+
+
+PokerStars Hand #215067675577: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:24:13 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 1: Korys1939 (910 in chips) 
+Seat 3: polanpolan (3240 in chips) 
+Seat 4: $iobhan (940 in chips) 
+Seat 5: Lium3124 (1575 in chips) 
+Seat 7: skinny 456B (710 in chips) 
+Seat 8: skeghead (625 in chips) 
+Seat 9: ComplexInteger (1000 in chips) 
+Korys1939: posts small blind 15
+polanpolan: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6h Qc]
+$iobhan: folds 
+Lium3124: folds 
+skinny 456B: calls 30
+skeghead: calls 30
+ComplexInteger: raises 30 to 60
+Korys1939: folds 
+polanpolan: calls 30
+skinny 456B: folds 
+skeghead: calls 30
+*** FLOP *** [2d 5h 6c]
+polanpolan: bets 30
+skeghead: calls 30
+ComplexInteger: raises 150 to 180
+polanpolan: folds 
+skeghead: calls 150
+*** TURN *** [2d 5h 6c] [9c]
+skeghead: checks 
+ComplexInteger: bets 420
+skeghead: calls 385 and is all-in
+Uncalled bet (35) returned to ComplexInteger
+*** RIVER *** [2d 5h 6c 9c] [2h]
+*** SHOW DOWN ***
+skeghead: shows [3c 3s] (two pair, Threes and Deuces)
+ComplexInteger: shows [6h Qc] (two pair, Sixes and Deuces)
+ComplexInteger collected 1385 from pot
+skeghead finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 1385 | Rake 0 
+Board [2d 5h 6c 9c 2h]
+Seat 1: Korys1939 (small blind) folded before Flop
+Seat 3: polanpolan (big blind) folded on the Flop
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 folded before Flop (didn't bet)
+Seat 7: skinny 456B folded before Flop
+Seat 8: skeghead showed [3c 3s] and lost with two pair, Threes and Deuces
+Seat 9: ComplexInteger (button) showed [6h Qc] and won (1385) with two pair, Sixes and Deuces
+
+
+
+PokerStars Hand #215067693076: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:25:21 ET
+Table '2929776188 1' 9-max Seat #1 is the button
+Seat 1: Korys1939 (895 in chips) 
+Seat 3: polanpolan (3150 in chips) 
+Seat 4: $iobhan (940 in chips) 
+Seat 5: Lium3124 (1575 in chips) 
+Seat 7: skinny 456B (680 in chips) 
+Seat 9: ComplexInteger (1760 in chips) 
+polanpolan: posts small blind 15
+$iobhan: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2s Ts]
+Lium3124: folds 
+skinny 456B: calls 30
+ComplexInteger: folds 
+Korys1939: folds 
+polanpolan: raises 90 to 120
+$iobhan: folds 
+skinny 456B: calls 90
+*** FLOP *** [6d Ah Kc]
+polanpolan: checks 
+skinny 456B: bets 560 and is all-in
+polanpolan: calls 560
+*** TURN *** [6d Ah Kc] [2c]
+*** RIVER *** [6d Ah Kc 2c] [Kd]
+*** SHOW DOWN ***
+polanpolan: shows [9d 9h] (two pair, Kings and Nines)
+skinny 456B: shows [As Th] (two pair, Aces and Kings)
+skinny 456B collected 1390 from pot
+*** SUMMARY ***
+Total pot 1390 | Rake 0 
+Board [6d Ah Kc 2c Kd]
+Seat 1: Korys1939 (button) folded before Flop (didn't bet)
+Seat 3: polanpolan (small blind) showed [9d 9h] and lost with two pair, Kings and Nines
+Seat 4: $iobhan (big blind) folded before Flop
+Seat 5: Lium3124 folded before Flop (didn't bet)
+Seat 7: skinny 456B showed [As Th] and won (1390) with two pair, Aces and Kings
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067704178: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:26:04 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 1: Korys1939 (895 in chips) 
+Seat 3: polanpolan (2470 in chips) 
+Seat 4: $iobhan (910 in chips) 
+Seat 5: Lium3124 (1575 in chips) 
+Seat 7: skinny 456B (1390 in chips) 
+Seat 9: ComplexInteger (1760 in chips) 
+$iobhan: posts small blind 15
+Lium3124: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5h 4s]
+skinny 456B: folds 
+ComplexInteger: folds 
+Korys1939: folds 
+polanpolan: calls 30
+$iobhan: calls 15
+Lium3124: checks 
+*** FLOP *** [Kd Ts Qs]
+$iobhan: bets 90
+Lium3124: calls 90
+polanpolan: folds 
+*** TURN *** [Kd Ts Qs] [5d]
+$iobhan: bets 90
+Lium3124: calls 90
+*** RIVER *** [Kd Ts Qs 5d] [Kh]
+$iobhan: bets 225
+Lium3124: calls 225
+*** SHOW DOWN ***
+$iobhan: shows [Ks 8s] (three of a kind, Kings)
+Lium3124: mucks hand 
+$iobhan collected 900 from pot
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [Kd Ts Qs 5d Kh]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan (button) folded on the Flop
+Seat 4: $iobhan (small blind) showed [Ks 8s] and won (900) with three of a kind, Kings
+Seat 5: Lium3124 (big blind) mucked [2c Qc]
+Seat 7: skinny 456B folded before Flop (didn't bet)
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067718252: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:26:59 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 1: Korys1939 (895 in chips) 
+Seat 3: polanpolan (2440 in chips) 
+Seat 4: $iobhan (1375 in chips) 
+Seat 5: Lium3124 (1140 in chips) 
+Seat 7: skinny 456B (1390 in chips) 
+Seat 9: ComplexInteger (1760 in chips) 
+Lium3124: posts small blind 15
+skinny 456B: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8h 2h]
+ComplexInteger: folds 
+Korys1939: folds 
+polanpolan: calls 30
+$iobhan: calls 30
+Lium3124: raises 30 to 60
+skinny 456B: raises 1330 to 1390 and is all-in
+polanpolan: folds 
+$iobhan: folds 
+Lium3124: folds 
+Uncalled bet (1330) returned to skinny 456B
+skinny 456B collected 180 from pot
+skinny 456B: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan folded before Flop
+Seat 4: $iobhan (button) folded before Flop
+Seat 5: Lium3124 (small blind) folded before Flop
+Seat 7: skinny 456B (big blind) collected (180)
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067727215: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:27:33 ET
+Table '2929776188 1' 9-max Seat #5 is the button
+Seat 1: Korys1939 (895 in chips) 
+Seat 3: polanpolan (2410 in chips) 
+Seat 4: $iobhan (1345 in chips) 
+Seat 5: Lium3124 (1080 in chips) 
+Seat 7: skinny 456B (1510 in chips) 
+Seat 9: ComplexInteger (1760 in chips) 
+skinny 456B: posts small blind 15
+ComplexInteger: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ah Kc]
+Korys1939: folds 
+polanpolan: calls 30
+$iobhan: calls 30
+Lium3124: calls 30
+skinny 456B: calls 15
+ComplexInteger: raises 30 to 60
+polanpolan: calls 30
+$iobhan: calls 30
+Lium3124: calls 30
+skinny 456B: calls 30
+*** FLOP *** [9s 4d 4h]
+skinny 456B: checks 
+ComplexInteger: bets 60
+polanpolan: calls 60
+$iobhan: folds 
+Lium3124: folds 
+skinny 456B: folds 
+*** TURN *** [9s 4d 4h] [6c]
+ComplexInteger: bets 60
+polanpolan: calls 60
+*** RIVER *** [9s 4d 4h 6c] [7h]
+ComplexInteger: bets 60
+polanpolan: raises 60 to 120
+ComplexInteger: calls 60
+*** SHOW DOWN ***
+polanpolan: shows [9h 6h] (two pair, Nines and Sixes)
+ComplexInteger: mucks hand 
+polanpolan collected 780 from pot
+*** SUMMARY ***
+Total pot 780 | Rake 0 
+Board [9s 4d 4h 6c 7h]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan showed [9h 6h] and won (780) with two pair, Nines and Sixes
+Seat 4: $iobhan folded on the Flop
+Seat 5: Lium3124 (button) folded on the Flop
+Seat 7: skinny 456B (small blind) folded on the Flop
+Seat 9: ComplexInteger (big blind) mucked [Ah Kc]
+
+
+
+PokerStars Hand #215067746245: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:28:47 ET
+Table '2929776188 1' 9-max Seat #7 is the button
+Seat 1: Korys1939 (895 in chips) 
+Seat 3: polanpolan (2890 in chips) 
+Seat 4: $iobhan (1285 in chips) 
+Seat 5: Lium3124 (1020 in chips) 
+Seat 7: skinny 456B (1450 in chips) 
+Seat 9: ComplexInteger (1460 in chips) 
+ComplexInteger: posts small blind 15
+Korys1939: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Tc 3s]
+polanpolan: calls 30
+$iobhan: folds 
+Lium3124: raises 30 to 60
+skinny 456B: calls 60
+ComplexInteger: folds 
+Korys1939: folds 
+polanpolan: calls 30
+*** FLOP *** [Qd 3h 5h]
+polanpolan: checks 
+Lium3124: checks 
+skinny 456B: checks 
+*** TURN *** [Qd 3h 5h] [8h]
+polanpolan: checks 
+Lium3124: checks 
+skinny 456B: checks 
+*** RIVER *** [Qd 3h 5h 8h] [Jh]
+polanpolan: bets 2830 and is all-in
+Lium3124: folds 
+skinny 456B: folds 
+Uncalled bet (2830) returned to polanpolan
+polanpolan collected 225 from pot
+polanpolan: shows [5c Ah] (a flush, Ace high)
+*** SUMMARY ***
+Total pot 225 | Rake 0 
+Board [Qd 3h 5h 8h Jh]
+Seat 1: Korys1939 (big blind) folded before Flop
+Seat 3: polanpolan collected (225)
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 folded on the River
+Seat 7: skinny 456B (button) folded on the River
+Seat 9: ComplexInteger (small blind) folded before Flop
+
+
+
+PokerStars Hand #215067763287: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:29:53 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 1: Korys1939 (865 in chips) 
+Seat 3: polanpolan (3055 in chips) 
+Seat 4: $iobhan (1285 in chips) 
+Seat 5: Lium3124 (960 in chips) 
+Seat 7: skinny 456B (1390 in chips) 
+Seat 9: ComplexInteger (1445 in chips) 
+Korys1939: posts small blind 15
+polanpolan: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6s Td]
+$iobhan: calls 30
+Lium3124: folds 
+skinny 456B: folds 
+ComplexInteger: raises 30 to 60
+Korys1939: folds 
+polanpolan: calls 30
+$iobhan: raises 90 to 150
+ComplexInteger: calls 90
+polanpolan: calls 90
+*** FLOP *** [3d 5d Kc]
+polanpolan: checks 
+$iobhan: bets 233
+ComplexInteger: folds 
+polanpolan: folds 
+Uncalled bet (233) returned to $iobhan
+$iobhan collected 465 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 465 | Rake 0 
+Board [3d 5d Kc]
+Seat 1: Korys1939 (small blind) folded before Flop
+Seat 3: polanpolan (big blind) folded on the Flop
+Seat 4: $iobhan collected (465)
+Seat 5: Lium3124 folded before Flop (didn't bet)
+Seat 7: skinny 456B folded before Flop (didn't bet)
+Seat 9: ComplexInteger (button) folded on the Flop
+
+
+
+PokerStars Hand #215067772913: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:30:29 ET
+Table '2929776188 1' 9-max Seat #1 is the button
+Seat 1: Korys1939 (850 in chips) 
+Seat 3: polanpolan (2905 in chips) 
+Seat 4: $iobhan (1600 in chips) 
+Seat 5: Lium3124 (960 in chips) 
+Seat 7: skinny 456B (1390 in chips) 
+Seat 9: ComplexInteger (1295 in chips) 
+polanpolan: posts small blind 15
+$iobhan: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5c 7s]
+Lium3124: calls 30
+skinny 456B: folds 
+ComplexInteger: folds 
+Korys1939: calls 30
+polanpolan: calls 15
+$iobhan: checks 
+*** FLOP *** [3h Qs Qh]
+polanpolan: checks 
+$iobhan: checks 
+Lium3124: checks 
+Korys1939: checks 
+*** TURN *** [3h Qs Qh] [9d]
+polanpolan: checks 
+$iobhan: checks 
+Lium3124: bets 120
+Korys1939: folds 
+polanpolan: folds 
+$iobhan: folds 
+Uncalled bet (120) returned to Lium3124
+Lium3124 collected 120 from pot
+Lium3124: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Board [3h Qs Qh 9d]
+Seat 1: Korys1939 (button) folded on the Turn
+Seat 3: polanpolan (small blind) folded on the Turn
+Seat 4: $iobhan (big blind) folded on the Turn
+Seat 5: Lium3124 collected (120)
+Seat 7: skinny 456B folded before Flop (didn't bet)
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067784776: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:31:16 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 1: Korys1939 (820 in chips) 
+Seat 3: polanpolan (2875 in chips) 
+Seat 4: $iobhan (1570 in chips) 
+Seat 5: Lium3124 (1050 in chips) 
+Seat 7: skinny 456B (1390 in chips) 
+Seat 9: ComplexInteger (1295 in chips) 
+$iobhan: posts small blind 15
+Lium3124: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [7h 3d]
+skinny 456B: calls 30
+ComplexInteger: folds 
+Korys1939: folds 
+polanpolan: calls 30
+$iobhan: calls 15
+Lium3124: raises 30 to 60
+skinny 456B: calls 30
+polanpolan: calls 30
+$iobhan: calls 30
+*** FLOP *** [Ad 3s Th]
+$iobhan: checks 
+Lium3124: bets 120
+skinny 456B: calls 120
+polanpolan: folds 
+$iobhan: folds 
+*** TURN *** [Ad 3s Th] [7d]
+Lium3124: checks 
+skinny 456B: checks 
+*** RIVER *** [Ad 3s Th 7d] [4c]
+Lium3124: checks 
+skinny 456B: checks 
+*** SHOW DOWN ***
+Lium3124: shows [8s 8d] (a pair of Eights)
+skinny 456B: mucks hand 
+Lium3124 collected 480 from pot
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Board [Ad 3s Th 7d 4c]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan (button) folded on the Flop
+Seat 4: $iobhan (small blind) folded on the Flop
+Seat 5: Lium3124 (big blind) showed [8s 8d] and won (480) with a pair of Eights
+Seat 7: skinny 456B mucked [Kh Qh]
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067794534: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level II (15/30) - 2020/06/08 4:31:53 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 1: Korys1939 (820 in chips) 
+Seat 3: polanpolan (2815 in chips) 
+Seat 4: $iobhan (1510 in chips) 
+Seat 5: Lium3124 (1350 in chips) 
+Seat 7: skinny 456B (1210 in chips) 
+Seat 9: ComplexInteger (1295 in chips) 
+Lium3124: posts small blind 15
+skinny 456B: posts big blind 30
+*** HOLE CARDS ***
+Dealt to ComplexInteger [7c Js]
+ComplexInteger: raises 30 to 60
+Korys1939: folds 
+polanpolan: calls 60
+$iobhan: folds 
+Lium3124: folds 
+skinny 456B: folds 
+*** FLOP *** [3c Ks 6d]
+ComplexInteger: bets 60
+polanpolan: calls 60
+*** TURN *** [3c Ks 6d] [6h]
+ComplexInteger: bets 240
+polanpolan: calls 240
+*** RIVER *** [3c Ks 6d 6h] [2h]
+ComplexInteger: checks 
+polanpolan: checks 
+*** SHOW DOWN ***
+ComplexInteger: shows [7c Js] (a pair of Sixes)
+polanpolan: shows [5d 5s] (two pair, Sixes and Fives)
+polanpolan collected 765 from pot
+*** SUMMARY ***
+Total pot 765 | Rake 0 
+Board [3c Ks 6d 6h 2h]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan showed [5d 5s] and won (765) with two pair, Sixes and Fives
+Seat 4: $iobhan (button) folded before Flop (didn't bet)
+Seat 5: Lium3124 (small blind) folded before Flop
+Seat 7: skinny 456B (big blind) folded before Flop
+Seat 9: ComplexInteger showed [7c Js] and lost with a pair of Sixes
+
+
+
+PokerStars Hand #215067807985: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:32:45 ET
+Table '2929776188 1' 9-max Seat #5 is the button
+Seat 1: Korys1939 (820 in chips) 
+Seat 3: polanpolan (3220 in chips) 
+Seat 4: $iobhan (1510 in chips) 
+Seat 5: Lium3124 (1335 in chips) 
+Seat 7: skinny 456B (1180 in chips) 
+Seat 9: ComplexInteger (935 in chips) 
+skinny 456B: posts small blind 25
+ComplexInteger: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jh Jd]
+Korys1939: folds 
+polanpolan: calls 50
+$iobhan: folds 
+Lium3124: calls 50
+skinny 456B: calls 25
+ComplexInteger: raises 100 to 150
+polanpolan: calls 100
+Lium3124: calls 100
+skinny 456B: calls 100
+*** FLOP *** [5c Kc Js]
+skinny 456B: checks 
+ComplexInteger: bets 100
+polanpolan: calls 100
+Lium3124: raises 200 to 300
+skinny 456B: folds 
+ComplexInteger: raises 485 to 785 and is all-in
+polanpolan: calls 685
+Lium3124: calls 485
+*** TURN *** [5c Kc Js] [Jc]
+polanpolan: checks 
+Lium3124: checks 
+*** RIVER *** [5c Kc Js Jc] [9s]
+polanpolan: checks 
+Lium3124: checks 
+*** SHOW DOWN ***
+ComplexInteger: shows [Jh Jd] (four of a kind, Jacks)
+polanpolan: mucks hand 
+Lium3124: mucks hand 
+ComplexInteger collected 2955 from pot
+*** SUMMARY ***
+Total pot 2955 | Rake 0 
+Board [5c Kc Js Jc 9s]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan mucked [Qd 9h]
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 (button) mucked [Ks 6c]
+Seat 7: skinny 456B (small blind) folded on the Flop
+Seat 9: ComplexInteger (big blind) showed [Jh Jd] and won (2955) with four of a kind, Jacks
+
+
+
+PokerStars Hand #215067830637: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:34:12 ET
+Table '2929776188 1' 9-max Seat #7 is the button
+Seat 1: Korys1939 (820 in chips) 
+Seat 3: polanpolan (2285 in chips) 
+Seat 4: $iobhan (1510 in chips) 
+Seat 5: Lium3124 (400 in chips) 
+Seat 7: skinny 456B (1030 in chips) 
+Seat 9: ComplexInteger (2955 in chips) 
+ComplexInteger: posts small blind 25
+Korys1939: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jd Ts]
+polanpolan: folds 
+$iobhan: folds 
+Lium3124: raises 50 to 100
+skinny 456B: folds 
+ComplexInteger: calls 75
+Korys1939: calls 50
+*** FLOP *** [Js 9h Th]
+ComplexInteger: bets 100
+Korys1939: calls 100
+Lium3124: calls 100
+*** TURN *** [Js 9h Th] [8c]
+ComplexInteger: bets 200
+Korys1939: calls 200
+Lium3124: folds 
+*** RIVER *** [Js 9h Th 8c] [9s]
+ComplexInteger: checks 
+Korys1939: checks 
+*** SHOW DOWN ***
+ComplexInteger: shows [Jd Ts] (two pair, Jacks and Tens)
+Korys1939: shows [Ks 8s] (two pair, Nines and Eights)
+ComplexInteger collected 1000 from pot
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Board [Js 9h Th 8c 9s]
+Seat 1: Korys1939 (big blind) showed [Ks 8s] and lost with two pair, Nines and Eights
+Seat 3: polanpolan folded before Flop (didn't bet)
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 folded on the Turn
+Seat 7: skinny 456B (button) folded before Flop (didn't bet)
+Seat 9: ComplexInteger (small blind) showed [Jd Ts] and won (1000) with two pair, Jacks and Tens
+
+
+
+PokerStars Hand #215067847238: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:35:16 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 1: Korys1939 (420 in chips) 
+Seat 3: polanpolan (2285 in chips) 
+Seat 4: $iobhan (1510 in chips) 
+Seat 5: Lium3124 (200 in chips) 
+Seat 7: skinny 456B (1030 in chips) 
+Seat 9: ComplexInteger (3555 in chips) 
+Korys1939: posts small blind 25
+polanpolan: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8h Qc]
+$iobhan: folds 
+Lium3124: folds 
+skinny 456B: calls 50
+ComplexInteger: raises 50 to 100
+Korys1939: folds 
+polanpolan: raises 275 to 375
+skinny 456B: raises 655 to 1030 and is all-in
+ComplexInteger: folds 
+polanpolan: calls 655
+*** FLOP *** [8d Th 9h]
+*** TURN *** [8d Th 9h] [2s]
+*** RIVER *** [8d Th 9h 2s] [5c]
+*** SHOW DOWN ***
+polanpolan: shows [Ks Kd] (a pair of Kings)
+skinny 456B: shows [7d 7c] (a pair of Sevens)
+polanpolan collected 2185 from pot
+skinny 456B finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 2185 | Rake 0 
+Board [8d Th 9h 2s 5c]
+Seat 1: Korys1939 (small blind) folded before Flop
+Seat 3: polanpolan (big blind) showed [Ks Kd] and won (2185) with a pair of Kings
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 folded before Flop (didn't bet)
+Seat 7: skinny 456B showed [7d 7c] and lost with a pair of Sevens
+Seat 9: ComplexInteger (button) folded before Flop
+
+
+
+PokerStars Hand #215067857903: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:35:58 ET
+Table '2929776188 1' 9-max Seat #1 is the button
+Seat 1: Korys1939 (395 in chips) 
+Seat 3: polanpolan (3440 in chips) 
+Seat 4: $iobhan (1510 in chips) 
+Seat 5: Lium3124 (200 in chips) 
+Seat 9: ComplexInteger (3455 in chips) 
+polanpolan: posts small blind 25
+$iobhan: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2c 3c]
+Lium3124: folds 
+ComplexInteger: raises 50 to 100
+Korys1939: folds 
+polanpolan: calls 75
+$iobhan: folds 
+*** FLOP *** [6s 9s Jh]
+polanpolan: checks 
+ComplexInteger: bets 100
+polanpolan: calls 100
+*** TURN *** [6s 9s Jh] [Jd]
+polanpolan: checks 
+ComplexInteger: checks 
+*** RIVER *** [6s 9s Jh Jd] [8c]
+polanpolan: checks 
+ComplexInteger: checks 
+*** SHOW DOWN ***
+polanpolan: shows [Tc 5c] (a pair of Jacks)
+ComplexInteger: mucks hand 
+polanpolan collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [6s 9s Jh Jd 8c]
+Seat 1: Korys1939 (button) folded before Flop (didn't bet)
+Seat 3: polanpolan (small blind) showed [Tc 5c] and won (450) with a pair of Jacks
+Seat 4: $iobhan (big blind) folded before Flop
+Seat 5: Lium3124 folded before Flop (didn't bet)
+Seat 9: ComplexInteger mucked [2c 3c]
+
+
+
+PokerStars Hand #215067870607: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:36:46 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 1: Korys1939 (395 in chips) 
+Seat 3: polanpolan (3690 in chips) 
+Seat 4: $iobhan (1460 in chips) 
+Seat 5: Lium3124 (200 in chips) 
+Seat 9: ComplexInteger (3255 in chips) 
+$iobhan: posts small blind 25
+Lium3124: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [7h 2s]
+ComplexInteger: folds 
+Korys1939: folds 
+polanpolan: calls 50
+$iobhan: folds 
+Lium3124: raises 50 to 100
+polanpolan: calls 50
+*** FLOP *** [6s Qs 6c]
+Lium3124: bets 100 and is all-in
+polanpolan: calls 100
+*** TURN *** [6s Qs 6c] [Qd]
+*** RIVER *** [6s Qs 6c Qd] [7s]
+*** SHOW DOWN ***
+Lium3124: shows [6d Ks] (a full house, Sixes full of Queens)
+polanpolan: shows [5s 9h] (two pair, Queens and Sixes)
+Lium3124 collected 425 from pot
+*** SUMMARY ***
+Total pot 425 | Rake 0 
+Board [6s Qs 6c Qd 7s]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan (button) showed [5s 9h] and lost with two pair, Queens and Sixes
+Seat 4: $iobhan (small blind) folded before Flop
+Seat 5: Lium3124 (big blind) showed [6d Ks] and won (425) with a full house, Sixes full of Queens
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067878942: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:37:17 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 1: Korys1939 (395 in chips) 
+Seat 3: polanpolan (3490 in chips) 
+Seat 4: $iobhan (1435 in chips) 
+Seat 5: Lium3124 (425 in chips) 
+Seat 9: ComplexInteger (3255 in chips) 
+Lium3124: posts small blind 25
+ComplexInteger: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ks 8s]
+Korys1939: folds 
+polanpolan: calls 50
+$iobhan: folds 
+Lium3124: folds 
+ComplexInteger: raises 50 to 100
+polanpolan: calls 50
+*** FLOP *** [5s Td Qh]
+ComplexInteger: checks 
+polanpolan: checks 
+*** TURN *** [5s Td Qh] [Jc]
+ComplexInteger: checks 
+polanpolan: checks 
+*** RIVER *** [5s Td Qh Jc] [6s]
+ComplexInteger: checks 
+polanpolan: checks 
+*** SHOW DOWN ***
+ComplexInteger: shows [Ks 8s] (high card King)
+polanpolan: shows [Ah 4c] (high card Ace)
+polanpolan collected 225 from pot
+*** SUMMARY ***
+Total pot 225 | Rake 0 
+Board [5s Td Qh Jc 6s]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan showed [Ah 4c] and won (225) with high card Ace
+Seat 4: $iobhan (button) folded before Flop (didn't bet)
+Seat 5: Lium3124 (small blind) folded before Flop
+Seat 9: ComplexInteger (big blind) showed [Ks 8s] and lost with high card King
+
+
+
+PokerStars Hand #215067888146: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:37:52 ET
+Table '2929776188 1' 9-max Seat #5 is the button
+Seat 1: Korys1939 (395 in chips) 
+Seat 3: polanpolan (3615 in chips) 
+Seat 4: $iobhan (1435 in chips) 
+Seat 5: Lium3124 (400 in chips) 
+Seat 9: ComplexInteger (3155 in chips) 
+ComplexInteger: posts small blind 25
+Korys1939: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jc 3c]
+polanpolan: calls 50
+$iobhan: folds 
+Lium3124: folds 
+ComplexInteger: calls 25
+Korys1939: checks 
+*** FLOP *** [Qh 5s 6s]
+ComplexInteger: checks 
+Korys1939: checks 
+polanpolan: bets 50
+ComplexInteger: folds 
+Korys1939: calls 50
+*** TURN *** [Qh 5s 6s] [Kc]
+Korys1939: checks 
+polanpolan: checks 
+*** RIVER *** [Qh 5s 6s Kc] [4d]
+Korys1939: bets 250
+polanpolan: calls 250
+*** SHOW DOWN ***
+Korys1939: shows [6c 6h] (three of a kind, Sixes)
+polanpolan: mucks hand 
+Korys1939 collected 750 from pot
+*** SUMMARY ***
+Total pot 750 | Rake 0 
+Board [Qh 5s 6s Kc 4d]
+Seat 1: Korys1939 (big blind) showed [6c 6h] and won (750) with three of a kind, Sixes
+Seat 3: polanpolan mucked [8s 5c]
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 (button) folded before Flop (didn't bet)
+Seat 9: ComplexInteger (small blind) folded on the Flop
+
+
+
+PokerStars Hand #215067902004: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:38:44 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 1: Korys1939 (795 in chips) 
+Seat 3: polanpolan (3265 in chips) 
+Seat 4: $iobhan (1435 in chips) 
+Seat 5: Lium3124 (400 in chips) 
+Seat 9: ComplexInteger (3105 in chips) 
+Korys1939: posts small blind 25
+polanpolan: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [3h 3c]
+$iobhan: folds 
+Lium3124: raises 350 to 400 and is all-in
+ComplexInteger: folds 
+Korys1939: folds 
+polanpolan: folds 
+Uncalled bet (350) returned to Lium3124
+Lium3124 collected 125 from pot
+Lium3124: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 1: Korys1939 (small blind) folded before Flop
+Seat 3: polanpolan (big blind) folded before Flop
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 collected (125)
+Seat 9: ComplexInteger (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067906856: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:39:02 ET
+Table '2929776188 1' 9-max Seat #1 is the button
+Seat 1: Korys1939 (770 in chips) 
+Seat 3: polanpolan (3215 in chips) 
+Seat 4: $iobhan (1435 in chips) 
+Seat 5: Lium3124 (475 in chips) 
+Seat 9: ComplexInteger (3105 in chips) 
+polanpolan: posts small blind 25
+$iobhan: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2h 4d]
+Lium3124: folds 
+ComplexInteger: folds 
+Korys1939: raises 720 to 770 and is all-in
+polanpolan: folds 
+$iobhan: folds 
+Uncalled bet (720) returned to Korys1939
+Korys1939 collected 125 from pot
+Korys1939: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 1: Korys1939 (button) collected (125)
+Seat 3: polanpolan (small blind) folded before Flop
+Seat 4: $iobhan (big blind) folded before Flop
+Seat 5: Lium3124 folded before Flop (didn't bet)
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067910976: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:39:18 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 1: Korys1939 (845 in chips) 
+Seat 3: polanpolan (3190 in chips) 
+Seat 4: $iobhan (1385 in chips) 
+Seat 5: Lium3124 (475 in chips) 
+Seat 9: ComplexInteger (3105 in chips) 
+$iobhan: posts small blind 25
+Lium3124: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qs 2s]
+ComplexInteger: raises 50 to 100
+Korys1939: folds 
+polanpolan: calls 100
+$iobhan: folds 
+Lium3124: folds 
+*** FLOP *** [7h Ad 6s]
+ComplexInteger: bets 200
+polanpolan: calls 200
+*** TURN *** [7h Ad 6s] [Kh]
+ComplexInteger: checks 
+polanpolan: bets 50
+ComplexInteger: folds 
+Uncalled bet (50) returned to polanpolan
+polanpolan collected 675 from pot
+polanpolan: shows [Ac 5s] (a pair of Aces)
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Board [7h Ad 6s Kh]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan (button) collected (675)
+Seat 4: $iobhan (small blind) folded before Flop
+Seat 5: Lium3124 (big blind) folded before Flop
+Seat 9: ComplexInteger folded on the Turn
+
+
+
+PokerStars Hand #215067920049: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:39:52 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 1: Korys1939 (845 in chips) 
+Seat 3: polanpolan (3565 in chips) 
+Seat 4: $iobhan (1360 in chips) 
+Seat 5: Lium3124 (425 in chips) 
+Seat 9: ComplexInteger (2805 in chips) 
+Lium3124: posts small blind 25
+ComplexInteger: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Js 2d]
+Korys1939: folds 
+polanpolan: calls 50
+$iobhan: folds 
+Lium3124: raises 50 to 100
+ComplexInteger: calls 50
+polanpolan: calls 50
+*** FLOP *** [9h 6s 5h]
+Lium3124: checks 
+ComplexInteger: checks 
+polanpolan: checks 
+*** TURN *** [9h 6s 5h] [6c]
+Lium3124: checks 
+ComplexInteger: checks 
+polanpolan: checks 
+*** RIVER *** [9h 6s 5h 6c] [Qh]
+Lium3124: checks 
+ComplexInteger: checks 
+polanpolan: checks 
+*** SHOW DOWN ***
+Lium3124: shows [Kh 4d] (a pair of Sixes)
+ComplexInteger: mucks hand 
+polanpolan: mucks hand 
+Lium3124 collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [9h 6s 5h 6c Qh]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan mucked [4c 8s]
+Seat 4: $iobhan (button) folded before Flop (didn't bet)
+Seat 5: Lium3124 (small blind) showed [Kh 4d] and won (300) with a pair of Sixes
+Seat 9: ComplexInteger (big blind) mucked [Js 2d]
+
+
+
+PokerStars Hand #215067929691: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:40:28 ET
+Table '2929776188 1' 9-max Seat #5 is the button
+Seat 1: Korys1939 (845 in chips) 
+Seat 3: polanpolan (3465 in chips) 
+Seat 4: $iobhan (1360 in chips) 
+Seat 5: Lium3124 (625 in chips) 
+Seat 9: ComplexInteger (2705 in chips) 
+ComplexInteger: posts small blind 25
+Korys1939: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jh 8d]
+polanpolan: calls 50
+$iobhan: calls 50
+Lium3124: folds 
+ComplexInteger: calls 25
+Korys1939: checks 
+*** FLOP *** [Jd Jc Kc]
+ComplexInteger: bets 50
+Korys1939: folds 
+polanpolan: calls 50
+$iobhan: folds 
+*** TURN *** [Jd Jc Kc] [9d]
+ComplexInteger: bets 100
+polanpolan: calls 100
+*** RIVER *** [Jd Jc Kc 9d] [5d]
+ComplexInteger: bets 100
+polanpolan: raises 350 to 450
+ComplexInteger: calls 350
+*** SHOW DOWN ***
+polanpolan: shows [Td Qc] (a straight, Nine to King)
+ComplexInteger: mucks hand 
+polanpolan collected 1400 from pot
+*** SUMMARY ***
+Total pot 1400 | Rake 0 
+Board [Jd Jc Kc 9d 5d]
+Seat 1: Korys1939 (big blind) folded on the Flop
+Seat 3: polanpolan showed [Td Qc] and won (1400) with a straight, Nine to King
+Seat 4: $iobhan folded on the Flop
+Seat 5: Lium3124 (button) folded before Flop (didn't bet)
+Seat 9: ComplexInteger (small blind) mucked [Jh 8d]
+
+
+
+PokerStars Hand #215067943405: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:41:18 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 1: Korys1939 (795 in chips) 
+Seat 3: polanpolan (4215 in chips) 
+Seat 4: $iobhan (1310 in chips) 
+Seat 5: Lium3124 (625 in chips) 
+Seat 9: ComplexInteger (2055 in chips) 
+Korys1939: posts small blind 25
+polanpolan: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Js Ad]
+$iobhan: folds 
+Lium3124: calls 50
+ComplexInteger: raises 50 to 100
+Korys1939: folds 
+polanpolan: calls 50
+Lium3124: calls 50
+*** FLOP *** [Tc Ks Qs]
+polanpolan: bets 50
+Lium3124: calls 50
+ComplexInteger: raises 1905 to 1955 and is all-in
+polanpolan: folds 
+Lium3124: folds 
+Uncalled bet (1905) returned to ComplexInteger
+ComplexInteger collected 475 from pot
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Board [Tc Ks Qs]
+Seat 1: Korys1939 (small blind) folded before Flop
+Seat 3: polanpolan (big blind) folded on the Flop
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 folded on the Flop
+Seat 9: ComplexInteger (button) collected (475)
+
+
+
+PokerStars Hand #215067954268: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level III (25/50) - 2020/06/08 4:41:58 ET
+Table '2929776188 1' 9-max Seat #1 is the button
+Seat 1: Korys1939 (770 in chips) 
+Seat 3: polanpolan (4065 in chips) 
+Seat 4: $iobhan (1310 in chips) 
+Seat 5: Lium3124 (475 in chips) 
+Seat 9: ComplexInteger (2380 in chips) 
+polanpolan: posts small blind 25
+$iobhan: posts big blind 50
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6h 8s]
+Lium3124: calls 50
+ComplexInteger: folds 
+Korys1939: folds 
+polanpolan: calls 25
+$iobhan: checks 
+*** FLOP *** [Ah Td 7d]
+polanpolan: checks 
+$iobhan: checks 
+Lium3124: checks 
+*** TURN *** [Ah Td 7d] [7h]
+polanpolan: checks 
+$iobhan: checks 
+Lium3124: checks 
+*** RIVER *** [Ah Td 7d 7h] [4c]
+polanpolan: checks 
+$iobhan: checks 
+Lium3124: checks 
+*** SHOW DOWN ***
+polanpolan: shows [2s 5s] (a pair of Sevens)
+$iobhan: shows [5d 9s] (a pair of Sevens - Ace+Ten+Nine kicker)
+Lium3124: shows [3d 3h] (two pair, Sevens and Threes)
+Lium3124 collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Board [Ah Td 7d 7h 4c]
+Seat 1: Korys1939 (button) folded before Flop (didn't bet)
+Seat 3: polanpolan (small blind) showed [2s 5s] and lost with a pair of Sevens
+Seat 4: $iobhan (big blind) showed [5d 9s] and lost with a pair of Sevens
+Seat 5: Lium3124 showed [3d 3h] and won (150) with two pair, Sevens and Threes
+Seat 9: ComplexInteger folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215067966998: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:42:45 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 1: Korys1939 (770 in chips) 
+Seat 3: polanpolan (4015 in chips) 
+Seat 4: $iobhan (1260 in chips) 
+Seat 5: Lium3124 (575 in chips) 
+Seat 9: ComplexInteger (2380 in chips) 
+$iobhan: posts small blind 50
+Lium3124: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ac 4d]
+ComplexInteger: raises 100 to 200
+Korys1939: folds 
+polanpolan: calls 200
+$iobhan: folds 
+Lium3124: folds 
+*** FLOP *** [Qd 5h Kc]
+ComplexInteger: checks 
+polanpolan: checks 
+*** TURN *** [Qd 5h Kc] [4c]
+ComplexInteger: checks 
+polanpolan: checks 
+*** RIVER *** [Qd 5h Kc 4c] [8h]
+ComplexInteger: checks 
+polanpolan: checks 
+*** SHOW DOWN ***
+ComplexInteger: shows [Ac 4d] (a pair of Fours)
+polanpolan: mucks hand 
+ComplexInteger collected 550 from pot
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Board [Qd 5h Kc 4c 8h]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan (button) mucked [9s 6s]
+Seat 4: $iobhan (small blind) folded before Flop
+Seat 5: Lium3124 (big blind) folded before Flop
+Seat 9: ComplexInteger showed [Ac 4d] and won (550) with a pair of Fours
+
+
+
+PokerStars Hand #215067977282: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:43:22 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 1: Korys1939 (770 in chips) 
+Seat 3: polanpolan (3815 in chips) 
+Seat 4: $iobhan (1210 in chips) 
+Seat 5: Lium3124 (475 in chips) 
+Seat 9: ComplexInteger (2730 in chips) 
+Lium3124: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2h 4s]
+Korys1939: folds 
+polanpolan: calls 100
+$iobhan: folds 
+Lium3124: raises 100 to 200
+ComplexInteger: folds 
+polanpolan: calls 100
+*** FLOP *** [6c Ad 8c]
+Lium3124: bets 275 and is all-in
+polanpolan: folds 
+Uncalled bet (275) returned to Lium3124
+Lium3124 collected 500 from pot
+Lium3124: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [6c Ad 8c]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan folded on the Flop
+Seat 4: $iobhan (button) folded before Flop (didn't bet)
+Seat 5: Lium3124 (small blind) collected (500)
+Seat 9: ComplexInteger (big blind) folded before Flop
+
+
+
+PokerStars Hand #215067984095: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:43:47 ET
+Table '2929776188 1' 9-max Seat #5 is the button
+Seat 1: Korys1939 (770 in chips) 
+Seat 3: polanpolan (3615 in chips) 
+Seat 4: $iobhan (1210 in chips) 
+Seat 5: Lium3124 (775 in chips) 
+Seat 9: ComplexInteger (2630 in chips) 
+ComplexInteger: posts small blind 50
+Korys1939: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kc 4h]
+polanpolan: calls 100
+$iobhan: folds 
+Lium3124: raises 100 to 200
+ComplexInteger: calls 150
+Korys1939: folds 
+polanpolan: calls 100
+*** FLOP *** [4d 7d 2s]
+ComplexInteger: checks 
+polanpolan: bets 300
+Lium3124: folds 
+ComplexInteger: calls 300
+*** TURN *** [4d 7d 2s] [6c]
+ComplexInteger: checks 
+polanpolan: bets 600
+ComplexInteger: folds 
+Uncalled bet (600) returned to polanpolan
+polanpolan collected 1300 from pot
+polanpolan: shows [7c Ts] (a pair of Sevens)
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Board [4d 7d 2s 6c]
+Seat 1: Korys1939 (big blind) folded before Flop
+Seat 3: polanpolan collected (1300)
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 (button) folded on the Flop
+Seat 9: ComplexInteger (small blind) folded on the Turn
+
+
+
+PokerStars Hand #215068000309: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:44:47 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 1: Korys1939 (670 in chips) 
+Seat 3: polanpolan (4415 in chips) 
+Seat 4: $iobhan (1210 in chips) 
+Seat 5: Lium3124 (575 in chips) 
+Seat 9: ComplexInteger (2130 in chips) 
+Korys1939: posts small blind 50
+polanpolan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5h 6c]
+$iobhan: folds 
+Lium3124: folds 
+ComplexInteger: raises 100 to 200
+Korys1939: folds 
+polanpolan: calls 100
+*** FLOP *** [4h Kh 5d]
+polanpolan: checks 
+ComplexInteger: bets 200
+polanpolan: folds 
+Uncalled bet (200) returned to ComplexInteger
+ComplexInteger collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [4h Kh 5d]
+Seat 1: Korys1939 (small blind) folded before Flop
+Seat 3: polanpolan (big blind) folded on the Flop
+Seat 4: $iobhan folded before Flop (didn't bet)
+Seat 5: Lium3124 folded before Flop (didn't bet)
+Seat 9: ComplexInteger (button) collected (450)
+
+
+
+PokerStars Hand #215068007649: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:45:13 ET
+Table '2929776188 1' 9-max Seat #1 is the button
+Seat 1: Korys1939 (620 in chips) 
+Seat 3: polanpolan (4215 in chips) 
+Seat 4: $iobhan (1210 in chips) 
+Seat 5: Lium3124 (575 in chips) 
+Seat 9: ComplexInteger (2380 in chips) 
+polanpolan: posts small blind 50
+$iobhan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jd 6h]
+Lium3124: folds 
+ComplexInteger: raises 100 to 200
+Korys1939: folds 
+polanpolan: calls 150
+$iobhan: folds 
+*** FLOP *** [2s Ad 5h]
+polanpolan: checks 
+ComplexInteger: checks 
+*** TURN *** [2s Ad 5h] [Tc]
+polanpolan: checks 
+ComplexInteger: checks 
+*** RIVER *** [2s Ad 5h Tc] [As]
+polanpolan: checks 
+ComplexInteger: checks 
+*** SHOW DOWN ***
+polanpolan: shows [Kc Qd] (a pair of Aces)
+ComplexInteger: mucks hand 
+polanpolan collected 500 from pot
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [2s Ad 5h Tc As]
+Seat 1: Korys1939 (button) folded before Flop (didn't bet)
+Seat 3: polanpolan (small blind) showed [Kc Qd] and won (500) with a pair of Aces
+Seat 4: $iobhan (big blind) folded before Flop
+Seat 5: Lium3124 folded before Flop (didn't bet)
+Seat 9: ComplexInteger mucked [Jd 6h]
+
+
+
+PokerStars Hand #215068016195: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:45:45 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 1: Korys1939 (620 in chips) 
+Seat 3: polanpolan (4515 in chips) 
+Seat 4: $iobhan (1110 in chips) 
+Seat 5: Lium3124 (575 in chips) 
+Seat 9: ComplexInteger (2180 in chips) 
+$iobhan: posts small blind 50
+Lium3124: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9c 8c]
+ComplexInteger: raises 100 to 200
+Korys1939: folds 
+polanpolan: calls 200
+$iobhan: folds 
+Lium3124: folds 
+*** FLOP *** [Kc Td 5c]
+ComplexInteger: bets 200
+polanpolan: calls 200
+*** TURN *** [Kc Td 5c] [3s]
+ComplexInteger: bets 200
+polanpolan: calls 200
+*** RIVER *** [Kc Td 5c 3s] [2c]
+ComplexInteger: bets 200
+polanpolan: calls 200
+*** SHOW DOWN ***
+ComplexInteger: shows [9c 8c] (a flush, King high)
+polanpolan: mucks hand 
+ComplexInteger collected 1750 from pot
+*** SUMMARY ***
+Total pot 1750 | Rake 0 
+Board [Kc Td 5c 3s 2c]
+Seat 1: Korys1939 folded before Flop (didn't bet)
+Seat 3: polanpolan (button) mucked [6s Tc]
+Seat 4: $iobhan (small blind) folded before Flop
+Seat 5: Lium3124 (big blind) folded before Flop
+Seat 9: ComplexInteger showed [9c 8c] and won (1750) with a flush, King high
+
+
+
+PokerStars Hand #215068028915: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:46:31 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 1: Korys1939 (620 in chips) 
+Seat 3: polanpolan (3715 in chips) 
+Seat 4: $iobhan (1060 in chips) 
+Seat 5: Lium3124 (475 in chips) 
+Seat 9: ComplexInteger (3130 in chips) 
+Lium3124: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4h Kd]
+Korys1939: raises 250 to 350
+polanpolan: calls 350
+$iobhan: folds 
+Lium3124: raises 125 to 475 and is all-in
+ComplexInteger: folds 
+Korys1939: calls 125
+polanpolan: calls 125
+*** FLOP *** [Qd Ts 3s]
+Korys1939: bets 145 and is all-in
+polanpolan: calls 145
+*** TURN *** [Qd Ts 3s] [3h]
+*** RIVER *** [Qd Ts 3s 3h] [Td]
+*** SHOW DOWN ***
+Korys1939: shows [9s Js] (two pair, Tens and Threes)
+polanpolan: shows [Th 9h] (a full house, Tens full of Threes)
+polanpolan collected 290 from side pot
+Lium3124: shows [7d Ah] (two pair, Tens and Threes)
+polanpolan collected 1525 from main pot
+Korys1939 finished the tournament in 4th place
+Lium3124 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1815 Main pot 1525. Side pot 290. | Rake 0 
+Board [Qd Ts 3s 3h Td]
+Seat 1: Korys1939 showed [9s Js] and lost with two pair, Tens and Threes
+Seat 3: polanpolan showed [Th 9h] and won (1815) with a full house, Tens full of Threes
+Seat 4: $iobhan (button) folded before Flop (didn't bet)
+Seat 5: Lium3124 (small blind) showed [7d Ah] and lost with two pair, Tens and Threes
+Seat 9: ComplexInteger (big blind) folded before Flop
+
+
+
+PokerStars Hand #215068036998: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:47:00 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 3: polanpolan (4910 in chips) 
+Seat 4: $iobhan (1060 in chips) 
+Seat 9: ComplexInteger (3030 in chips) 
+polanpolan: posts small blind 50
+$iobhan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [7d 9d]
+ComplexInteger: raises 100 to 200
+polanpolan: raises 4710 to 4910 and is all-in
+$iobhan: folds 
+ComplexInteger: folds 
+Uncalled bet (4710) returned to polanpolan
+polanpolan collected 500 from pot
+polanpolan: shows [8s 8c] (a pair of Eights)
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 3: polanpolan (small blind) collected (500)
+Seat 4: $iobhan (big blind) folded before Flop
+Seat 9: ComplexInteger (button) folded before Flop
+
+
+
+PokerStars Hand #215068041399: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:47:17 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 3: polanpolan (5210 in chips) 
+Seat 4: $iobhan (960 in chips) 
+Seat 9: ComplexInteger (2830 in chips) 
+$iobhan: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2h Js]
+polanpolan: calls 100
+$iobhan: folds 
+ComplexInteger: checks 
+*** FLOP *** [4s Qh 9h]
+ComplexInteger: bets 200
+polanpolan: calls 200
+*** TURN *** [4s Qh 9h] [Qd]
+ComplexInteger: checks 
+polanpolan: checks 
+*** RIVER *** [4s Qh 9h Qd] [As]
+ComplexInteger: checks 
+polanpolan: checks 
+*** SHOW DOWN ***
+ComplexInteger: shows [2h Js] (a pair of Queens)
+polanpolan: shows [Ks Ts] (a pair of Queens - Ace+King kicker)
+polanpolan collected 650 from pot
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Board [4s Qh 9h Qd As]
+Seat 3: polanpolan (button) showed [Ks Ts] and won (650) with a pair of Queens
+Seat 4: $iobhan (small blind) folded before Flop
+Seat 9: ComplexInteger (big blind) showed [2h Js] and lost with a pair of Queens
+
+
+
+PokerStars Hand #215068050805: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:47:50 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 3: polanpolan (5560 in chips) 
+Seat 4: $iobhan (910 in chips) 
+Seat 9: ComplexInteger (2530 in chips) 
+ComplexInteger: posts small blind 50
+polanpolan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qh 9h]
+$iobhan: folds 
+ComplexInteger: calls 50
+polanpolan: checks 
+*** FLOP *** [5h 8d 9s]
+ComplexInteger: bets 100
+polanpolan: calls 100
+*** TURN *** [5h 8d 9s] [As]
+ComplexInteger: bets 100
+polanpolan: calls 100
+*** RIVER *** [5h 8d 9s As] [8h]
+ComplexInteger: bets 100
+polanpolan: raises 400 to 500
+ComplexInteger: calls 400
+*** SHOW DOWN ***
+polanpolan: shows [8s Jc] (three of a kind, Eights)
+ComplexInteger: mucks hand 
+polanpolan collected 1600 from pot
+*** SUMMARY ***
+Total pot 1600 | Rake 0 
+Board [5h 8d 9s As 8h]
+Seat 3: polanpolan (big blind) showed [8s Jc] and won (1600) with three of a kind, Eights
+Seat 4: $iobhan (button) folded before Flop (didn't bet)
+Seat 9: ComplexInteger (small blind) mucked [Qh 9h]
+
+
+
+PokerStars Hand #215068059830: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:48:23 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 3: polanpolan (6360 in chips) 
+Seat 4: $iobhan (910 in chips) 
+Seat 9: ComplexInteger (1730 in chips) 
+polanpolan: posts small blind 50
+$iobhan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5c Qh]
+ComplexInteger: folds 
+polanpolan: calls 50
+$iobhan: checks 
+*** FLOP *** [Qs 5s Qd]
+polanpolan: bets 6260 and is all-in
+$iobhan: folds 
+Uncalled bet (6260) returned to polanpolan
+polanpolan collected 200 from pot
+polanpolan: shows [5h 3c] (two pair, Queens and Fives)
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Board [Qs 5s Qd]
+Seat 3: polanpolan (small blind) collected (200)
+Seat 4: $iobhan (big blind) folded on the Flop
+Seat 9: ComplexInteger (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215068065617: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:48:44 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 3: polanpolan (6460 in chips) 
+Seat 4: $iobhan (810 in chips) 
+Seat 9: ComplexInteger (1730 in chips) 
+$iobhan: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ac Td]
+polanpolan: calls 100
+$iobhan: folds 
+ComplexInteger: raises 100 to 200
+polanpolan: calls 100
+*** FLOP *** [3c Kd 7c]
+ComplexInteger: checks 
+polanpolan: bets 400
+ComplexInteger: folds 
+Uncalled bet (400) returned to polanpolan
+polanpolan collected 450 from pot
+polanpolan: shows [8d Ks] (a pair of Kings)
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [3c Kd 7c]
+Seat 3: polanpolan (button) collected (450)
+Seat 4: $iobhan (small blind) folded before Flop
+Seat 9: ComplexInteger (big blind) folded on the Flop
+
+
+
+PokerStars Hand #215068071565: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:49:06 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 3: polanpolan (6710 in chips) 
+Seat 4: $iobhan (760 in chips) 
+Seat 9: ComplexInteger (1530 in chips) 
+ComplexInteger: posts small blind 50
+polanpolan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9h Js]
+$iobhan: raises 660 to 760 and is all-in
+ComplexInteger: folds 
+polanpolan: folds 
+Uncalled bet (660) returned to $iobhan
+$iobhan collected 250 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 3: polanpolan (big blind) folded before Flop
+Seat 4: $iobhan (button) collected (250)
+Seat 9: ComplexInteger (small blind) folded before Flop
+
+
+
+PokerStars Hand #215068073814: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:49:14 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 3: polanpolan (6610 in chips) 
+Seat 4: $iobhan (910 in chips) 
+Seat 9: ComplexInteger (1480 in chips) 
+polanpolan: posts small blind 50
+$iobhan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5s Tc]
+ComplexInteger: folds 
+polanpolan: calls 50
+$iobhan: checks 
+*** FLOP *** [5h As 4d]
+polanpolan: checks 
+$iobhan: checks 
+*** TURN *** [5h As 4d] [8h]
+polanpolan: bets 100
+$iobhan: folds 
+Uncalled bet (100) returned to polanpolan
+polanpolan collected 200 from pot
+polanpolan: shows [6h 8s] (a pair of Eights)
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Board [5h As 4d 8h]
+Seat 3: polanpolan (small blind) collected (200)
+Seat 4: $iobhan (big blind) folded on the Turn
+Seat 9: ComplexInteger (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215068078918: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:49:32 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 3: polanpolan (6710 in chips) 
+Seat 4: $iobhan (810 in chips) 
+Seat 9: ComplexInteger (1480 in chips) 
+$iobhan: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ts 9s]
+polanpolan: calls 100
+$iobhan: folds 
+ComplexInteger: checks 
+*** FLOP *** [8h Ah 5c]
+ComplexInteger: checks 
+polanpolan: checks 
+*** TURN *** [8h Ah 5c] [7s]
+ComplexInteger: checks 
+polanpolan: checks 
+*** RIVER *** [8h Ah 5c 7s] [8s]
+ComplexInteger: checks 
+polanpolan: checks 
+*** SHOW DOWN ***
+ComplexInteger: shows [Ts 9s] (a pair of Eights)
+polanpolan: shows [Tc Qd] (a pair of Eights - Ace+Queen kicker)
+polanpolan collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [8h Ah 5c 7s 8s]
+Seat 3: polanpolan (button) showed [Tc Qd] and won (250) with a pair of Eights
+Seat 4: $iobhan (small blind) folded before Flop
+Seat 9: ComplexInteger (big blind) showed [Ts 9s] and lost with a pair of Eights
+
+
+
+PokerStars Hand #215068085643: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:49:56 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 3: polanpolan (6860 in chips) 
+Seat 4: $iobhan (760 in chips) 
+Seat 9: ComplexInteger (1380 in chips) 
+ComplexInteger: posts small blind 50
+polanpolan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4s 7d]
+$iobhan: raises 660 to 760 and is all-in
+ComplexInteger: folds 
+polanpolan: calls 660
+*** FLOP *** [8s 6h Th]
+*** TURN *** [8s 6h Th] [2c]
+*** RIVER *** [8s 6h Th 2c] [Kh]
+*** SHOW DOWN ***
+polanpolan: shows [6c Kd] (two pair, Kings and Sixes)
+$iobhan: shows [Ah 4h] (a flush, Ace high)
+$iobhan collected 1570 from pot
+*** SUMMARY ***
+Total pot 1570 | Rake 0 
+Board [8s 6h Th 2c Kh]
+Seat 3: polanpolan (big blind) showed [6c Kd] and lost with two pair, Kings and Sixes
+Seat 4: $iobhan (button) showed [Ah 4h] and won (1570) with a flush, Ace high
+Seat 9: ComplexInteger (small blind) folded before Flop
+
+
+
+PokerStars Hand #215068089661: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:50:11 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 3: polanpolan (6100 in chips) 
+Seat 4: $iobhan (1570 in chips) 
+Seat 9: ComplexInteger (1330 in chips) 
+polanpolan: posts small blind 50
+$iobhan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [3h 6d]
+ComplexInteger: folds 
+polanpolan: calls 50
+$iobhan: checks 
+*** FLOP *** [8h 6h 2s]
+polanpolan: checks 
+$iobhan: checks 
+*** TURN *** [8h 6h 2s] [9c]
+polanpolan: checks 
+$iobhan: checks 
+*** RIVER *** [8h 6h 2s 9c] [4s]
+polanpolan: checks 
+$iobhan: bets 100
+polanpolan: folds 
+Uncalled bet (100) returned to $iobhan
+$iobhan collected 200 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Board [8h 6h 2s 9c 4s]
+Seat 3: polanpolan (small blind) folded on the River
+Seat 4: $iobhan (big blind) collected (200)
+Seat 9: ComplexInteger (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215068095820: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:50:33 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 3: polanpolan (6000 in chips) 
+Seat 4: $iobhan (1670 in chips) 
+Seat 9: ComplexInteger (1330 in chips) 
+$iobhan: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [As Jd]
+polanpolan: calls 100
+$iobhan: folds 
+ComplexInteger: raises 100 to 200
+polanpolan: calls 100
+*** FLOP *** [8d 4d 5h]
+ComplexInteger: bets 100
+polanpolan: raises 5700 to 5800 and is all-in
+ComplexInteger: calls 1030 and is all-in
+Uncalled bet (4670) returned to polanpolan
+*** TURN *** [8d 4d 5h] [Qd]
+*** RIVER *** [8d 4d 5h Qd] [6d]
+*** SHOW DOWN ***
+ComplexInteger: shows [As Jd] (a flush, Queen high)
+polanpolan: shows [8s Th] (a pair of Eights)
+ComplexInteger collected 2710 from pot
+*** SUMMARY ***
+Total pot 2710 | Rake 0 
+Board [8d 4d 5h Qd 6d]
+Seat 3: polanpolan (button) showed [8s Th] and lost with a pair of Eights
+Seat 4: $iobhan (small blind) folded before Flop
+Seat 9: ComplexInteger (big blind) showed [As Jd] and won (2710) with a flush, Queen high
+
+
+
+PokerStars Hand #215068103166: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:51:00 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 3: polanpolan (4670 in chips) 
+Seat 4: $iobhan (1620 in chips) 
+Seat 9: ComplexInteger (2710 in chips) 
+ComplexInteger: posts small blind 50
+polanpolan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [3s 2d]
+$iobhan: folds 
+ComplexInteger: raises 100 to 200
+polanpolan: raises 100 to 300
+ComplexInteger: calls 100
+*** FLOP *** [8d 3c 5c]
+ComplexInteger: checks 
+polanpolan: bets 4370 and is all-in
+ComplexInteger: folds 
+Uncalled bet (4370) returned to polanpolan
+polanpolan collected 600 from pot
+polanpolan: shows [Ah 8c] (a pair of Eights)
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [8d 3c 5c]
+Seat 3: polanpolan (big blind) collected (600)
+Seat 4: $iobhan (button) folded before Flop (didn't bet)
+Seat 9: ComplexInteger (small blind) folded on the Flop
+
+
+
+PokerStars Hand #215068110217: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:51:25 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 3: polanpolan (4970 in chips) 
+Seat 4: $iobhan (1620 in chips) 
+Seat 9: ComplexInteger (2410 in chips) 
+polanpolan: posts small blind 50
+$iobhan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8h 8d]
+ComplexInteger: raises 100 to 200
+polanpolan: calls 150
+$iobhan: folds 
+*** FLOP *** [Jc 8c 3c]
+polanpolan: checks 
+ComplexInteger: bets 100
+polanpolan: calls 100
+*** TURN *** [Jc 8c 3c] [3d]
+polanpolan: bets 4670 and is all-in
+ComplexInteger: calls 2110 and is all-in
+Uncalled bet (2560) returned to polanpolan
+*** RIVER *** [Jc 8c 3c 3d] [5h]
+*** SHOW DOWN ***
+polanpolan: shows [9d 3h] (three of a kind, Threes)
+ComplexInteger: shows [8h 8d] (a full house, Eights full of Threes)
+ComplexInteger collected 4920 from pot
+*** SUMMARY ***
+Total pot 4920 | Rake 0 
+Board [Jc 8c 3c 3d 5h]
+Seat 3: polanpolan (small blind) showed [9d 3h] and lost with three of a kind, Threes
+Seat 4: $iobhan (big blind) folded before Flop
+Seat 9: ComplexInteger (button) showed [8h 8d] and won (4920) with a full house, Eights full of Threes
+
+
+
+PokerStars Hand #215068117250: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:51:51 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 3: polanpolan (2560 in chips) 
+Seat 4: $iobhan (1520 in chips) 
+Seat 9: ComplexInteger (4920 in chips) 
+$iobhan: posts small blind 50
+ComplexInteger: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9d Ts]
+polanpolan: calls 100
+$iobhan: folds 
+ComplexInteger: raises 100 to 200
+polanpolan: calls 100
+*** FLOP *** [8s 3d Jc]
+ComplexInteger: bets 100
+polanpolan: folds 
+Uncalled bet (100) returned to ComplexInteger
+ComplexInteger collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [8s 3d Jc]
+Seat 3: polanpolan (button) folded on the Flop
+Seat 4: $iobhan (small blind) folded before Flop
+Seat 9: ComplexInteger (big blind) collected (450)
+
+
+
+PokerStars Hand #215068123143: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level IV (50/100) - 2020/06/08 4:52:12 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 3: polanpolan (2360 in chips) 
+Seat 4: $iobhan (1470 in chips) 
+Seat 9: ComplexInteger (5170 in chips) 
+ComplexInteger: posts small blind 50
+polanpolan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8c Kh]
+$iobhan: folds 
+ComplexInteger: calls 50
+polanpolan: checks 
+*** FLOP *** [2c 7s Jh]
+ComplexInteger: bets 100
+polanpolan: folds 
+Uncalled bet (100) returned to ComplexInteger
+ComplexInteger collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Board [2c 7s Jh]
+Seat 3: polanpolan (big blind) folded on the Flop
+Seat 4: $iobhan (button) folded before Flop (didn't bet)
+Seat 9: ComplexInteger (small blind) collected (200)
+
+
+
+PokerStars Hand #215068129779: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:52:36 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 3: polanpolan (2260 in chips) 
+Seat 4: $iobhan (1470 in chips) 
+Seat 9: ComplexInteger (5270 in chips) 
+polanpolan: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6c 5h]
+ComplexInteger: folds 
+polanpolan: calls 75
+$iobhan: checks 
+*** FLOP *** [Qs 6s 3h]
+polanpolan: checks 
+$iobhan: checks 
+*** TURN *** [Qs 6s 3h] [4s]
+polanpolan: checks 
+$iobhan: checks 
+*** RIVER *** [Qs 6s 3h 4s] [2s]
+polanpolan: bets 150
+$iobhan: folds 
+Uncalled bet (150) returned to polanpolan
+polanpolan collected 300 from pot
+polanpolan: shows [Kd 7s] (a flush, Queen high)
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [Qs 6s 3h 4s 2s]
+Seat 3: polanpolan (small blind) collected (300)
+Seat 4: $iobhan (big blind) folded on the River
+Seat 9: ComplexInteger (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #215068136196: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:53:00 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 3: polanpolan (2410 in chips) 
+Seat 4: $iobhan (1320 in chips) 
+Seat 9: ComplexInteger (5270 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5c 8h]
+polanpolan: calls 150
+$iobhan: folds 
+ComplexInteger: checks 
+*** FLOP *** [2d 6d Ac]
+ComplexInteger: checks 
+polanpolan: bets 150
+ComplexInteger: folds 
+Uncalled bet (150) returned to polanpolan
+polanpolan collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Board [2d 6d Ac]
+Seat 3: polanpolan (button) collected (375)
+Seat 4: $iobhan (small blind) folded before Flop
+Seat 9: ComplexInteger (big blind) folded on the Flop
+
+
+
+PokerStars Hand #215068141049: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:53:17 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 3: polanpolan (2635 in chips) 
+Seat 4: $iobhan (1245 in chips) 
+Seat 9: ComplexInteger (5120 in chips) 
+ComplexInteger: posts small blind 75
+polanpolan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qd 2h]
+$iobhan: calls 150
+ComplexInteger: raises 150 to 300
+polanpolan: calls 150
+$iobhan: calls 150
+*** FLOP *** [Qs 7h Ts]
+ComplexInteger: bets 150
+polanpolan: folds 
+$iobhan: raises 795 to 945 and is all-in
+ComplexInteger: calls 795
+*** TURN *** [Qs 7h Ts] [5h]
+*** RIVER *** [Qs 7h Ts 5h] [6d]
+*** SHOW DOWN ***
+ComplexInteger: shows [Qd 2h] (a pair of Queens)
+$iobhan: shows [Kc Qc] (a pair of Queens - King kicker)
+$iobhan collected 2790 from pot
+*** SUMMARY ***
+Total pot 2790 | Rake 0 
+Board [Qs 7h Ts 5h 6d]
+Seat 3: polanpolan (big blind) folded on the Flop
+Seat 4: $iobhan (button) showed [Kc Qc] and won (2790) with a pair of Queens
+Seat 9: ComplexInteger (small blind) showed [Qd 2h] and lost with a pair of Queens
+
+
+
+PokerStars Hand #215068147823: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:53:42 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 3: polanpolan (2335 in chips) 
+Seat 4: $iobhan (2790 in chips) 
+Seat 9: ComplexInteger (3875 in chips) 
+polanpolan: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5c Kh]
+ComplexInteger: raises 150 to 300
+polanpolan: calls 225
+$iobhan: folds 
+*** FLOP *** [Ks 2c 5h]
+polanpolan: checks 
+ComplexInteger: bets 150
+polanpolan: calls 150
+*** TURN *** [Ks 2c 5h] [2d]
+polanpolan: checks 
+ComplexInteger: bets 150
+polanpolan: folds 
+Uncalled bet (150) returned to ComplexInteger
+ComplexInteger collected 1050 from pot
+*** SUMMARY ***
+Total pot 1050 | Rake 0 
+Board [Ks 2c 5h 2d]
+Seat 3: polanpolan (small blind) folded on the Turn
+Seat 4: $iobhan (big blind) folded before Flop
+Seat 9: ComplexInteger (button) collected (1050)
+
+
+
+PokerStars Hand #215068156132: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:54:12 ET
+Table '2929776188 1' 9-max Seat #3 is the button
+Seat 3: polanpolan (1885 in chips) 
+Seat 4: $iobhan (2640 in chips) 
+Seat 9: ComplexInteger (4475 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kd 7d]
+polanpolan: raises 375 to 525
+$iobhan: raises 2115 to 2640 and is all-in
+ComplexInteger: folds 
+polanpolan: calls 1360 and is all-in
+Uncalled bet (755) returned to $iobhan
+*** FLOP *** [Jc 2c 4s]
+*** TURN *** [Jc 2c 4s] [Td]
+*** RIVER *** [Jc 2c 4s Td] [8d]
+*** SHOW DOWN ***
+$iobhan: shows [Ks Kh] (a pair of Kings)
+polanpolan: shows [Jd As] (a pair of Jacks)
+$iobhan collected 3920 from pot
+polanpolan finished the tournament in 3rd place and received 15300.00.
+*** SUMMARY ***
+Total pot 3920 | Rake 0 
+Board [Jc 2c 4s Td 8d]
+Seat 3: polanpolan (button) showed [Jd As] and lost with a pair of Jacks
+Seat 4: $iobhan (small blind) showed [Ks Kh] and won (3920) with a pair of Kings
+Seat 9: ComplexInteger (big blind) folded before Flop
+
+
+
+PokerStars Hand #215068162046: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:54:34 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (4675 in chips) 
+Seat 9: ComplexInteger (4325 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jd 5h]
+ComplexInteger: raises 150 to 300
+$iobhan: calls 150
+*** FLOP *** [9s Qs 4h]
+$iobhan: bets 300
+ComplexInteger: folds 
+Uncalled bet (300) returned to $iobhan
+$iobhan collected 600 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [9s Qs 4h]
+Seat 4: $iobhan (big blind) collected (600)
+Seat 9: ComplexInteger (button) (small blind) folded on the Flop
+
+
+
+PokerStars Hand #215068165584: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:54:47 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (4975 in chips) 
+Seat 9: ComplexInteger (4025 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8h Th]
+$iobhan: calls 75
+ComplexInteger: raises 150 to 300
+$iobhan: calls 150
+*** FLOP *** [Qh 4s 3c]
+ComplexInteger: bets 150
+$iobhan: calls 150
+*** TURN *** [Qh 4s 3c] [Js]
+ComplexInteger: bets 150
+$iobhan: calls 150
+*** RIVER *** [Qh 4s 3c Js] [9h]
+ComplexInteger: bets 150
+$iobhan: calls 150
+*** SHOW DOWN ***
+ComplexInteger: shows [8h Th] (a straight, Eight to Queen)
+$iobhan: mucks hand 
+ComplexInteger collected 1500 from pot
+*** SUMMARY ***
+Total pot 1500 | Rake 0 
+Board [Qh 4s 3c Js 9h]
+Seat 4: $iobhan (button) (small blind) mucked [6h 3d]
+Seat 9: ComplexInteger (big blind) showed [8h Th] and won (1500) with a straight, Eight to Queen
+
+
+
+PokerStars Hand #215068170772: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:55:06 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (4225 in chips) 
+Seat 9: ComplexInteger (4775 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9h 8s]
+ComplexInteger: raises 150 to 300
+$iobhan: calls 150
+*** FLOP *** [Jd Tc 8d]
+$iobhan: bets 300
+ComplexInteger: raises 300 to 600
+$iobhan: calls 300
+*** TURN *** [Jd Tc 8d] [6c]
+$iobhan: checks 
+ComplexInteger: bets 900
+$iobhan: folds 
+Uncalled bet (900) returned to ComplexInteger
+ComplexInteger collected 1800 from pot
+*** SUMMARY ***
+Total pot 1800 | Rake 0 
+Board [Jd Tc 8d 6c]
+Seat 4: $iobhan (big blind) folded on the Turn
+Seat 9: ComplexInteger (button) (small blind) collected (1800)
+
+
+
+PokerStars Hand #215068177780: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:55:37 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (3325 in chips) 
+Seat 9: ComplexInteger (5675 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jc Qd]
+$iobhan: calls 75
+ComplexInteger: raises 150 to 300
+$iobhan: calls 150
+*** FLOP *** [9s Jd 7h]
+ComplexInteger: bets 600
+$iobhan: folds 
+Uncalled bet (600) returned to ComplexInteger
+ComplexInteger collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [9s Jd 7h]
+Seat 4: $iobhan (button) (small blind) folded on the Flop
+Seat 9: ComplexInteger (big blind) collected (600)
+
+
+
+PokerStars Hand #215068181498: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:55:53 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (3025 in chips) 
+Seat 9: ComplexInteger (5975 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6c Kc]
+ComplexInteger: raises 150 to 300
+$iobhan: raises 2725 to 3025 and is all-in
+ComplexInteger: folds 
+Uncalled bet (2725) returned to $iobhan
+$iobhan collected 600 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 4: $iobhan (big blind) collected (600)
+Seat 9: ComplexInteger (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #215068183894: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:56:03 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (3325 in chips) 
+Seat 9: ComplexInteger (5675 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2h 6h]
+$iobhan: calls 75
+ComplexInteger: checks 
+*** FLOP *** [7s 9c 3d]
+ComplexInteger: checks 
+$iobhan: checks 
+*** TURN *** [7s 9c 3d] [Kh]
+ComplexInteger: checks 
+$iobhan: bets 150
+ComplexInteger: folds 
+Uncalled bet (150) returned to $iobhan
+$iobhan collected 300 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [7s 9c 3d Kh]
+Seat 4: $iobhan (button) (small blind) collected (300)
+Seat 9: ComplexInteger (big blind) folded on the Turn
+
+
+
+PokerStars Hand #215068188417: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:56:22 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (3475 in chips) 
+Seat 9: ComplexInteger (5525 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9s 6d]
+ComplexInteger: raises 150 to 300
+$iobhan: calls 150
+*** FLOP *** [Kh 8s 2c]
+$iobhan: checks 
+ComplexInteger: checks 
+*** TURN *** [Kh 8s 2c] [Qc]
+$iobhan: bets 600
+ComplexInteger: folds 
+Uncalled bet (600) returned to $iobhan
+$iobhan collected 600 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [Kh 8s 2c Qc]
+Seat 4: $iobhan (big blind) collected (600)
+Seat 9: ComplexInteger (button) (small blind) folded on the Turn
+
+
+
+PokerStars Hand #215068192478: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:56:40 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (3775 in chips) 
+Seat 9: ComplexInteger (5225 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [3d Td]
+$iobhan: raises 150 to 300
+ComplexInteger: folds 
+Uncalled bet (150) returned to $iobhan
+$iobhan collected 300 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 4: $iobhan (button) (small blind) collected (300)
+Seat 9: ComplexInteger (big blind) folded before Flop
+
+
+
+PokerStars Hand #215068194536: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:56:49 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (3925 in chips) 
+Seat 9: ComplexInteger (5075 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Td Qh]
+ComplexInteger: raises 150 to 300
+$iobhan: calls 150
+*** FLOP *** [Qc 6d 5s]
+$iobhan: checks 
+ComplexInteger: bets 150
+$iobhan: folds 
+Uncalled bet (150) returned to ComplexInteger
+ComplexInteger collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [Qc 6d 5s]
+Seat 4: $iobhan (big blind) folded on the Flop
+Seat 9: ComplexInteger (button) (small blind) collected (600)
+
+
+
+PokerStars Hand #215068198150: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:57:04 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (3625 in chips) 
+Seat 9: ComplexInteger (5375 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2s 3h]
+$iobhan: raises 150 to 300
+ComplexInteger: raises 150 to 450
+$iobhan: calls 150
+*** FLOP *** [5h As 9c]
+ComplexInteger: bets 150
+$iobhan: folds 
+Uncalled bet (150) returned to ComplexInteger
+ComplexInteger collected 900 from pot
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [5h As 9c]
+Seat 4: $iobhan (button) (small blind) folded on the Flop
+Seat 9: ComplexInteger (big blind) collected (900)
+
+
+
+PokerStars Hand #215068202461: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:57:22 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (3175 in chips) 
+Seat 9: ComplexInteger (5825 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5h 6c]
+ComplexInteger: raises 150 to 300
+$iobhan: calls 150
+*** FLOP *** [9s Jc 4d]
+$iobhan: checks 
+ComplexInteger: bets 150
+$iobhan: folds 
+Uncalled bet (150) returned to ComplexInteger
+ComplexInteger collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [9s Jc 4d]
+Seat 4: $iobhan (big blind) folded on the Flop
+Seat 9: ComplexInteger (button) (small blind) collected (600)
+
+
+
+PokerStars Hand #215068205808: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:57:36 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (2875 in chips) 
+Seat 9: ComplexInteger (6125 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5d As]
+$iobhan: raises 2725 to 2875 and is all-in
+ComplexInteger: folds 
+Uncalled bet (2725) returned to $iobhan
+$iobhan collected 300 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 4: $iobhan (button) (small blind) collected (300)
+Seat 9: ComplexInteger (big blind) folded before Flop
+
+
+
+PokerStars Hand #215068207767: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:57:44 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (3025 in chips) 
+Seat 9: ComplexInteger (5975 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jd Ah]
+ComplexInteger: raises 150 to 300
+$iobhan: folds 
+Uncalled bet (150) returned to ComplexInteger
+ComplexInteger collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 4: $iobhan (big blind) folded before Flop
+Seat 9: ComplexInteger (button) (small blind) collected (300)
+
+
+
+PokerStars Hand #215068209543: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:57:52 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (2875 in chips) 
+Seat 9: ComplexInteger (6125 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9c 3c]
+$iobhan: folds 
+Uncalled bet (75) returned to ComplexInteger
+ComplexInteger collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 4: $iobhan (button) (small blind) folded before Flop
+Seat 9: ComplexInteger (big blind) collected (150)
+
+
+
+PokerStars Hand #215068210997: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:57:58 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (2800 in chips) 
+Seat 9: ComplexInteger (6200 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9s Kc]
+ComplexInteger: raises 150 to 300
+$iobhan: raises 2500 to 2800 and is all-in
+ComplexInteger: folds 
+Uncalled bet (2500) returned to $iobhan
+$iobhan collected 600 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 4: $iobhan (big blind) collected (600)
+Seat 9: ComplexInteger (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #215068214087: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:58:11 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (3100 in chips) 
+Seat 9: ComplexInteger (5900 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ad 8d]
+$iobhan: folds 
+Uncalled bet (75) returned to ComplexInteger
+ComplexInteger collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 4: $iobhan (button) (small blind) folded before Flop
+Seat 9: ComplexInteger (big blind) collected (150)
+
+
+
+PokerStars Hand #215068215510: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:58:17 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (3025 in chips) 
+Seat 9: ComplexInteger (5975 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6h 6d]
+ComplexInteger: raises 150 to 300
+$iobhan: raises 2725 to 3025 and is all-in
+ComplexInteger: calls 2725
+*** FLOP *** [Ac 8c 5d]
+*** TURN *** [Ac 8c 5d] [Td]
+*** RIVER *** [Ac 8c 5d Td] [5s]
+*** SHOW DOWN ***
+$iobhan: shows [Ad Jc] (two pair, Aces and Fives)
+ComplexInteger: shows [6h 6d] (two pair, Sixes and Fives)
+$iobhan collected 6050 from pot
+*** SUMMARY ***
+Total pot 6050 | Rake 0 
+Board [Ac 8c 5d Td 5s]
+Seat 4: $iobhan (big blind) showed [Ad Jc] and won (6050) with two pair, Aces and Fives
+Seat 9: ComplexInteger (button) (small blind) showed [6h 6d] and lost with two pair, Sixes and Fives
+
+
+
+PokerStars Hand #215068219980: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:58:35 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (6050 in chips) 
+Seat 9: ComplexInteger (2950 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8s Js]
+$iobhan: calls 75
+ComplexInteger: raises 150 to 300
+$iobhan: calls 150
+*** FLOP *** [7s Th Kd]
+ComplexInteger: bets 150
+$iobhan: folds 
+Uncalled bet (150) returned to ComplexInteger
+ComplexInteger collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [7s Th Kd]
+Seat 4: $iobhan (button) (small blind) folded on the Flop
+Seat 9: ComplexInteger (big blind) collected (600)
+
+
+
+PokerStars Hand #215068223284: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:58:49 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (5750 in chips) 
+Seat 9: ComplexInteger (3250 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qc 6s]
+ComplexInteger: raises 150 to 300
+$iobhan: calls 150
+*** FLOP *** [2s 4h 3d]
+$iobhan: bets 300
+ComplexInteger: folds 
+Uncalled bet (300) returned to $iobhan
+$iobhan collected 600 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [2s 4h 3d]
+Seat 4: $iobhan (big blind) collected (600)
+Seat 9: ComplexInteger (button) (small blind) folded on the Flop
+
+
+
+PokerStars Hand #215068227599: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:59:07 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (6050 in chips) 
+Seat 9: ComplexInteger (2950 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [6s Js]
+$iobhan: raises 150 to 300
+ComplexInteger: calls 150
+*** FLOP *** [Jh 7c 5h]
+ComplexInteger: bets 150
+$iobhan: calls 150
+*** TURN *** [Jh 7c 5h] [7h]
+ComplexInteger: bets 150
+$iobhan: calls 150
+*** RIVER *** [Jh 7c 5h 7h] [3d]
+ComplexInteger: bets 600
+$iobhan: folds 
+Uncalled bet (600) returned to ComplexInteger
+ComplexInteger collected 1200 from pot
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Board [Jh 7c 5h 7h 3d]
+Seat 4: $iobhan (button) (small blind) folded on the River
+Seat 9: ComplexInteger (big blind) collected (1200)
+
+
+
+PokerStars Hand #215068234509: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 4:59:35 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (5450 in chips) 
+Seat 9: ComplexInteger (3550 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ad 7c]
+ComplexInteger: raises 150 to 300
+$iobhan: raises 300 to 600
+ComplexInteger: calls 300
+*** FLOP *** [Td 7h 9c]
+$iobhan: bets 600
+ComplexInteger: calls 600
+*** TURN *** [Td 7h 9c] [Tc]
+$iobhan: bets 4250 and is all-in
+ComplexInteger: folds 
+Uncalled bet (4250) returned to $iobhan
+$iobhan collected 2400 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Board [Td 7h 9c Tc]
+Seat 4: $iobhan (big blind) collected (2400)
+Seat 9: ComplexInteger (button) (small blind) folded on the Turn
+
+
+
+PokerStars Hand #215068240921: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 5:00:02 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (6650 in chips) 
+Seat 9: ComplexInteger (2350 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9s 9h]
+$iobhan: calls 75
+ComplexInteger: raises 150 to 300
+$iobhan: calls 150
+*** FLOP *** [Ah 5d Qh]
+ComplexInteger: bets 150
+$iobhan: folds 
+Uncalled bet (150) returned to ComplexInteger
+ComplexInteger collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [Ah 5d Qh]
+Seat 4: $iobhan (button) (small blind) folded on the Flop
+Seat 9: ComplexInteger (big blind) collected (600)
+
+
+
+PokerStars Hand #215068244682: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 5:00:16 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (6350 in chips) 
+Seat 9: ComplexInteger (2650 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ah 2s]
+ComplexInteger: raises 2500 to 2650 and is all-in
+$iobhan: folds 
+Uncalled bet (2500) returned to ComplexInteger
+ComplexInteger collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 4: $iobhan (big blind) folded before Flop
+Seat 9: ComplexInteger (button) (small blind) collected (300)
+
+
+
+PokerStars Hand #215068246815: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 5:00:25 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (6200 in chips) 
+Seat 9: ComplexInteger (2800 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8c 4h]
+$iobhan: raises 150 to 300
+ComplexInteger: folds 
+Uncalled bet (150) returned to $iobhan
+$iobhan collected 300 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 4: $iobhan (button) (small blind) collected (300)
+Seat 9: ComplexInteger (big blind) folded before Flop
+
+
+
+PokerStars Hand #215068248863: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 5:00:33 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (6350 in chips) 
+Seat 9: ComplexInteger (2650 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5d 6c]
+ComplexInteger: raises 150 to 300
+$iobhan: folds 
+Uncalled bet (150) returned to ComplexInteger
+ComplexInteger collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 4: $iobhan (big blind) folded before Flop
+Seat 9: ComplexInteger (button) (small blind) collected (300)
+
+
+
+PokerStars Hand #215068251827: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 5:00:44 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (6200 in chips) 
+Seat 9: ComplexInteger (2800 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qs Ts]
+$iobhan: raises 150 to 300
+ComplexInteger: raises 150 to 450
+$iobhan: calls 150
+*** FLOP *** [5d 9s 5h]
+ComplexInteger: bets 450
+$iobhan: folds 
+Uncalled bet (450) returned to ComplexInteger
+ComplexInteger collected 900 from pot
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [5d 9s 5h]
+Seat 4: $iobhan (button) (small blind) folded on the Flop
+Seat 9: ComplexInteger (big blind) collected (900)
+
+
+
+PokerStars Hand #215068257559: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 5:01:05 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (5750 in chips) 
+Seat 9: ComplexInteger (3250 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4s Qc]
+ComplexInteger: raises 150 to 300
+$iobhan: raises 5450 to 5750 and is all-in
+ComplexInteger: folds 
+Uncalled bet (5450) returned to $iobhan
+$iobhan collected 600 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 4: $iobhan (big blind) collected (600)
+Seat 9: ComplexInteger (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #215068260564: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 5:01:16 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (6050 in chips) 
+Seat 9: ComplexInteger (2950 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9s Ks]
+$iobhan: raises 150 to 300
+ComplexInteger: raises 150 to 450
+$iobhan: calls 150
+*** FLOP *** [4s 6h 3h]
+ComplexInteger: bets 450
+$iobhan: folds 
+Uncalled bet (450) returned to ComplexInteger
+ComplexInteger collected 900 from pot
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [4s 6h 3h]
+Seat 4: $iobhan (button) (small blind) folded on the Flop
+Seat 9: ComplexInteger (big blind) collected (900)
+
+
+
+PokerStars Hand #215068265103: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 5:01:32 ET
+Table '2929776188 1' 9-max Seat #9 is the button
+Seat 4: $iobhan (5600 in chips) 
+Seat 9: ComplexInteger (3400 in chips) 
+ComplexInteger: posts small blind 75
+$iobhan: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4c Qd]
+ComplexInteger: raises 150 to 300
+$iobhan: calls 150
+*** FLOP *** [9c 9d Jd]
+$iobhan: bets 5300 and is all-in
+ComplexInteger: folds 
+Uncalled bet (5300) returned to $iobhan
+$iobhan collected 600 from pot
+$iobhan: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [9c 9d Jd]
+Seat 4: $iobhan (big blind) collected (600)
+Seat 9: ComplexInteger (button) (small blind) folded on the Flop
+
+
+
+PokerStars Hand #215068269053: Tournament #2929776188, 8500+1500 Hold'em No Limit - Level V (75/150) - 2020/06/08 5:01:46 ET
+Table '2929776188 1' 9-max Seat #4 is the button
+Seat 4: $iobhan (5900 in chips) 
+Seat 9: ComplexInteger (3100 in chips) 
+$iobhan: posts small blind 75
+ComplexInteger: posts big blind 150
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9c 9d]
+$iobhan: raises 150 to 300
+ComplexInteger: raises 150 to 450
+$iobhan: calls 150
+*** FLOP *** [4s Kc Qd]
+ComplexInteger: bets 150
+$iobhan: raises 300 to 450
+ComplexInteger: raises 300 to 750
+$iobhan: raises 750 to 1500
+ComplexInteger: raises 750 to 2250
+$iobhan: raises 3200 to 5450 and is all-in
+ComplexInteger: calls 400 and is all-in
+Uncalled bet (2800) returned to $iobhan
+*** TURN *** [4s Kc Qd] [3c]
+*** RIVER *** [4s Kc Qd 3c] [8c]
+*** SHOW DOWN ***
+ComplexInteger: shows [9c 9d] (a pair of Nines)
+$iobhan: shows [Qs Kh] (two pair, Kings and Queens)
+$iobhan collected 6200 from pot
+ComplexInteger finished the tournament in 2nd place and received 22950.00.
+$iobhan wins the tournament and receives 38250.00 - congratulations!
+*** SUMMARY ***
+Total pot 6200 | Rake 0 
+Board [4s Kc Qd 3c 8c]
+Seat 4: $iobhan (button) (small blind) showed [Qs Kh] and won (6200) with two pair, Kings and Queens
+Seat 9: ComplexInteger (big blind) showed [9c 9d] and lost with a pair of Nines
+
+
+

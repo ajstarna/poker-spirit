@@ -1,0 +1,2261 @@
+﻿PokerStars Hand #214549078531:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:42:01 ET
+Table 'Agapenor IV' 9-max Seat #4 is the button
+Seat 3: Lozynskyi ($1.69 in chips) 
+Seat 4: FinsterFace5 ($0.16 in chips) 
+Seat 5: shoxi88 ($0.96 in chips) 
+Seat 6: ComplexInteger ($2 in chips) 
+Seat 7: EricC313 ($0.78 in chips) 
+Seat 8: deathskills ($0.83 in chips) 
+Seat 9: EvgeniyVisus ($3.34 in chips) 
+shoxi88: posts small blind $0.01
+ComplexInteger: posts big blind $0.02
+Badangelwar: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8d 7d]
+EricC313: folds 
+deathskills: folds 
+EvgeniyVisus: folds 
+Lozynskyi: folds 
+FinsterFace5: calls $0.02
+shoxi88: calls $0.01
+ComplexInteger: checks 
+*** FLOP *** [Qs 9h 3d]
+shoxi88: checks 
+ComplexInteger: checks 
+FinsterFace5: bets $0.06
+shoxi88: folds 
+ComplexInteger: folds 
+Uncalled bet ($0.06) returned to FinsterFace5
+FinsterFace5 collected $0.06 from pot
+FinsterFace5: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.06 | Rake $0 
+Board [Qs 9h 3d]
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: FinsterFace5 (button) collected ($0.06)
+Seat 5: shoxi88 (small blind) folded on the Flop
+Seat 6: ComplexInteger (big blind) folded on the Flop
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 8: deathskills folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549101874:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:42:36 ET
+Table 'Agapenor IV' 9-max Seat #5 is the button
+Seat 2: Badangelwar ($1.60 in chips) 
+Seat 3: Lozynskyi ($1.69 in chips) 
+Seat 4: FinsterFace5 ($0.20 in chips) 
+Seat 5: shoxi88 ($0.94 in chips) 
+Seat 6: ComplexInteger ($1.98 in chips) 
+Seat 7: EricC313 ($0.78 in chips) 
+Seat 8: deathskills ($0.83 in chips) 
+Seat 9: EvgeniyVisus ($3.34 in chips) 
+ComplexInteger: posts small blind $0.01
+EricC313: posts big blind $0.02
+Badangelwar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4h Td]
+deathskills: folds 
+EvgeniyVisus: folds 
+Badangelwar: checks 
+Lozynskyi: folds 
+FinsterFace5: folds 
+shoxi88: raises $0.04 to $0.06
+ComplexInteger: folds 
+EricC313: folds 
+Badangelwar: calls $0.04
+*** FLOP *** [Kd 7c 9h]
+Badangelwar: checks 
+shoxi88: bets $0.06
+Badangelwar: calls $0.06
+*** TURN *** [Kd 7c 9h] [Ks]
+Badangelwar: checks 
+shoxi88: bets $0.08
+Badangelwar: calls $0.08
+*** RIVER *** [Kd 7c 9h Ks] [8s]
+Badangelwar: bets $0.02
+shoxi88: calls $0.02
+*** SHOW DOWN ***
+Badangelwar: shows [7d 9c] (two pair, Kings and Nines)
+shoxi88: mucks hand 
+Badangelwar collected $0.45 from pot
+*** SUMMARY ***
+Total pot $0.47 | Rake $0.02 
+Board [Kd 7c 9h Ks 8s]
+Seat 2: Badangelwar showed [7d 9c] and won ($0.45) with two pair, Kings and Nines
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: FinsterFace5 folded before Flop (didn't bet)
+Seat 5: shoxi88 (button) mucked [Ac 4s]
+Seat 6: ComplexInteger (small blind) folded before Flop
+Seat 7: EricC313 (big blind) folded before Flop
+Seat 8: deathskills folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549140184:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:43:33 ET
+Table 'Agapenor IV' 9-max Seat #6 is the button
+Seat 2: Badangelwar ($1.83 in chips) 
+Seat 3: Lozynskyi ($1.69 in chips) 
+Seat 4: FinsterFace5 ($0.20 in chips) 
+Seat 5: shoxi88 ($0.72 in chips) 
+Seat 6: ComplexInteger ($1.97 in chips) 
+Seat 7: EricC313 ($0.76 in chips) 
+Seat 8: deathskills ($0.83 in chips) 
+Seat 9: EvgeniyVisus ($3.34 in chips) 
+EricC313: posts small blind $0.01
+deathskills: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [7d 7s]
+EvgeniyVisus: folds 
+Badangelwar: calls $0.02
+Lozynskyi: folds 
+FinsterFace5: calls $0.02
+shoxi88: calls $0.02
+ComplexInteger: calls $0.02
+EricC313: raises $0.10 to $0.12
+deathskills: calls $0.10
+Badangelwar: calls $0.10
+FinsterFace5: calls $0.10
+shoxi88: calls $0.10
+ComplexInteger: folds 
+*** FLOP *** [3d Jd 2d]
+EricC313: bets $0.64 and is all-in
+deathskills: raises $0.07 to $0.71 and is all-in
+Badangelwar: calls $0.71
+FinsterFace5: calls $0.08 and is all-in
+shoxi88: folds 
+deathskills has timed out
+*** TURN *** [3d Jd 2d] [Td]
+*** RIVER *** [3d Jd 2d Td] [As]
+*** SHOW DOWN ***
+deathskills: shows [Kd 9d] (a flush, King high)
+Badangelwar: shows [2c Qc] (a pair of Deuces)
+deathskills collected $0.13 from side pot-2 
+EricC313: shows [8s 8d] (a flush, Jack high)
+deathskills collected $1.62 from side pot-1 
+FinsterFace5: shows [Jc Th] (two pair, Jacks and Tens)
+deathskills collected $0.91 from main pot
+Pzeudolukian leaves the table
+Badangelwar cashed out the hand for $0.04
+FinsterFace5 cashed out the hand for $0.02
+*** SUMMARY ***
+Total pot $2.76 Main pot $0.91. Side pot-1 $1.62. Side pot-2 $0.13. | Rake $0.10 
+Board [3d Jd 2d Td As]
+Seat 2: Badangelwar showed [2c Qc] and lost with a pair of Deuces (cashed out).
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: FinsterFace5 showed [Jc Th] and lost with two pair, Jacks and Tens (cashed out).
+Seat 5: shoxi88 folded on the Flop
+Seat 6: ComplexInteger (button) folded before Flop
+Seat 7: EricC313 (small blind) showed [8s 8d] and lost with a flush, Jack high
+Seat 8: deathskills (big blind) showed [Kd 9d] and won ($2.66) with a flush, King high
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549179371:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:44:31 ET
+Table 'Agapenor IV' 9-max Seat #8 is the button
+Seat 2: Badangelwar ($1.04 in chips) 
+Seat 3: Lozynskyi ($1.69 in chips) 
+Seat 4: FinsterFace5 ($0.02 in chips) 
+Seat 5: shoxi88 ($0.60 in chips) 
+Seat 6: ComplexInteger ($1.95 in chips) 
+Seat 8: deathskills ($2.66 in chips) 
+Seat 9: EvgeniyVisus ($3.34 in chips) 
+EvgeniyVisus: posts small blind $0.01
+Badangelwar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2c 7s]
+deathskills said, "ohhhhh yeahhhhhh"
+Lozynskyi: folds 
+FinsterFace5: folds 
+shoxi88: folds 
+ComplexInteger: folds 
+ComplexInteger said, "lol"
+deathskills: calls $0.02
+EvgeniyVisus: folds 
+Badangelwar: checks 
+*** FLOP *** [5h 5d 9s]
+Badangelwar: checks 
+deathskills: checks 
+*** TURN *** [5h 5d 9s] [As]
+Toolman548 joins the table at seat #1 
+Badangelwar: checks 
+deathskills: bets $0.02
+Badangelwar: calls $0.02
+*** RIVER *** [5h 5d 9s As] [Kd]
+Badangelwar: checks 
+deathskills: bets $0.04
+Badangelwar: calls $0.04
+*** SHOW DOWN ***
+deathskills: shows [Ac 8d] (two pair, Aces and Fives)
+Badangelwar: mucks hand 
+deathskills collected $0.16 from pot
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01 
+Board [5h 5d 9s As Kd]
+Seat 2: Badangelwar (big blind) mucked [Ts Tc]
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: FinsterFace5 folded before Flop (didn't bet)
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 8: deathskills (button) showed [Ac 8d] and won ($0.16) with two pair, Aces and Fives
+Seat 9: EvgeniyVisus (small blind) folded before Flop
+
+
+
+PokerStars Hand #214549207883:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:45:14 ET
+Table 'Agapenor IV' 9-max Seat #9 is the button
+Seat 2: Badangelwar ($0.96 in chips) 
+Seat 3: Lozynskyi ($1.69 in chips) 
+Seat 4: FinsterFace5 ($0.02 in chips) 
+Seat 5: shoxi88 ($0.60 in chips) 
+Seat 6: ComplexInteger ($1.95 in chips) 
+Seat 7: EricC313 ($2 in chips) 
+Seat 8: deathskills ($2.74 in chips) 
+Seat 9: EvgeniyVisus ($3.33 in chips) 
+Badangelwar: posts small blind $0.01
+Lozynskyi: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ah Kh]
+FinsterFace5: folds 
+shoxi88: folds 
+ComplexInteger: calls $0.02
+EricC313: raises $0.06 to $0.08
+deathskills: folds 
+EvgeniyVisus: folds 
+Badangelwar: calls $0.07
+Lozynskyi: folds 
+ComplexInteger: calls $0.06
+*** FLOP *** [8d 4h 4s]
+Badangelwar: checks 
+ComplexInteger: checks 
+EricC313: checks 
+*** TURN *** [8d 4h 4s] [9s]
+Badangelwar: checks 
+ComplexInteger: bets $0.13
+EricC313: folds 
+Badangelwar: calls $0.13
+*** RIVER *** [8d 4h 4s 9s] [Td]
+Badangelwar: checks 
+ComplexInteger: bets $0.25
+Badangelwar: calls $0.25
+*** SHOW DOWN ***
+ComplexInteger: shows [Ah Kh] (a pair of Fours)
+Badangelwar: shows [5h 9d] (two pair, Nines and Fours)
+Badangelwar collected $0.98 from pot
+*** SUMMARY ***
+Total pot $1.02 | Rake $0.04 
+Board [8d 4h 4s 9s Td]
+Seat 2: Badangelwar (small blind) showed [5h 9d] and won ($0.98) with two pair, Nines and Fours
+Seat 3: Lozynskyi (big blind) folded before Flop
+Seat 4: FinsterFace5 folded before Flop (didn't bet)
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger showed [Ah Kh] and lost with a pair of Fours
+Seat 7: EricC313 folded on the Turn
+Seat 8: deathskills folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549245597:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:46:11 ET
+Table 'Agapenor IV' 9-max Seat #2 is the button
+Seat 1: Toolman548 ($1.60 in chips) 
+Seat 2: Badangelwar ($1.48 in chips) 
+Seat 3: Lozynskyi ($1.67 in chips) 
+Seat 4: FinsterFace5 ($0.02 in chips) 
+Seat 5: shoxi88 ($0.60 in chips) 
+Seat 6: ComplexInteger ($1.49 in chips) 
+Seat 7: EricC313 ($1.92 in chips) 
+Seat 8: deathskills ($2.74 in chips) 
+Seat 9: EvgeniyVisus ($3.33 in chips) 
+Lozynskyi: posts small blind $0.01
+FinsterFace5: posts big blind $0.02 and is all-in
+Toolman548: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kd 7h]
+shoxi88: folds 
+ComplexInteger: folds 
+EricC313: raises $0.08 to $0.10
+deathskills: folds 
+EvgeniyVisus: folds 
+Toolman548: calls $0.08
+Badangelwar: calls $0.10
+Lozynskyi: calls $0.09
+*** FLOP *** [3d 2h 5c]
+Lozynskyi: checks 
+EricC313: checks 
+Toolman548: checks 
+Badangelwar: checks 
+*** TURN *** [3d 2h 5c] [Ah]
+Lozynskyi: bets $0.18
+EricC313: folds 
+Toolman548: folds 
+Badangelwar: calls $0.18
+*** RIVER *** [3d 2h 5c Ah] [4d]
+Lozynskyi: checks 
+Badangelwar: checks 
+*** SHOW DOWN ***
+Lozynskyi: shows [Ac Kh] (a straight, Ace to Five)
+Badangelwar: shows [Ks 5s] (a straight, Ace to Five)
+Lozynskyi collected $0.33 from side pot
+Badangelwar collected $0.32 from side pot
+FinsterFace5: shows [4c 9c] (a straight, Ace to Five)
+Lozynskyi collected $0.04 from main pot
+FinsterFace5 collected $0.03 from main pot
+Badangelwar collected $0.03 from main pot
+*** SUMMARY ***
+Total pot $0.78 Main pot $0.10. Side pot $0.65. | Rake $0.03 
+Board [3d 2h 5c Ah 4d]
+Seat 1: Toolman548 folded on the Turn
+Seat 2: Badangelwar (button) showed [Ks 5s] and won ($0.35) with a straight, Ace to Five
+Seat 3: Lozynskyi (small blind) showed [Ac Kh] and won ($0.37) with a straight, Ace to Five
+Seat 4: FinsterFace5 (big blind) showed [4c 9c] and won ($0.03) with a straight, Ace to Five
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded on the Turn
+Seat 8: deathskills folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549280778:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:47:04 ET
+Table 'Agapenor IV' 9-max Seat #3 is the button
+Seat 1: Toolman548 ($1.50 in chips) 
+Seat 2: Badangelwar ($1.55 in chips) 
+Seat 3: Lozynskyi ($1.76 in chips) 
+Seat 4: FinsterFace5 ($0.03 in chips) 
+Seat 5: shoxi88 ($0.60 in chips) 
+Seat 6: ComplexInteger ($1.49 in chips) 
+Seat 7: EricC313 ($1.82 in chips) 
+Seat 8: deathskills ($2.74 in chips) 
+Seat 9: EvgeniyVisus ($3.33 in chips) 
+FinsterFace5: posts small blind $0.01
+shoxi88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [3s 8h]
+ComplexInteger: folds 
+EricC313: folds 
+deathskills: raises $0.02 to $0.04
+EvgeniyVisus: folds 
+Toolman548: raises $0.06 to $0.10
+Badangelwar is disconnected 
+Badangelwar is connected 
+Badangelwar: calls $0.10
+Lozynskyi: folds 
+FinsterFace5: folds 
+shoxi88: folds 
+deathskills: raises $0.06 to $0.16
+Toolman548: calls $0.06
+Badangelwar: calls $0.06
+*** FLOP *** [9c 9d Qh]
+deathskills: checks 
+Toolman548: bets $0.02
+Badangelwar: calls $0.02
+deathskills: calls $0.02
+*** TURN *** [9c 9d Qh] [Kc]
+deathskills: bets $0.55
+Toolman548: calls $0.55
+Badangelwar: calls $0.55
+*** RIVER *** [9c 9d Qh Kc] [5d]
+deathskills: checks 
+Toolman548: bets $0.02
+Badangelwar: calls $0.02
+deathskills: calls $0.02
+*** SHOW DOWN ***
+Toolman548: shows [As Js] (a pair of Nines)
+Badangelwar: shows [Qc 6c] (two pair, Queens and Nines)
+deathskills: shows [Ks Ad] (two pair, Kings and Nines)
+deathskills collected $2.20 from pot
+*** SUMMARY ***
+Total pot $2.28 | Rake $0.08 
+Board [9c 9d Qh Kc 5d]
+Seat 1: Toolman548 showed [As Js] and lost with a pair of Nines
+Seat 2: Badangelwar showed [Qc 6c] and lost with two pair, Queens and Nines
+Seat 3: Lozynskyi (button) folded before Flop (didn't bet)
+Seat 4: FinsterFace5 (small blind) folded before Flop
+Seat 5: shoxi88 (big blind) folded before Flop
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 8: deathskills showed [Ks Ad] and won ($2.20) with two pair, Kings and Nines
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549337588:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:48:28 ET
+Table 'Agapenor IV' 9-max Seat #4 is the button
+Seat 1: Toolman548 ($0.75 in chips) 
+Seat 2: Badangelwar ($0.80 in chips) 
+Seat 3: Lozynskyi ($1.76 in chips) 
+Seat 4: FinsterFace5 ($0.02 in chips) 
+Seat 5: shoxi88 ($0.58 in chips) 
+Seat 6: ComplexInteger ($1.49 in chips) 
+Seat 7: EricC313 ($1.82 in chips) 
+Seat 8: deathskills ($4.19 in chips) 
+Seat 9: EvgeniyVisus ($3.33 in chips) 
+shoxi88: posts small blind $0.01
+ComplexInteger: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [7s 8s]
+EricC313: raises $0.02 to $0.04
+deathskills: folds 
+EvgeniyVisus: folds 
+Toolman548: raises $0.71 to $0.75 and is all-in
+Badangelwar: calls $0.75
+Lozynskyi: folds 
+FinsterFace5: folds 
+shoxi88: folds 
+ComplexInteger: folds 
+EricC313: raises $1.07 to $1.82 and is all-in
+Badangelwar: calls $0.05 and is all-in
+Uncalled bet ($1.02) returned to EricC313
+*** FLOP *** [Qc 7d 4c]
+*** TURN *** [Qc 7d 4c] [Ad]
+*** RIVER *** [Qc 7d 4c Ad] [9h]
+*** SHOW DOWN ***
+EricC313: shows [8d Ah] (a pair of Aces)
+Badangelwar: shows [Ks Th] (high card Ace)
+EricC313 collected $0.10 from side pot
+Toolman548: shows [As Jh] (a pair of Aces - Queen+Jack kicker)
+Toolman548 collected $2.20 from main pot
+*** SUMMARY ***
+Total pot $2.38 Main pot $2.20. Side pot $0.10. | Rake $0.08 
+Board [Qc 7d 4c Ad 9h]
+Seat 1: Toolman548 showed [As Jh] and won ($2.20) with a pair of Aces
+Seat 2: Badangelwar showed [Ks Th] and lost with high card Ace
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: FinsterFace5 (button) folded before Flop (didn't bet)
+Seat 5: shoxi88 (small blind) folded before Flop
+Seat 6: ComplexInteger (big blind) folded before Flop
+Seat 7: EricC313 showed [8d Ah] and won ($0.10) with a pair of Aces
+Seat 8: deathskills folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549363342:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:49:08 ET
+Table 'Agapenor IV' 9-max Seat #5 is the button
+Seat 1: Toolman548 ($2.20 in chips) 
+Seat 3: Lozynskyi ($1.76 in chips) 
+Seat 4: FinsterFace5 ($0.02 in chips) 
+Seat 5: shoxi88 ($0.57 in chips) 
+Seat 6: ComplexInteger ($1.47 in chips) 
+Seat 7: EricC313 ($1.12 in chips) 
+Seat 8: deathskills ($4.19 in chips) 
+Seat 9: EvgeniyVisus ($3.33 in chips) 
+ComplexInteger: posts small blind $0.01
+EricC313: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2d 3c]
+deathskills: folds 
+EvgeniyVisus: folds 
+Toolman548: calls $0.02
+Lozynskyi: folds 
+FinsterFace5: calls $0.02 and is all-in
+shoxi88: folds 
+deathskills leaves the table
+ComplexInteger: folds 
+EricC313: checks 
+*** FLOP *** [Qh 7h 5d]
+EricC313: checks 
+Toolman548: checks 
+*** TURN *** [Qh 7h 5d] [8s]
+EricC313: bets $0.06
+Toolman548: calls $0.06
+*** RIVER *** [Qh 7h 5d 8s] [6d]
+EricC313: bets $0.20
+Toolman548: folds 
+Uncalled bet ($0.20) returned to EricC313
+*** SHOW DOWN ***
+EricC313: shows [Jh 9c] (a straight, Five to Nine)
+EricC313 collected $0.11 from side pot
+FinsterFace5: shows [4d Ah] (a straight, Four to Eight)
+EricC313 collected $0.07 from main pot
+*** SUMMARY ***
+Total pot $0.19 Main pot $0.07. Side pot $0.11. | Rake $0.01 
+Board [Qh 7h 5d 8s 6d]
+Seat 1: Toolman548 folded on the River
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: FinsterFace5 showed [4d Ah] and lost with a straight, Four to Eight
+Seat 5: shoxi88 (button) folded before Flop (didn't bet)
+Seat 6: ComplexInteger (small blind) folded before Flop
+Seat 7: EricC313 (big blind) showed [Jh 9c] and won ($0.18) with a straight, Five to Nine
+Seat 8: deathskills folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549384152:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:49:40 ET
+Table 'Agapenor IV' 9-max Seat #6 is the button
+Seat 1: Toolman548 ($2.12 in chips) 
+Seat 2: Badangelwar ($1.30 in chips) 
+Seat 3: Lozynskyi ($1.76 in chips) 
+Seat 5: shoxi88 ($0.57 in chips) 
+Seat 6: ComplexInteger ($1.46 in chips) 
+Seat 7: EricC313 ($1.22 in chips) 
+Seat 9: EvgeniyVisus ($3.33 in chips) 
+EricC313: posts small blind $0.01
+EvgeniyVisus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8s Ks]
+Toolman548: calls $0.02
+Badangelwar: calls $0.02
+Lozynskyi has timed out
+Lozynskyi: folds 
+FinsterFace5 leaves the table
+shoxi88: folds 
+ComplexInteger: calls $0.02
+EricC313: raises $0.02 to $0.04
+EvgeniyVisus: folds 
+Toolman548: calls $0.02
+Badangelwar: calls $0.02
+ComplexInteger: calls $0.02
+*** FLOP *** [4h Kc 9h]
+EricC313: checks 
+Toolman548: bets $0.09
+Badangelwar: calls $0.09
+ComplexInteger: calls $0.09
+EricC313: calls $0.09
+*** TURN *** [4h Kc 9h] [Qd]
+EricC313: checks 
+Toolman548: bets $0.26
+Staniczek420 joins the table at seat #4 
+Badangelwar: calls $0.26
+Staniczek420 leaves the table
+ComplexInteger: calls $0.26
+EricC313: calls $0.26
+*** RIVER *** [4h Kc 9h Qd] [Qh]
+EricC313: bets $0.83 and is all-in
+Toolman548: raises $0.83 to $1.66
+stoi4anes joins the table at seat #4 
+Badangelwar: folds 
+ComplexInteger: folds 
+Uncalled bet ($0.83) returned to Toolman548
+*** SHOW DOWN ***
+Toolman548: shows [Th Ah] (a flush, Ace high)
+EricC313: shows [Ts Ac] (a pair of Queens)
+Toolman548 collected $3.13 from pot
+*** SUMMARY ***
+Total pot $3.24 | Rake $0.11 
+Board [4h Kc 9h Qd Qh]
+Seat 1: Toolman548 showed [Th Ah] and won ($3.13) with a flush, Ace high
+Seat 2: Badangelwar folded on the River
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger (button) folded on the River
+Seat 7: EricC313 (small blind) showed [Ts Ac] and lost with a pair of Queens
+Seat 9: EvgeniyVisus (big blind) folded before Flop
+
+
+
+PokerStars Hand #214549433842:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:50:50 ET
+Table 'Agapenor IV' 9-max Seat #9 is the button
+Seat 1: Toolman548 ($4.03 in chips) 
+Seat 2: Badangelwar ($0.91 in chips) 
+Seat 3: Lozynskyi ($1.76 in chips) 
+Seat 5: shoxi88 ($1 in chips) 
+Seat 6: ComplexInteger ($1.07 in chips) 
+Seat 9: EvgeniyVisus ($3.31 in chips) 
+Toolman548: posts small blind $0.01
+Badangelwar: posts big blind $0.02
+stoi4anes: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ad 9d]
+Lozynskyi: folds 
+shoxi88: folds 
+ComplexInteger: calls $0.02
+EvgeniyVisus: calls $0.02
+Toolman548: calls $0.01
+Badangelwar: checks 
+*** FLOP *** [8s 9c Qc]
+Toolman548: bets $0.02
+Badangelwar: calls $0.02
+floatationdevic joins the table at seat #8 
+ComplexInteger: calls $0.02
+EvgeniyVisus: folds 
+*** TURN *** [8s 9c Qc] [Qd]
+Toolman548: bets $0.07
+Badangelwar: calls $0.07
+ComplexInteger: calls $0.07
+*** RIVER *** [8s 9c Qc Qd] [Kd]
+Toolman548: checks 
+Badangelwar: checks 
+ComplexInteger: bets $0.17
+Toolman548: calls $0.17
+Badangelwar: folds 
+*** SHOW DOWN ***
+ComplexInteger: shows [Ad 9d] (two pair, Queens and Nines)
+Toolman548: mucks hand 
+ComplexInteger collected $0.67 from pot
+*** SUMMARY ***
+Total pot $0.69 | Rake $0.02 
+Board [8s 9c Qc Qd Kd]
+Seat 1: Toolman548 (small blind) mucked [9h 4h]
+Seat 2: Badangelwar (big blind) folded on the River
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger showed [Ad 9d] and won ($0.67) with two pair, Queens and Nines
+Seat 9: EvgeniyVisus (button) folded on the Flop
+
+
+
+PokerStars Hand #214549475892:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:51:50 ET
+Table 'Agapenor IV' 9-max Seat #1 is the button
+Seat 1: Toolman548 ($3.75 in chips) 
+Seat 2: Badangelwar ($0.80 in chips) 
+Seat 3: Lozynskyi ($1.76 in chips) 
+Seat 5: shoxi88 ($1 in chips) 
+Seat 6: ComplexInteger ($1.46 in chips) 
+Seat 7: EricC313 ($2 in chips) 
+Seat 9: EvgeniyVisus ($3.29 in chips) 
+Badangelwar: posts small blind $0.01
+Lozynskyi: posts big blind $0.02
+stoi4anes: sits out 
+floatationdevic: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [2h 8s]
+shoxi88: raises $0.04 to $0.06
+ComplexInteger: folds 
+EricC313: folds 
+EvgeniyVisus: folds 
+Toolman548: folds 
+Badangelwar: calls $0.05
+Lozynskyi: calls $0.04
+*** FLOP *** [Js 7d 9c]
+Badangelwar: checks 
+Lozynskyi: bets $0.16
+shoxi88: calls $0.16
+Badangelwar: calls $0.16
+*** TURN *** [Js 7d 9c] [3d]
+Badangelwar: checks 
+Lozynskyi: bets $0.64
+shoxi88: folds 
+Badangelwar: calls $0.58 and is all-in
+Uncalled bet ($0.06) returned to Lozynskyi
+*** RIVER *** [Js 7d 9c 3d] [6c]
+*** SHOW DOWN ***
+Badangelwar: shows [4d 8d] (high card Jack)
+Lozynskyi: shows [Kh Ks] (a pair of Kings)
+Lozynskyi cashed out the hand for $1.27 | Cash Out Fee $0.01
+*** SUMMARY ***
+Total pot $1.82 | Rake $0.06 
+Board [Js 7d 9c 3d 6c]
+Seat 1: Toolman548 (button) folded before Flop (didn't bet)
+Seat 2: Badangelwar (small blind) showed [4d 8d] and lost with high card Jack
+Seat 3: Lozynskyi (big blind) showed [Kh Ks] and won ($1.76) with a pair of Kings (pot not awarded as player cashed out)
+Seat 5: shoxi88 folded on the Turn
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549510504:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:52:44 ET
+Table 'Agapenor IV' 9-max Seat #3 is the button
+Seat 3: Lozynskyi ($2.23 in chips) 
+Seat 5: shoxi88 ($0.78 in chips) 
+Seat 6: ComplexInteger ($1.46 in chips) 
+Seat 7: EricC313 ($2 in chips) 
+Seat 9: EvgeniyVisus ($3.29 in chips) 
+shoxi88: posts small blind $0.01
+ComplexInteger: posts big blind $0.02
+floatationdevic: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qd Ah]
+EricC313: calls $0.02
+EvgeniyVisus: folds 
+Lozynskyi: folds 
+shoxi88: calls $0.01
+ComplexInteger: checks 
+*** FLOP *** [Jc Kd 5d]
+shoxi88: checks 
+ComplexInteger: bets $0.06
+EricC313: calls $0.06
+shoxi88: folds 
+*** TURN *** [Jc Kd 5d] [Ks]
+ComplexInteger: checks 
+EricC313: checks 
+*** RIVER *** [Jc Kd 5d Ks] [3s]
+ComplexInteger: checks 
+EricC313: bets $0.04
+ComplexInteger: calls $0.04
+*** SHOW DOWN ***
+EricC313: shows [5c Ad] (two pair, Kings and Fives)
+ComplexInteger: mucks hand 
+EricC313 collected $0.25 from pot
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01 
+Board [Jc Kd 5d Ks 3s]
+Seat 3: Lozynskyi (button) folded before Flop (didn't bet)
+Seat 5: shoxi88 (small blind) folded on the Flop
+Seat 6: ComplexInteger (big blind) mucked [Qd Ah]
+Seat 7: EricC313 showed [5c Ad] and won ($0.25) with two pair, Kings and Fives
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549535922:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:53:24 ET
+Table 'Agapenor IV' 9-max Seat #5 is the button
+Seat 2: Badangelwar ($0.80 in chips) 
+Seat 3: Lozynskyi ($2.23 in chips) 
+Seat 5: shoxi88 ($0.76 in chips) 
+Seat 6: ComplexInteger ($1.34 in chips) 
+Seat 7: EricC313 ($2.13 in chips) 
+Seat 9: EvgeniyVisus ($3.29 in chips) 
+ComplexInteger: posts small blind $0.01
+EricC313: posts big blind $0.02
+floatationdevic: sits out 
+stoi4anes: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ac 7s]
+EvgeniyVisus: folds 
+Badangelwar: calls $0.02
+Lozynskyi: folds 
+shoxi88: calls $0.02
+ComplexInteger: calls $0.01
+EricC313: raises $0.02 to $0.04
+Badangelwar: calls $0.02
+shoxi88: calls $0.02
+ComplexInteger: calls $0.02
+*** FLOP *** [5s Kd 4h]
+ComplexInteger: checks 
+EricC313: checks 
+Badangelwar: checks 
+shoxi88: checks 
+*** TURN *** [5s Kd 4h] [6c]
+ComplexInteger: checks 
+EricC313: checks 
+Badangelwar: checks 
+shoxi88: bets $0.06
+ComplexInteger: folds 
+EricC313: calls $0.06
+Badangelwar: calls $0.06
+*** RIVER *** [5s Kd 4h 6c] [3h]
+EricC313: checks 
+Badangelwar: bets $0.32
+shoxi88: folds 
+EricC313: folds 
+Uncalled bet ($0.32) returned to Badangelwar
+Badangelwar collected $0.33 from pot
+Badangelwar: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.34 | Rake $0.01 
+Board [5s Kd 4h 6c 3h]
+Seat 2: Badangelwar collected ($0.33)
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 5: shoxi88 (button) folded on the River
+Seat 6: ComplexInteger (small blind) folded on the Turn
+Seat 7: EricC313 (big blind) folded on the River
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549575556:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:54:26 ET
+Table 'Agapenor IV' 9-max Seat #6 is the button
+Seat 2: Badangelwar ($1.03 in chips) 
+Seat 3: Lozynskyi ($2.23 in chips) 
+Seat 5: shoxi88 ($0.66 in chips) 
+Seat 6: ComplexInteger ($1.30 in chips) 
+Seat 7: EricC313 ($2.03 in chips) 
+Seat 8: floatationdevic ($2 in chips) 
+Seat 9: EvgeniyVisus ($3.29 in chips) 
+EricC313: posts small blind $0.01
+floatationdevic: posts big blind $0.02
+stoi4anes: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Js 9h]
+EvgeniyVisus: folds 
+Badangelwar: calls $0.02
+Lozynskyi: folds 
+shoxi88: folds 
+ComplexInteger: calls $0.02
+EricC313: folds 
+floatationdevic: checks 
+*** FLOP *** [Jd 3d Qd]
+floatationdevic: bets $0.07
+Badangelwar: calls $0.07
+ComplexInteger: folds 
+*** TURN *** [Jd 3d Qd] [2c]
+floatationdevic: bets $0.20
+Badangelwar: calls $0.20
+*** RIVER *** [Jd 3d Qd 2c] [Ts]
+floatationdevic: bets $0.40
+Badangelwar: calls $0.40
+*** SHOW DOWN ***
+floatationdevic: shows [3c 3s] (three of a kind, Threes)
+Badangelwar: mucks hand 
+floatationdevic collected $1.36 from pot
+*** SUMMARY ***
+Total pot $1.41 | Rake $0.05 
+Board [Jd 3d Qd 2c Ts]
+Seat 2: Badangelwar mucked [As 3h]
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger (button) folded on the Flop
+Seat 7: EricC313 (small blind) folded before Flop
+Seat 8: floatationdevic (big blind) showed [3c 3s] and won ($1.36) with three of a kind, Threes
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549615845:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:55:37 ET
+Table 'Agapenor IV' 9-max Seat #7 is the button
+Seat 2: Badangelwar ($0.34 in chips) 
+Seat 3: Lozynskyi ($2.23 in chips) 
+Seat 5: shoxi88 ($0.66 in chips) 
+Seat 6: ComplexInteger ($1.28 in chips) 
+Seat 7: EricC313 ($2.02 in chips) 
+Seat 8: floatationdevic ($2.67 in chips) 
+Seat 9: EvgeniyVisus ($3.29 in chips) 
+floatationdevic: posts small blind $0.01
+EvgeniyVisus: posts big blind $0.02
+stoi4anes: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jc 9d]
+Badangelwar: calls $0.02
+Lozynskyi: folds 
+shoxi88: folds 
+ComplexInteger: calls $0.02
+EricC313: raises $0.04 to $0.06
+floatationdevic: folds 
+EvgeniyVisus: folds 
+Badangelwar: calls $0.04
+ComplexInteger: calls $0.04
+*** FLOP *** [5s 5h 5c]
+Badangelwar: checks 
+ComplexInteger: checks 
+EricC313: bets $0.20
+Badangelwar: folds 
+ComplexInteger: folds 
+Uncalled bet ($0.20) returned to EricC313
+EricC313 collected $0.20 from pot
+EricC313: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01 
+Board [5s 5h 5c]
+Seat 2: Badangelwar folded on the Flop
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger folded on the Flop
+Seat 7: EricC313 (button) collected ($0.20)
+Seat 8: floatationdevic (small blind) folded before Flop
+Seat 9: EvgeniyVisus (big blind) folded before Flop
+
+
+
+PokerStars Hand #214549629247:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:56:04 ET
+Table 'Agapenor IV' 9-max Seat #8 is the button
+Seat 2: Badangelwar ($0.28 in chips) 
+Seat 3: Lozynskyi ($2.23 in chips) 
+Seat 5: shoxi88 ($0.66 in chips) 
+Seat 6: ComplexInteger ($1.22 in chips) 
+Seat 7: EricC313 ($2.16 in chips) 
+Seat 8: floatationdevic ($2.66 in chips) 
+Seat 9: EvgeniyVisus ($3.27 in chips) 
+EvgeniyVisus: posts small blind $0.01
+Badangelwar: posts big blind $0.02
+stoi4anes: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kc 4d]
+Lozynskyi: folds 
+shoxi88: raises $0.04 to $0.06
+ComplexInteger: folds 
+EricC313: folds 
+floatationdevic: calls $0.06
+EvgeniyVisus: calls $0.05
+Badangelwar: calls $0.04
+*** FLOP *** [4s 5h 8d]
+EvgeniyVisus: checks 
+Badangelwar: checks 
+shoxi88: checks 
+floatationdevic: bets $0.20
+EvgeniyVisus: folds 
+Badangelwar: calls $0.20
+shoxi88: folds 
+*** TURN *** [4s 5h 8d] [2d]
+Badangelwar: checks 
+floatationdevic: bets $0.02
+Badangelwar: calls $0.02 and is all-in
+*** RIVER *** [4s 5h 8d 2d] [Ks]
+*** SHOW DOWN ***
+Badangelwar: shows [Qs Jh] (high card King)
+floatationdevic: shows [9s 9d] (a pair of Nines)
+floatationdevic collected $0.66 from pot
+*** SUMMARY ***
+Total pot $0.68 | Rake $0.02 
+Board [4s 5h 8d 2d Ks]
+Seat 2: Badangelwar (big blind) showed [Qs Jh] and lost with high card King
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 5: shoxi88 folded on the Flop
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 8: floatationdevic (button) showed [9s 9d] and won ($0.66) with a pair of Nines
+Seat 9: EvgeniyVisus (small blind) folded on the Flop
+
+
+
+PokerStars Hand #214549662611:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:56:55 ET
+Table 'Agapenor IV' 9-max Seat #9 is the button
+Seat 3: Lozynskyi ($2.23 in chips) 
+Seat 4: stoi4anes ($2 in chips) 
+Seat 5: shoxi88 ($0.60 in chips) 
+Seat 6: ComplexInteger ($1.22 in chips) 
+Seat 7: EricC313 ($2.16 in chips) 
+Seat 8: floatationdevic ($3.04 in chips) 
+Seat 9: EvgeniyVisus ($3.21 in chips) 
+Lozynskyi: posts small blind $0.01
+stoi4anes: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5h 4s]
+shoxi88: raises $0.04 to $0.06
+ComplexInteger: folds 
+EricC313: calls $0.06
+floatationdevic: folds 
+EvgeniyVisus: folds 
+Badangelwar leaves the table
+Lozynskyi: folds 
+stoi4anes: calls $0.04
+*** FLOP *** [Ad 3h 3c]
+stoi4anes: checks 
+shoxi88: checks 
+EricC313: checks 
+*** TURN *** [Ad 3h 3c] [8c]
+stoi4anes: checks 
+shoxi88: bets $0.06
+EricC313: folds 
+stoi4anes: calls $0.06
+*** RIVER *** [Ad 3h 3c 8c] [3d]
+stoi4anes: checks 
+shoxi88: checks 
+*** SHOW DOWN ***
+stoi4anes: shows [Ac Qs] (a full house, Threes full of Aces)
+shoxi88: mucks hand 
+stoi4anes collected $0.30 from pot
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01 
+Board [Ad 3h 3c 8c 3d]
+Seat 3: Lozynskyi (small blind) folded before Flop
+Seat 4: stoi4anes (big blind) showed [Ac Qs] and won ($0.30) with a full house, Threes full of Aces
+Seat 5: shoxi88 mucked [Jc 9c]
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded on the Turn
+Seat 8: floatationdevic folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549684318:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:57:40 ET
+Table 'Agapenor IV' 9-max Seat #3 is the button
+Seat 1: Toolman548 ($3.75 in chips) 
+Seat 3: Lozynskyi ($2.22 in chips) 
+Seat 4: stoi4anes ($2.18 in chips) 
+Seat 5: shoxi88 ($0.48 in chips) 
+Seat 6: ComplexInteger ($1.22 in chips) 
+Seat 7: EricC313 ($2.10 in chips) 
+Seat 8: floatationdevic ($3.04 in chips) 
+Seat 9: EvgeniyVisus ($3.21 in chips) 
+stoi4anes: posts small blind $0.01
+shoxi88: posts big blind $0.02
+Toolman548: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5s 6h]
+ComplexInteger: folds 
+EricC313: folds 
+floatationdevic: folds 
+EvgeniyVisus: folds 
+Toolman548: checks 
+Lozynskyi: folds 
+stoi4anes: folds 
+shoxi88: checks 
+*** FLOP *** [9d Kc 2c]
+shoxi88: checks 
+Toolman548: checks 
+*** TURN *** [9d Kc 2c] [7d]
+shoxi88: bets $0.02
+Toolman548: folds 
+Uncalled bet ($0.02) returned to shoxi88
+shoxi88 collected $0.06 from pot
+shoxi88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.06 | Rake $0 
+Board [9d Kc 2c 7d]
+Seat 1: Toolman548 folded on the Turn (didn't bet)
+Seat 3: Lozynskyi (button) folded before Flop (didn't bet)
+Seat 4: stoi4anes (small blind) folded before Flop
+Seat 5: shoxi88 (big blind) collected ($0.06)
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 8: floatationdevic folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549705361:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:58:22 ET
+Table 'Agapenor IV' 9-max Seat #4 is the button
+Seat 1: Toolman548 ($3.72 in chips) 
+Seat 3: Lozynskyi ($2.22 in chips) 
+Seat 4: stoi4anes ($2.17 in chips) 
+Seat 5: shoxi88 ($0.52 in chips) 
+Seat 6: ComplexInteger ($1.22 in chips) 
+Seat 7: EricC313 ($2.10 in chips) 
+Seat 8: floatationdevic ($3.04 in chips) 
+Seat 9: EvgeniyVisus ($3.21 in chips) 
+shoxi88: posts small blind $0.01
+ComplexInteger: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qc 7h]
+EricC313: raises $0.02 to $0.04
+floatationdevic: folds 
+EvgeniyVisus: folds 
+Toolman548: folds 
+Lozynskyi: folds 
+stoi4anes: calls $0.04
+shoxi88: folds 
+ComplexInteger: calls $0.02
+*** FLOP *** [2c 5h 6d]
+ComplexInteger: checks 
+EricC313: checks 
+grandflam joins the table at seat #2 
+stoi4anes: checks 
+*** TURN *** [2c 5h 6d] [Td]
+ComplexInteger: checks 
+EricC313: checks 
+stoi4anes: checks 
+*** RIVER *** [2c 5h 6d Td] [Ad]
+ComplexInteger: bets $0.07
+EricC313: folds 
+stoi4anes: folds 
+Uncalled bet ($0.07) returned to ComplexInteger
+ComplexInteger collected $0.13 from pot
+ComplexInteger: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.13 | Rake $0 
+Board [2c 5h 6d Td Ad]
+Seat 1: Toolman548 folded before Flop (didn't bet)
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: stoi4anes (button) folded on the River
+Seat 5: shoxi88 (small blind) folded before Flop
+Seat 6: ComplexInteger (big blind) collected ($0.13)
+Seat 7: EricC313 folded on the River
+Seat 8: floatationdevic folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549739654:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 18:59:33 ET
+Table 'Agapenor IV' 9-max Seat #5 is the button
+Seat 1: Toolman548 ($3.72 in chips) 
+Seat 3: Lozynskyi ($2.22 in chips) 
+Seat 4: stoi4anes ($2.13 in chips) 
+Seat 5: shoxi88 ($0.51 in chips) 
+Seat 6: ComplexInteger ($1.31 in chips) 
+Seat 7: EricC313 ($2.06 in chips) 
+Seat 8: floatationdevic ($3.04 in chips) 
+Seat 9: EvgeniyVisus ($3.21 in chips) 
+ComplexInteger: posts small blind $0.01
+EricC313: posts big blind $0.02
+grandflam: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Tc 8h]
+floatationdevic: raises $0.04 to $0.06
+EvgeniyVisus: folds 
+Toolman548: folds 
+Lozynskyi: folds 
+stoi4anes: folds 
+shoxi88: folds 
+ComplexInteger: folds 
+EricC313: calls $0.04
+*** FLOP *** [3h Kc 7h]
+EricC313: bets $0.06
+stoi4anes is disconnected 
+floatationdevic: folds 
+Uncalled bet ($0.06) returned to EricC313
+EricC313 collected $0.13 from pot
+EricC313: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.13 | Rake $0 
+Board [3h Kc 7h]
+Seat 1: Toolman548 folded before Flop (didn't bet)
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: stoi4anes folded before Flop (didn't bet)
+Seat 5: shoxi88 (button) folded before Flop (didn't bet)
+Seat 6: ComplexInteger (small blind) folded before Flop
+Seat 7: EricC313 (big blind) collected ($0.13)
+Seat 8: floatationdevic folded on the Flop
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549761349:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:00:16 ET
+Table 'Agapenor IV' 9-max Seat #6 is the button
+Seat 1: Toolman548 ($3.72 in chips) 
+Seat 3: Lozynskyi ($2.22 in chips) 
+Seat 4: stoi4anes ($2.13 in chips) 
+Seat 5: shoxi88 ($0.51 in chips) 
+Seat 6: ComplexInteger ($1.30 in chips) 
+Seat 7: EricC313 ($2.13 in chips) 
+Seat 8: floatationdevic ($2.98 in chips) 
+Seat 9: EvgeniyVisus ($3.21 in chips) 
+EricC313: posts small blind $0.01
+floatationdevic: posts big blind $0.02
+grandflam: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [As 3s]
+EvgeniyVisus: folds 
+Toolman548: calls $0.02
+Lozynskyi: folds 
+stoi4anes: folds 
+shoxi88: folds 
+ComplexInteger: calls $0.02
+EricC313: calls $0.01
+floatationdevic: checks 
+*** FLOP *** [8d 9h 2s]
+EricC313: bets $0.04
+floatationdevic: folds 
+Toolman548: folds 
+ComplexInteger: calls $0.04
+*** TURN *** [8d 9h 2s] [Td]
+EricC313: checks 
+ComplexInteger: checks 
+*** RIVER *** [8d 9h 2s Td] [Ks]
+EricC313: bets $0.08
+ComplexInteger: folds 
+Uncalled bet ($0.08) returned to EricC313
+EricC313 collected $0.15 from pot
+EricC313: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01 
+Board [8d 9h 2s Td Ks]
+Seat 1: Toolman548 folded on the Flop
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: stoi4anes folded before Flop (didn't bet)
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger (button) folded on the River
+Seat 7: EricC313 (small blind) collected ($0.15)
+Seat 8: floatationdevic (big blind) folded on the Flop
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549794905:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:01:17 ET
+Table 'Agapenor IV' 9-max Seat #7 is the button
+Seat 1: Toolman548 ($3.70 in chips) 
+Seat 3: Lozynskyi ($2.22 in chips) 
+Seat 4: stoi4anes ($2.13 in chips) 
+Seat 5: shoxi88 ($0.51 in chips) 
+Seat 6: ComplexInteger ($1.24 in chips) 
+Seat 7: EricC313 ($2.22 in chips) 
+Seat 8: floatationdevic ($2.96 in chips) 
+Seat 9: EvgeniyVisus ($3.21 in chips) 
+floatationdevic: posts small blind $0.01
+EvgeniyVisus: posts big blind $0.02
+grandflam: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [3c Jd]
+Toolman548: calls $0.02
+Lozynskyi: raises $0.06 to $0.08
+stoi4anes: calls $0.08
+shoxi88: calls $0.08
+ComplexInteger: folds 
+EricC313: folds 
+floatationdevic: folds 
+EvgeniyVisus: folds 
+Toolman548: folds 
+*** FLOP *** [9d 9h 6c]
+Lozynskyi: checks 
+stoi4anes: checks 
+shoxi88: bets $0.10
+Lozynskyi: raises $0.10 to $0.20
+stoi4anes: calls $0.20
+shoxi88: raises $0.23 to $0.43 and is all-in
+Lozynskyi: calls $0.23
+stoi4anes: calls $0.23
+*** TURN *** [9d 9h 6c] [Ac]
+Lozynskyi: checks 
+stoi4anes: checks 
+*** RIVER *** [9d 9h 6c Ac] [6s]
+Lozynskyi: bets $1.71 and is all-in
+stoi4anes: folds 
+Uncalled bet ($1.71) returned to Lozynskyi
+*** SHOW DOWN ***
+Lozynskyi: shows [Ks Ad] (two pair, Aces and Nines)
+shoxi88: shows [7c 7d] (two pair, Nines and Sevens)
+Lozynskyi collected $1.52 from pot
+*** SUMMARY ***
+Total pot $1.58 | Rake $0.06 
+Board [9d 9h 6c Ac 6s]
+Seat 1: Toolman548 folded before Flop
+Seat 3: Lozynskyi showed [Ks Ad] and won ($1.52) with two pair, Aces and Nines
+Seat 4: stoi4anes folded on the River
+Seat 5: shoxi88 showed [7c 7d] and lost with two pair, Nines and Sevens
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 (button) folded before Flop (didn't bet)
+Seat 8: floatationdevic (small blind) folded before Flop
+Seat 9: EvgeniyVisus (big blind) folded before Flop
+
+
+
+PokerStars Hand #214549851552:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:02:49 ET
+Table 'Agapenor IV' 9-max Seat #8 is the button
+Seat 1: Toolman548 ($3.68 in chips) 
+Seat 3: Lozynskyi ($3.23 in chips) 
+Seat 4: stoi4anes ($1.62 in chips) 
+Seat 6: ComplexInteger ($1.24 in chips) 
+Seat 7: EricC313 ($2.22 in chips) 
+Seat 8: floatationdevic ($2.95 in chips) 
+Seat 9: EvgeniyVisus ($3.19 in chips) 
+EvgeniyVisus: posts small blind $0.01
+Toolman548: posts big blind $0.02
+grandflam: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [3h Qc]
+Lozynskyi: calls $0.02
+stoi4anes: folds 
+ComplexInteger: folds 
+EricC313: raises $0.02 to $0.04
+floatationdevic: raises $0.10 to $0.14
+EvgeniyVisus: folds 
+Toolman548: folds 
+Lozynskyi: folds 
+EricC313: raises $0.10 to $0.24
+floatationdevic: calls $0.10
+*** FLOP *** [7c 6c 8c]
+EricC313: checks 
+floatationdevic: checks 
+*** TURN *** [7c 6c 8c] [4c]
+EricC313: checks 
+floatationdevic: checks 
+*** RIVER *** [7c 6c 8c 4c] [3d]
+EricC313: checks 
+floatationdevic: bets $0.20
+EricC313: calls $0.20
+*** SHOW DOWN ***
+floatationdevic: shows [Tc 9c] (a straight flush, Six to Ten)
+EricC313: mucks hand 
+floatationdevic collected $0.90 from pot
+*** SUMMARY ***
+Total pot $0.93 | Rake $0.03 
+Board [7c 6c 8c 4c 3d]
+Seat 1: Toolman548 (big blind) folded before Flop
+Seat 3: Lozynskyi folded before Flop
+Seat 4: stoi4anes folded before Flop (didn't bet)
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 mucked [Qs Ks]
+Seat 8: floatationdevic (button) showed [Tc 9c] and won ($0.90) with a straight flush, Six to Ten
+Seat 9: EvgeniyVisus (small blind) folded before Flop
+
+
+
+PokerStars Hand #214549893274:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:03:55 ET
+Table 'Agapenor IV' 9-max Seat #9 is the button
+Seat 1: Toolman548 ($3.66 in chips) 
+Seat 2: grandflam ($2 in chips) 
+Seat 3: Lozynskyi ($3.21 in chips) 
+Seat 4: stoi4anes ($1.62 in chips) 
+Seat 5: shoxi88 ($0.80 in chips) 
+Seat 6: ComplexInteger ($1.24 in chips) 
+Seat 7: EricC313 ($1.78 in chips) 
+Seat 8: floatationdevic ($3.41 in chips) 
+Seat 9: EvgeniyVisus ($3.18 in chips) 
+Toolman548: posts small blind $0.01
+grandflam: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Jc Kh]
+Lozynskyi has timed out
+Lozynskyi: folds 
+stoi4anes: folds 
+shoxi88: folds 
+ComplexInteger: raises $0.04 to $0.06
+EricC313: folds 
+floatationdevic: folds 
+EvgeniyVisus: folds 
+Toolman548: folds 
+grandflam: folds 
+Uncalled bet ($0.04) returned to ComplexInteger
+ComplexInteger collected $0.05 from pot
+ComplexInteger: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: Toolman548 (small blind) folded before Flop
+Seat 2: grandflam (big blind) folded before Flop
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: stoi4anes folded before Flop (didn't bet)
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger collected ($0.05)
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 8: floatationdevic folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549914563:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:04:29 ET
+Table 'Agapenor IV' 9-max Seat #1 is the button
+Seat 1: Toolman548 ($3.65 in chips) 
+Seat 2: grandflam ($1.98 in chips) 
+Seat 3: Lozynskyi ($3.21 in chips) 
+Seat 4: stoi4anes ($1.62 in chips) 
+Seat 5: shoxi88 ($0.80 in chips) 
+Seat 6: ComplexInteger ($1.27 in chips) 
+Seat 7: EricC313 ($1.78 in chips) 
+Seat 8: floatationdevic ($3.41 in chips) 
+Seat 9: EvgeniyVisus ($3.18 in chips) 
+grandflam: posts small blind $0.01
+Lozynskyi: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ts 2c]
+stoi4anes: folds 
+shoxi88: calls $0.02
+ComplexInteger: folds 
+EricC313: folds 
+floatationdevic: folds 
+EvgeniyVisus: folds 
+Toolman548: calls $0.02
+grandflam: calls $0.01
+Lozynskyi: checks 
+*** FLOP *** [8d 4s 9s]
+grandflam: checks 
+Lozynskyi: checks 
+shoxi88: checks 
+Toolman548: bets $0.08
+grandflam: folds 
+Lozynskyi: folds 
+shoxi88: calls $0.08
+*** TURN *** [8d 4s 9s] [9h]
+shoxi88: checks 
+Toolman548: bets $0.23
+shoxi88: folds 
+Uncalled bet ($0.23) returned to Toolman548
+Toolman548 collected $0.23 from pot
+Toolman548: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01 
+Board [8d 4s 9s 9h]
+Seat 1: Toolman548 (button) collected ($0.23)
+Seat 2: grandflam (small blind) folded on the Flop
+Seat 3: Lozynskyi (big blind) folded on the Flop
+Seat 4: stoi4anes folded before Flop (didn't bet)
+Seat 5: shoxi88 folded on the Turn
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 8: floatationdevic folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549951498:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:05:28 ET
+Table 'Agapenor IV' 9-max Seat #2 is the button
+Seat 1: Toolman548 ($3.78 in chips) 
+Seat 2: grandflam ($1.96 in chips) 
+Seat 3: Lozynskyi ($3.19 in chips) 
+Seat 4: stoi4anes ($1.62 in chips) 
+Seat 5: shoxi88 ($0.70 in chips) 
+Seat 6: ComplexInteger ($1.27 in chips) 
+Seat 7: EricC313 ($1.78 in chips) 
+Seat 8: floatationdevic ($3.41 in chips) 
+Seat 9: EvgeniyVisus ($3.18 in chips) 
+Lozynskyi: posts small blind $0.01
+stoi4anes: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9s Kc]
+shoxi88: folds 
+ComplexInteger: raises $0.04 to $0.06
+EricC313: folds 
+floatationdevic: calls $0.06
+EvgeniyVisus: folds 
+Toolman548: calls $0.06
+grandflam: folds 
+Lozynskyi: folds 
+stoi4anes: calls $0.04
+*** FLOP *** [Kd 9h 8h]
+stoi4anes: checks 
+ComplexInteger: bets $1.21 and is all-in
+floatationdevic: folds 
+Toolman548: folds 
+stoi4anes: folds 
+Uncalled bet ($1.21) returned to ComplexInteger
+ComplexInteger collected $0.24 from pot
+ComplexInteger: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01 
+Board [Kd 9h 8h]
+Seat 1: Toolman548 folded on the Flop
+Seat 2: grandflam (button) folded before Flop (didn't bet)
+Seat 3: Lozynskyi (small blind) folded before Flop
+Seat 4: stoi4anes (big blind) folded on the Flop
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger collected ($0.24)
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 8: floatationdevic folded on the Flop
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214549988063:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:06:25 ET
+Table 'Agapenor IV' 9-max Seat #3 is the button
+Seat 1: Toolman548 ($3.72 in chips) 
+Seat 2: grandflam ($1.96 in chips) 
+Seat 3: Lozynskyi ($3.18 in chips) 
+Seat 4: stoi4anes ($1.56 in chips) 
+Seat 5: shoxi88 ($0.70 in chips) 
+Seat 6: ComplexInteger ($1.45 in chips) 
+Seat 7: EricC313 ($1.78 in chips) 
+Seat 8: floatationdevic ($3.35 in chips) 
+Seat 9: EvgeniyVisus ($3.18 in chips) 
+stoi4anes: posts small blind $0.01
+shoxi88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5s Qd]
+ComplexInteger: folds 
+EricC313: calls $0.02
+floatationdevic: folds 
+EvgeniyVisus: folds 
+Toolman548: calls $0.02
+grandflam: folds 
+Lozynskyi: folds 
+stoi4anes: folds 
+shoxi88: checks 
+*** FLOP *** [As Js Qs]
+shoxi88: checks 
+EricC313: checks 
+Toolman548: bets $0.20
+shoxi88: calls $0.20
+EricC313: folds 
+*** TURN *** [As Js Qs] [8c]
+shoxi88: checks 
+Toolman548: bets $0.45
+shoxi88: calls $0.45
+*** RIVER *** [As Js Qs 8c] [Kh]
+shoxi88: checks 
+Toolman548: bets $3.05 and is all-in
+shoxi88: calls $0.03 and is all-in
+Uncalled bet ($3.02) returned to Toolman548
+*** SHOW DOWN ***
+Toolman548: shows [Tc Jh] (a straight, Ten to Ace)
+shoxi88: shows [Ad 5d] (a pair of Aces)
+Toolman548 collected $1.38 from pot
+*** SUMMARY ***
+Total pot $1.43 | Rake $0.05 
+Board [As Js Qs 8c Kh]
+Seat 1: Toolman548 showed [Tc Jh] and won ($1.38) with a straight, Ten to Ace
+Seat 2: grandflam folded before Flop (didn't bet)
+Seat 3: Lozynskyi (button) folded before Flop (didn't bet)
+Seat 4: stoi4anes (small blind) folded before Flop
+Seat 5: shoxi88 (big blind) showed [Ad 5d] and lost with a pair of Aces
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded on the Flop
+Seat 8: floatationdevic folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214550020931:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:07:17 ET
+Table 'Agapenor IV' 9-max Seat #4 is the button
+Seat 1: Toolman548 ($4.40 in chips) 
+Seat 2: grandflam ($1.96 in chips) 
+Seat 3: Lozynskyi ($3.18 in chips) 
+Seat 4: stoi4anes ($1.55 in chips) 
+Seat 6: ComplexInteger ($1.45 in chips) 
+Seat 7: EricC313 ($1.76 in chips) 
+Seat 8: floatationdevic ($3.35 in chips) 
+Seat 9: EvgeniyVisus ($3.18 in chips) 
+ComplexInteger: posts small blind $0.01
+EricC313: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qc 7h]
+floatationdevic: folds 
+EvgeniyVisus: folds 
+Toolman548: folds 
+grandflam: folds 
+Lozynskyi: folds 
+stoi4anes: raises $0.08 to $0.10
+ComplexInteger: folds 
+EricC313: folds 
+Uncalled bet ($0.08) returned to stoi4anes
+stoi4anes collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: Toolman548 folded before Flop (didn't bet)
+Seat 2: grandflam folded before Flop (didn't bet)
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: stoi4anes (button) collected ($0.05)
+Seat 6: ComplexInteger (small blind) folded before Flop
+Seat 7: EricC313 (big blind) folded before Flop
+Seat 8: floatationdevic folded before Flop (didn't bet)
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214550039289:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:07:47 ET
+Table 'Agapenor IV' 9-max Seat #6 is the button
+Seat 1: Toolman548 ($4.40 in chips) 
+Seat 2: grandflam ($1.96 in chips) 
+Seat 3: Lozynskyi ($3.18 in chips) 
+Seat 4: stoi4anes ($1.58 in chips) 
+Seat 5: shoxi88 ($0.80 in chips) 
+Seat 6: ComplexInteger ($1.44 in chips) 
+Seat 7: EricC313 ($1.74 in chips) 
+Seat 8: floatationdevic ($3.35 in chips) 
+Seat 9: EvgeniyVisus ($3.18 in chips) 
+EricC313: posts small blind $0.01
+floatationdevic: posts big blind $0.02
+shoxi88: posts small blind $0.01
+*** HOLE CARDS ***
+Dealt to ComplexInteger [3s Qd]
+EvgeniyVisus: folds 
+Toolman548: calls $0.02
+grandflam: folds 
+Lozynskyi: folds 
+stoi4anes: folds 
+shoxi88: folds 
+ComplexInteger: folds 
+EricC313: raises $0.02 to $0.04
+floatationdevic: folds 
+Toolman548: calls $0.02
+*** FLOP *** [6s Ac 9s]
+EricC313: checks 
+Toolman548: checks 
+*** TURN *** [6s Ac 9s] [Ad]
+EricC313: checks 
+Toolman548: bets $0.11
+EricC313: folds 
+Uncalled bet ($0.11) returned to Toolman548
+Toolman548 collected $0.11 from pot
+Toolman548: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.11 | Rake $0 
+Board [6s Ac 9s Ad]
+Seat 1: Toolman548 collected ($0.11)
+Seat 2: grandflam folded before Flop (didn't bet)
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: stoi4anes folded before Flop (didn't bet)
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger (button) folded before Flop (didn't bet)
+Seat 7: EricC313 (small blind) folded on the Turn
+Seat 8: floatationdevic (big blind) folded before Flop
+Seat 9: EvgeniyVisus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214550060869:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:08:22 ET
+Table 'Agapenor IV' 9-max Seat #7 is the button
+Seat 1: Toolman548 ($4.47 in chips) 
+Seat 2: grandflam ($1.96 in chips) 
+Seat 3: Lozynskyi ($3.18 in chips) 
+Seat 4: stoi4anes ($1.58 in chips) 
+Seat 5: shoxi88 ($0.79 in chips) 
+Seat 6: ComplexInteger ($1.44 in chips) 
+Seat 7: EricC313 ($1.70 in chips) 
+Seat 8: floatationdevic ($3.33 in chips) 
+floatationdevic: posts small blind $0.01
+EvgeniyVisus: is sitting out 
+Toolman548: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kh 9h]
+EvgeniyVisus leaves the table
+grandflam: folds 
+akarmara joins the table at seat #9 
+Lozynskyi: raises $0.04 to $0.06
+stoi4anes: calls $0.06
+shoxi88: calls $0.06
+ComplexInteger: calls $0.06
+EricC313: calls $0.06
+floatationdevic: calls $0.05
+Toolman548: calls $0.04
+*** FLOP *** [Ac 8h As]
+floatationdevic: checks 
+Toolman548: bets $0.41
+Lozynskyi: folds 
+stoi4anes: folds 
+shoxi88: folds 
+ComplexInteger: folds 
+EricC313: folds 
+floatationdevic: folds 
+Uncalled bet ($0.41) returned to Toolman548
+Toolman548 collected $0.41 from pot
+Toolman548: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.42 | Rake $0.01 
+Board [Ac 8h As]
+Seat 1: Toolman548 (big blind) collected ($0.41)
+Seat 2: grandflam folded before Flop (didn't bet)
+Seat 3: Lozynskyi folded on the Flop
+Seat 4: stoi4anes folded on the Flop
+Seat 5: shoxi88 folded on the Flop
+Seat 6: ComplexInteger folded on the Flop
+Seat 7: EricC313 (button) folded on the Flop
+Seat 8: floatationdevic (small blind) folded on the Flop
+
+
+
+PokerStars Hand #214550098272:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:09:23 ET
+Table 'Agapenor IV' 9-max Seat #8 is the button
+Seat 1: Toolman548 ($4.82 in chips) 
+Seat 2: grandflam ($1.96 in chips) 
+Seat 3: Lozynskyi ($3.12 in chips) 
+Seat 4: stoi4anes ($1.52 in chips) 
+Seat 5: shoxi88 ($0.73 in chips) 
+Seat 6: ComplexInteger ($1.38 in chips) 
+Seat 7: EricC313 ($1.64 in chips) 
+Seat 8: floatationdevic ($3.27 in chips) 
+Toolman548: posts small blind $0.01
+grandflam: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [3d Jd]
+Lozynskyi: folds 
+stoi4anes: calls $0.02
+shoxi88: folds 
+ComplexInteger: folds 
+EricC313: folds 
+floatationdevic: folds 
+Toolman548: calls $0.01
+grandflam: checks 
+*** FLOP *** [Td 9h 6h]
+Toolman548: checks 
+grandflam: checks 
+stoi4anes: checks 
+*** TURN *** [Td 9h 6h] [Ts]
+Toolman548: bets $0.02
+grandflam: calls $0.02
+stoi4anes: calls $0.02
+*** RIVER *** [Td 9h 6h Ts] [Qc]
+Toolman548: bets $0.02
+grandflam: calls $0.02
+stoi4anes: calls $0.02
+*** SHOW DOWN ***
+Toolman548: shows [3h Kd] (a pair of Tens)
+grandflam: shows [7d Qd] (two pair, Queens and Tens)
+stoi4anes: mucks hand 
+grandflam collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01 
+Board [Td 9h 6h Ts Qc]
+Seat 1: Toolman548 (small blind) showed [3h Kd] and lost with a pair of Tens
+Seat 2: grandflam (big blind) showed [7d Qd] and won ($0.17) with two pair, Queens and Tens
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: stoi4anes mucked [8h Ac]
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 8: floatationdevic (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214550140684:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:10:21 ET
+Table 'Agapenor IV' 9-max Seat #1 is the button
+Seat 1: Toolman548 ($4.76 in chips) 
+Seat 2: grandflam ($2.07 in chips) 
+Seat 3: Lozynskyi ($3.12 in chips) 
+Seat 4: stoi4anes ($1.46 in chips) 
+Seat 5: shoxi88 ($0.73 in chips) 
+Seat 6: ComplexInteger ($1.38 in chips) 
+Seat 7: EricC313 ($1.64 in chips) 
+Seat 8: floatationdevic ($3.27 in chips) 
+grandflam: posts small blind $0.01
+Lozynskyi: posts big blind $0.02
+akarmara: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Ac Td]
+stoi4anes: folds 
+shoxi88: calls $0.02
+ComplexInteger: raises $0.04 to $0.06
+EricC313: folds 
+floatationdevic: folds 
+Toolman548: folds 
+grandflam: folds 
+Lozynskyi: folds 
+shoxi88: calls $0.04
+*** FLOP *** [7d 3d 7s]
+shoxi88: checks 
+ComplexInteger: checks 
+*** TURN *** [7d 3d 7s] [5d]
+shoxi88: bets $0.04
+ComplexInteger: calls $0.04
+*** RIVER *** [7d 3d 7s 5d] [2h]
+shoxi88: bets $0.11
+ComplexInteger: folds 
+Uncalled bet ($0.11) returned to shoxi88
+shoxi88 collected $0.22 from pot
+shoxi88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.23 | Rake $0.01 
+Board [7d 3d 7s 5d 2h]
+Seat 1: Toolman548 (button) folded before Flop (didn't bet)
+Seat 2: grandflam (small blind) folded before Flop
+Seat 3: Lozynskyi (big blind) folded before Flop
+Seat 4: stoi4anes folded before Flop (didn't bet)
+Seat 5: shoxi88 collected ($0.22)
+Seat 6: ComplexInteger folded on the River
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 8: floatationdevic folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214550171695:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:11:12 ET
+Table 'Agapenor IV' 9-max Seat #2 is the button
+Seat 1: Toolman548 ($4.76 in chips) 
+Seat 2: grandflam ($2.06 in chips) 
+Seat 3: Lozynskyi ($3.10 in chips) 
+Seat 4: stoi4anes ($1.46 in chips) 
+Seat 5: shoxi88 ($0.85 in chips) 
+Seat 6: ComplexInteger ($1.28 in chips) 
+Seat 7: EricC313 ($1.64 in chips) 
+Seat 8: floatationdevic ($3.27 in chips) 
+Lozynskyi: posts small blind $0.01
+stoi4anes: posts big blind $0.02
+akarmara: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5h 8c]
+shoxi88: folds 
+ComplexInteger: folds 
+EricC313: folds 
+floatationdevic: raises $0.04 to $0.06
+Toolman548: calls $0.06
+grandflam: calls $0.06
+Lozynskyi: folds 
+stoi4anes: calls $0.04
+*** FLOP *** [8d Js 5c]
+stoi4anes: checks 
+floatationdevic: checks 
+Toolman548: bets $0.24
+grandflam: calls $0.24
+stoi4anes: folds 
+floatationdevic: folds 
+*** TURN *** [8d Js 5c] [4d]
+Toolman548: bets $0.02
+grandflam: raises $0.28 to $0.30
+Toolman548: calls $0.28
+*** RIVER *** [8d Js 5c 4d] [3c]
+Toolman548: checks 
+grandflam: checks 
+*** SHOW DOWN ***
+Toolman548: shows [9c Ad] (high card Ace)
+grandflam: shows [Kh 8h] (a pair of Eights)
+grandflam collected $1.28 from pot
+*** SUMMARY ***
+Total pot $1.33 | Rake $0.05 
+Board [8d Js 5c 4d 3c]
+Seat 1: Toolman548 showed [9c Ad] and lost with high card Ace
+Seat 2: grandflam (button) showed [Kh 8h] and won ($1.28) with a pair of Eights
+Seat 3: Lozynskyi (small blind) folded before Flop
+Seat 4: stoi4anes (big blind) folded on the Flop
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 8: floatationdevic folded on the Flop
+
+
+
+PokerStars Hand #214550228234:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:12:38 ET
+Table 'Agapenor IV' 9-max Seat #3 is the button
+Seat 1: Toolman548 ($4.16 in chips) 
+Seat 2: grandflam ($2.74 in chips) 
+Seat 3: Lozynskyi ($3.09 in chips) 
+Seat 4: stoi4anes ($1.40 in chips) 
+Seat 5: shoxi88 ($0.85 in chips) 
+Seat 6: ComplexInteger ($1.28 in chips) 
+Seat 7: EricC313 ($1.64 in chips) 
+Seat 8: floatationdevic ($3.21 in chips) 
+stoi4anes: posts small blind $0.01
+shoxi88: posts big blind $0.02
+akarmara: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qh Ah]
+ComplexInteger: raises $0.04 to $0.06
+EricC313: folds 
+floatationdevic: folds 
+Toolman548: folds 
+grandflam: folds 
+Lozynskyi: folds 
+stoi4anes: folds 
+shoxi88: calls $0.04
+*** FLOP *** [5s Js 5h]
+shoxi88: checks 
+ComplexInteger: bets $0.13
+shoxi88: calls $0.13
+*** TURN *** [5s Js 5h] [3d]
+shoxi88: checks 
+ComplexInteger: checks 
+*** RIVER *** [5s Js 5h 3d] [Ks]
+shoxi88: checks 
+ComplexInteger: checks 
+*** SHOW DOWN ***
+shoxi88: shows [4d Jh] (two pair, Jacks and Fives)
+ComplexInteger: mucks hand 
+shoxi88 collected $0.38 from pot
+*** SUMMARY ***
+Total pot $0.39 | Rake $0.01 
+Board [5s Js 5h 3d Ks]
+Seat 1: Toolman548 folded before Flop (didn't bet)
+Seat 2: grandflam folded before Flop (didn't bet)
+Seat 3: Lozynskyi (button) folded before Flop (didn't bet)
+Seat 4: stoi4anes (small blind) folded before Flop
+Seat 5: shoxi88 (big blind) showed [4d Jh] and won ($0.38) with two pair, Jacks and Fives
+Seat 6: ComplexInteger mucked [Qh Ah]
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 8: floatationdevic folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214550263130:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:13:37 ET
+Table 'Agapenor IV' 9-max Seat #4 is the button
+Seat 1: Toolman548 ($4.16 in chips) 
+Seat 2: grandflam ($2.74 in chips) 
+Seat 3: Lozynskyi ($3.09 in chips) 
+Seat 4: stoi4anes ($1.39 in chips) 
+Seat 5: shoxi88 ($1.04 in chips) 
+Seat 6: ComplexInteger ($1.09 in chips) 
+Seat 7: EricC313 ($1.64 in chips) 
+Seat 8: floatationdevic ($3.21 in chips) 
+shoxi88: posts small blind $0.01
+ComplexInteger: posts big blind $0.02
+akarmara: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9h 8d]
+EricC313: raises $0.02 to $0.04
+floatationdevic: folds 
+Toolman548: calls $0.04
+grandflam: calls $0.04
+Lozynskyi: calls $0.04
+stoi4anes: folds 
+shoxi88: calls $0.03
+ComplexInteger: calls $0.02
+*** FLOP *** [4h 6c Jc]
+shoxi88: checks 
+ComplexInteger: checks 
+EricC313: bets $0.06
+Toolman548: folds 
+grandflam: raises $0.06 to $0.12
+Lozynskyi: calls $0.12
+shoxi88: folds 
+ComplexInteger: folds 
+EricC313: calls $0.06
+*** TURN *** [4h 6c Jc] [Ah]
+EricC313: bets $0.24
+grandflam: folds 
+Lozynskyi: calls $0.24
+*** RIVER *** [4h 6c Jc Ah] [7s]
+EricC313: bets $1.04
+Lozynskyi: folds 
+Uncalled bet ($1.04) returned to EricC313
+EricC313 collected $1.04 from pot
+EricC313: doesn't show hand 
+*** SUMMARY ***
+Total pot $1.08 | Rake $0.04 
+Board [4h 6c Jc Ah 7s]
+Seat 1: Toolman548 folded on the Flop
+Seat 2: grandflam folded on the Turn
+Seat 3: Lozynskyi folded on the River
+Seat 4: stoi4anes (button) folded before Flop (didn't bet)
+Seat 5: shoxi88 (small blind) folded on the Flop
+Seat 6: ComplexInteger (big blind) folded on the Flop
+Seat 7: EricC313 collected ($1.04)
+Seat 8: floatationdevic folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214550311758:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:14:58 ET
+Table 'Agapenor IV' 9-max Seat #5 is the button
+Seat 1: Toolman548 ($4.12 in chips) 
+Seat 2: grandflam ($2.58 in chips) 
+Seat 3: Lozynskyi ($2.69 in chips) 
+Seat 4: stoi4anes ($1.39 in chips) 
+Seat 5: shoxi88 ($1 in chips) 
+Seat 6: ComplexInteger ($1.05 in chips) 
+Seat 7: EricC313 ($2.28 in chips) 
+Seat 8: floatationdevic ($3.21 in chips) 
+ComplexInteger: posts small blind $0.01
+EricC313: posts big blind $0.02
+akarmara: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Js Kd]
+floatationdevic: folds 
+Toolman548: folds 
+grandflam: folds 
+Lozynskyi: folds 
+floatationdevic leaves the table
+stoi4anes: folds 
+shoxi88: raises $0.04 to $0.06
+ComplexInteger: calls $0.05
+EricC313: folds 
+*** FLOP *** [7c 9c Jc]
+ComplexInteger: checks 
+shoxi88: bets $0.06
+ComplexInteger: folds 
+Uncalled bet ($0.06) returned to shoxi88
+shoxi88 collected $0.14 from pot
+shoxi88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.14 | Rake $0 
+Board [7c 9c Jc]
+Seat 1: Toolman548 folded before Flop (didn't bet)
+Seat 2: grandflam folded before Flop (didn't bet)
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: stoi4anes folded before Flop (didn't bet)
+Seat 5: shoxi88 (button) collected ($0.14)
+Seat 6: ComplexInteger (small blind) folded on the Flop
+Seat 7: EricC313 (big blind) folded before Flop
+Seat 8: floatationdevic folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214550332480:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:15:33 ET
+Table 'Agapenor IV' 9-max Seat #6 is the button
+Seat 1: Toolman548 ($4.12 in chips) 
+Seat 2: grandflam ($2.58 in chips) 
+Seat 3: Lozynskyi ($2.69 in chips) 
+Seat 4: stoi4anes ($1.39 in chips) 
+Seat 5: shoxi88 ($1.08 in chips) 
+Seat 6: ComplexInteger ($0.99 in chips) 
+Seat 7: EricC313 ($2.26 in chips) 
+Seat 9: akarmara ($2 in chips) 
+EricC313: posts small blind $0.01
+akarmara: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [9s Ah]
+Lozynskyi is disconnected 
+Toolman548: calls $0.02
+grandflam: folds 
+Lozynskyi: folds 
+stoi4anes: folds 
+shoxi88: raises $0.06 to $0.08
+ComplexInteger: folds 
+EricC313: folds 
+akarmara: folds 
+Toolman548: calls $0.06
+*** FLOP *** [5d Ac 2d]
+Toolman548: checks 
+shoxi88: bets $0.08
+Toolman548: folds 
+Uncalled bet ($0.08) returned to shoxi88
+shoxi88 collected $0.18 from pot
+shoxi88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01 
+Board [5d Ac 2d]
+Seat 1: Toolman548 folded on the Flop
+Seat 2: grandflam folded before Flop (didn't bet)
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: stoi4anes folded before Flop (didn't bet)
+Seat 5: shoxi88 collected ($0.18)
+Seat 6: ComplexInteger (button) folded before Flop (didn't bet)
+Seat 7: EricC313 (small blind) folded before Flop
+Seat 9: akarmara (big blind) folded before Flop
+
+
+
+PokerStars Hand #214550358044:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:16:16 ET
+Table 'Agapenor IV' 9-max Seat #7 is the button
+Seat 1: Toolman548 ($4.04 in chips) 
+Seat 2: grandflam ($2.58 in chips) 
+Seat 3: Lozynskyi ($2.69 in chips) 
+Seat 4: stoi4anes ($1.39 in chips) 
+Seat 5: shoxi88 ($1.18 in chips) 
+Seat 6: ComplexInteger ($0.99 in chips) 
+Seat 7: EricC313 ($2.25 in chips) 
+Seat 9: akarmara ($2 in chips) 
+akarmara: posts small blind $0.01
+Toolman548: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Qd 4d]
+grandflam: calls $0.02
+Lozynskyi has timed out
+Lozynskyi: folds 
+stoi4anes: raises $0.02 to $0.04
+shoxi88: calls $0.04
+ComplexInteger: calls $0.04
+EricC313: calls $0.04
+akarmara: folds 
+Toolman548: folds 
+grandflam: calls $0.02
+*** FLOP *** [Ac 5d Jh]
+grandflam: checks 
+stoi4anes: bets $0.11
+shoxi88: folds 
+ComplexInteger: folds 
+EricC313: folds 
+grandflam: calls $0.11
+*** TURN *** [Ac 5d Jh] [2s]
+grandflam: checks 
+stoi4anes: checks 
+*** RIVER *** [Ac 5d Jh 2s] [Jc]
+grandflam: bets $0.12
+stoi4anes: raises $1.12 to $1.24 and is all-in
+grandflam: folds 
+Uncalled bet ($1.12) returned to stoi4anes
+stoi4anes collected $0.67 from pot
+*** SUMMARY ***
+Total pot $0.69 | Rake $0.02 
+Board [Ac 5d Jh 2s Jc]
+Seat 1: Toolman548 (big blind) folded before Flop
+Seat 2: grandflam folded on the River
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: stoi4anes collected ($0.67)
+Seat 5: shoxi88 folded on the Flop
+Seat 6: ComplexInteger folded on the Flop
+Seat 7: EricC313 (button) folded on the Flop
+Seat 9: akarmara (small blind) folded before Flop
+
+
+
+PokerStars Hand #214550412250:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:17:49 ET
+Table 'Agapenor IV' 9-max Seat #9 is the button
+Seat 1: Toolman548 ($4.02 in chips) 
+Seat 2: grandflam ($2.31 in chips) 
+Seat 3: Lozynskyi ($2.69 in chips) 
+Seat 4: stoi4anes ($1.79 in chips) 
+Seat 5: shoxi88 ($1.14 in chips) 
+Seat 6: ComplexInteger ($0.95 in chips) 
+Seat 7: EricC313 ($2.21 in chips) 
+Seat 9: akarmara ($2 in chips) 
+Toolman548: posts small blind $0.01
+grandflam: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to ComplexInteger [8c Qd]
+Lozynskyi has timed out
+Lozynskyi: folds 
+stoi4anes: calls $0.02
+shoxi88: calls $0.02
+ComplexInteger: folds 
+EricC313: folds 
+akarmara: folds 
+Toolman548: folds 
+grandflam: checks 
+*** FLOP *** [9s Kd 7s]
+grandflam: checks 
+bolso156 joins the table at seat #8 
+akarmara leaves the table
+stoi4anes: bets $0.07
+shoxi88: calls $0.07
+grandflam: folds 
+*** TURN *** [9s Kd 7s] [Ts]
+stoi4anes: bets $0.06
+shoxi88: calls $0.06
+*** RIVER *** [9s Kd 7s Ts] [3h]
+stoi4anes: bets $0.06
+shoxi88: calls $0.06
+*** SHOW DOWN ***
+stoi4anes: shows [8d 9d] (a pair of Nines)
+shoxi88: shows [2c Kc] (a pair of Kings)
+shoxi88 collected $0.43 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.02 
+Board [9s Kd 7s Ts 3h]
+Seat 1: Toolman548 (small blind) folded before Flop
+Seat 2: grandflam (big blind) folded on the Flop
+Seat 3: Lozynskyi folded before Flop (didn't bet)
+Seat 4: stoi4anes showed [8d 9d] and lost with a pair of Nines
+Seat 5: shoxi88 showed [2c Kc] and won ($0.43) with a pair of Kings
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded before Flop (didn't bet)
+Seat 9: akarmara (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #214550456020:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:19:00 ET
+Table 'Agapenor IV' 9-max Seat #1 is the button
+Seat 1: Toolman548 ($4.01 in chips) 
+Seat 2: grandflam ($2.29 in chips) 
+Seat 3: Lozynskyi ($2.69 in chips) 
+Seat 4: stoi4anes ($1.58 in chips) 
+Seat 5: shoxi88 ($1.36 in chips) 
+Seat 6: ComplexInteger ($0.95 in chips) 
+Seat 7: EricC313 ($2.21 in chips) 
+grandflam: posts small blind $0.01
+Lozynskyi: posts big blind $0.02
+bolso156: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [4h Td]
+stoi4anes: folds 
+burgasperger joins the table at seat #9 
+shoxi88: folds 
+ComplexInteger: folds 
+EricC313: raises $0.02 to $0.04
+Toolman548: calls $0.04
+grandflam: calls $0.03
+Lozynskyi: folds 
+*** FLOP *** [6c Qh Ac]
+grandflam: bets $0.08
+EricC313: calls $0.08
+Toolman548: calls $0.08
+*** TURN *** [6c Qh Ac] [7d]
+grandflam: checks 
+EricC313: bets $0.10
+Toolman548: raises $0.10 to $0.20
+grandflam: folds 
+EricC313: calls $0.10
+*** RIVER *** [6c Qh Ac 7d] [6s]
+EricC313: checks 
+Toolman548: bets $0.38
+EricC313: folds 
+Uncalled bet ($0.38) returned to Toolman548
+Toolman548 collected $0.75 from pot
+Lozynskyi leaves the table
+Toolman548: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.78 | Rake $0.03 
+Board [6c Qh Ac 7d 6s]
+Seat 1: Toolman548 (button) collected ($0.75)
+Seat 2: grandflam (small blind) folded on the Turn
+Seat 3: Lozynskyi (big blind) folded before Flop
+Seat 4: stoi4anes folded before Flop (didn't bet)
+Seat 5: shoxi88 folded before Flop (didn't bet)
+Seat 6: ComplexInteger folded before Flop (didn't bet)
+Seat 7: EricC313 folded on the River
+
+
+
+PokerStars Hand #214550496329:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:20:10 ET
+Table 'Agapenor IV' 9-max Seat #2 is the button
+Seat 1: Toolman548 ($4.44 in chips) 
+Seat 2: grandflam ($2.17 in chips) 
+Seat 4: stoi4anes ($1.58 in chips) 
+Seat 5: shoxi88 ($1.36 in chips) 
+Seat 6: ComplexInteger ($0.95 in chips) 
+Seat 7: EricC313 ($1.89 in chips) 
+stoi4anes: posts small blind $0.01
+shoxi88: posts big blind $0.02
+bolso156: sits out 
+burgasperger: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [Kc Ad]
+ComplexInteger: raises $0.04 to $0.06
+EricC313: calls $0.06
+Toolman548: calls $0.06
+grandflam: folds 
+RaiseLasse joins the table at seat #3 
+stoi4anes has timed out
+stoi4anes: folds 
+shoxi88: calls $0.04
+*** FLOP *** [5c 8s 9s]
+shoxi88: bets $0.02
+ComplexInteger: calls $0.02
+EricC313: raises $0.08 to $0.10
+Toolman548: folds 
+shoxi88: calls $0.08
+ComplexInteger: calls $0.08
+*** TURN *** [5c 8s 9s] [9c]
+shoxi88: bets $0.02
+ComplexInteger: folds 
+EricC313: raises $0.06 to $0.08
+shoxi88: calls $0.06
+*** RIVER *** [5c 8s 9s 9c] [2d]
+shoxi88: bets $0.02
+EricC313: raises $0.38 to $0.40
+shoxi88: calls $0.38
+*** SHOW DOWN ***
+EricC313: shows [Qh Qs] (two pair, Queens and Nines)
+shoxi88: mucks hand 
+EricC313 collected $1.46 from pot
+*** SUMMARY ***
+Total pot $1.51 | Rake $0.05 
+Board [5c 8s 9s 9c 2d]
+Seat 1: Toolman548 folded on the Flop
+Seat 2: grandflam (button) folded before Flop (didn't bet)
+Seat 4: stoi4anes (small blind) folded before Flop
+Seat 5: shoxi88 (big blind) mucked [Qc 5d]
+Seat 6: ComplexInteger folded on the Turn
+Seat 7: EricC313 showed [Qh Qs] and won ($1.46) with two pair, Queens and Nines
+
+
+
+PokerStars Hand #214550558039:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:21:56 ET
+Table 'Agapenor IV' 9-max Seat #5 is the button
+Seat 1: Toolman548 ($4.38 in chips) 
+Seat 2: grandflam ($2.17 in chips) 
+Seat 5: shoxi88 ($0.72 in chips) 
+Seat 6: ComplexInteger ($0.79 in chips) 
+Seat 7: EricC313 ($2.71 in chips) 
+Seat 9: burgasperger ($2 in chips) 
+ComplexInteger: posts small blind $0.01
+EricC313: posts big blind $0.02
+bolso156: sits out 
+burgasperger: posts big blind $0.02
+RaiseLasse: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [5d Qs]
+burgasperger: checks 
+Toolman548: folds 
+grandflam: folds 
+shoxi88: folds 
+ComplexInteger: calls $0.01
+EricC313: checks 
+*** FLOP *** [4c 6d 9c]
+ComplexInteger: checks 
+EricC313: checks 
+burgasperger: bets $0.02
+ComplexInteger: calls $0.02
+EricC313: calls $0.02
+*** TURN *** [4c 6d 9c] [Tc]
+ComplexInteger: checks 
+EricC313: bets $0.04
+burgasperger: calls $0.04
+ComplexInteger: folds 
+*** RIVER *** [4c 6d 9c Tc] [2s]
+EricC313: checks 
+burgasperger: checks 
+*** SHOW DOWN ***
+EricC313: shows [As 5c] (high card Ace)
+burgasperger: shows [Qd Ac] (high card Ace - Queen kicker)
+burgasperger collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01 
+Board [4c 6d 9c Tc 2s]
+Seat 1: Toolman548 folded before Flop (didn't bet)
+Seat 2: grandflam folded before Flop (didn't bet)
+Seat 5: shoxi88 (button) folded before Flop (didn't bet)
+Seat 6: ComplexInteger (small blind) folded on the Turn
+Seat 7: EricC313 (big blind) showed [As 5c] and lost with high card Ace
+Seat 9: burgasperger showed [Qd Ac] and won ($0.19) with high card Ace
+
+
+
+PokerStars Hand #214550608407:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/05/27 19:23:09 ET
+Table 'Agapenor IV' 9-max Seat #6 is the button
+Seat 1: Toolman548 ($4.38 in chips) 
+Seat 2: grandflam ($2.17 in chips) 
+Seat 5: shoxi88 ($0.72 in chips) 
+Seat 6: ComplexInteger ($0.75 in chips) 
+Seat 7: EricC313 ($2.63 in chips) 
+Seat 8: bolso156 ($2 in chips) 
+Seat 9: burgasperger ($2.11 in chips) 
+EricC313: posts small blind $0.01
+bolso156: posts big blind $0.02
+RaiseLasse: sits out 
+*** HOLE CARDS ***
+Dealt to ComplexInteger [3c Kc]
+burgasperger: folds 
+Toolman548: folds 
+grandflam: calls $0.02
+shoxi88: calls $0.02
+ComplexInteger: raises $0.04 to $0.06
+EricC313: folds 
+bolso156: folds 
+grandflam: calls $0.04
+shoxi88: calls $0.04
+*** FLOP *** [2s 6s 7d]
+grandflam: bets $0.08
+shoxi88: calls $0.08
+ComplexInteger: raises $0.61 to $0.69 and is all-in
+grandflam: folds 
+shoxi88: calls $0.58 and is all-in
+Uncalled bet ($0.03) returned to ComplexInteger
+*** TURN *** [2s 6s 7d] [Jd]
+*** RIVER *** [2s 6s 7d Jd] [2h]
+*** SHOW DOWN ***
+shoxi88: shows [Ks 7s] (two pair, Sevens and Deuces)
+ComplexInteger: shows [3c Kc] (a pair of Deuces)
+shoxi88 collected $1.55 from pot
+*** SUMMARY ***
+Total pot $1.61 | Rake $0.06 
+Board [2s 6s 7d Jd 2h]
+Seat 1: Toolman548 folded before Flop (didn't bet)
+Seat 2: grandflam folded on the Flop
+Seat 5: shoxi88 showed [Ks 7s] and won ($1.55) with two pair, Sevens and Deuces
+Seat 6: ComplexInteger (button) showed [3c Kc] and lost with a pair of Deuces
+Seat 7: EricC313 (small blind) folded before Flop
+Seat 8: bolso156 (big blind) folded before Flop
+Seat 9: burgasperger folded before Flop (didn't bet)
+
+
+

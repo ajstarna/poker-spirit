@@ -1,0 +1,33 @@
+PokerStars Hand #1: Tournament #1 Test Game
+Table '1' 9-max Seat #1 is the button
+Seat 1: Player1 (1000 in chips) 
+Seat 2: Player2 (1000 in chips)
+Seat 3: Player3 (1000 in chips) 
+Seat 4: Player4 (1000 in chips) 
+Player2: posts small blind 10
+Player3: posts big blind 20
+*** HOLE CARDS ***
+Dealt to Player1 [Jd 6s]
+Player4: folds
+Player1: bets 80
+Player2: calls 80
+Player3: raises 190 to 270
+Player1: folds
+Player2: folds
+*** SUMMARY ***
+
+PokerStars Hand #2: Tournament #1 Test Game
+Table '1' 9-max Seat #1 is the button
+Seat 1: Player1 (1000 in chips) 
+Seat 2: Player2 (1000 in chips)
+Seat 3: Player3 (1000 in chips) 
+Seat 4: Player4 (1000 in chips) 
+Player2: posts small blind 10
+Player3: posts big blind 20
+*** HOLE CARDS ***
+Dealt to Player1 [Jd 6s]
+Player4: folds
+Player1: folds
+Player2: folds
+Player3: check
+*** SUMMARY ***
