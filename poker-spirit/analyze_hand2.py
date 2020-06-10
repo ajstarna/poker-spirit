@@ -57,6 +57,24 @@ class HAND_STATE(Enum):
     TURN = 4
     RIVER = 5
     SHOWDOWN = 6
+    END = 7
+
+    @staticmethod
+    def toString(hand_state):
+        if hand_state == HAND_STATE.COMPULSORY_BETS:
+            return 'COMPULSORY_BETS'
+        elif hand_state == HAND_STATE.PRE_FLOP:
+            return 'PRE_FLOP'
+        elif hand_state == HAND_STATE.FLOP:
+            return 'FLOP'
+        elif hand_state == HAND_STATE.TURN:
+            return 'TURN'
+        elif hand_state == HAND_STATE.RIVER:
+            return 'RIVER'
+        elif hand_state == HAND_STATE.SHOWDOWN:
+            return 'SHOWDOWN'
+        else:
+            return 'UNKNOWN'
 
 # Card suit
 class CARD_SUIT(Enum):
@@ -142,13 +160,41 @@ class Card:
         return self.__str__()
 
 # Player info for hand
-class Player:
+# Used for parsing file
+class PlayerHand:
     def __init__(self, name):
+        # Info
         self._name = name
         self._starting_chips = 0
         self._seat_at_table = 0
         self._real_money = False
         self._cards = []
+
+        # Stats
+        self._folded = False
+        self._folded_state = 0
+        # Flops Seen (FS)
+        self._fs = False
+        # Voluntarily Put $ in Pot (VPiP)
+        self._vpip = False
+        # Preflop Raise (PFR)
+        self._pfr = False
+        # Called Preflop Raise (CPFR)
+        self._cpfr = False
+        self._opt_cpfr = False
+        # Unopened Preflop Raise (UOPFR)
+        self._uopfr = False
+        self._opt_uopfr = False
+        # Three-bet Pre-flop (3B)
+        # Folded to Three-Bet Preflop (F3B)
+        self._3b = False
+        self._f3b = False
+        self._opt_3b = False
+        # Four-bet Pre-flop (4B)
+        # Folded to Four-Bet Preflop (F4B)
+        self._4b = False
+        self._f4b = False
+        self._opt_4b = False
 
     @property
     def name(self):
@@ -185,6 +231,158 @@ class Player:
     def usingRealMoney(self, currancy_format):
         self._real_money = currancy_format
 
+    ## Stats ##
+
+    # Folded
+    def hasFolded(self):
+        return self._folded
+
+    def foldedInHandState(self):
+        return self._folded_state
+
+    def fold(self, hand_state):
+        self._folded = True
+        self._folded_state = hand_state
+
+    # Flops Seen (FS)
+    def hasSeenFlop(self):
+        return self._fs
+
+    def seenFlop(self):
+        self._fs = True
+    
+    # Voluntarily Put $ in Pot (VPiP)
+    def hasVPiP(self):
+        return self._vpip
+
+    def vpip(self):
+        self._vpip = True
+    
+    # Preflop Raise (PFR)
+    def hasPFR(self):
+        return self._pfr
+
+    def pfr(self):
+        self._pfr = True
+
+    # Called Preflop Raise (CPFR)
+    def hasCPFR(self):
+        return self._cpfr
+    
+    def hasOptCPFR(self):
+        return self._opt_cpfr
+    
+    def cpfr(self):
+        self._cpfr = True
+
+    def optCPFR(self):
+        self._opt_cpfr = True
+
+    # Unopened Preflop Raise (UOPFR)
+    def hasUCPFR(self):
+        return self._ucpfr
+    
+    def hasOptUCPFR(self):
+        return self._opt_ucpfr
+    
+    def ucpfr(self):
+        self._ucpfr = True
+
+    def optUCPFR(self):
+        self._opt_ucpfr = True
+    
+    # Three-bet Pre-flop (3B)
+    def has3B(self):
+        return self._3b
+
+    def p3b(self):
+        self._3b = True
+    
+    # Folded to Three-Bet Preflop (F3B)
+    def hasF3B(self):
+        return self._f3b
+
+    def f3b(self):
+        self._f3b = True
+
+    # Opt for 3B
+    def hasOpt3B(self):
+        return self._opt_3b
+
+    def opt3B(self):
+        self._opt_3b = True
+
+    # Four-bet Pre-flop (4B)
+    def has4B(self):
+        return self._4b
+
+    def p4b(self):
+        self._4b = True
+
+    # Folded to Four-Bet Preflop (F4B)
+    def hasF4B(self):
+        return self._f4b
+
+    def f4b(self):
+        self._f4b = True
+
+    # Opt for 4B
+    def hasOpt4B(self):
+        return self._opt_4b
+
+    def opt4B(self):
+        self._opt_4b = True
+
+    def __str__(self):
+        # Info
+        output = f'Player Hand Stats for {self._name}\n'
+
+        currancy = ''
+        if self._real_money:
+            currancy = '$'
+        
+        output += f'Seat #{self._seat_at_table} with {currancy}{self._starting_chips} in chips\n'
+        output += f'Dealt {self._cards}\n'
+
+        # Stats
+        if self._folded:
+            output += f'Player folded in {HAND_STATE.toString(self._folded_state)}\n'
+
+        if self._fs:
+            output += f'Player has seen flop\n'
+
+        if self._vpip:
+            output += f'Player has voluntarily put money in pot (VPiP)\n'
+
+        if self._pfr:
+            output += f'Player has preflop raised (PFR))\n'
+
+        if self._cpfr:
+            output += f'Player has called preflop raised (CPFR))\n'
+        elif self._opt_cpfr:
+            output += f'Player had an opportunity to call preflop raise but didn\'t\n'
+
+        if self._uopfr:
+            output += f'Player has made an unopened preflop raise (UOPFR))\n'
+        elif self._opt_uopfr:
+            output += f'Player had an opportunity to make unopened preflop raise but didn\'t\n'
+
+        '''
+        # Three-bet Pre-flop (3B)
+        # Folded to Three-Bet Preflop (F3B)
+        self._3b = False
+        self._f3b = False
+        self._opt_3b = False
+        # Four-bet Pre-flop (4B)
+        # Folded to Four-Bet Preflop (F4B)
+        self._4b = False
+        self._f4b = False
+        self._opt_4b = False
+        '''
+
+        return output
+
+# A single hand
 class Hand:
     def __init__(self):
         self._players = {}
@@ -205,14 +403,19 @@ class Hand:
         self._flop_cards = []
         self._turn_card = None
         self._river_card = None
+
+        self._number_of_raises_pre_flop = 0
+        self._number_of_raises_flop = 0
+        self._number_of_raises_turn = 0
+        self._number_of_raises_river = 0
     
     def getPlayer(self, player_name):
         # Return player if already exists
         if player_name in self._players:
-            return self._players[player_name] 
+            return self._players[player_name]
         
         # Create new player and add them to player dict
-        player = Player(player_name)
+        player = PlayerHand(player_name)
         self._players[player_name] = player
         
         return player
@@ -281,17 +484,95 @@ class Hand:
     def bb_value(self, value):
         self._bb_value = value
 
+    # True if the chips are in dollars and should have '$' in front
+    def usingRealMoney(self, currancy_format):
+        self._real_money = currancy_format
+
     @property
     def hand_state(self):
         return self._hand_state
 
-    @hand_state.setter
-    def hand_state(self, state):
-        self._hand_state = state
+    def initPreFlop(self):
+        self._hand_state = HAND_STATE.PRE_FLOP
 
-    # True if the chips are in dollars and should have '$' in front
-    def usingRealMoney(self, currancy_format):
-        self._real_money = currancy_format
+    def endPreFlop(self):
+        for player in self._players.values():
+            # Has folded? If not then they have seen the flop
+            if not player.hasFolded():
+                player.seenFlop()
+
+    def initFlop(self):
+        # End Pre-Flop
+        self.endPreFlop()
+
+        # Update state of hand
+        self._hand_state = HAND_STATE.FLOP
+
+    def initTurn(self):
+        self._hand_state = HAND_STATE.TURN
+
+    def initRiver(self):
+        self._hand_state = HAND_STATE.RIVER
+
+    def initShowdown(self):
+        self._hand_state = HAND_STATE.SHOWDOWN
+
+    def finalizeHand(self):
+        self._hand_state = HAND_STATE.END
+
+    def playerCalls(self, player_name, amount, all_in = False):
+        # Get Player
+        player = self.getPlayer(player_name)
+        
+        # Update VPiP
+        player.vpip()
+
+        # Is this before the flop?
+        if self._hand_state == HAND_STATE.PRE_FLOP:
+            # Check if player called a pre-flop raise
+            if self._number_of_raises_pre_flop == 1:
+                player.cpfr()
+                player.optCPFR()
+
+    def playerBets(self, player_name, ammount):
+        # Get Player
+        player = self.getPlayer(player_name)
+        
+        # Update VPiP
+        player.vpip()
+
+    def playerRaises(self, player_name, current_ammount, new_ammount):
+        # Get Player
+        player = self.getPlayer(player_name)
+        
+        # Update VPiP
+        player.vpip()
+
+        # Is this before the flop?
+        if self._hand_state == HAND_STATE.PRE_FLOP:
+            # This is a pre-flop raise (pfr)
+            player.pfr()
+
+            # Check if player raised to a pre-flop raise
+            if self._number_of_raises_pre_flop == 1:
+                player.optCPFR()
+
+            # Increase number of raises in pre-flop
+            self._number_of_raises_pre_flop += 1
+
+    def playerFolds(self, player_name):
+        player = self.getPlayer(player_name)
+        player.fold(self._hand_state)
+
+        # Is this before the flop?
+        if self._hand_state == HAND_STATE.PRE_FLOP:
+            # Check if player folded to a pre-flop raise
+            if self._number_of_raises_pre_flop == 1:
+                player.optCPFR()
+
+    def playerChecks(self, player_name):
+        # TODO
+        pass
 
     @property
     def flop_cards(self):
@@ -316,6 +597,36 @@ class Hand:
 
     def board(self):
         return self._flop_cards + [self._turn_card, self._river_card]
+
+    def __str__(self):
+        output = f'Hand Stats for Table {self._table_name}\n'
+        output += f'{self._max_players}-max players and ante {self._ante_value}\n'
+        currancy = ''
+        if self._real_money:
+            currancy = '$'
+            output += f'Game is played with real money.\n'
+        for player in self._players.values():
+            output += f'Seat #{player.seat_at_table}: {player.name} with ({currancy}{player.starting_chips} in chips)\n'
+        output += f'Button in seat #{self._button_position}\n'
+        output += f'{self._player_who_posted_sb} posted small blind of {self._sb_value}\n'
+        output += f'{self._player_who_posted_bb} posted big blind of {self._bb_value}\n'
+        
+        for player in self._players.values():
+            output += f'{player}'
+
+        output += f'Final board: {self.board()}'
+
+        return output
+
+
+class Game:
+    def __init__(self):
+        self._hands = []
+
+    def addHand(self, hand):
+        # Add hand to array list for testing and history
+        self._hands.append(hand)
+
 
 def string_to_number(string):
     string = string.strip()
@@ -370,13 +681,15 @@ def create_card_from_string(card_string, suit_string):
 def parse_file(path_to_file, debug = False):
     print(f"opening file = {path_to_file}")
 
+    game = Game()
+
     # Open file for parsing
     with open(path_to_file, 'r') as file:
         # Read file
         lines = file.readlines()
 
         # Vars for parsing
-        current_hand = Hand()
+        current_hand = None
         number_of_hands = 0
 
         # Read file line by line
@@ -390,8 +703,6 @@ def parse_file(path_to_file, debug = False):
                 # Debug print info
                 if debug:
                     print(f'New Hand #{number_of_hands}')
-
-                # TODO: Save old hand to game
 
                 # Create new hand
                 current_hand = Hand()
@@ -504,7 +815,8 @@ def parse_file(path_to_file, debug = False):
                 if len(all_in_text) > 0:
                     all_in = True
 
-                # TODO : Update hand
+                # Update hand
+                current_hand.playerCalls(player_name, player_chips, all_in)
 
                 # Debug print info
                 if debug:
@@ -524,7 +836,8 @@ def parse_file(path_to_file, debug = False):
                 chip_currancy = results.group(2)
                 player_chips = string_to_number(results.group(3))
 
-                # TODO : Update hand
+                # Update hand
+                current_hand.playerBets(player_name, player_chips)
 
                 # Debug print info
                 if debug:
@@ -540,7 +853,8 @@ def parse_file(path_to_file, debug = False):
                 current_chips = string_to_number(results.group(3))
                 raised_chips = string_to_number(results.group(5))
 
-                # TODO : Update hand
+                # Update hand
+                current_hand.playerRaises(player_name, current_chips, raised_chips)
 
                 # Debug print info
                 if debug:
@@ -553,7 +867,8 @@ def parse_file(path_to_file, debug = False):
                 # Information found about seat
                 player_name = results.group(1)
 
-                # TODO : Update hand
+                # Update hand
+                current_hand.playerFolds(player_name)
 
                 # Debug print info
                 if debug:
@@ -566,7 +881,8 @@ def parse_file(path_to_file, debug = False):
                 # Information found about seat
                 player_name = results.group(1)
 
-                # TODO : Update hand
+                # Update hand
+                current_hand.playerChecks(player_name)
 
                 # Debug print info
                 if debug:
@@ -599,7 +915,7 @@ def parse_file(path_to_file, debug = False):
             # If Pre Flop
             elif PRE_FLOP_PATTERN.match(line):
                 # Update hand state
-                current_hand.hand_state = HAND_STATE.PRE_FLOP
+                current_hand.initPreFlop()
 
                 # Debug print info
                 if debug:
@@ -607,9 +923,6 @@ def parse_file(path_to_file, debug = False):
 
             # If Flop
             elif FLOP_PATTERN.match(line):
-                # Update hand state
-                current_hand.hand_state = HAND_STATE.FLOP
-
                 # Search string
                 results = re.search(FLOP_PATTERN, line)
 
@@ -629,15 +942,15 @@ def parse_file(path_to_file, debug = False):
                 # Add flopped cards to hand
                 current_hand.setFlopCards(card1, card2, card3)
 
+                # Update hand state
+                current_hand.initFlop()
+
                 # Debug print info
                 if debug:
                     print(f"Start of Flop [{card1} {card2} {card3}]")
 
             # If Turn
             elif TURN_PATTERN.match(line):
-                # Update hand state
-                current_hand.hand_state = HAND_STATE.TURN
-
                 # Search string
                 results = re.search(TURN_PATTERN, line)
 
@@ -651,15 +964,15 @@ def parse_file(path_to_file, debug = False):
                 # Add turn card to hand
                 current_hand.setTurnCard(card)
 
+                # Update hand state
+                current_hand.initTurn()
+
                 # Debug print info
                 if debug:
                     print(f"Start of Turn [{card}]")
 
             # If River
             elif RIVER_PATTERN.match(line):
-                # Update hand state
-                current_hand.hand_state = HAND_STATE.RIVER
-
                 # Search string
                 results = re.search(RIVER_PATTERN, line)
 
@@ -673,6 +986,9 @@ def parse_file(path_to_file, debug = False):
                 # Add river card to hand
                 current_hand.setRiverCard(card)
 
+                # Update hand state
+                current_hand.initRiver()
+
                 # Debug print info
                 if debug:
                     print(f"Start of River [{card}]")
@@ -680,7 +996,7 @@ def parse_file(path_to_file, debug = False):
             # If Showdown
             elif SHOWDOWN_PATTERN.match(line):
                 # Update hand state
-                current_hand.hand_state = HAND_STATE.SHOWDOWN
+                current_hand.initShowdown()
 
                 # Debug print info
                 if debug:
@@ -688,11 +1004,18 @@ def parse_file(path_to_file, debug = False):
            
             # If Summary
             elif SUMMARY_PATTERN.match(line):
+                # Update hand state
+                current_hand.finalizeHand()
+
+                # Save hand to game
+                game.addHand(current_hand)
+
                 # Debug print info
                 if debug:
                     print(f"Summary")
-                    print(f'Final board {current_hand.board()}')
+                    print(current_hand)
 
+    return game
 
 if __name__ == "__main__":
     import os
