@@ -1,0 +1,27 @@
+# Player 1 and 3 fold pre-flop
+# Player 2 raises pre-flop and Player 4 calls
+# Player 4 raises in the flop and Player 2 folds
+# Therefore Player 2 made a PFR
+# And Player 4 calls the PFR
+
+PokerStars Hand #1: Tournament #1 Test Game
+Table '1' 9-max Seat #1 is the button
+Seat 1: Player1 (1000 in chips) 
+Seat 2: Player2 (1000 in chips)
+Seat 3: Player3 (1000 in chips) 
+Seat 4: Player4 (1000 in chips) 
+Player2: posts small blind 10
+Player3: posts big blind 20
+*** HOLE CARDS ***
+Dealt to Player1 [Jd 6s]
+Player4: bets 80
+Player1: calls 80
+Player2: raises 270 to 350
+Player3: folds
+Player4: calls 80
+Player1: folds
+*** FLOP *** [Jh 6h Th]
+Player2: bets 80
+Player4: raises 510 to 590
+Player2: folds
+*** SUMMARY ***

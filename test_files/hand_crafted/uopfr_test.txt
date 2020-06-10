@@ -1,0 +1,28 @@
+# Player 1 and 3 fold pre-flop
+# Player 2 raises pre-flop and Player 4 calls
+# Player 4 raises in the flop and Player 2 folds
+# Therefore Player 2 should be the only one with UOPFR
+# And Player 4 calls the UOPFR
+# Player 1 and 2 had opportunity for a UOPFR but didn't
+
+PokerStars Hand #1: Tournament #1 Test Game
+Table '1' 9-max Seat #1 is the button
+Seat 1: Player1 (1000 in chips) 
+Seat 2: Player2 (1000 in chips)
+Seat 3: Player3 (1000 in chips) 
+Seat 4: Player4 (1000 in chips) 
+Player2: posts small blind 10
+Player3: posts big blind 20
+*** HOLE CARDS ***
+Dealt to Player1 [Jd 6s]
+Player4: calls 20
+Player1: calls 20
+Player2: raises 90 to 110
+Player3: folds
+Player4: calls 20
+Player1: folds
+*** FLOP *** [Jh 6h Th]
+Player2: bets 20
+Player4: raises 170 to 190
+Player2: folds
+*** SUMMARY ***

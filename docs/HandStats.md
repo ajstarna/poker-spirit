@@ -1,6 +1,19 @@
 # Poker Stats
 
-This is from https://pokercopilot.com/userguide/6/en/topic/hud-statistics
+Some of the definitions for the stats come from https://pokercopilot.com/userguide/6/en/topic/hud-statistics
+
+## Poker Stars Info
+
+### Player Actions
+- Check – To check is to decline the opportunity to open the betting. Players can only check when there is no bet during the current round, and the act of checking passes the action clockwise to the next person in the hand. If all active players check, those players remain in the hand and the round is considered complete.
+- Bet – Players may bet if no other players have bet during the current round. Once a bet has been made, other players must ‘call’ by matching the amount bet, in order to remain in the hand.
+- Fold – Players who fold forfeit their cards and cannot win or act again during the current hand.
+- Call – Players can call if other players have bet during the current round; this requires the calling player to match the highest bet made.
+- Raise – Players may raise if other players have bet during the current round; this requires the raising player to match the highest bet made, and then make a greater one. All subsequent players are required to call the raise or raise again (‘re-raise’) to stay in the hand.
+
+From my understanding bets are not considered raises in the stats.
+
+## Stats
 
 ### Hands Played (#)
 This is the total number of hands you were in. In tournaments, this number includes hands where you were sitting out, whereas these hands are not counted in ring games. In order for the statistics to be reliable, they should be based on a large number of hands. Ideally, you should play at least 10,000 hands to gain an accurate picture of your playing style.

@@ -11,7 +11,7 @@ Dealt to Player1 [Jd 6s]
 Player4: folds
 Player1: bets 80
 Player2: calls 80
-Player3: raises 190 to 270
+Player3: raises 270 to 350
 Player1: folds
 Player2: folds
 *** SUMMARY ***

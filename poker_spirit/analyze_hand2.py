@@ -159,6 +159,30 @@ class Card:
     def __repr__(self):
         return self.__str__()
 
+class Fraction:
+    def __init__(self, n, d):
+        self._n = n
+        self._d = d
+
+    @property
+    def numerator(self):
+        return self._n
+
+    @numerator.setter
+    def numerator(self, val):
+        self._n = val
+
+    @property
+    def denominator(self):
+        return self._d
+
+    @denominator.setter
+    def denominator(self, val):
+        self._d = val
+
+    def getPercent(self, precision=1):
+        return round(100*self._n/self._d, precision)
+
 # Player info for hand
 # Used for parsing file
 class PlayerHand:
@@ -279,17 +303,17 @@ class PlayerHand:
         self._opt_cpfr = True
 
     # Unopened Preflop Raise (UOPFR)
-    def hasUCPFR(self):
-        return self._ucpfr
+    def hasUOPFR(self):
+        return self._uopfr
     
-    def hasOptUCPFR(self):
-        return self._opt_ucpfr
+    def hasOptUOPFR(self):
+        return self._opt_uopfr
     
-    def ucpfr(self):
-        self._ucpfr = True
+    def uopfr(self):
+        self._uopfr = True
 
-    def optUCPFR(self):
-        self._opt_ucpfr = True
+    def optUOPFR(self):
+        self._opt_uopfr = True
     
     # Three-bet Pre-flop (3B)
     def has3B(self):
@@ -403,6 +427,16 @@ class Hand:
         self._flop_cards = []
         self._turn_card = None
         self._river_card = None
+
+        self._pre_flop_first_action = True
+        self._flop_first_action = True
+        self._turn_first_action = True
+        self._river_first_action = True
+
+        self._pre_flop_bet = False
+        self._flop_bet = False
+        self._turn_bet = False
+        self._river_bet = False
 
         self._number_of_raises_pre_flop = 0
         self._number_of_raises_flop = 0
@@ -530,16 +564,52 @@ class Hand:
         # Is this before the flop?
         if self._hand_state == HAND_STATE.PRE_FLOP:
             # Check if player called a pre-flop raise
-            if self._number_of_raises_pre_flop == 1:
+            if self._number_of_raises_pre_flop > 0:
                 player.cpfr()
                 player.optCPFR()
 
+            # Check if opportunity for Unopened Preflop Raise (UOPFR)
+            # No one before has bet or raised, everyone has called or folded
+            if self._number_of_raises_pre_flop == 0 \
+                and not self._pre_flop_bet \
+                and not self._pre_flop_first_action:
+                player.optUOPFR()
+
+            # Should be called last
+            self._pre_flop_first_action = False
+
     def playerBets(self, player_name, ammount):
-        # Get Player
+         # Get Player
         player = self.getPlayer(player_name)
         
         # Update VPiP
         player.vpip()
+
+        # Is this before the flop?
+        if self._hand_state == HAND_STATE.PRE_FLOP:
+            # Check if opportunity for Unopened Preflop Raise (UOPFR)
+            # No one before has bet or raised, everyone has called or folded
+            if self._number_of_raises_pre_flop == 0 \
+                and not self._pre_flop_bet \
+                and not self._pre_flop_first_action:
+                player.optUOPFR()
+
+            self._pre_flop_bet = True
+
+            # Should be called last
+            self._pre_flop_first_action = False
+
+        # Is this post flop?
+        elif self._hand_state == HAND_STATE.FLOP:
+            self._flop_bet = True
+
+        # Is this after the turn?
+        elif self._hand_state == HAND_STATE.TURN:
+            self._turn_bet = True
+        
+        # Is this after the river?
+        elif self._hand_state == HAND_STATE.RIVER:
+            self._river_bet = True
 
     def playerRaises(self, player_name, current_ammount, new_ammount):
         # Get Player
@@ -554,11 +624,22 @@ class Hand:
             player.pfr()
 
             # Check if player raised to a pre-flop raise
-            if self._number_of_raises_pre_flop == 1:
+            if self._number_of_raises_pre_flop > 0:
                 player.optCPFR()
+
+            # Check if Unopened Preflop Raise (UOPFR)
+            # No one before has bet or raised, everyone has called or folded
+            if self._number_of_raises_pre_flop == 0 \
+                and not self._pre_flop_bet \
+                and not self._pre_flop_first_action:
+                player.uopfr()
+                player.optUOPFR()
 
             # Increase number of raises in pre-flop
             self._number_of_raises_pre_flop += 1
+
+            # Should be called last
+            self._pre_flop_first_action = False
 
     def playerFolds(self, player_name):
         player = self.getPlayer(player_name)
@@ -567,12 +648,33 @@ class Hand:
         # Is this before the flop?
         if self._hand_state == HAND_STATE.PRE_FLOP:
             # Check if player folded to a pre-flop raise
-            if self._number_of_raises_pre_flop == 1:
+            if self._number_of_raises_pre_flop > 0:
                 player.optCPFR()
 
+            # Check if opportunity for Unopened Preflop Raise (UOPFR)
+            # No one before has bet or raised, everyone has called or folded
+            if self._number_of_raises_pre_flop == 0 \
+                and not self._pre_flop_bet \
+                and not self._pre_flop_first_action:
+                player.optUOPFR()
+
+            # Should be called last
+            self._pre_flop_first_action = False
+
     def playerChecks(self, player_name):
-        # TODO
-        pass
+        player = self.getPlayer(player_name)
+
+        # Is this before the flop?
+        if self._hand_state == HAND_STATE.PRE_FLOP:
+            # Check if opportunity for Unopened Preflop Raise (UOPFR)
+            # No one before has bet or raised, everyone has called or folded
+            if self._number_of_raises_pre_flop == 0 \
+                and not self._pre_flop_bet \
+                and not self._pre_flop_first_action:
+                player.optUOPFR()
+            
+            # Should be called last
+            self._pre_flop_first_action = False
 
     @property
     def flop_cards(self):
