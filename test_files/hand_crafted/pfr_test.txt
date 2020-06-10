@@ -34,7 +34,7 @@ Player2: folds
 # Therefore Player 2 and Player 4 should be the only ones with PFR
 # Player 3 had opportunity to call the PFR but didn't
 
-PokerStars Hand #1: Tournament #1 Test Game
+PokerStars Hand #2: Tournament #1 Test Game
 Table '1' 9-max Seat #1 is the button
 Seat 1: Player1 (1000 in chips) 
 Seat 2: Player2 (1000 in chips)

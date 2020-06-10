@@ -931,7 +931,6 @@ def parse_file(path_to_file, debug = False):
         for line in lines:
             # New Hand
             if HAND_START_PATTERN.match(line):
-
                 # Increment number of hands
                 number_of_hands = number_of_hands + 1
 
