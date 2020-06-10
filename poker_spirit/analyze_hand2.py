@@ -385,15 +385,15 @@ class PlayerHand:
             output += f'Player has voluntarily put money in pot (VPiP)\n'
 
         if self._pfr:
-            output += f'Player has preflop raised (PFR))\n'
+            output += f'Player has preflop raised (PFR)\n'
 
         if self._cpfr:
-            output += f'Player has called preflop raised (CPFR))\n'
+            output += f'Player has called preflop raised (CPFR)\n'
         elif self._opt_cpfr:
             output += f'Player had an opportunity to call preflop raise but didn\'t\n'
 
         if self._uopfr:
-            output += f'Player has made an unopened preflop raise (UOPFR))\n'
+            output += f'Player has made an unopened preflop raise (UOPFR)\n'
         elif self._opt_uopfr:
             output += f'Player had an opportunity to make unopened preflop raise but didn\'t\n'
 
