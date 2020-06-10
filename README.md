@@ -8,3 +8,9 @@ Currently it can only parse hands from Poker Stars. You need to enable saving ha
 
 Also live_tracker_terminal.py allows for tracking a live game while it happens based on user input per action.
 and live_tracker_gui.py for a GUI version
+
+### Unit Tests
+
+To run the unit tests run:
+
+`python -m unittest`
