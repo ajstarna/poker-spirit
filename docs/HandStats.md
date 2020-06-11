@@ -51,6 +51,8 @@ This is a measure of how often you three-bet pre-flop. In pre-flop betting, to t
 
 `Three-bet preflop % = (times three-bet preflop) * 100 / (number of three-bet preflop opportunities)`
 
+In NL-Holdem the big blind is the 1Bet, first raise is a 2Bet (usually just referred to as a raise) and the second raise is referred to as a 3Bet.
+
 **Note that any player who called the big blind or initial raise is ignored in this calculation.**
 
 ### Folded to Three-Bet Preflop (F3B)
@@ -88,7 +90,7 @@ There must be at least one caller and no re-raise between villain and hero to de
 ### Blind Stealing Attempts (BSA)
 This indicates how often you attempt to steal the blinds when you had the opportunity to do so. Poker Copilot considers that you have a blind-stealing opportunity when you are on the button or you are the small blind (last before the blinds to make an action), and every player so far has folded. An attempt to steal the blinds is when you raised when given a blind-stealing opportunity. A good player attempts to steal the blinds often, but not always. The formula for calculating BSA is:
 
-`Blind stealing attempts % = (times blind stealing attempted) * 100 /(number of blind stealing opportunities)`
+`Blind stealing attempts % = (times blind stealing attempted) * 100 / (number of blind stealing opportunities)`
 
 ### Folded Big Blind to Steal Attempt (FBB)
 This measures how often you are facing a blind steal attempt when on the big blind and you fold. Either the button or the small blind may have made a blind steal attempt blind. Note that if the button is trying to steal but the small blind has already called the bet, then you are not facing a blind steal attempt. The formula for calculating FBB is:
@@ -100,7 +102,7 @@ This measures how often you are facing a blind steal attempt when on the big bli
 ### Postflop Agression Frequency (Agg)
 This indicates how aggressive you are post-flop. It is calculated by counting the number of hands in which you’ve either bet or raised, then dividing this by the number of hands in which you’ve either bet, raised, called, or folded, and multiplying by 100. The higher this number, the more aggressively you are playing. Note that this measure must be interpreted in combination with Flops Seen. Players who see very few flops will naturally tend to have a higher aggression percentage because they are only playing top-quality hole cards. The formula for calculating Agg is:
 
-`Aggression frequency % = (times bet or raised post-flop) * 100 /(times bet, raised, called, or folded post-flop)`
+`Aggression frequency % = (times bet or raised post-flop) * 100 / (times bet, raised, called, or folded post-flop)`
 
 ### Postflop Aggression Factor (AF)
 This is calculated by counting the number of hands in which you’ve either bet or raised post-flop, then dividing this by the number of hands in which you’ve called post-flop. This value ranges from zero to infinity, which makes it awkward to use. Poker Copilot includes this statistic for comparisons with Poker Tracker statistics. Post-flop aggression % is a superior way of measuring aggression. The formula for calculating AF is:
