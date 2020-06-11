@@ -7,15 +7,19 @@
 #
 # Player1 / #h 4 / fs 2/4 / VPiP 1/4
 # pfr 0/4 / cpfr 0/1 / uopfr 0/2
+# 3B 0/1 / F3B 0/0 / 4B 0/0 / F4B 0/0
 # 
 # Player2 / #h 4 / fs 1/4 / VPiP 2/4
 # pfr 0/4 / cpfr 1/1 / uopfr 0/2
+# 3B 0/1 / F3B 0/0 / 4B 0/0 / F4B 0/0
 # 
 # Player3 / #h 4 / fs 1/4 / VPiP 2/4
 # pfr 1/4 / cpfr 0/1 / uopfr 0/2
+# 3B 1/1 / F3B 0/0 / 4B 0/0 / F4B 0/0
 # 
 # Player4 / #h 4 / fs 1/4 / VPiP 2/4
 # pfr 1/4 / cpfr 0/1 / uopfr 0/2
+# 3B 0/0 / F3B 1/1 / 4B 0/0 / F4B 0/0
 #
 # Stats for first hand
 # Player 2, 3, and 4 have VPiP
