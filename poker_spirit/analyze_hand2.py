@@ -437,18 +437,22 @@ class Hand:
         self._max_players = 9
         self._button_position = 1
 
-        self._ante_value = 0
-        self._sb_value = 0
-        self._bb_value = 0
-        self._player_who_posted_sb = ''
-        self._player_who_posted_bb = ''
         self._real_money = False
-
         self._hand_state = HAND_STATE.COMPULSORY_BETS
 
         self._flop_cards = []
         self._turn_card = None
         self._river_card = None
+
+        self._ante_value = 0
+        self._sb_value = 0
+        self._bb_value = 0
+
+        self._player_who_posted_sb = ''
+        self._player_who_posted_bb = ''
+        self._player_who_2_bet = ''
+        self._player_who_3_bet = ''
+        self._player_who_4_bet = ''
 
         self._pre_flop_first_action = True
         self._flop_first_action = True
@@ -603,12 +607,12 @@ class Hand:
             # Check if someone already raised and opportunity for 3B
             if self._number_of_raises_pre_flop == 1:
                 player.opt3B()
-                player.optF3B()
 
-            # Check if two people already raised and opportunity for 4B
-            if self._number_of_raises_pre_flop == 2:
-                player.opt4B()
-                player.optF4B()
+            # Fold to someones 3B opportunity
+            # You are only considered to have a “fold to 3-bet” opportunity if you made the initial raise
+            if self._number_of_raises_pre_flop == 2 and \
+                self._player_who_2_bet == player_name:
+                player.optF3B()
 
             # Should be called last
             self._pre_flop_first_action = False
@@ -663,6 +667,9 @@ class Hand:
             if self._number_of_raises_pre_flop > 0:
                 player.optCPFR()
 
+            if self._number_of_raises_pre_flop == 0:
+                self._player_who_2_bet = player.name
+
             # Check if Unopened Preflop Raise (UOPFR)
             # No one before has bet or raised, everyone has called or folded
             if self._number_of_raises_pre_flop == 0 \
@@ -673,15 +680,15 @@ class Hand:
 
             # Check if someone already raised (3B)
             if self._number_of_raises_pre_flop == 1:
+                self._player_who_3_bet = player.name
                 player.p3b()
                 player.opt3B()
-                player.optF3B()
 
-            # Check if two people already raised (4B)
-            if self._number_of_raises_pre_flop == 2:
-                player.p4b()
-                player.opt4B()
-                player.optF4B()
+            # Fold to someones 3B opportunity
+            # You are only considered to have a “fold to 3-bet” opportunity if you made the initial raise
+            if self._number_of_raises_pre_flop == 2 and \
+                self._player_who_2_bet == player_name:
+                player.optF3B()
 
             # Increase number of raises in pre-flop
             self._number_of_raises_pre_flop += 1
@@ -708,15 +715,14 @@ class Hand:
 
             # Check if someone already raised and opportunity for 3B
             if self._number_of_raises_pre_flop == 1:
-                player.f3b()
                 player.opt3B()
-                player.optF3B()
 
-            # Check if two people already raised and opportunity for 4B
-            if self._number_of_raises_pre_flop == 2:
-                player.f4b()
-                player.opt4B()
-                player.optF4B()
+            # Fold to someones 3B
+            # You are only considered to have a “fold to 3-bet” opportunity if you made the initial raise
+            if self._number_of_raises_pre_flop == 2 and \
+                self._player_who_2_bet == player_name:
+                player.f3b()
+                player.optF3B()
 
             # Should be called last
             self._pre_flop_first_action = False
@@ -728,6 +734,8 @@ class Hand:
         if self._hand_state == HAND_STATE.PRE_FLOP:
             # Check if opportunity for Unopened Preflop Raise (UOPFR)
             # No one before has bet or raised, everyone has called or folded
+            # This can only happen if everyone calls or folds and it gets
+            # back to the big blind and they check
             if self._number_of_raises_pre_flop == 0 \
                 and not self._pre_flop_bet \
                 and not self._pre_flop_first_action:
